@@ -1,0 +1,60 @@
+/*  section home
+ *  - settings for homepage only
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+.mir-start_page {
+  .searchBox {
+    display: none;
+  }
+  #page {
+    background-color: transparent;
+  }
+  #project-index-search {
+    h1 {
+      color: $projectMenu;
+      margin-bottom: 0rem;
+      padding: 0.5rem 1rem;
+      background-color: rgba(255,255,255,.8);
+    }
+    form {
+      margin-top: 0px;
+    }
+    .input-group {
+      border-color: white;
+    }
+    .btn,
+    .form-control {
+      border-radius: 0;
+      border: 1px solid white;
+    }
+    .btn {
+      color: $projectMenu;
+      background-color: white;
+      border-color: white;
+    }
+  }
+}
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}

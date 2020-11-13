@@ -1,0 +1,62 @@
+/*  common settings
+ *  - for very basic settings
+ *  - and for styles with no extra file available
+ *  - at best, this file is nearly empty :)
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+.workflow-box {
+  background-color: $projectMenuBorder;
+}
+
+  // fix: fade to white  is not working on transparent background
+  .mir-abstract-overlay-tran {
+    background: transparent;
+  }
+
+  // fix outdated bs3 myclabs confirm modal
+  .modal-header {
+    .modal-title {
+      order: 1;
+    }
+    .close{
+      order: 2;
+    }
+  }
+  // fix viewer menu background
+  .mycoreViewer .bg-light {
+    background-color: $info !important;
+  }
+  // fix buttons in editor
+  .info-button {
+    color: white !important;
+    margin-right: 2px;
+    margin-top: 4px;
+    font-size: 12px;
+    padding: 7px 13px;
+    border-radius: 0;
+  }
+
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}
