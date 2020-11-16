@@ -18,26 +18,34 @@
 // -------------------------
 
 // style guide
-$projectBlue:       rgba(0,69,125,0.8);
-$projectYellow:     rgb(226,185,0);
+$projectDarkBlue:   rgb(60,75,120);
+$projectLightBlue:  rgb(0,119,190);
+$projectLightGray:  rgb(230,234,234);
+$projectDarkGray:   rgb(149,166,177);
 
 // from website
-$primary:      #005489;
-$secondary:    #877948;
-$success:      $projectYellow;
-$info:         #146d9d;
+$projectGreen:        #009f5e;  // ressourcen
+$projectTurquoise:    #00b3c0;  // service
+$projectDarkPurple:   #3c4b78;  // maps
+$projectLightPurple:  #4d4abf;  // links
+$projectLinkGray:     #7b8890;  // menu link color
+$projectMenuGray:     #e6eaea;  // menu dropdown back
+// own colors
+
+// bs variables
+$primary:      $projectDarkBlue;
+$secondary:    $projectLightBlue;
+$success:      $projectGreen;
+$info:         $projectTurquoise;
 $warning:      $success;
 $danger:       $success;
-$gray-light:   #CCCCCC;
-$light-blue:   #E3EAF2;
+$gray-light:   $projectLightGray;
 
-
+// project variables
 $projectMenu:       $primary;
-$projectMenuBorder: #EED376;
-$projectBlueHover:  $info;
-$projectDropHover:  #598BB3;
-$projectFooterGold: #928356;
-$projectLink:       #003F6A;
+$projectBlueHover:  $projectMenuGray;
+$projectDropHover:  $projectDarkGray;
+$projectLink:       $projectDarkPurple;
 
 // keep deprecated variables alive
 $brand-primary: $primary;
@@ -51,9 +59,9 @@ $brand-danger:  $danger;
 // --------------------------------------------------
 
 // typo
-$web-font-path: "https://webfonts.gbv.de/css?family=Open+Sans";
-$font-family-sans-serif: Calibri, "Open Sans", sans-serif;
-$font-family-serif: Georgia, serif;
+//$web-font-path: "https://webfonts.gbv.de/css?family=Open+Sans";
+$font-family-sans-serif: Helvetica, Arial, sans-serif;
+$font-family-serif: ClanWebBook, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-size-base: 1rem;
 
 $dropdown-color: white;

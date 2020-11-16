@@ -21,13 +21,14 @@
         </nav>
       </div>
       <div id="project_logo_box">
-        <a
-          href="{$WebApplicationBaseURL}"
-          class="kartdok-logo__link">
-          <img
-            src="{$WebApplicationBaseURL}images/xxx.jpg"
-            class="kartdok-logo__figure"
-            alt="" />
+        <a href="{$WebApplicationBaseURL}" title="Home" class="project-logo__link">
+          <span class="fid logo main">
+              FID KARTEN
+          </span>
+          <span class="fid logo sub">
+              Fachinformationsdienst<br />
+              Kartographie und Geobasisdaten
+          </span>
         </a>
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
            class="d-none">
@@ -68,9 +69,9 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav bg-primary">
+    <div class="mir-main-nav">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-light">
 
           <button
             class="navbar-toggler"

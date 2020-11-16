@@ -6,10 +6,42 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+header {
+  background-image: url("../../../../images/fid-karten-hoehenlinien_grau.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e6eaea;
+}
+
 // logo and menu container
 #header_box {
   height: 124px;
   position: relative;
+}
+.project-logo__link {
+  display: inline-block;
+  margin: 5px 0 20px 0;
+  text-decoration: none;
+  .fid.logo.main {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-top: 5px;
+    text-transform: uppercase;
+  }
+  .fid.logo.sub {
+    font-size: 19px;
+    line-height: 1.2;
+    padding-left: 0px;
+  }
+  .fid.logo {
+    color: #1A3374;
+    display: inline-block;
+    font-family: ClanWebMedium;
+    line-height: initial;
+    width: 100%;
+  }
 }
 .project-logo__figure {
   width: 260px;

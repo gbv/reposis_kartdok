@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
 
-  <section xml:lang="de" title="xxx">
+  <section xml:lang="de" title="KartDok - Repositorium Kartographie">
     <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
       <div class="row">
         <div class="col-md-9 offset-md-2" lang="de">
           <h1>
-            xxx
+            KartDok <br />
+            Repositorium Kartographie
           </h1>
           <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
             <div class="input-group input-group-lg w-100">
               <input
                 name="condQuery"
-                placeholder="xxx"
+                placeholder="Suche in allen Dokumenten"
                 class="form-control search-query"
                 id="project-searchInput"
                 type="text" />
@@ -41,18 +42,19 @@
     </script>
   </section>
 
-  <section xml:lang="en" title="xxx">
+  <section xml:lang="en" title="KartDok - Repositorium Kartographie">
     <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
       <div class="row">
         <div class="col-md-9 offset-md-2" lang="de">
           <h1>
-            xxx
+            KartDok <br />
+            Repositorium Kartographie
           </h1>
           <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
             <div class="input-group input-group-lg w-100">
               <input
                 name="condQuery"
-                placeholder="xxx"
+                placeholder="Search in all documents"
                 class="form-control search-query"
                 id="project-searchInput"
                 type="text" />

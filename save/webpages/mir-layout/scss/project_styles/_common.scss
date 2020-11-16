@@ -8,10 +8,6 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-.workflow-box {
-  background-color: $projectMenuBorder;
-}
-
   // fix: fade to white  is not working on transparent background
   .mir-abstract-overlay-tran {
     background: transparent;

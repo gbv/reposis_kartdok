@@ -13,13 +13,13 @@
   margin-left: 0.5rem;
 }
 .btn-primary {
-  background-color: $secondary;
-  border: 1px solid $secondary;
+  background-color: $primary;
+  border: 1px solid $primary;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($secondary,10%);
-    border-color: darken($secondary,10%);
+    background-color: darken($primary,10%);
+    border-color: darken($primary,10%);
   }
 }
 .btn-secondary {
