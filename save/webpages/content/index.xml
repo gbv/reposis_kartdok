@@ -1,90 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
 
-  <section xml:lang="de" title="KartDok - Repositorium Kartographie">
-    <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
-      <div class="row">
-        <div class="col-md-9 offset-md-2" lang="de">
-          <h1>
-            KartDok <br />
-            Repositorium Kartographie
-          </h1>
-          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
-            <div class="input-group input-group-lg w-100">
-              <input
-                name="condQuery"
-                placeholder="Suche in allen Dokumenten"
-                class="form-control search-query"
-                id="project-searchInput"
-                type="text" />
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-primary">
-                  <i class="fa fa-search"></i>
-                </button>
-              </div>
+    <section xml:lang="de" title="KartDok - Repositorium Kartographie">
+        <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
+            <div class="row">
+                <div class="col-md-9 offset-md-2" lang="de">
+                    <h1>
+                        KartDok
+                        <br/>
+                        Repositorium Kartographie
+                    </h1>
+                    <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
+                        <div class="input-group input-group-lg w-100">
+                            <input
+                                    name="condQuery"
+                                    placeholder="Suche in allen Dokumenten"
+                                    class="form-control search-query"
+                                    id="project-searchInput"
+                                    type="text"/>
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-          </form>
         </div>
-      </div>
-    </div>
-    <script src="../js/jquery.number.js"></script>
-    <script>
-      $( document ).ready(function() {
-        $.ajax({
-          type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-          dataType: "jsonp",
-          success: function (data) {
-            $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
-          },
-        });
-      });
-    </script>
-  </section>
+        <script src="../js/jquery.number.js"></script>
+        <script>
+            $( document ).ready(function() {
+            $.ajax({
+            type: "GET",
+            url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+            dataType: "jsonp",
+            success: function (data) {
+            $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + '
+            Dokumenten');
+            },
+            });
+            });
+        </script>
+    </section>
 
-  <section xml:lang="en" title="KartDok - Repositorium Kartographie">
-    <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
-      <div class="row">
-        <div class="col-md-9 offset-md-2" lang="de">
-          <h1>
-            KartDok <br />
-            Repositorium Kartographie
-          </h1>
-          <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
-            <div class="input-group input-group-lg w-100">
-              <input
-                name="condQuery"
-                placeholder="Search in all documents"
-                class="form-control search-query"
-                id="project-searchInput"
-                type="text" />
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-primary">
-                  <i class="fa fa-search"></i>
-                </button>
-              </div>
+    <section xml:lang="en" title="KartDok - Repositorium Kartographie">
+        <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
+            <div class="row">
+                <div class="col-md-9 offset-md-2" lang="de">
+                    <h1>
+                        KartDok
+                        <br/>
+                        Repositorium Kartographie
+                    </h1>
+                    <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
+                        <div class="input-group input-group-lg w-100">
+                            <input
+                                    name="condQuery"
+                                    placeholder="Search in all documents"
+                                    class="form-control search-query"
+                                    id="project-searchInput"
+                                    type="text"/>
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-          </form>
         </div>
-      </div>
-    </div>
-    <script src="../js/jquery.number.js"></script>
-    <script>
-      $( document ).ready(function() {
-        $.ajax({
-          type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-          dataType: "jsonp",
-          success: function (data) {
-            $('#project-searchInput').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') + ' documents');
-          },
-        });
-      });
-    </script>
-  </section>
+        <script src="../js/jquery.number.js"></script>
+        <script>
+            $( document ).ready(function() {
+            $.ajax({
+            type: "GET",
+            url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+            dataType: "jsonp",
+            success: function (data) {
+            $('#project-searchInput').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') +
+            ' documents');
+            },
+            });
+            });
+        </script>
+    </section>
 
-  <meta>
-    <log lastEditor="administrator" date="2020-04-24" time="10:15"/>
-  </meta>
+    <meta>
+        <log lastEditor="administrator" date="2020-04-24" time="10:15"/>
+    </meta>
 
 </MyCoReWebPage>

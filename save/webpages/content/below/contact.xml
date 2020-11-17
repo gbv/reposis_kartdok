@@ -1,11 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-  <section xml:lang="de" title="Kontakt">
+    <section xml:lang="de" title="Kontakt">
+        <div class="row">
+            <div class="col-md-10" lang="de">
+                <h2>Kontakt</h2>
+                <p>
+                    <strong>Abteilungsleitung FID Karten</strong>
+                    <br/>
+                    Wolfgang Crom
+                    <br/>
+                    E-Mail:
+                    <span class="madress">wolfgang.crom [at] sbb.spk-berlin.de</span>
+                    <br/>
+                    Telefon: +49 30 266 435400
+                </p>
+                <p>
+                    <strong>Vertretung</strong>
+                    <br/>
+                    Dr. Markus Heinz
+                    <br/>
+                    E-Mail:
+                    <span class="madress">markus.heinz [at] sbb.spk-berlin.de</span>
+                    <br/>
+                    Telefon: +49 30 266 435500
+                </p>
+                <p>
+                    <strong>Sekretariat</strong>
+                    <br/>
+                    Kartenabteilung
+                    <br/>
+                    E-Mail:
+                    <span class="madress">kartenabt [at] sbb.spk-berlin.de</span>
+                    <br/>
+                    Telefon: +49 30 266 435401
+                    <br/>
+                    Fax: +49 30 266 335401
+                </p>
 
+                <p>Fragen zum Repositoryframework MyCoRe und dem Datenbankserver beantwortet Ihnen die</p>
 
-  </section>
-<meta>
-  <log date="2020-04-24" time="16:26" labelPath=" » Admin" lastEditor="Kathleen Neumann" />
-</meta>
+                <p>Verbundzentrale des GBV (VZG)
+                    <br/>
+                    Platz der Göttinger Sieben 1
+                    <br/>
+                    37073 Göttingen
+                    <br/>
+                    Tel.: 0551 39 5207
+                    <br/>
+                    Fax: 0551 39 13980
+                    <br/>
+                    <b>Digitale Bibliothek, VZG-Reposis</b>
+                    <br/>
+                    Internet:
+                    <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
+                        https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
+                    </a>
+                    <br/>
+                    E-Mail:
+                    <span class="madress">dms-list [at] lists.gbv.de</span>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <meta>
+        <log date="2020-04-24" time="16:26" labelPath=" » Admin" lastEditor="Kathleen Neumann"/>
+    </meta>
 </MyCoReWebPage>
