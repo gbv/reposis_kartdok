@@ -86,12 +86,6 @@
 
           <div id="mir-main-nav__entries" class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <xsl:call-template name="kartdok.generate_single_menu_entry">
-                <xsl:with-param name="menuID" select="'brand'"/>
-              </xsl:call-template>
-              <xsl:call-template name="kartdok.generate_single_menu_entry">
-                <xsl:with-param name="menuID" select="'current'"/>
-              </xsl:call-template>
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
               <xsl:call-template name="mir.basketMenu" />
