@@ -12,6 +12,7 @@
   <xsl:template name="mir.navigation">
 
     <div id="header_box" class="clearfix container">
+
       <div id="options_nav_box" class="mir-prop-nav">
         <nav>
           <ul class="navbar-nav ml-auto flex-row">
@@ -20,22 +21,23 @@
           </ul>
         </nav>
       </div>
-      <div id="project_logo_box">
-        <a href="{$WebApplicationBaseURL}" title="Home" class="project-logo__link">
-          <span class="fid logo main">
-              FID KARTEN
-          </span>
-          <span class="fid logo sub">
-              Fachinformationsdienst<br />
-              Kartographie und Geobasisdaten
-          </span>
-        </a>
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
-           class="d-none">
-          <span id="logo_mir">Kartdok</span>
-          <span id="logo_modul">Institutional</span>
-          <span id="logo_slogan">Repository</span>
-        </a>
+
+      <div class="project_logo_box">
+        <div class="project_logo">
+          <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}" title="Home" class="project-logo__link">
+            <span class="fid logo main">
+              KartDok
+            </span>
+            <span class="fid logo sub">
+              Repositorium Kartographie
+            </span>
+          </a>
+        </div>
+        <div class="project_parent_logo">
+          <a href="https://staatsbibliothek-berlin.de/">
+            <img class="sbb-logo" src="{$WebApplicationBaseURL}/images/SBB_Logo_sRGB.png" />
+          </a>
+        </div>
       </div>
 
       <div class="searchBox">

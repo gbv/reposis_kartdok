@@ -13,6 +13,9 @@
   font-family: $font-family-serif;
   text-transform: uppercase;
   padding: 1rem 1rem 1rem 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: $projectLinkGray !important;
   &:hover,
   &:active,
   &:focus {
@@ -39,6 +42,8 @@
   .nav-link {
     color: $projectMenu;
     font-family: $font-family-sans-serif;
+    text-transform: none;
+    font-weight: normal;
     &:hover,
     &:active,
     &:focus {

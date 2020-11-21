@@ -28,7 +28,6 @@ header {
     font-weight: bold;
     line-height: 30px;
     padding-top: 5px;
-    text-transform: uppercase;
   }
   .fid.logo.sub {
     font-size: 19px;
@@ -43,18 +42,26 @@ header {
     width: 100%;
   }
 }
-.project-logo__figure {
-  width: 260px;
+
+.project_logo_box {
+  display: flex;
+  justify-content: space-between;
+  .project_logo {
+    padding-left: 1rem;
+  }
+  .project_parent_logo {
+    .sbb-logo {
+      height: 80px;
+      margin-right: -15px;
+    }
+  }
 }
-#project_logo_box {
-  float: none;
-  padding-left: 1rem;
-}
+
 #options_nav_box {
   float: none;
-  position: absolute;
-  top: 0;
-  right: 0;
+  .navbar-nav {
+    justify-content: flex-end;
+  }
 }
 .searchBox {
   float: none;
