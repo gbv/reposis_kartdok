@@ -10,11 +10,14 @@ body > section {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #65b1be;
-  background-image: url('../../../../images/background-document-world-xl.jpg');
+  background-image: url('../../../../images/background-document-world-xl_blau_70-70.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top right;
   background-attachment:fixed;
+}
+.mir-start_page > section {
+  background-image: url('../../../../images/background-document-world-xl.jpg');
 }
 
 #page {
