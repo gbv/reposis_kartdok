@@ -78,6 +78,9 @@ header {
     margin-left: 0;
   }
 }
+.searchfield_box {
+  flex-wrap: nowrap;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
