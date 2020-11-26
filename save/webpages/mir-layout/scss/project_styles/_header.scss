@@ -16,8 +16,9 @@ header {
 
 // logo and menu container
 #header_box {
-  height: 124px;
   position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .project-logo__link {
   display: inline-block;
@@ -27,12 +28,12 @@ header {
     font-size: 30px;
     font-weight: bold;
     line-height: 30px;
-    padding-top: 5px;
   }
   .fid.logo.sub {
     font-size: 19px;
     line-height: 1.2;
     padding-left: 0px;
+    margin-top: 0rem;
   }
   .fid.logo {
     color: #1A3374;
@@ -46,13 +47,11 @@ header {
 .project_logo_box {
   display: flex;
   justify-content: space-between;
-  .project_logo {
-    padding-left: 1rem;
-  }
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   .project_parent_logo {
     .sbb-logo {
-      height: 80px;
-      margin-right: -15px;
+      height: 50px;
     }
   }
 }
@@ -65,11 +64,15 @@ header {
 }
 .searchBox {
   float: none;
-  position: absolute;
-  right: 0;
-  bottom: 0;
   .form-control {
     border-radius: 0;
+    border-color: white;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .btn {
+    border-color: white;
   }
   .btn:not(:first-child) {
     margin-left: 0;

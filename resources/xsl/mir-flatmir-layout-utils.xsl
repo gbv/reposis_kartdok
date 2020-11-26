@@ -11,9 +11,8 @@
 
   <xsl:template name="mir.navigation">
 
-    <div id="header_box" class="clearfix container">
-
-      <div id="options_nav_box" class="mir-prop-nav">
+    <div id="options_nav_box" class="mir-prop-nav">
+      <div class="container container-no-padding">
         <nav>
           <ul class="navbar-nav ml-auto flex-row">
             <xsl:call-template name="mir.loginMenu" />
@@ -21,6 +20,9 @@
           </ul>
         </nav>
       </div>
+    </div>
+
+    <div id="header_box" class="clearfix container container-no-padding">
 
       <div class="project_logo_box">
         <div class="project_logo">
@@ -35,44 +37,16 @@
         </div>
         <div class="project_parent_logo">
           <a href="https://staatsbibliothek-berlin.de/">
-            <img class="sbb-logo" src="{$WebApplicationBaseURL}/images/SBB_Logo_sRGB.png" />
+            <img class="sbb-logo" src="{$WebApplicationBaseURL}/images/SBB_Logo_sRGB_no_border.png" />
           </a>
         </div>
       </div>
 
-      <div class="searchBox">
-        <xsl:variable name="core">
-          <xsl:call-template name="getLayoutSearchSolrCore" />
-        </xsl:variable>
-        <form
-          action="{$WebApplicationBaseURL}servlets/solr{$core}"
-          class="searchfield_box form-inline my-2 my-lg-0"
-          role="search">
-          <input
-            name="condQuery"
-            placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-            class="form-control search-query"
-            id="searchInput"
-            type="text"
-            aria-label="Search" />
-          <xsl:choose>
-            <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-              <input name="owner" type="hidden" value="createdby:*" />
-            </xsl:when>
-            <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-              <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-            </xsl:when>
-          </xsl:choose>
-          <button type="submit" class="btn btn-primary my-2 my-sm-0">
-            <i class="fas fa-search"></i>
-          </button>
-        </form>
-      </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="mir-main-nav">
-      <div class="container">
+      <div class="container container-no-padding">
         <nav class="navbar navbar-expand-lg navbar-light">
 
           <button
@@ -94,6 +68,35 @@
             </ul>
           </div>
 
+          <div class="searchBox">
+            <xsl:variable name="core">
+              <xsl:call-template name="getLayoutSearchSolrCore" />
+            </xsl:variable>
+            <form
+              action="{$WebApplicationBaseURL}servlets/solr{$core}"
+              class="searchfield_box form-inline my-2 my-lg-0"
+              role="search">
+              <input
+                name="condQuery"
+                placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+                class="form-control search-query"
+                id="searchInput"
+                type="text"
+                aria-label="Search" />
+              <xsl:choose>
+                <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                  <input name="owner" type="hidden" value="createdby:*" />
+                </xsl:when>
+                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+                </xsl:when>
+              </xsl:choose>
+              <button type="submit" class="btn btn-primary-inverted my-2 my-sm-0">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+
         </nav>
       </div>
     </div>
@@ -104,12 +107,24 @@
   </xsl:template>
 
   <xsl:template name="mir.footer">
-    <div class="container">
+    <div class="container container-no-padding">
       <div class="row">
         <div class="col">
           <ul class="internal_links nav navbar-nav">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex justify-content-center logo-section">
+          <a class="sbb logo m-1 mr-3 align-self-center" href="http://www.staatsbibliothek-berlin.de" target="_blank">
+            <span>Ein Dienst der</span><br/>
+            <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/web_footer-sbb-weiss-180x40.png" />
+          </a>
+          <a class="dfg logo m-1 ml-3 align-self-center" href="http://www.dfg.de" target="_blank">
+            <span>Gefördert durch</span><br />
+            <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/web_footer-dfg-weiss.png" />
+          </a>
         </div>
       </div>
     </div>

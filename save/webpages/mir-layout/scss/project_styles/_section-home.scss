@@ -15,10 +15,10 @@
   }
   #project-index-search {
     h1 {
-      color: $projectMenu;
+      color: $white;
       margin-bottom: 0rem;
-      padding: 0.5rem 1rem;
-      background-color: rgba(255,255,255,.8);
+      padding: 0.5rem 1rem 1.5rem;
+      background-color: rgba(101,177,190,.8);
     }
     form {
       margin-top: 0px;
@@ -30,6 +30,9 @@
     .form-control {
       border-radius: 0;
       border: 1px solid white;
+      &:focus {
+        box-shadow: none;
+      }
     }
     .btn {
       color: $projectMenu;

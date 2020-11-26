@@ -32,6 +32,18 @@
     border-color: darken($projectBlueHover,10%);
   }
 }
+.btn-primary-inverted {
+  color: $primary;
+  background-color: white;
+  border-color: white;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $primary;
+    background-color: white;
+    border-color: white;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

@@ -39,6 +39,7 @@
   color: $projectLinkGray;
 }
 .mir-prop-nav {
+  background-color: rgba(255,255,255,0.7);
   .nav-link {
     color: $projectMenu;
     font-family: $font-family-sans-serif;
@@ -76,6 +77,24 @@
 html[lang="en"] .flatmir-footer .nav-link:first-child,
 html[lang="de"] .flatmir-footer .nav-link:nth-child(2) {
   display: none;
+}
+
+footer {
+  .nav-link {
+    a {
+      font-size: 1rem;
+    }
+  }
+}
+.internal_links {
+  margin-bottom: 2rem;
+}
+.internal_links  > li:first-child,
+#mir-main-nav__entries > ul > li:first-child > a {
+  //padding-left: 0;
+}
+.internal_links.navbar-nav {
+  //justify-content: flex-start;
 }
 
 // Large devices (desktops) and below: <= 1200px

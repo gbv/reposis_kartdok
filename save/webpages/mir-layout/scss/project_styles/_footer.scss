@@ -8,7 +8,7 @@
 
 .flatmir-footer {
   position: relative;
-  padding-top: 20px;
+  padding-top: 0px;
   margin-top: 0px;
   border: none;
   background-image: url("../../../../images/fid-karten-hoehenlinien_weiss.png");
@@ -32,6 +32,9 @@
     flex-direction: row;
     justify-content: center;
   }
+}
+.logo-section {
+  margin-bottom: 1rem;
 }
 
 
