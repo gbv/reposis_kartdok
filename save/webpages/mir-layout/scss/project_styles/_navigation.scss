@@ -6,16 +6,31 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.mir-main-nav {
+  margin-bottom: 3px;
+  #basket-list-item,
+  .nav-item {
+    border-bottom: 5px solid transparent;
+    &.active {
+      border-bottom: 5px solid #76afb8;
+    }
+    &:hover {
+      border-bottom: 5px solid $primary;
+    }
+  }
+}
+
 .navbar {
   padding: 0;
 }
+
 .nav-link {
   font-family: $font-family-serif;
   text-transform: uppercase;
   padding: 1rem 1rem 1rem 1rem;
   font-size: 18px;
-  font-weight: bold;
-  color: $projectLinkGray !important;
+  font-weight: normal;
+  color: $projectMenuBlue !important;
   &:hover,
   &:active,
   &:focus {
@@ -34,6 +49,8 @@
   background-color: $projectMenuGray;
   border-color: $projectMenuGray;
   border-top: 0px;
+  //margin-top: 8px;
+  border-top: 5px solid white;
 }
 .dropdown-item {
   color: $projectLinkGray;
@@ -79,27 +96,80 @@ html[lang="de"] .flatmir-footer .nav-link:nth-child(2) {
   display: none;
 }
 
+.flatmir-footer .nav-link {
+  padding: 0; // override mir settings
+}
+
 footer {
   .nav-link {
+    padding: 0;
     a {
-      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      border-top: 2px solid transparent;
+      &:hover {
+        text-decoration: none;
+        border-top: 2px solid white;
+      }
+    }
+    &.active a {
+      border-top: 2px solid rgba(255,255,255, 0.6);
     }
   }
 }
 .internal_links {
   margin-bottom: 2rem;
 }
-//.internal_links  > li:first-child,
+.internal_links  > li:first-child,
 #mir-main-nav__entries > ul > li:first-child > a {
   padding-left: 0;
 }
 .internal_links.navbar-nav {
-  //justify-content: flex-start;
+  justify-content: flex-start;
 }
+
+.logo-section {
+  margin-top: 1rem;
+  a.logo {
+    display: inline-block;
+    margin: 0px 0 0px 0;
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+  .fid.logo {
+    color: white;
+    display: inline-block;
+    font-family: ClanWebMedium;
+    line-height: initial;
+    width: 100%;
+  }
+  .fid.logo.main {
+    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+  .fid.logo.sub {
+    font-size: 19px;
+    font-size: 16px;
+    line-height: 1.2;
+    padding-left: 0px;
+  }
+}
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
+  .internal_links.navbar-nav {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .internal_links  > li:first-child {
+    padding-left: 1rem;
+  }
 }
 
 // Medium devices (tablets) and below: <= 992px
@@ -115,4 +185,7 @@ footer {
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .logo-section {
+    margin-left: 1rem;
+  }
 }

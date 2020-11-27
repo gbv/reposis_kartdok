@@ -69,11 +69,8 @@
           </div>
 
           <div class="searchBox">
-            <xsl:variable name="core">
-              <xsl:call-template name="getLayoutSearchSolrCore" />
-            </xsl:variable>
             <form
-              action="{$WebApplicationBaseURL}servlets/solr{$core}"
+              action="{$WebApplicationBaseURL}servlets/solr/find"
               class="searchfield_box form-inline my-2 my-lg-0"
               role="search">
               <input
@@ -109,19 +106,26 @@
   <xsl:template name="mir.footer">
     <div class="container container-no-padding">
       <div class="row">
-        <div class="col">
+        <div class="col-12 col-sm-6 col-lg-8 col-xl-9">
           <ul class="internal_links nav navbar-nav">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>
         </div>
-      </div>
-      <div class="row">
-        <div class="col d-flex justify-content-center logo-section">
-          <a class="sbb logo m-1 mr-3 align-self-center" href="http://www.staatsbibliothek-berlin.de" target="_blank">
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex flex-column logo-section">
+          <a href="https://kartographie.staatsbibliothek-berlin.de/" title="FID Karten Home" class="logo">
+            <span class="fid logo main">
+              FID KARTEN
+            </span>
+            <span class="fid logo sub">
+              Fachinformationsdienst<br />
+              Kartographie und Geobasisdaten
+            </span>
+          </a>
+          <!--a class="sbb logo" href="http://www.staatsbibliothek-berlin.de" target="_blank">
             <span>Ein Dienst der</span><br/>
             <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/web_footer-sbb-weiss-180x40.png" />
-          </a>
-          <a class="dfg logo m-1 ml-3 align-self-center" href="http://www.dfg.de" target="_blank">
+          </a-->
+          <a class="dfg logo" href="http://www.dfg.de" target="_blank">
             <span>Gefördert durch</span><br />
             <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/web_footer-dfg-weiss.png" />
           </a>
@@ -187,17 +191,6 @@
       <noscript><p><img src="https://matomo.gbv.de/piwik.php?idsite={$piwikID}" style="border:0;" alt="" /></p></noscript>
     </xsl:if>
     <!-- End Piwik Code -->
-  </xsl:template>
-
-  <xsl:template name="getLayoutSearchSolrCore">
-    <xsl:choose>
-      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('submitter')">
-        <xsl:text>/find</xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>/findPublic</xsl:text>
-      </xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
 
 </xsl:stylesheet>

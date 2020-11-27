@@ -6,13 +6,17 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.btn {
+  border-radius: 4px;
+}
+
 .form-login .form-actions .btn:first-child {
   margin-right: 0;
 }
 .btn:not(:first-child) {
   margin-left: 0.5rem;
 }
-.btn-primary {
+.btn-primary.offline {
   background-color: $primary;
   border: 1px solid $primary;
   &:hover,
@@ -22,7 +26,7 @@
     border-color: darken($primary,10%);
   }
 }
-.btn-secondary {
+.btn-secondary.offline {
   background-color: $projectBlueHover;
   border-color: $projectBlueHover;
   &:hover,

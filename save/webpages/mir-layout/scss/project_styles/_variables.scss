@@ -18,10 +18,10 @@
 // -------------------------
 
 // style guide
-$projectDarkBlue:   rgb(60,75,120);
-$projectLightBlue:  rgb(0,119,190);
-$projectLightGray:  rgb(230,234,234);
-$projectDarkGray:   rgb(149,166,177);
+$projectDarkBlue:   rgb(60,75,120);   //SPK_BLAU
+$projectLightBlue:  rgb(0,119,190);   // outdated
+$projectLightGray:  rgb(230,234,234); // outdated
+$projectDarkGray:   rgb(149,166,177); // outdated
 
 // from website
 $projectGreen:        #009f5e;  // ressourcen
@@ -30,11 +30,14 @@ $projectDarkPurple:   #3c4b78;  // maps
 $projectLightPurple:  #4d4abf;  // links
 $projectLinkGray:     #7b8890;  // menu link color
 $projectMenuGray:     #e6eaea;  // menu dropdown back
+$projectMenuBlue:     #0A246A;  // Stabi Menu
+
 // own colors
+$projectReducedT:     #76afb8;
 
 // bs variables
 $primary:      $projectDarkBlue;
-$secondary:    $projectLightBlue;
+$secondary:    $projectDarkBlue;
 $success:      $projectGreen;
 $info:         $projectTurquoise;
 $warning:      $success;
@@ -44,7 +47,7 @@ $gray-light:   $projectLightGray;
 // project variables
 $projectMenu:       $primary;
 $projectBlueHover:  $projectMenuGray;
-$projectDropHover:  $projectDarkGray;
+$projectDropHover:  $primary;
 $projectLink:       $projectDarkPurple;
 
 // keep deprecated variables alive

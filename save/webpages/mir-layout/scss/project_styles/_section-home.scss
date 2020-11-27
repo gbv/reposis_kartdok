@@ -17,8 +17,11 @@
     h1 {
       color: $white;
       margin-bottom: 0rem;
-      padding: 0.5rem 1rem 1.5rem;
+      padding: 1.5rem 1rem 1.5rem;
       background-color: rgba(101,177,190,.8);
+      background-color: rgba(68, 157, 173, 0.8);
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
     }
     form {
       margin-top: 0px;
@@ -34,10 +37,14 @@
         box-shadow: none;
       }
     }
+    .form-control {
+      border-bottom-left-radius: 10px;
+    }
     .btn {
       color: $projectMenu;
       background-color: white;
       border-color: white;
+      border-bottom-right-radius: 10px;
     }
   }
 }
