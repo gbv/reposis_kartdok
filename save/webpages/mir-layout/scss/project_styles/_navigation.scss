@@ -167,8 +167,25 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
   }
-  .internal_links  > li:first-child {
+  .internal_links  > li:first-child a {
     padding-left: 1rem;
+  }
+
+  footer {
+    .nav-link {
+      a {
+        border-top: none;
+        border-left: 2px solid transparent;
+        &:hover {
+          border-top: none;
+          border-left: 2px solid white;
+        }
+      }
+      &.active a {
+        border-top: none;
+        border-left: 2px solid rgba(255,255,255, 0.6);
+      }
+    }
   }
 }
 
