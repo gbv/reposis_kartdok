@@ -1,482 +1,282 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Datenschutz (Privacy Policy)">
-        <h1>I. Name und Anschrift des Verantwortlichen</h1>
-        <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung und anderer datenschutzrechtlicher
-            Bestimmungen ist die:
-        </p>
-        <p>Stiftung Preußischer Kulturbesitz, gesetzlich vertreten durch ihren Präsidenten, Herrn Prof. Dr. Dr. hc.
-            mult. Hermann Parzinger
-        </p>
-        <p>Von-der-Heydt-Str. 16-18 10785 Berlin
-        </p>
-        <p>E-Mail:
-            <a href="mailto:info@hv.spk-berlin.de" title="Opens window for sending email">info@hv.spk-berlin.de</a>
-        </p>
-        <p>Datenschutzbeauftragte:
-        </p>
-        <p>Für Fragen zum Bereich Datenschutz gibt es in der Stiftung Preußischer Kulturbesitz eine/n
-            Datenschutzbeauftragte/n als Kontaktperson, die Sie unter unserer vorgenannten Postanschrift mit dem Zusatz
-            „Datenschutzbeauftragte“ oder wie folgt erreichen können:
-            <br/>
-            <br/>
-            <a href="mailto:Datenschutzbeauftragte@hv.spk-berlin.de" title="Opens window for sending email"
-               class="mail">Datenschutzbeauftragte@hv.spk-berlin.de
-            </a>
-        </p>
-        <p>Telefon (Zentrale): +49 (0)30 266 412889
-        </p>
-        <p>
-            <a href="https://www.preussischer-kulturbesitz.de/" title="Öffnet in neuem Fenster/Tab" target="_blank">
-                www.preussischer-kulturbesitz.de
-            </a>
-        </p>
-        <p>Sie haben einen Anspruch auf Auskunft über die betreffenden personenbezogenen Daten sowie auf Berichtigung
-            oder Löschung oder auf Einschränkung der Verarbeitung oder - im Falle der Datenverarbeitung aufgrund Ihrer
-            Einwilligung- ein Widerspruchsrecht gegen die Verarbeitung sowie ggf. ein Recht auf Datenübertragbarkeit.
-        </p>
-        <p>Außerdem haben das Recht zur Beschwerde bei einer Datenschutz-Aufsichtsbehörde, der Bundesbeauftragten für
-            den Datenschutz und die Informationsfreiheit,
-        </p>
-        <p>Husarenstr. 30
-        </p>
-        <p>53117 Bonn
-        </p>
-        <p>E-Mail:
-            <a href="mailto:poststelle@bfdi.bund.de">poststelle@bfdi.bund.de</a>
-        </p>
+<MyCoReWebPage><section xml:lang="de" title="Datenschutz (Privacy Policy)"><div>
+<h1>I. Name und Anschrift des Verantwortlichen</h1>
 
-        <h1>II. Allgemeines zur Datenverarbeitung</h1>
+<p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung und anderer datenschutzrechtlicher Bestimmungen ist die:</p>
 
-        <h2>1. Umfang der Verarbeitung personenbezogener Daten</h2>
-        <p>Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit dies zur Bereitstellung einer
-            funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist. Die Verarbeitung
-            personenbezogener Daten unserer Nutzer erfolgt nur im zulässigen Rahmen, d.h. auf Basis der Erlaubnisnormen
-            der Datenschutzgesetze oder nach Einwilligung des Nutzers. Eine Ausnahme gilt in solchen Fällen, in denen
-            eine vorherige Einholung einer Einwilligung aus tatsächlichen Gründen nicht möglich ist und die Verarbeitung
-            der Daten durch gesetzliche Vorschriften gestattet ist.
-        </p>
+<p>Stiftung Preußischer Kulturbesitz, gesetzlich vertreten durch ihren Präsidenten, Herrn Prof. Dr. Dr. hc. mult. Hermann Parzinger</p>
 
-        <h2>2. Rechtsgrundlage für die Verarbeitung personenbezogener Daten</h2>
-        <p>Soweit wir für Verarbeitungsvorgänge personenbezogener Daten eine Einwilligung der betroffenen Person
-            einholen, dient Art. 6 Abs. 1 lit. a EU-Datenschutzgrundverordnung (DSGVO) als Rechtsgrundlage.
-        </p>
-        <p>Bei der Verarbeitung von personenbezogenen Daten, die zur Erfüllung eines Vertrages, dessen Vertragspartei
-            die betroffene Person ist, erforderlich ist, dient Art. 6 Abs. 1 lit. b DSGVO als Rechtsgrundlage. Dies gilt
-            auch für Verarbeitungsvorgänge, die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind.
-        </p>
-        <p>Soweit eine Verarbeitung personenbezogener Daten als Aufgabe unserer Behörde im öffentlichen Interesse liegt
-            , dient Art. 6 Abs. 1 lit. e DSGVO als Rechtsgrundlage. Für den Fall, dass lebenswichtige Interessen der
-            betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten
-            erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als Rechtsgrundlage.
-        </p>
-        <p>Ist die Verarbeitung zur Wahrung eines berechtigten Interesses unseres Unternehmens oder eines Dritten
-            erforderlich und überwiegen die Interessen, Grundrechte und Grundfreiheiten des Betroffenen das erstgenannte
-            Interesse nicht, so dient Art. 6 Abs. 1 lit. f DSGVO als Rechtsgrundlage für die Verarbeitung.
-        </p>
+<p>Von-der-Heydt-Str. 16-18 10785 Berlin</p>
 
-        <h2>3. Datenlöschung und Speicherdauer</h2>
-        <p>Die personenbezogenen Daten der betroffenen Person werden gelöscht oder gesperrt, sobald der Zweck der
-            Speicherung entfällt. Eine Speicherung kann darüber hinaus erfolgen, wenn dies durch den europäischen oder
-            nationalen Gesetzgeber in unionsrechtlichen Verordnungen, Gesetzen oder sonstigen Vorschriften, denen der
-            Verantwortliche unterliegt, vorgesehen wurde. Eine Sperrung oder Löschung der Daten erfolgt auch dann, wenn
-            eine durch die genannten Normen vorgeschriebene Speicherfrist abläuft, es sei denn, dass eine
-            Erforderlichkeit zur weiteren Speicherung der Daten für einen Vertragsabschluss oder eine Vertragserfüllung
-            besteht.
-        </p>
+<p>E-Mail: <a href="mailto:info@hv.spk-berlin.de" title="Opens window for sending email">info@hv.spk-berlin.de</a></p>
 
-        <h1>III. Bereitstellung der Website und Erstellung von Logfiles</h1>
+<p>Datenschutzbeauftragte:</p>
 
-        <h2>1. Beschreibung und Umfang der Datenverarbeitung</h2>
-        <p>Bei jedem Aufruf unserer Internetseite erfasst unser System automatisiert Daten und Informationen vom
-            Computersystem des aufrufenden Rechners. Folgende Daten werden hierbei erhoben:
-        </p>
-        <ol>
-            <li>Die IP-Adresse des Nutzers</li>
-            <li>Datum und Uhrzeit des Zugriffs</li>
-            <li>Websites, die vom System des Nutzers über unsere Website aufgerufen werden</li>
-        </ol>
-        <p>Die Daten werden ebenfalls in den Logfiles unseres Systems gespeichert. Eine Speicherung dieser Daten
-            zusammen mit anderen personenbezogenen Daten des Nutzers findet nicht statt.
-        </p>
+<p>Für Fragen zum Bereich Datenschutz gibt es in der Stiftung Preußischer Kulturbesitz eine/n Datenschutzbeauftragte/n als Kontaktperson, die Sie unter unserer vorgenannten Postanschrift mit dem Zusatz „Datenschutzbeauftragte“ oder wie folgt erreichen können:<br />
+<br />
+<a class="mail" href="mailto:Datenschutzbeauftragte@hv.spk-berlin.de" title="Opens window for sending email">Datenschutzbeauftragte@hv.spk-berlin.de </a></p>
 
-        <h2>2. Rechtsgrundlage für die Datenverarbeitung</h2>
-        <p>Rechtsgrundlage für die vorübergehende Speicherung der Daten und der Logfiles ist Art. 6 Abs. 1 lit. f DSGVO.
-        </p>
+<p>Telefon (Zentrale): +49 (0)30 266 412889</p>
 
-        <h2>3. Zweck der Datenverarbeitung</h2>
-        <p>Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der
-            Website an den Rechner des Nutzers zu ermöglichen. Hierfür muss die IP-Adresse des Nutzers für die Dauer der
-            Sitzung gespeichert bleiben.
-        </p>
-        <p>Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Website sicherzustellen. Zudem dienen uns
-            die Daten zur Optimierung der Website und zur Sicherstellung der Sicherheit unserer informationstechnischen
-            Systeme. Eine Auswertung der Daten zu Marketingzwecken findet in diesem Zusammenhang nicht statt.
-        </p>
-        <p>In diesen Zwecken liegt auch unser berechtigtes Interesse an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f
-            DSGVO.
-        </p>
+<p><a href="https://www.preussischer-kulturbesitz.de/" target="_blank" title="Öffnet in neuem Fenster/Tab">www.preussischer-kulturbesitz.de </a></p>
 
-        <h2>4. Dauer der Speicherung</h2>
-        <p>Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich
-            sind. Im Falle der Erfassung der Daten zur Bereitstellung der Website ist dies der Fall, wenn die jeweilige
-            Sitzung beendet ist.
-        </p>
-        <p>Im Falle der Speicherung der Daten in Logfiles ist dies nach spätestens sieben Tagen der Fall. Eine
-            darüberhinausgehende Speicherung ist möglich. In diesem Fall werden die IP-Adressen der Nutzer gelöscht oder
-            verfremdet, sodass eine Zuordnung des aufrufenden Clients nicht mehr möglich ist.
-        </p>
+<p>Sie haben einen Anspruch auf Auskunft über die betreffenden personenbezogenen Daten sowie auf Berichtigung oder Löschung oder auf Einschränkung der Verarbeitung oder - im Falle der Datenverarbeitung aufgrund Ihrer Einwilligung- ein Widerspruchsrecht gegen die Verarbeitung sowie ggf. ein Recht auf Datenübertragbarkeit.</p>
 
-        <h2>5. Widerspruchs- und Beseitigungsmöglichkeit</h2>
-        <p>Die Erfassung der Daten zur Bereitstellung der Website und die Speicherung der Daten in Logfiles ist für den
-            Betrieb der Internetseite zwingend erforderlich. Es besteht folglich seitens des Nutzers keine
-            Widerspruchsmöglichkeit.
-        </p>
+<p>Außerdem haben das Recht zur Beschwerde bei einer Datenschutz-Aufsichtsbehörde, der Bundesbeauftragten für den Datenschutz und die Informationsfreiheit,</p>
 
-        <h1>IV. Verwendung von Cookies</h1>
+<p>Husarenstr. 30</p>
 
-        <h2>1. Beschreibung und Umfang der Datenverarbeitung</h2>
-        <p>Unsere Webseite verwendet Cookies. Bei Cookies handelt es sich um Textdateien, die im Internetbrowser bzw.
-            vom Internetbrowser auf dem Computersystem des Nutzers gespeichert werden. Ruft ein Nutzer eine Website auf,
-            so kann ein Cookie auf dem Betriebssystem des Nutzers gespeichert werden. Dieses Cookie enthält eine
-            charakteristische Zeichenfolge, die eine eindeutige Identifizierung des Browsers beim erneuten Aufrufen der
-            Website ermöglicht.
-        </p>
-        <p>Wir setzen Cookies ein, um unsere Website nutzerfreundlicher zu gestalten. Einige Elemente unserer
-            Internetseite erfordern es, dass der aufrufende Browser auch nach einem Seitenwechsel identifiziert werden
-            kann.
-        </p>
-        <p>In den Cookies werden dabei folgende Daten gespeichert und übermittelt:</p>
-        <ol>
-            <li>Spracheinstellungen</li>
-            <li>Log-In-Informationen</li>
-            <li>Merklisten</li>
-        </ol>
-        <p>Wir verwenden auf unserer Website darüber hinaus Cookies, die eine Analyse des Surfverhaltens der Nutzer
-            ermöglichen.
-        </p>
-        <ol>
-            <li>Eingegebene Suchbegriffe</li>
-            <li>Wiederkehrende Besuche</li>
-            <li>Häufigkeit von Seitenaufrufen</li>
-            <li>Inanspruchnahme von Website-Funktionen</li>
-        </ol>
-        <p>Die auf diese Weise erhobenen Daten der Nutzer werden durch technische Vorkehrungen pseudonymisiert. Daher
-            ist eine Zuordnung der Daten zum aufrufenden Nutzer nicht mehr möglich. Die Daten werden nicht gemeinsam mit
-            sonstigen personenbezogenen Daten der Nutzer gespeichert.
-        </p>
-        <p>Beim Aufruf unserer Website werden die Nutzer durch ein Infobanner über die Verwendung von Cookies zu
-            Analysezwecken informiert und auf diese Datenschutzerklärung verwiesen. Es erfolgt in diesem Zusammenhang
-            auch ein Hinweis darauf, wie die Speicherung von Cookies in den Browsereinstellungen unterbunden werden
-            kann.
-        </p>
+<p>53117 Bonn</p>
 
-        <h2>2. Rechtsgrundlage für die Datenverarbeitung</h2>
-        <p>Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung von Cookies ist Art. 6 Abs.
-            1 lit. f DSGVO.
-        </p>
+<p>E-Mail: <a href="mailto:poststelle@bfdi.bund.de">poststelle@bfdi.bund.de</a></p>
 
-        <h2>3. Zweck der Datenverarbeitung</h2>
-        <p>Der Zweck der Verwendung technisch notwendiger Cookies ist, die Nutzung von Websites für die Nutzer zu
-            vereinfachen. Einige Funktionen unserer Internetseite können ohne den Einsatz von Cookies nicht angeboten
-            werden. Für diese ist es erforderlich, dass der Browser auch nach einem Seitenwechsel wiedererkannt wird.
-        </p>
-        <p>Die durch technisch notwendige Cookies erhobenen Nutzerdaten werden nicht zur Erstellung von Nutzerprofilen
-            verwendet.
-        </p>
-        <p>Die Verwendung der Analyse-Cookies erfolgt zu dem Zweck, die Qualität unserer Website und ihre Inhalte zu
-            verbessern. Durch die Analyse-Cookies erfahren wir, wie die Website genutzt wird und können so unser Angebot
-            stetig optimieren.
-        </p>
-        <p>In diesen Zwecken liegt auch unser berechtigtes Interesse in der Verarbeitung der personenbezogenen Daten
-            nach Art. 6 Abs. 1 lit. f DSGVO.
-        </p>
-        <h2>4. Dauer der Speicherung, Widerspruchs- und Beseitigungsmöglichkeit</h2>
-        <p>Cookies werden auf dem Rechner des Nutzers gespeichert und von diesem an unserer Seite übermittelt. Daher
-            haben Sie als Nutzer auch die volle Kontrolle über die Verwendung von Cookies. Durch eine Änderung der
-            Einstellungen in Ihrem Internetbrowser können Sie die Übertragung von Cookies deaktivieren oder
-            einschränken. Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert
-            erfolgen. Werden Cookies für unsere Website deaktiviert, können möglicherweise nicht mehr alle Funktionen
-            der Website vollumfänglich genutzt werden.
-        </p>
-        <p>In dieser Datenschutzerklärung finden Sie noch weitere für wichtige Aspekte, s. Inhaltsverzeichnis.</p>
+<h1>II. Allgemeines zur Datenverarbeitung</h1>
 
-        <h1>V. Webanalyse durch Matomo (ehemals PIWIK)</h1>
+<h2>1. Umfang der Verarbeitung personenbezogener Daten</h2>
 
-        <h2>1. Umfang der Verarbeitung personenbezogener Daten</h2>
-        <p>Wir nutzen auf unserer Website das Open-Source-Software-Tool Matomo (ehemals PIWIK) zur Analyse des
-            Surfverhaltens unserer Nutzer. Die Software setzt ein Cookie auf dem Rechner der Nutzer (zu Cookies siehe
-            bereits oben). Werden Einzelseiten unserer Website aufgerufen, so werden folgende Daten gespeichert:
-        </p>
-        <ol>
-            <li>Zwei Bytes der IP-Adresse des aufrufenden Systems des Nutzers</li>
-            <li>Die aufgerufene Webseite</li>
-            <li>Die Website, von der der Nutzer auf die aufgerufene Webseite gelangt ist (Referrer)</li>
-            <li>Die Unterseiten, die von der aufgerufenen Webseite aus aufgerufen werden</li>
-            <li>Die Verweildauer auf der Webseite</li>
-            <li>Die Häufigkeit des Aufrufs der Webseite</li>
-            <li>Technische Details des Browsers wie Versionsnummer oder Auflösung</li>
-        </ol>
-        <p>Die Software läuft dabei ausschließlich auf den Servern unserer Webseite. Eine Speicherung der
-            personenbezogenen Daten der Nutzer findet nur dort statt. Eine Weitergabe der Daten an Dritte erfolgt nicht.
-        </p>
-        <p>Die Software ist so eingestellt, dass die IP-Adressen nicht vollständig gespeichert werden, sondern 2 Bytes
-            der IP-Adresse maskiert werden (Bsp.: 192.168.xxx.xxx). Auf diese Weise ist eine Zuordnung der gekürzten
-            IP-Adresse zum aufrufenden Rechner nicht mehr möglich.
-        </p>
+<p>Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist. Die Verarbeitung personenbezogener Daten unserer Nutzer erfolgt nur im zulässigen Rahmen, d.h. auf Basis der Erlaubnisnormen der Datenschutzgesetze oder nach Einwilligung des Nutzers. Eine Ausnahme gilt in solchen Fällen, in denen eine vorherige Einholung einer Einwilligung aus tatsächlichen Gründen nicht möglich ist und die Verarbeitung der Daten durch gesetzliche Vorschriften gestattet ist.</p>
 
-        <h2>2. Rechtsgrundlage für die Verarbeitung personenbezogener Daten</h2>
-        <p>Rechtsgrundlage für die Verarbeitung der personenbezogenen Daten der Nutzer ist Art. 6 Abs. 1 lit.
-            f DSGVO.
-        </p>
+<h2>2. Rechtsgrundlage für die Verarbeitung personenbezogener Daten</h2>
 
-        <h2>3. Zweck der Datenverarbeitung</h2>
-        <p>Die Verarbeitung der personenbezogenen Daten der Nutzer ermöglicht uns eine Analyse des Surfverhaltens
-            unserer Nutzer. Wir sind durch die Auswertung der gewonnen Daten in der Lage, Informationen über die Nutzung
-            der einzelnen Komponenten unserer Webseite zusammenzustellen. Dies hilft uns dabei unsere Webseite und deren
-            Nutzerfreundlichkeit stetig zu verbessern. In diesen Zwecken liegt auch unser berechtigtes Interesse in der
-            Verarbeitung der Daten nach Art. 6 Abs. 1 lit. f DSGVO. Durch die Anonymisierung der IP-Adresse wird dem
-            Interesse der Nutzer an deren Schutz personenbezogener Daten hinreichend Rechnung getragen.
-        </p>
+<p>Soweit wir für Verarbeitungsvorgänge personenbezogener Daten eine Einwilligung der betroffenen Person einholen, dient Art. 6 Abs. 1 lit. a EU-Datenschutzgrundverordnung (DSGVO) als Rechtsgrundlage.</p>
 
-        <h2>4. Dauer der Speicherung</h2>
-        <p>Die Daten werden gelöscht, sobald sie für unsere Aufzeichnungszwecke nicht mehr benötigt werden.
-        </p>
-        <p>In unserem Fall ist dies nach 5 Jahren der Fall, da wir den langfristigen Einfluss von Optimierungen unseres
-            Angebotes messen. In unserem Fall ist dies nach 5 Jahren der Fall, da wir den langfristigen Einfluss von
-            Optimierungen unseres Angebotes messen.
-        </p>
+<p>Bei der Verarbeitung von personenbezogenen Daten, die zur Erfüllung eines Vertrages, dessen Vertragspartei die betroffene Person ist, erforderlich ist, dient Art. 6 Abs. 1 lit. b DSGVO als Rechtsgrundlage. Dies gilt auch für Verarbeitungsvorgänge, die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind.</p>
 
-        <h2>5. Widerspruchs- und Beseitigungsmöglichkeit</h2>
-        <p>Cookies werden auf dem Rechner des Nutzers gespeichert und von diesem an unserer Seite übermittelt. Daher
-            haben Sie als Nutzer auch die volle Kontrolle über die Verwendung von Cookies. Durch eine Änderung der
-            Einstellungen in Ihrem Internetbrowser können Sie die Übertragung von Cookies deaktivieren oder
-            einschränken. Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert
-            erfolgen. Werden Cookies für unsere Website deaktiviert, können möglicherweise nicht mehr alle Funktionen
-            der Website vollumfänglich genutzt werden.
-        </p>
-        <p>Wir bieten unseren Nutzern auf unserer Website die Möglichkeit eines Opt-Out aus dem Analyseverfahren. Hierzu
-            müssen Sie dem entsprechenden Link folgen. Auf diese Weise wird ein weiterer Cookie auf ihrem System
-            gesetzt, der unserem System signalisiert die Daten des Nutzers nicht zu speichern. Löscht der Nutzer den
-            entsprechenden Cookie zwischenzeitlich vom eigenen System, so muss er den Opt-Out-Cookie erneut setzten.
-        </p>
-        <p>Nähere Informationen zu den Privatsphäreeinstellungen der Matomo Software finden Sie unter folgendem Link: <a
-                href="https://matomo.org/docs/privacy" title="zu" target="Nähere">https://matomo.org/docs/privacy</a>/.
-        </p>
+<p>Soweit eine Verarbeitung personenbezogener Daten als Aufgabe unserer Behörde im öffentlichen Interesse liegt , dient Art. 6 Abs. 1 lit. e DSGVO als Rechtsgrundlage. Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als Rechtsgrundlage.</p>
 
-        <h1>VI. Rechte der betroffenden Person</h1>
-        <p>Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i.S.d. DSGVO und es stehen
-            Ihnen folgende Rechte gegenüber dem Verantwortlichen zu:
-        </p>
+<p>Ist die Verarbeitung zur Wahrung eines berechtigten Interesses unseres Unternehmens oder eines Dritten erforderlich und überwiegen die Interessen, Grundrechte und Grundfreiheiten des Betroffenen das erstgenannte Interesse nicht, so dient Art. 6 Abs. 1 lit. f DSGVO als Rechtsgrundlage für die Verarbeitung.</p>
 
-        <h2>1. Auskunftsrecht</h2>
-        <p>Sie können von dem Verantwortlichen eine Bestätigung darüber verlangen, ob personenbezogene Daten, die Sie
-            betreffen, von uns verarbeitet werden.
-            <br/>
-            Liegt eine solche Verarbeitung vor, können Sie von dem Verantwortlichen über folgende Informationen
-            Auskunft verlangen:
-            <br/>
-            <ul>
-                <li>die Zwecke, zu denen die personenbezogenen Daten verarbeitet werden;</li>
-                <li>die Kategorien von personenbezogenen Daten, welche verarbeitet werden;</li>
-                <li>die Empfänger bzw. die Kategorien von Empfängern, gegenüber denen die Sie betreffenden
-                    personenbezogenen Daten offengelegt wurden oder noch offengelegt werden;
-                </li>
-                <li>diegeplante Dauer der Speicherung der Sie betreffenden personenbezogenen Daten oder, falls konkrete
-                    Angaben hierzu nicht möglich sind, Kriterien für die Festlegung der Speicherdauer;
-                </li>
-                <li>das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen
-                    Daten, eines Rechts auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines
-                    Widerspruchsrechts gegen diese Verarbeitung;
-                </li>
-                <li>das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;
-                </li>
-                <li>
-                    alle verfügbaren Informationen über die Herkunft der Daten, wenn die personenbezogenen Date nicht
-                    bei der betroffenen Person erhoben werden;
-                </li>
-                <li>das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Art. 22 Abs.
-                    1 und 4 DSGVO und - zumindest in diesen
-                    Fällen - aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die
-                    angestrebten
-                    Auswirkungen einer derartigen Verarbeitung für die betroffene Person.
-                </li>
-            </ul>
-            Ihnen steht das Recht zu, Auskunft darüber zu verlangen, ob die Sie betreffenden personenbezogenen
-            Daten in ein Drittland oder an eine internationale Organisation übermittelt werden. In diesem Zusammenhang
-            können Sie verlangen, über die geeigneten Garantien gem. Art. 46 DSGVO im Zusammenhang mit der Übermittlung
-            unterrichtet zu werden.
-        </p>
+<h2>3. Datenlöschung und Speicherdauer</h2>
 
-        <h2>2. Recht auf Berichtigung</h2>
-        <p>Sie haben ein Recht auf Berichtigung und/oder Vervollständigung gegenüber dem Verantwortlichen, sofern die
-            verarbeiteten personenbezogenen Daten, die Sie betreffen, unrichtig oder unvollständig sind. Der
-            Verantwortliche hat die Berichtigung unverzüglich vorzunehmen.
-        </p>
+<p>Die personenbezogenen Daten der betroffenen Person werden gelöscht oder gesperrt, sobald der Zweck der Speicherung entfällt. Eine Speicherung kann darüber hinaus erfolgen, wenn dies durch den europäischen oder nationalen Gesetzgeber in unionsrechtlichen Verordnungen, Gesetzen oder sonstigen Vorschriften, denen der Verantwortliche unterliegt, vorgesehen wurde. Eine Sperrung oder Löschung der Daten erfolgt auch dann, wenn eine durch die genannten Normen vorgeschriebene Speicherfrist abläuft, es sei denn, dass eine Erforderlichkeit zur weiteren Speicherung der Daten für einen Vertragsabschluss oder eine Vertragserfüllung besteht.</p>
 
-        <h2>3. Recht auf Einschränkung der Verarbeitung</h2>
-        <p>Unter den folgenden Voraussetzungen können Sie die Einschränkung der Verarbeitung der Sie betreffenden
-            personenbezogenen Daten verlangen:
-            <ul>
-                <li>
-                    wenn Sie die Richtigkeit der Sie betreffenden personenbezogenen für eine Dauer bestreiten, die es
-                    dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen;
-                </li>
-                <li>die Verarbeitung unrechtmäßig ist und Sie die Löschung der personenbezogenen Daten ablehnenund
-                    stattdessen die Einschränkung der Nutzung der personenbezogenen Daten verlangen;
-                </li>
-                <li>der Verantwortliche die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger
-                    benötigt, Sie diese jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen
-                    benötigen, oder
-                </li>
-                <li>
-                    wenn Sie Widerspruch gegen die Verarbeitung gemäß Art. 21 Abs. 1 DSGVO eingelegt haben und noch
-                    nicht feststeht, ob die berechtigten Gründe des Verantwortlichen gegenüber Ihren Gründen überwiegen.
-                </li>
-            </ul>
-            Wurde die Verarbeitung der Sie betreffenden personenbezogenen Daten eingeschränkt, dürfen diese Daten -
-            von ihrer Speicherung abgesehen - nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder
-            Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen
-            Person oder aus Gründen eines wichtigen öffentlichen Interesses der Union oder eines Mitgliedstaats
-            verarbeitet werden.
-            <br/>
-            Wurde die Einschränkung der Verarbeitung nach den o.g. Voraussetzungen eingeschränkt, werden Sie von
-            dem Verantwortlichen unterrichtet bevor die Einschränkung aufgehoben wird.
-        </p>
+<h1>III. Bereitstellung der Website und Erstellung von Logfiles</h1>
 
-        <h2>4. Recht auf Löschung</h2>
-        <p>Sie können von dem Verantwortlichen verlangen, dass die Sie betreffenden personenbezogenen Daten unverzüglich
-            gelöscht werden, und der Verantwortliche ist verpflichtet, diese Daten unverzüglich zu löschen, sofern einer
-            der folgenden Gründe zutrifft:
-            <ul>
-                <li>
-                    Die Sie betreffenden personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder auf
-                    sonstige Weise verarbeitet wurden, nicht mehr notwendig.
-                </li>
-                <li>
-                    Sie widerrufen Ihre Einwilligung, auf die sich die Verarbeitung gem. Art. 6
-                    Abs. 1 lit. a oder Art. 9 Abs. 2 lit. a DSGVO stützte, und es fehlt an einer anderweitigen
-                    Rechtsgrundlage für die Verarbeitung.
-                </li>
-                <li>
-                    Sie legen gem. Art. 21 Abs. 1 DSGVO Widerspruch gegen die Verarbeitung ein und es liegen keine
-                    vorrangigen berechtigten Gründe für die Verarbeitung vor, oder Sie legen gem. Art. 21 Abs. 2 DSGVO
-                    Widerspruch gegen die Verarbeitung ein.
-                </li>
-                <li>
-                    Die Sie betreffenden personenbezogenen Daten wurden unrechtmäßig verarbeitet.
-                </li>
-                <li>
-                    Die Löschung der Sie betreffenden personenbezogenen Daten ist zur Erfüllung einer rechtlichen
-                    Verpflichtung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten erforderlich, dem der
-                    Verantwortliche unterliegt.
-                </li>
-                <li>
-                    Die Sie betreffenden personenbezogenen Daten wurden in Bezug auf angebotene Dienste der
-                    Informationsgesellschaft gemäß Art. 8 Abs. 1 DSGVO erhoben.
-                </li>
-            </ul>
+<h2>1. Beschreibung und Umfang der Datenverarbeitung</h2>
 
-            Das Recht auf Löschung besteht nicht, soweit die Verarbeitung erforderlich ist
-            <br/>
-            <ul>
-                <li>
-                    zur Ausübung des Rechts auf freie Meinungsäußerung und Information;
-                </li>
-                <li>
-                    zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder
-                    der Mitgliedstaaten, dem der Verantwortliche unterliegt, erfordert, oder zur Wahrnehmung einer
-                    Aufgabe,
-                    die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem
-                    Verantwortlichen übertragen wurde;
-                </li>
-                <li>
-                    aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Art. 9 Abs. 2
-                    lit. h und i sowie Art. 9 Abs. 3 DSGVO;
-                </li>
-                <li>
-                    für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische
-                    Forschungszwecke oder für statistische Zwecke gem. Art. 89 Abs. 1 DSGVO, soweit das unter Abschnitt
-                    a) genannte Recht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung unmäglich macht
-                    oder
-                    ernsthaft beeinträchtigt, oder
-                </li>
-                <li>
-                    zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
-                </li>
-            </ul>
-        </p>
+<p>Bei jedem Aufruf unserer Internetseite erfasst unser System automatisiert Daten und Informationen vom Computersystem des aufrufenden Rechners. Folgende Daten werden hierbei erhoben:</p>
 
-        <h2>5. Recht auf Unterrichtung</h2>
-        <p>Haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung gegenüber dem
-            Verantwortlichen geltend gemacht, ist dieser verpflichtet, allen Empängern, denen die Sie betreffenden
-            personenbezogenen Daten offengelegt wurden, diese Berichtigung oder Löschung der Daten oder Einschränkung
-            der Verarbeitung mitzuteilen, es sei denn, dies erweist sich als unmöglich oder ist mit einem
-            unverhältnismäßigen Aufwand verbunden.
-            <br/>
-            Ihnen steht gegenüber dem Verantwortlichen das Recht zu, über diese Empfänger unterrichtet zu werden.
-        </p>
+<ol>
+	<li>Die IP-Adresse des Nutzers</li>
+	<li>Datum und Uhrzeit des Zugriffs</li>
+	<li>Websites, die vom System des Nutzers über unsere Website aufgerufen werden</li>
+</ol>
 
-        <h2>6. Recht auf Datenübertragbarkeit</h2>
-        <p>Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie dem Verantwortlichen
-            bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Außerdem
-            haben Sie das Recht diese Daten einem anderen Verantwortlichen ohne Behinderung durch den Verantwortlichen,
-            dem die personenbezogenen Daten bereitgestellt wurden, zu Übermitteln, sofern
-            <ul>
-                <li>
-                die Verarbeitung auf einer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO oder Art.
-                9 Abs. 2 lit. a DSGVO oder auf einem Vertrag gem. Art. 6 Abs. 1 lit. b DSGVO beruht und
-                </li>
-                <li>die Verarbeitung mithilfe automatisierter Verfahren erfolgt.</li>
-            </ul>
-            In Ausübung dieses Rechts haben Sie ferner das Recht, zu erwirken, dass die Sie betreffenden
-            personenbezogenen Daten direkt von einem Verantwortlichen einem anderen Verantwortlichen übermittelt werden,
-            soweit dies technisch machbar ist. Freiheiten und Rechte anderer Personen dürfen hierdurch nicht
-            beeinträchtigt werden.
-            <br/>
-            Das Recht auf Datenübertragbarkeit gilt nicht für eine Verarbeitung personenbezogener Daten, die für
-            die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung
-            öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde.
-        </p>
+<p>Die Daten werden ebenfalls in den Logfiles unseres Systems gespeichert. Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten des Nutzers findet nicht statt.</p>
 
-        <h2>7. Widerspruchsrecht</h2>
-        <p>Sie haben das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die
-            Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f
-            DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling.
-            <br/>
-            Der Verantwortliche verarbeitet die Sie betreffenden personenbezogenen Daten nicht mehr, es sei denn,
-            er kann zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und
-            Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von
-            Rechtsansprüchen.
-            <br/>
-            Sie haben die Möglichkeit, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft -
-            ungeachtet der Richtlinie 2002/58/EG - Ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben,
-            bei denen technische Spezifikationen verwendet werden.
-        </p>
+<h2>2. Rechtsgrundlage für die Datenverarbeitung</h2>
 
-        <h2>8. Recht auf Widerruf der datenschutzrechtlichen Einwilligungserklärung</h2>
-        <p>Sie haben das Recht, Ihre datenschutzrechtliche Einwilligungserklärung jederzeit zu widerrufen. Durch den
-            Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten
-            Verarbeitung nicht berührt.
-        </p>
+<p>Rechtsgrundlage für die vorübergehende Speicherung der Daten und der Logfiles ist Art. 6 Abs. 1 lit. f DSGVO.</p>
 
-        <h1>VII
-            <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/datenschutz-speziell/">
-                Spezifische Datenschutzerklärungen für unsere Dienstleistungen
-            </a>
-        </h1>
-        <br/>
+<h2>3. Zweck der Datenverarbeitung</h2>
 
-        <h1>VIII Änderung der Datenschutzerklärung</h1>
-        <p>Die Staatsbibliothek zu Berlin-PK behält sich vor, die Datenschutzerklärung entsprechend der technischen
-            Weiterentwicklung und veränderter gesetzlicher Rahmenbedingungen anzupassen. Den jeweiligen Stand dieser
-            Datenschutzerklärung finden Sie am Ende der Erklärung.
-        </p>
-        <p>
-            <b>Stand: Februar 2020</b>
-        </p>
-    </section>
-    <meta>
-        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
-    </meta>
-</MyCoReWebPage>
+<p>Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Website an den Rechner des Nutzers zu ermöglichen. Hierfür muss die IP-Adresse des Nutzers für die Dauer der Sitzung gespeichert bleiben.</p>
+
+<p>Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Website sicherzustellen. Zudem dienen uns die Daten zur Optimierung der Website und zur Sicherstellung der Sicherheit unserer informationstechnischen Systeme. Eine Auswertung der Daten zu Marketingzwecken findet in diesem Zusammenhang nicht statt.</p>
+
+<p>In diesen Zwecken liegt auch unser berechtigtes Interesse an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f DSGVO.</p>
+
+<h2>4. Dauer der Speicherung</h2>
+
+<p>Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Im Falle der Erfassung der Daten zur Bereitstellung der Website ist dies der Fall, wenn die jeweilige Sitzung beendet ist.</p>
+
+<p>Im Falle der Speicherung der Daten in Logfiles ist dies nach spätestens sieben Tagen der Fall. Eine darüberhinausgehende Speicherung ist möglich. In diesem Fall werden die IP-Adressen der Nutzer gelöscht oder verfremdet, sodass eine Zuordnung des aufrufenden Clients nicht mehr möglich ist.</p>
+
+<h2>5. Widerspruchs- und Beseitigungsmöglichkeit</h2>
+
+<p>Die Erfassung der Daten zur Bereitstellung der Website und die Speicherung der Daten in Logfiles ist für den Betrieb der Internetseite zwingend erforderlich. Es besteht folglich seitens des Nutzers keine Widerspruchsmöglichkeit.</p>
+
+<h1>IV. Verwendung von Cookies</h1>
+
+<h2>1. Beschreibung und Umfang der Datenverarbeitung</h2>
+
+<p>Unsere Webseite verwendet Cookies. Bei Cookies handelt es sich um Textdateien, die im Internetbrowser bzw. vom Internetbrowser auf dem Computersystem des Nutzers gespeichert werden. Ruft ein Nutzer eine Website auf, so kann ein Cookie auf dem Betriebssystem des Nutzers gespeichert werden. Dieses Cookie enthält eine charakteristische Zeichenfolge, die eine eindeutige Identifizierung des Browsers beim erneuten Aufrufen der Website ermöglicht.</p>
+
+<p>Wir setzen Cookies ein, um unsere Website nutzerfreundlicher zu gestalten. Einige Elemente unserer Internetseite erfordern es, dass der aufrufende Browser auch nach einem Seitenwechsel identifiziert werden kann.</p>
+
+<p>In den Cookies werden dabei folgende Daten gespeichert und übermittelt:</p>
+
+<ol>
+	<li>Spracheinstellungen</li>
+	<li>Log-In-Informationen</li>
+	<li>Merklisten</li>
+</ol>
+
+<p>Wir verwenden auf unserer Website darüber hinaus Cookies, die eine Analyse des Surfverhaltens der Nutzer ermöglichen.</p>
+
+<ol>
+	<li>Eingegebene Suchbegriffe</li>
+	<li>Wiederkehrende Besuche</li>
+	<li>Häufigkeit von Seitenaufrufen</li>
+	<li>Inanspruchnahme von Website-Funktionen</li>
+</ol>
+
+<p>Die auf diese Weise erhobenen Daten der Nutzer werden durch technische Vorkehrungen pseudonymisiert. Daher ist eine Zuordnung der Daten zum aufrufenden Nutzer nicht mehr möglich. Die Daten werden nicht gemeinsam mit sonstigen personenbezogenen Daten der Nutzer gespeichert.</p>
+
+<p>Beim Aufruf unserer Website werden die Nutzer durch ein Infobanner über die Verwendung von Cookies zu Analysezwecken informiert und auf diese Datenschutzerklärung verwiesen. Es erfolgt in diesem Zusammenhang auch ein Hinweis darauf, wie die Speicherung von Cookies in den Browsereinstellungen unterbunden werden kann.</p>
+
+<h2>2. Rechtsgrundlage für die Datenverarbeitung</h2>
+
+<p>Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung von Cookies ist Art. 6 Abs. 1 lit. f DSGVO.</p>
+
+<h2>3. Zweck der Datenverarbeitung</h2>
+
+<p>Der Zweck der Verwendung technisch notwendiger Cookies ist, die Nutzung von Websites für die Nutzer zu vereinfachen. Einige Funktionen unserer Internetseite können ohne den Einsatz von Cookies nicht angeboten werden. Für diese ist es erforderlich, dass der Browser auch nach einem Seitenwechsel wiedererkannt wird.</p>
+
+<p>Die durch technisch notwendige Cookies erhobenen Nutzerdaten werden nicht zur Erstellung von Nutzerprofilen verwendet.</p>
+
+<p>Die Verwendung der Analyse-Cookies erfolgt zu dem Zweck, die Qualität unserer Website und ihre Inhalte zu verbessern. Durch die Analyse-Cookies erfahren wir, wie die Website genutzt wird und können so unser Angebot stetig optimieren.</p>
+
+<p>In diesen Zwecken liegt auch unser berechtigtes Interesse in der Verarbeitung der personenbezogenen Daten nach Art. 6 Abs. 1 lit. f DSGVO.</p>
+
+<h2>4. Dauer der Speicherung, Widerspruchs- und Beseitigungsmöglichkeit</h2>
+
+<p>Cookies werden auf dem Rechner des Nutzers gespeichert und von diesem an unserer Seite übermittelt. Daher haben Sie als Nutzer auch die volle Kontrolle über die Verwendung von Cookies. Durch eine Änderung der Einstellungen in Ihrem Internetbrowser können Sie die Übertragung von Cookies deaktivieren oder einschränken. Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert erfolgen. Werden Cookies für unsere Website deaktiviert, können möglicherweise nicht mehr alle Funktionen der Website vollumfänglich genutzt werden.</p>
+
+<p>In dieser Datenschutzerklärung finden Sie noch weitere für wichtige Aspekte, s. Inhaltsverzeichnis.</p>
+
+<h1>V. Webanalyse durch Matomo (ehemals PIWIK)</h1>
+
+<h2>1. Umfang der Verarbeitung personenbezogener Daten</h2>
+
+<p>Wir nutzen auf unserer Website das Open-Source-Software-Tool Matomo (ehemals PIWIK) zur Analyse des Surfverhaltens unserer Nutzer. Die Software setzt ein Cookie auf dem Rechner der Nutzer (zu Cookies siehe bereits oben). Werden Einzelseiten unserer Website aufgerufen, so werden folgende Daten gespeichert:</p>
+
+<ol>
+	<li>Zwei Bytes der IP-Adresse des aufrufenden Systems des Nutzers</li>
+	<li>Die aufgerufene Webseite</li>
+	<li>Die Website, von der der Nutzer auf die aufgerufene Webseite gelangt ist (Referrer)</li>
+	<li>Die Unterseiten, die von der aufgerufenen Webseite aus aufgerufen werden</li>
+	<li>Die Verweildauer auf der Webseite</li>
+	<li>Die Häufigkeit des Aufrufs der Webseite</li>
+	<li>Technische Details des Browsers wie Versionsnummer oder Auflösung</li>
+</ol>
+
+<p>Die Software läuft dabei ausschließlich auf den Servern unserer Webseite. Eine Speicherung der personenbezogenen Daten der Nutzer findet nur dort statt. Eine Weitergabe der Daten an Dritte erfolgt nicht.</p>
+
+<p>Die Software ist so eingestellt, dass die IP-Adressen nicht vollständig gespeichert werden, sondern 2 Bytes der IP-Adresse maskiert werden (Bsp.: 192.168.xxx.xxx). Auf diese Weise ist eine Zuordnung der gekürzten IP-Adresse zum aufrufenden Rechner nicht mehr möglich.</p>
+
+<h2>2. Rechtsgrundlage für die Verarbeitung personenbezogener Daten</h2>
+
+<p>Rechtsgrundlage für die Verarbeitung der personenbezogenen Daten der Nutzer ist Art. 6 Abs. 1 lit. f DSGVO.</p>
+
+<h2>3. Zweck der Datenverarbeitung</h2>
+
+<p>Die Verarbeitung der personenbezogenen Daten der Nutzer ermöglicht uns eine Analyse des Surfverhaltens unserer Nutzer. Wir sind durch die Auswertung der gewonnen Daten in der Lage, Informationen über die Nutzung der einzelnen Komponenten unserer Webseite zusammenzustellen. Dies hilft uns dabei unsere Webseite und deren Nutzerfreundlichkeit stetig zu verbessern. In diesen Zwecken liegt auch unser berechtigtes Interesse in der Verarbeitung der Daten nach Art. 6 Abs. 1 lit. f DSGVO. Durch die Anonymisierung der IP-Adresse wird dem Interesse der Nutzer an deren Schutz personenbezogener Daten hinreichend Rechnung getragen.</p>
+
+<h2>4. Dauer der Speicherung</h2>
+
+<p>Die Daten werden gelöscht, sobald sie für unsere Aufzeichnungszwecke nicht mehr benötigt werden.</p>
+
+<p>In unserem Fall ist dies nach 5 Jahren der Fall, da wir den langfristigen Einfluss von Optimierungen unseres Angebotes messen. In unserem Fall ist dies nach 5 Jahren der Fall, da wir den langfristigen Einfluss von Optimierungen unseres Angebotes messen.</p>
+
+<h2>5. Widerspruchs- und Beseitigungsmöglichkeit</h2>
+
+<p>Cookies werden auf dem Rechner des Nutzers gespeichert und von diesem an unserer Seite übermittelt. Daher haben Sie als Nutzer auch die volle Kontrolle über die Verwendung von Cookies. Durch eine Änderung der Einstellungen in Ihrem Internetbrowser können Sie die Übertragung von Cookies deaktivieren oder einschränken. Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert erfolgen. Werden Cookies für unsere Website deaktiviert, können möglicherweise nicht mehr alle Funktionen der Website vollumfänglich genutzt werden.</p>
+
+<p>Wir bieten unseren Nutzern auf unserer Website die Möglichkeit eines Opt-Out aus dem Analyseverfahren. Hierzu müssen Sie dem entsprechenden Link folgen. Auf diese Weise wird ein weiterer Cookie auf ihrem System gesetzt, der unserem System signalisiert die Daten des Nutzers nicht zu speichern. Löscht der Nutzer den entsprechenden Cookie zwischenzeitlich vom eigenen System, so muss er den Opt-Out-Cookie erneut setzten.</p>
+
+<p>Nähere Informationen zu den Privatsphäreeinstellungen der Matomo Software finden Sie unter folgendem Link: <a href="https://matomo.org/docs/privacy" target="Nähere" title="zu">https://matomo.org/docs/privacy</a>/.</p>
+
+<h1>VI. Rechte der betroffenden Person</h1>
+
+<p>Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i.S.d. DSGVO und es stehen Ihnen folgende Rechte gegenüber dem Verantwortlichen zu:</p>
+
+<h2>1. Auskunftsrecht</h2>
+
+<p>Sie können von dem Verantwortlichen eine Bestätigung darüber verlangen, ob personenbezogene Daten, die Sie betreffen, von uns verarbeitet werden.<br />
+Liegt eine solche Verarbeitung vor, können Sie von dem Verantwortlichen über folgende Informationen Auskunft verlangen:</p>
+
+<ul>
+	<li>die Zwecke, zu denen die personenbezogenen Daten verarbeitet werden;</li>
+	<li>die Kategorien von personenbezogenen Daten, welche verarbeitet werden;</li>
+	<li>die Empfänger bzw. die Kategorien von Empfängern, gegenüber denen die Sie betreffenden personenbezogenen Daten offengelegt wurden oder noch offengelegt werden;</li>
+	<li>diegeplante Dauer der Speicherung der Sie betreffenden personenbezogenen Daten oder, falls konkrete Angaben hierzu nicht möglich sind, Kriterien für die Festlegung der Speicherdauer;</li>
+	<li>das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten, eines Rechts auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung;</li>
+	<li>das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;</li>
+	<li>alle verfügbaren Informationen über die Herkunft der Daten, wenn die personenbezogenen Date nicht bei der betroffenen Person erhoben werden;</li>
+	<li>das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Art. 22 Abs. 1 und 4 DSGVO und - zumindest in diesen Fällen - aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person.</li>
+</ul>
+Ihnen steht das Recht zu, Auskunft darüber zu verlangen, ob die Sie betreffenden personenbezogenen Daten in ein Drittland oder an eine internationale Organisation übermittelt werden. In diesem Zusammenhang können Sie verlangen, über die geeigneten Garantien gem. Art. 46 DSGVO im Zusammenhang mit der Übermittlung unterrichtet zu werden.
+
+<p> </p>
+
+<h2>2. Recht auf Berichtigung</h2>
+
+<p>Sie haben ein Recht auf Berichtigung und/oder Vervollständigung gegenüber dem Verantwortlichen, sofern die verarbeiteten personenbezogenen Daten, die Sie betreffen, unrichtig oder unvollständig sind. Der Verantwortliche hat die Berichtigung unverzüglich vorzunehmen.</p>
+
+<h2>3. Recht auf Einschränkung der Verarbeitung</h2>
+
+<p>Unter den folgenden Voraussetzungen können Sie die Einschränkung der Verarbeitung der Sie betreffenden personenbezogenen Daten verlangen:</p>
+
+<ul>
+	<li>wenn Sie die Richtigkeit der Sie betreffenden personenbezogenen für eine Dauer bestreiten, die es dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen;</li>
+	<li>die Verarbeitung unrechtmäßig ist und Sie die Löschung der personenbezogenen Daten ablehnenund stattdessen die Einschränkung der Nutzung der personenbezogenen Daten verlangen;</li>
+	<li>der Verantwortliche die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger benötigt, Sie diese jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen, oder</li>
+	<li>wenn Sie Widerspruch gegen die Verarbeitung gemäß Art. 21 Abs. 1 DSGVO eingelegt haben und noch nicht feststeht, ob die berechtigten Gründe des Verantwortlichen gegenüber Ihren Gründen überwiegen.</li>
+</ul>
+Wurde die Verarbeitung der Sie betreffenden personenbezogenen Daten eingeschränkt, dürfen diese Daten - von ihrer Speicherung abgesehen - nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Union oder eines Mitgliedstaats verarbeitet werden.<br />
+Wurde die Einschränkung der Verarbeitung nach den o.g. Voraussetzungen eingeschränkt, werden Sie von dem Verantwortlichen unterrichtet bevor die Einschränkung aufgehoben wird.
+<p> </p>
+
+<h2>4. Recht auf Löschung</h2>
+
+<p>Sie können von dem Verantwortlichen verlangen, dass die Sie betreffenden personenbezogenen Daten unverzüglich gelöscht werden, und der Verantwortliche ist verpflichtet, diese Daten unverzüglich zu löschen, sofern einer der folgenden Gründe zutrifft:</p>
+
+<ul>
+	<li>Die Sie betreffenden personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig.</li>
+	<li>Sie widerrufen Ihre Einwilligung, auf die sich die Verarbeitung gem. Art. 6 Abs. 1 lit. a oder Art. 9 Abs. 2 lit. a DSGVO stützte, und es fehlt an einer anderweitigen Rechtsgrundlage für die Verarbeitung.</li>
+	<li>Sie legen gem. Art. 21 Abs. 1 DSGVO Widerspruch gegen die Verarbeitung ein und es liegen keine vorrangigen berechtigten Gründe für die Verarbeitung vor, oder Sie legen gem. Art. 21 Abs. 2 DSGVO Widerspruch gegen die Verarbeitung ein.</li>
+	<li>Die Sie betreffenden personenbezogenen Daten wurden unrechtmäßig verarbeitet.</li>
+	<li>Die Löschung der Sie betreffenden personenbezogenen Daten ist zur Erfüllung einer rechtlichen Verpflichtung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten erforderlich, dem der Verantwortliche unterliegt.</li>
+	<li>Die Sie betreffenden personenbezogenen Daten wurden in Bezug auf angebotene Dienste der Informationsgesellschaft gemäß Art. 8 Abs. 1 DSGVO erhoben.</li>
+</ul>
+Das Recht auf Löschung besteht nicht, soweit die Verarbeitung erforderlich ist
+
+<ul>
+	<li>zur Ausübung des Rechts auf freie Meinungsäußerung und Information;</li>
+	<li>zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder der Mitgliedstaaten, dem der Verantwortliche unterliegt, erfordert, oder zur Wahrnehmung einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;</li>
+	<li>aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Art. 9 Abs. 2 lit. h und i sowie Art. 9 Abs. 3 DSGVO;</li>
+	<li>für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder für statistische Zwecke gem. Art. 89 Abs. 1 DSGVO, soweit das unter Abschnitt a) genannte Recht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung unmäglich macht oder ernsthaft beeinträchtigt, oder</li>
+	<li>zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</li>
+</ul>
+
+<p> </p>
+
+<h2>5. Recht auf Unterrichtung</h2>
+
+<p>Haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung gegenüber dem Verantwortlichen geltend gemacht, ist dieser verpflichtet, allen Empängern, denen die Sie betreffenden personenbezogenen Daten offengelegt wurden, diese Berichtigung oder Löschung der Daten oder Einschränkung der Verarbeitung mitzuteilen, es sei denn, dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden.<br />
+Ihnen steht gegenüber dem Verantwortlichen das Recht zu, über diese Empfänger unterrichtet zu werden.</p>
+
+<h2>6. Recht auf Datenübertragbarkeit</h2>
+
+<p>Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie dem Verantwortlichen bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Außerdem haben Sie das Recht diese Daten einem anderen Verantwortlichen ohne Behinderung durch den Verantwortlichen, dem die personenbezogenen Daten bereitgestellt wurden, zu Übermitteln, sofern</p>
+
+<ul>
+	<li>die Verarbeitung auf einer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO oder Art. 9 Abs. 2 lit. a DSGVO oder auf einem Vertrag gem. Art. 6 Abs. 1 lit. b DSGVO beruht und</li>
+	<li>die Verarbeitung mithilfe automatisierter Verfahren erfolgt.</li>
+</ul>
+In Ausübung dieses Rechts haben Sie ferner das Recht, zu erwirken, dass die Sie betreffenden personenbezogenen Daten direkt von einem Verantwortlichen einem anderen Verantwortlichen übermittelt werden, soweit dies technisch machbar ist. Freiheiten und Rechte anderer Personen dürfen hierdurch nicht beeinträchtigt werden.<br />
+Das Recht auf Datenübertragbarkeit gilt nicht für eine Verarbeitung personenbezogener Daten, die für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde.
+<p> </p>
+
+<h2>7. Widerspruchsrecht</h2>
+
+<p>Sie haben das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling.<br />
+Der Verantwortliche verarbeitet die Sie betreffenden personenbezogenen Daten nicht mehr, es sei denn, er kann zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.<br />
+Sie haben die Möglichkeit, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft - ungeachtet der Richtlinie 2002/58/EG - Ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben, bei denen technische Spezifikationen verwendet werden.</p>
+
+<h2>8. Recht auf Widerruf der datenschutzrechtlichen Einwilligungserklärung</h2>
+
+<p>Sie haben das Recht, Ihre datenschutzrechtliche Einwilligungserklärung jederzeit zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt.</p>
+
+<h1>VII <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/datenschutz-speziell/"> Spezifische Datenschutzerklärungen für unsere Dienstleistungen </a></h1>
+ 
+
+<h1>VIII Änderung der Datenschutzerklärung</h1>
+
+<p>Die Staatsbibliothek zu Berlin-PK behält sich vor, die Datenschutzerklärung entsprechend der technischen Weiterentwicklung und veränderter gesetzlicher Rahmenbedingungen anzupassen. Den jeweiligen Stand dieser Datenschutzerklärung finden Sie am Ende der Erklärung.</p>
+
+<p><b>Stand: Februar 2020</b></p>
+</div>
+</section><section xml:lang="en" title="Policy"><h1>Test</h1>
+</section><meta><log lastEditor="administrator" date="2020-11-27" time="13:17" /></meta></MyCoReWebPage>
