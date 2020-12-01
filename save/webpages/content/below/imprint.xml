@@ -2,58 +2,67 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
     <section xml:lang="de" title="Impressum">
-        <h1>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</h1>
+        <div class="row">
+            <div class="col-md-10" lang="de">
+                <h1>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</h1>
 
-        <h2>Impressum</h2>
-        <p>
-            Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur
-            Anbieterkennzeichnung, sowie wichtige rechtliche Hinweise zur Internetpräsenz der Staatsbibliothek zu Berlin
-            - Preußischer Kulturbesitz.
-        </p>
+                <h2>Impressum</h2>
+                <p>
+                    Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur
+                    Anbieterkennzeichnung, sowie wichtige rechtliche Hinweise zur Internetpräsenz der Staatsbibliothek
+                    zu Berlin
+                    - Preußischer Kulturbesitz.
+                </p>
 
-        <h2>Anbieter</h2>
-        <p>
-            Anbieter dieser Internetpräsenz ist im Rechtssinne die Stiftung Preußischer Kulturbesitz: Staatsbibliothek
-            zu Berlin.
-        </p>
+                <h2>Anbieter</h2>
+                <p>
+                    Anbieter dieser Internetpräsenz ist im Rechtssinne die Stiftung Preußischer Kulturbesitz:
+                    Staatsbibliothek
+                    zu Berlin.
+                </p>
 
-        <p>
-            Stiftung Preußischer Kulturbesitz
-            <br/>
-            Staatsbibliothek zu Berlin
-            <br/>
-            Unter den Linden 8
-            <br/>
-            D-10117 Berlin
-            <br/>
-        </p>
+                <p>
+                    Stiftung Preußischer Kulturbesitz
+                    <br/>
+                    Staatsbibliothek zu Berlin
+                    <br/>
+                    Unter den Linden 8
+                    <br/>
+                    D-10117 Berlin
+                    <br/>
+                </p>
 
-        <p>
-            Tel. +49 30 266 - 0
-        </p>
+                <p>
+                    Tel. +49 30 266 - 0
+                </p>
 
-        <h2>Vertreter</h2>
-        <p>
-            Die Stiftung Preußischer Kulturbesitz wird gesetzlich vertreten durch ihren Präsidenten, Herrn Prof. Dr. Dr.
-            hc. mult. Hermann Parzinger. Dieser wird vertreten durch die Generaldirektorin der Staatsbibliothek zu
-            Berlin - Preußischer Kulturbesitz, Frau Barbara Schneider-Kempf.
-        </p>
+                <h2>Vertreter</h2>
+                <p>
+                    Die Stiftung Preußischer Kulturbesitz wird gesetzlich vertreten durch ihren Präsidenten, Herrn Prof.
+                    Dr. Dr.
+                    hc. mult. Hermann Parzinger. Dieser wird vertreten durch die Generaldirektorin der Staatsbibliothek
+                    zu
+                    Berlin - Preußischer Kulturbesitz, Frau Barbara Schneider-Kempf.
+                </p>
 
-        <h3>Umsatzsteueridentifikationsnummer</h3>
-        <p>
-            Die Umsatzsteueridentifikationsnummer der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz lautet: DE
-            811176976
-        </p>
+                <h3>Umsatzsteueridentifikationsnummer</h3>
+                <p>
+                    Die Umsatzsteueridentifikationsnummer der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz
+                    lautet: DE
+                    811176976
+                </p>
 
-        <h2>Redaktion</h2>
-        <p>
-            Zentrale Webredaktion
-            <br/>
-            Staatsbibliothek zu Berlin - Preußischer Kulturbesitz
-            <br/>
-            D-10772 Berlin
-            <br/>
-        </p>
+                <h2>Redaktion</h2>
+                <p>
+                    Zentrale Webredaktion
+                    <br/>
+                    Staatsbibliothek zu Berlin - Preußischer Kulturbesitz
+                    <br/>
+                    D-10772 Berlin
+                    <br/>
+                </p>
+            </div>
+        </div>
     </section>
 
     <meta>

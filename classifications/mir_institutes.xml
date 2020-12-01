@@ -5,295 +5,295 @@
     <label xml:lang="x-uri" text="https://kartdok.sbb-berlin.de/classifications/mir_institutes"/>
     <label xml:lang="en" text="Institutions" description="A list of institutions"/>
     <categories>
-        <category ID="Albert-Ludwigs-Universität-Freiburg">
+        <category ID="albert-ludwigs-universitaet_freiburg">
             <label xml:lang="de" text="Albert-Ludwigs-Universität Freiburg"
                    description="Albert-Ludwigs-Universität Freiburg"/>
         </category>
-        <category ID="Bergische-Universität-Wuppertal">
+        <category ID="bergische_universitaet_wuppertal">
             <label xml:lang="de" text="Bergische Universität Wuppertal" description="Bergische Universität Wuppertal"/>
         </category>
-        <category ID="Beuth-Hochschule-für-Technik-Berlin">
+        <category ID="beuth_hochschule_fuer_technik_berlin">
             <label xml:lang="de" text="Beuth Hochschule für Technik Berlin"
                    description="Beuth Hochschule für Technik Berlin"/>
         </category>
-        <category ID="Bundesamt-für-Kartographie-und-Geodaesie">
+        <category ID="bundesamt_fuer_kartographie_und_geodaesie_bkg">
             <label xml:lang="de" text="Bundesamt für Kartographie und Geodäsie (BKG)"
                    description="Bundesamt für Kartographie und Geodäsie (BKG)"/>
         </category>
-        <category ID="Bundesamt-für-Seeschifffahrt-und-Hydrographie">
+        <category ID="bundesamt_fuer_seeschifffahrt_und_hydrographie_bsh">
             <label xml:lang="de" text="Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
                    description="Bundesamt für Seeschifffahrt und Hydrographie (BSH)"/>
         </category>
-        <category ID="Bundesanstalt-für-Geowissenschaften-und-Rohstoffe">
+        <category ID="bundesanstalt_fuer_geowissenschaften_und_rohstoffe">
             <label xml:lang="de" text="Bundesanstalt für Geowissenschaften und Rohstoffe"
                    description="Bundesanstalt für Geowissenschaften und Rohstoffe"/>
         </category>
-        <category ID="Christian-Albrechts-Universität-zu-Kiel">
+        <category ID="christian-albrechts-universitaet_zu_kiel">
             <label xml:lang="de" text="Christian-Albrechts-Universität zu Kiel"
                    description="Christian-Albrechts-Universität zu Kiel"/>
         </category>
-        <category ID="Collegium-Carolinum">
+        <category ID="collegium_carolinum">
             <label xml:lang="de" text="Collegium Carolinum" description="Collegium Carolinum"/>
         </category>
-        <category ID="Eberhard-Karls-Universität-Tübingen">
+        <category ID="eberhard_karls_universitaet_tuebingen">
             <label xml:lang="de" text="Eberhard Karls Universität Tübingen"
                    description="Eberhard Karls Universität Tübingen"/>
         </category>
-        <category ID="Europa-Universität-Flensburg">
+        <category ID="europa-universitaet_flensburg">
             <label xml:lang="de" text="Europa-Universität Flensburg" description="Europa-Universität Flensburg"/>
         </category>
-        <category ID="Freie-Universität-Berlin">
+        <category ID="freie_universitaet_berlin">
             <label xml:lang="de" text="Freie Universität Berlin" description="Freie Universität Berlin"/>
         </category>
-        <category ID="Friedrich-Alexander-Universität-Erlangen-Nürnberg">
+        <category ID="friedrich-alexander-universitaet_erlangen-nuernberg">
             <label xml:lang="de" text="Friedrich-Alexander-Universität Erlangen-Nürnberg"
                    description="Friedrich-Alexander-Universität Erlangen-Nürnberg"/>
         </category>
-        <category ID="Friedrich-Loeffler-Institut">
+        <category ID="friedrich-loeffler-institut">
             <label xml:lang="de" text="Friedrich-Loeffler-Institut" description="Friedrich-Loeffler-Institut"/>
         </category>
-        <category ID="Friedrich-Schiller-Universität-Jena">
+        <category ID="friedrich-schiller-universitaet_jena">
             <label xml:lang="de" text="Friedrich-Schiller-Universität Jena"
                    description="Friedrich-Schiller-Universität Jena"/>
         </category>
-        <category ID="Geheimes-Staatsarchiv-Preußischer-Kulturbesitz">
+        <category ID="geheimes_staatsarchiv_preussischer_kulturbesitz_gsta_pk">
             <label xml:lang="de" text="Geheimes Staatsarchiv Preußischer Kulturbesitz (GStA PK)"
                    description="Geheimes Staatsarchiv Preußischer Kulturbesitz (GStA PK)"/>
         </category>
-        <category ID="Georg-August-Universität-Göttingen">
+        <category ID="georg-august-universitaet_goettingen">
             <label xml:lang="de" text="Georg-August-Universität Göttingen"
                    description="Georg-August-Universität Göttingen"/>
         </category>
-        <category ID="Goethe-Universität-Frankfurt-am-Main">
+        <category ID="goethe-universitaet_frankfurt_am_main">
             <label xml:lang="de" text="Goethe-Universität Frankfurt am Main"
                    description="Goethe-Universität Frankfurt am Main"/>
         </category>
-        <category ID="Gottfried-Wilhelm-Leibniz-Universität-Hannover">
+        <category ID="gottfried_wilhelm_leibniz_universitaet_hannover">
             <label xml:lang="de" text="Gottfried Wilhelm Leibniz Universität Hannover"
                    description="Gottfried Wilhelm Leibniz Universität Hannover"/>
         </category>
-        <category ID="HafenCity-Universität-Hamburg">
+        <category ID="hafencity_universitaet_hamburg">
             <label xml:lang="de" text="HafenCity Universität Hamburg" description="HafenCity Universität Hamburg"/>
         </category>
-        <category ID="Helmholtz-Zentrum-Potsdam-Deutsches-GeoForschungsZentrum-GFZ">
+        <category ID="helmholtz-zentrum_potsdam_deutsches_geoforschungszentrum_gfz">
             <label xml:lang="de" text="Helmholtz-Zentrum Potsdam Deutsches GeoForschungsZentrum GFZ"
                    description="Helmholtz-Zentrum Potsdam Deutsches GeoForschungsZentrum GFZ"/>
         </category>
-        <category ID="Herder-Institut-für-historische-Ostmitteleuropaforschung">
+        <category ID="herder-institut_fuer_historische_ostmitteleuropaforschung">
             <label xml:lang="de" text="Herder-Institut für historische Ostmitteleuropaforschung"
                    description="Herder-Institut für historische Ostmitteleuropaforschung"/>
         </category>
-        <category ID="Hochschule-für-angewandte-Wissenschaften-München">
+        <category ID="hochschule_fuer_angewandte_wissenschaften_muenchen">
             <label xml:lang="de" text="Hochschule für angewandte Wissenschaften München"
                    description="Hochschule für angewandte Wissenschaften München"/>
         </category>
-        <category ID="Hochschule-für-nachhaltige-Entwicklung-Eberswalde">
+        <category ID="hochschule_fuer_nachhaltige_entwicklung_eberswalde">
             <label xml:lang="de" text="Hochschule für nachhaltige Entwicklung Eberswalde"
                    description="Hochschule für nachhaltige Entwicklung Eberswalde"/>
         </category>
-        <category ID="Hochschule-für-Technik-und-Wirtschaft-Dresden">
+        <category ID="hochschule_fuer_technik_und_wirtschaft_dresden">
             <label xml:lang="de" text="Hochschule für Technik und Wirtschaft Dresden"
                    description="Hochschule für Technik und Wirtschaft Dresden"/>
         </category>
-        <category ID="Hochschule-Karlsruhe---Technik-und-Wirtschaft">
+        <category ID="hochschule_karlsruhe_-_technik_und_wirtschaft">
             <label xml:lang="de" text="Hochschule Karlsruhe - Technik und Wirtschaft"
                    description="Hochschule Karlsruhe - Technik und Wirtschaft"/>
         </category>
-        <category ID="Hochschule-Mainz">
+        <category ID="hochschule_mainz">
             <label xml:lang="de" text="Hochschule Mainz" description="Hochschule Mainz"/>
         </category>
-        <category ID="Humboldt-Universität-zu-Berlin">
+        <category ID="humboldt-universitaet_zu_berlin">
             <label xml:lang="de" text="Humboldt-Universität zu Berlin" description="Humboldt-Universität zu Berlin"/>
         </category>
-        <category ID="Institut-für-donauschwäbische-Geschichte-und-Landeskunde">
+        <category ID="institut_fuer_donauschwaebische_geschichte_und_landeskunde">
             <label xml:lang="de" text="Institut für donauschwäbische Geschichte und Landeskunde"
                    description="Institut für donauschwäbische Geschichte und Landeskunde"/>
         </category>
-        <category ID="Johann-Heinrich-von-Thünen-Institut">
+        <category ID="johann_heinrich_von_thuenen-institut">
             <label xml:lang="de" text="Johann Heinrich von Thünen-Institut"
                    description="Johann Heinrich von Thünen-Institut"/>
         </category>
-        <category ID="Johannes-Gutenberg-Universität-Mainz">
+        <category ID="johannes_gutenberg-universitaet_mainz">
             <label xml:lang="de" text="Johannes Gutenberg-Universität Mainz"
                    description="Johannes Gutenberg-Universität Mainz"/>
         </category>
-        <category ID="Julius-Maximilians-Universität-Würzburg">
+        <category ID="julius-maximilians-universitaet_wuerzburg">
             <label xml:lang="de" text="Julius-Maximilians-Universität Würzburg"
                    description="Julius-Maximilians-Universität Würzburg"/>
         </category>
-        <category ID="Justus-Liebig-Universität-Gießen">
+        <category ID="justus-liebig_universitaet_giessen">
             <label xml:lang="de" text="Justus-Liebig Universität Gießen"
                    description="Justus-Liebig Universität Gießen"/>
         </category>
-        <category ID="Karlsruher-Institut-für-Technologie">
+        <category ID="karlsruher_institut_fuer_technologie">
             <label xml:lang="de" text="Karlsruher Institut für Technologie"
                    description="Karlsruher Institut für Technologie"/>
         </category>
-        <category ID="Katholische-Universität-Eichstätt-Ingolstadt">
+        <category ID="katholische_universitaet_eichstaett-ingolstadt">
             <label xml:lang="de" text="Katholische Universität Eichstätt-Ingolstadt"
                    description="Katholische Universität Eichstätt-Ingolstadt"/>
         </category>
-        <category ID="Landschaftsverband-Westfalen-Lippe-(LWL)">
+        <category ID="landschaftsverband_westfalen-lippe_lwl">
             <label xml:lang="de" text="Landschaftsverband Westfalen-Lippe (LWL)"
                    description="Landschaftsverband Westfalen-Lippe (LWL)"/>
         </category>
-        <category ID="Leibniz-Gemeinschaft">
+        <category ID="leibniz-gemeinschaft">
             <label xml:lang="de" text="Leibniz-Gemeinschaft" description="Leibniz-Gemeinschaft"/>
         </category>
-        <category ID="Leibniz-Institut-für-Länderkunde">
+        <category ID="leibniz-institut_fuer_laenderkunde">
             <label xml:lang="de" text="Leibniz-Institut für Länderkunde"
                    description="Leibniz-Institut für Länderkunde"/>
         </category>
-        <category ID="Leuphana-Universität-Lüneburg">
+        <category ID="leuphana_universitaet_lueneburg">
             <label xml:lang="de" text="Leuphana Universität Lüneburg" description="Leuphana Universität Lüneburg"/>
         </category>
-        <category ID="Ludwig-Maximilians-Universität-München">
+        <category ID="ludwig-maximilians-universitaet_muenchen">
             <label xml:lang="de" text="Ludwig-Maximilians-Universität München"
                    description="Ludwig-Maximilians-Universität München"/>
         </category>
-        <category ID="Martin-Luther-Universität-Halle-Wittenberg">
+        <category ID="martin-luther-universitaet_halle-wittenberg">
             <label xml:lang="de" text="Martin-Luther-Universität Halle-Wittenberg"
                    description="Martin-Luther-Universität Halle-Wittenberg"/>
         </category>
-        <category ID="Niedersächsisches-Institut-für-historische-Küstenforschung">
+        <category ID="niedersaechsisches_institut_fuer_historische_kuestenforschung">
             <label xml:lang="de" text="Niedersächsisches Institut für historische Küstenforschung"
                    description="Niedersächsisches Institut für historische Küstenforschung"/>
         </category>
-        <category ID="Otto-Friedrich-Universität-Bamberg">
+        <category ID="otto-friedrich-universitaet_bamberg">
             <label xml:lang="de" text="Otto-Friedrich-Universität Bamberg"
                    description="Otto-Friedrich-Universität Bamberg"/>
         </category>
-        <category ID="Pädagogische-Hochschule-Ludwigsburg">
+        <category ID="paedagogische_hochschule_ludwigsburg">
             <label xml:lang="de" text="Pädagogische Hochschule Ludwigsburg"
                    description="Pädagogische Hochschule Ludwigsburg"/>
         </category>
-        <category ID="Philipps-Universität-Marburg">
+        <category ID="philipps-universitaet_marburg">
             <label xml:lang="de" text="Philipps-Universität Marburg" description="Philipps-Universität Marburg"/>
         </category>
-        <category ID="Rheinische-Friedrich-Wilhelms-Universität-Bonn">
+        <category ID="rheinische_friedrich-wilhelms-universitaet_bonn">
             <label xml:lang="de" text="Rheinische Friedrich-Wilhelms-Universität Bonn"
                    description="Rheinische Friedrich-Wilhelms-Universität Bonn"/>
         </category>
-        <category ID="Rheinisch-Westfälische-Technische-Hochschule-Aachen">
+        <category ID="rheinisch-westfaelische_technische_hochschule_aachen">
             <label xml:lang="de" text="Rheinisch-Westfälische Technische Hochschule Aachen"
                    description="Rheinisch-Westfälische Technische Hochschule Aachen"/>
         </category>
-        <category ID="Ruhr-Universität-Bochum">
+        <category ID="ruhr-universitaet_bochum">
             <label xml:lang="de" text="Ruhr-Universität Bochum" description="Ruhr-Universität Bochum"/>
         </category>
-        <category ID="Staatsbibliothek-zu-Berlin---Preußischer-Kulturbesitz">
+        <category ID="staatsbibliothek_zu_berlin_-_preussischer_kulturbesitz">
             <label xml:lang="de" text="Staatsbibliothek zu Berlin - Preußischer Kulturbesitz"
                    description="Staatsbibliothek zu Berlin - Preußischer Kulturbesitz"/>
         </category>
-        <category ID="Stiftung-Preußischer-Kulturbesitz">
+        <category ID="stiftung_preussischer_kulturbesitz">
             <label xml:lang="de" text="Stiftung Preußischer Kulturbesitz"
                    description="Stiftung Preußischer Kulturbesitz"/>
         </category>
-        <category ID="Technische-Universität-Berlin">
+        <category ID="technische_universitaet_berlin">
             <label xml:lang="de" text="Technische Universität Berlin" description="Technische Universität Berlin"/>
         </category>
-        <category ID="Technische-Universität-Braunschweig">
+        <category ID="technische_universitaet_braunschweig">
             <label xml:lang="de" text="Technische Universität Braunschweig"
                    description="Technische Universität Braunschweig"/>
         </category>
-        <category ID="Technische-Universität-Chemnitz">
+        <category ID="technische_universitaet_chemnitz">
             <label xml:lang="de" text="Technische Universität Chemnitz" description="Technische Universität Chemnitz"/>
         </category>
-        <category ID="Technische-Universität-Darmstadt">
+        <category ID="technische_universitaet_darmstadt">
             <label xml:lang="de" text="Technische Universität Darmstadt"
                    description="Technische Universität Darmstadt"/>
         </category>
-        <category ID="Technische-Universität-Dortmund">
+        <category ID="technische_universitaet_dortmund">
             <label xml:lang="de" text="Technische Universität Dortmund" description="Technische Universität Dortmund"/>
         </category>
-        <category ID="Technische-Universität-Dresden">
+        <category ID="technische_universitaet_dresden">
             <label xml:lang="de" text="Technische Universität Dresden" description="Technische Universität Dresden"/>
         </category>
-        <category ID="Technische-Universität-München">
+        <category ID="technische_universitaet_muenchen">
             <label xml:lang="de" text="Technische Universität München" description="Technische Universität München"/>
         </category>
-        <category ID="Union-der-deutschen-Akademien-der-Wissenschaften">
+        <category ID="union_der_deutschen_akademien_der_wissenschaften">
             <label xml:lang="de" text="Union der deutschen Akademien der Wissenschaften"
                    description="Union der deutschen Akademien der Wissenschaften"/>
         </category>
-        <category ID="Universität-Augsburg">
+        <category ID="universitaet_augsburg">
             <label xml:lang="de" text="Universität Augsburg" description="Universität Augsburg"/>
         </category>
-        <category ID="Universität-Bayreuth">
+        <category ID="universitaet_bayreuth">
             <label xml:lang="de" text="Universität Bayreuth" description="Universität Bayreuth"/>
         </category>
-        <category ID="Universität-Bielefeld">
+        <category ID="universitaet_bielefeld">
             <label xml:lang="de" text="Universität Bielefeld" description="Universität Bielefeld"/>
         </category>
-        <category ID="Universität-Bremen">
+        <category ID="universitaet_bremen">
             <label xml:lang="de" text="Universität Bremen" description="Universität Bremen"/>
         </category>
-        <category ID="Universität-des-Saarlandes">
+        <category ID="universitaet_des_saarlandes">
             <label xml:lang="de" text="Universität des Saarlandes" description="Universität des Saarlandes"/>
         </category>
-        <category ID="Universität-Duisburg-Essen">
+        <category ID="universitaet_duisburg-essen">
             <label xml:lang="de" text="Universität Duisburg-Essen" description="Universität Duisburg-Essen"/>
         </category>
-        <category ID="Universität-Greifswald">
+        <category ID="universitaet_greifswald">
             <label xml:lang="de" text="Universität Greifswald" description="Universität Greifswald"/>
         </category>
-        <category ID="Universität-Hamburg">
+        <category ID="universitaet_hamburg">
             <label xml:lang="de" text="Universität Hamburg" description="Universität Hamburg"/>
         </category>
-        <category ID="Universität-Heidelberg">
+        <category ID="universitaet_heidelberg">
             <label xml:lang="de" text="Universität Heidelberg" description="Universität Heidelberg"/>
         </category>
-        <category ID="Universität-Koblenz-·-Landau">
-            <label xml:lang="de" text="Universität Koblenz · Landau" description="Universität Koblenz · Landau"/>
+        <category ID="universitaet_koblenz_landau">
+            <label xml:lang="de" text="Universität Koblenz · Landau" description="Universität Koblenz-Landau"/>
         </category>
-        <category ID="Universität-Leipzig">
+        <category ID="universitaet_leipzig">
             <label xml:lang="de" text="Universität Leipzig" description="Universität Leipzig"/>
         </category>
-        <category ID="Universität-Mannheim">
+        <category ID="universitaet_mannheim">
             <label xml:lang="de" text="Universität Mannheim" description="Universität Mannheim"/>
         </category>
-        <category ID="Universität-Osnabrück">
+        <category ID="universitaet_osnabrueck">
             <label xml:lang="de" text="Universität Osnabrück" description="Universität Osnabrück"/>
         </category>
-        <category ID="Universität-Paderborn">
+        <category ID="universitaet_paderborn">
             <label xml:lang="de" text="Universität Paderborn" description="Universität Paderborn"/>
         </category>
-        <category ID="Universität-Passau">
+        <category ID="universitaet_passau">
             <label xml:lang="de" text="Universität Passau" description="Universität Passau"/>
         </category>
-        <category ID="Universität-Potsdam">
+        <category ID="universitaet_potsdam">
             <label xml:lang="de" text="Universität Potsdam" description="Universität Potsdam"/>
         </category>
-        <category ID="Universität-Regensburg">
+        <category ID="universitaet_regensburg">
             <label xml:lang="de" text="Universität Regensburg" description="Universität Regensburg"/>
         </category>
-        <category ID="Universität-Siegen">
+        <category ID="universitaet_siegen">
             <label xml:lang="de" text="Universität Siegen" description="Universität Siegen"/>
         </category>
-        <category ID="Universität-Stuttgart">
+        <category ID="universitaet_stuttgart">
             <label xml:lang="de" text="Universität Stuttgart" description="Universität Stuttgart"/>
         </category>
-        <category ID="Universität-Trier">
+        <category ID="universitaet_trier">
             <label xml:lang="de" text="Universität Trier" description="Universität Trier"/>
         </category>
-        <category ID="Universität-Vechta">
+        <category ID="universitaet_vechta">
             <label xml:lang="de" text="Universität Vechta" description="Universität Vechta"/>
         </category>
-        <category ID="Universität-Wien">
+        <category ID="universitaet_wien">
             <label xml:lang="de" text="Universität Wien" description="Universität Wien"/>
         </category>
-        <category ID="Universität-zu-Köln">
+        <category ID="universitaet_zu_koeln">
             <label xml:lang="de" text="Universität zu Köln" description="Universität zu Köln"/>
         </category>
-        <category ID="Westfälische-Wilhelms-Universität-Münster">
+        <category ID="westfaelische_wilhelms-universitaet_muenster">
             <label xml:lang="de" text="Westfälische Wilhelms-Universität Münster"
                    description="Westfälische Wilhelms-Universität Münster"/>
         </category>
-        <category ID="Zentrum-für-Militärgeschichte-und-Sozialwissenschaften-der-Bundeswehr">
+        <category ID="zentrum_fuer_militaergeschichte_und_sozialwissenschaften_der_bundeswehr">
             <label xml:lang="de" text="Zentrum für Militärgeschichte und Sozialwissenschaften der Bundeswehr"
                    description="Zentrum für Militärgeschichte und Sozialwissenschaften der Bundeswehr"/>
         </category>
-        <category ID="Internationale-Forschungseinrichtungen">
+        <category ID="internationale_forschungseinrichtungen">
             <label xml:lang="de" text="Internationale Forschungseinrichtungen"
                    description="Internationale Forschungseinrichtungen"/>
         </category>
