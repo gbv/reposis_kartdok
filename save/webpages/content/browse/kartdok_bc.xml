@@ -3,7 +3,7 @@
 
 <MyCoReWebPage>
 
-    <section i18n="browse.mods.institution.corporate" xml:lang="all">
+    <section i18n="browse.kartdok_bc.title" xml:lang="all">
         <div class="row">
             <div class="col-md-8" lang="de">
                 <h3>
