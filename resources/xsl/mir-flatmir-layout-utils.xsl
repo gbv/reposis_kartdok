@@ -106,12 +106,14 @@
   <xsl:template name="mir.footer">
     <div class="container container-no-padding">
       <div class="row">
-        <div class="col-12 col-sm-6 col-lg-8 col-xl-9">
+        <div class="col-12">
           <ul class="internal_links nav navbar-nav">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>
         </div>
-        <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex flex-column logo-section">
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center logo-section">
           <a href="https://kartographie.staatsbibliothek-berlin.de/" title="FID Karten Home" class="logo">
             <span class="fid logo main">
               FID KARTEN
@@ -121,10 +123,6 @@
               Kartographie und Geobasisdaten
             </span>
           </a>
-          <!--a class="sbb logo" href="http://www.staatsbibliothek-berlin.de" target="_blank">
-            <span>Ein Dienst der</span><br/>
-            <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/web_footer-sbb-weiss-180x40.png" />
-          </a-->
           <a class="dfg logo" href="http://www.dfg.de" target="_blank">
             <span>Gefördert durch</span><br />
             <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/web_footer-dfg-weiss.png" />

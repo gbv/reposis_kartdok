@@ -27,7 +27,7 @@
 .nav-link {
   font-family: $font-family-serif;
   text-transform: uppercase;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   font-size: 18px;
   font-weight: normal;
   color: $projectMenuBlue !important;
@@ -91,11 +91,6 @@
   color: white !important;
 }
 
-html[lang="en"] .flatmir-footer .nav-link:first-child,
-html[lang="de"] .flatmir-footer .nav-link:nth-child(2) {
-  display: none;
-}
-
 .flatmir-footer .nav-link {
   padding: 0; // override mir settings
 }
@@ -118,7 +113,7 @@ footer {
   }
 }
 .internal_links {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .internal_links  > li:first-child a,
 #mir-main-nav__entries > ul > li:first-child > a {
@@ -129,7 +124,7 @@ footer {
 }
 
 .logo-section {
-  margin-top: 1rem;
+  margin: 0;
   a.logo {
     display: inline-block;
     margin: 0px 0 0px 0;
@@ -144,21 +139,29 @@ footer {
     width: 100%;
   }
   .fid.logo.main {
-    font-size: 30px;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 30px;
     line-height: 25px;
     text-transform: uppercase;
   }
   .fid.logo.sub {
-    font-size: 19px;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 1.2;
     padding-left: 0px;
   }
+  .logo.dfg {
+    span {
+      font-size: 0.8rem;
+    }
+  }
+  .dfg_logo {
+    width: 180px;
+  }
 }
-
+#powered_by {
+  padding: 1em 0px;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
