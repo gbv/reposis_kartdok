@@ -44,7 +44,7 @@
             <label xml:lang="de">einfach</label>
             <label xml:lang="en">simple</label>
         </item>
-        <item href="/content/search/complex.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/search/complex_intern.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">komplex</label>
             <label xml:lang="en">complex</label>
         </item>
