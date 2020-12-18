@@ -109,4 +109,10 @@ header {
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .project_logo_box {
+    flex-direction: column;
+    .project_parent_logo {
+      align-self: flex-end;
+    }
+  }
 }

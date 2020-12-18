@@ -22,6 +22,9 @@ $(document).ready(function() {
   var newHref = 'https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
   $("a[href='https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
 
+  // prevent dropdown from leaving visible page area
+  $(".language-menu").addClass('dropdown-menu-right');
+
 });
 
 $( document ).ajaxComplete(function() {

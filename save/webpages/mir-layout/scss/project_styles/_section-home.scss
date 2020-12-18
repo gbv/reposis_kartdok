@@ -67,4 +67,13 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  #project-index-search {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  #project-searchMainPage button,
+  #project-searchInput {
+    font-size: 1rem;
+  }
 }

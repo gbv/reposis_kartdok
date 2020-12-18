@@ -98,6 +98,7 @@
 footer {
   .nav-link {
     padding: 0;
+    margin-bottom: 0.5rem;
     a {
       padding: 0.5rem 1rem;
       font-size: 0.9rem;
@@ -120,7 +121,7 @@ footer {
   padding-left: 0;
 }
 .internal_links.navbar-nav {
-  justify-content: flex-start;
+  justify-content: flex-center;
 }
 
 .logo-section {
@@ -166,14 +167,31 @@ footer {
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
+  .internal_links  > li:first-child a {
+    padding-left: 1rem;
+  }
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+  #mir-main-nav__entries > ul > li:first-child > a {
+    padding-left: 1rem;
+  }
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
   .internal_links.navbar-nav {
     flex-direction: column;
     justify-content: flex-start;
   }
-  .internal_links  > li:first-child a {
-    padding-left: 1rem;
-  }
-
   footer {
     .nav-link {
       a {
@@ -190,21 +208,6 @@ footer {
       }
     }
   }
-}
-
-// Medium devices (tablets) and below: <= 992px
-@include media-breakpoint-down(md) {
-  // add/overwrite styles for responsive level md and lower
-}
-
-// Small devices (landscape phones) and below: <= 768px
-@include media-breakpoint-down(sm) {
-  // add/overwrite styles for responsive level sm and lower
-}
-
-// Extra small devices (portrait phones): <= 576px
-@include media-breakpoint-down(xs) {
-  // add/overwrite styles for responsive level xs
   .logo-section {
     margin-left: 1rem;
   }

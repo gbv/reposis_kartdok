@@ -10,6 +10,16 @@ h1, h2, h3, h4, h5, h6 {
   color: $projectLink;
 }
 
+a {
+  text-decoration: underline;
+}
+header a,
+footer a,
+a.btn,
+ul.names li a {
+  text-decoration: none;
+}
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
@@ -29,6 +39,6 @@ h1, h2, h3, h4, h5, h6 {
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }

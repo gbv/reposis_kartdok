@@ -4,7 +4,7 @@
     <section xml:lang="de" title="KartDok - Repositorium Kartographie">
         <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
             <div class="row">
-                <div class="col-md-9 offset-md-2" lang="de">
+                <div class="col-12 col-md-9 offset-md-2" lang="de">
                     <h1>
                         KartDok
                         <br/>
