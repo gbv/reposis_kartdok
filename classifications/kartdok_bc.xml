@@ -1,1269 +1,1267 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="kartdok_bc">
-    <label xml:lang="x-uri" text="https://karten.sbb-berlin.de/classifications/genres"/>
-    <label xml:lang="de" text="KartDok BC" description="Liste der Kategorien"/>
-    <categories>
-        <category ID="a">
-            <label xml:lang="de" text="Bibliographie, Dokumentation, Allgemeines Schrifttum"/>
-            <category ID="a_1">
-                <label xml:lang="de"
-                       text="Bibliographie, Dokumentation, Allgemeines Schrifttum / Allgemeine Hilfsmittel"/>
-            </category>
-            <category ID="a_2">
-                <label xml:lang="de" text="Bibliographien, Kataloge"/>
-            </category>
-            <category ID="a_3">
-                <label xml:lang="de" text="Dokumentation, Klassifikation"/>
-            </category>
-            <category ID="a_4">
-                <label xml:lang="de" text="Gesamtdarstellungen der Kartographie, Sammelwerke"/>
-            </category>
-            <category ID="a_5">
-                <label xml:lang="de" text="Periodika"/>
-            </category>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="kartdok_bc">
+  <label xml:lang="x-uri" text="https://karten.sbb-berlin.de/classifications/genres"/>
+  <label xml:lang="de" text="KartDok BC" description="Liste der Kategorien"/>
+  <categories>
+    <category ID="a">
+      <label xml:lang="de" text="A Bibliographie, Dokumentation, Allgemeines Schrifttum"/>
+      <category ID="a_1">
+        <label xml:lang="de" text="A.1 Bibliographie, Dokumentation, Allgemeines Schrifttum / Allgemeine Hilfsmittel"/>
+      </category>
+      <category ID="a_2">
+        <label xml:lang="de" text="A.2 Bibliographien, Kataloge"/>
+      </category>
+      <category ID="a_3">
+        <label xml:lang="de" text="A.3 Dokumentation, Klassifikation"/>
+      </category>
+      <category ID="a_4">
+        <label xml:lang="de" text="A.4 Gesamtdarstellungen der Kartographie, Sammelwerke"/>
+      </category>
+      <category ID="a_5">
+        <label xml:lang="de" text="A.5 Periodika"/>
+      </category>
+    </category>
+    <category ID="b">
+      <label xml:lang="de" text="B Geschichte der Kartographie"/>
+      <category ID="b_1">
+        <label xml:lang="de" text="B.1 Geschichte der Kartographie / Allgemeines"/>
+      </category>
+      <category ID="b_2">
+        <label xml:lang="de" text="B.2 Regionale Geschichte der Kartographie"/>
+        <category ID="b_2_a">
+          <label xml:lang="de" text="B.2.a Regionale Geschichte der Kartographie / Welt"/>
         </category>
-        <category ID="b">
-            <label xml:lang="de" text="Geschichte der Kartographie"/>
-            <category ID="b_1">
-                <label xml:lang="de" text="Geschichte der Kartographie / Allgemeines"/>
-            </category>
-            <category ID="b_2">
-                <label xml:lang="de" text="Regionale Geschichte der Kartographie"/>
-                <category ID="b_2_a">
-                    <label xml:lang="de" text="Regionale Geschichte der Kartographie / Welt"/>
-                </category>
-                <category ID="b_2_b">
-                    <label xml:lang="de" text="Regionale Geschichte der Kartographie / Ozeane und Meere"/>
-                    <category ID="b_2_b_mittelmeer">
-                        <label xml:lang="de" text="Regionale Geschichte der Kartographie / Mittelmeer"/>
-                    </category>
-                </category>
-                <category ID="b_2_c">
-                    <label xml:lang="de" text="Regionale Geschichte der Kartographie / Afrika"/>
-                </category>
-                <category ID="b_2_d">
-                    <label xml:lang="de" text="Regionale Geschichte der Kartographie / Amerika"/>
-                </category>
-                <category ID="b_2_e">
-                    <label xml:lang="de" text="Regionale Geschichte der Kartographie / Asien"/>
-                </category>
-                <category ID="b_2_f">
-                    <label xml:lang="de" text="Regionale Geschichte der Kartographie / Australien und Ozeanien"/>
-                </category>
-                <category ID="b_2_g">
-                    <label xml:lang="de" text="Regionale Geschichte der Kartographie / Europa"/>
-                    <category ID="b_2_g_deutschland">
-                        <label xml:lang="de" text="Deutschland"/>
-                    </category>
-                    <category ID="b_2_g_deutschland_historisch">
-                        <label xml:lang="de" text="Deutschland historisch"/>
-                    </category>
-                </category>
-                <category ID="b_2_h">
-                    <label xml:lang="de" text="Regionale Geschichte der Kartographie / Polargebiete"/>
-                </category>
-                <category ID="b_2_i">
-                    <label xml:lang="de" text="Regionale Geschichte der Kartographie / Weltraum"/>
-                </category>
-            </category>
-            <category ID="b_3">
-                <label xml:lang="de" text="Epochen der Geschichte der Kartographie"/>
-                <category ID="b_3_a">
-                    <label xml:lang="de" text="Epochen der Geschichte der Kartographie / Allgemeines"/>
-                </category>
-                <category ID="b_3_b">
-                    <label xml:lang="de" text="Antike"/>
-                </category>
-                <category ID="b_3_c">
-                    <label xml:lang="de" text="Mittelalter"/>
-                </category>
-                <category ID="b_3_d">
-                    <label xml:lang="de" text="Renaissance"/>
-                </category>
-                <category ID="b_3_e">
-                    <label xml:lang="de" text="Barock"/>
-                </category>
-                <category ID="b_3_f">
-                    <label xml:lang="de" text="Moderne"/>
-                </category>
-            </category>
+        <category ID="b_2_b">
+          <label xml:lang="de" text="B.2.b Regionale Geschichte der Kartographie / Ozeane und Meere"/>
+          <category ID="b_2_b_mittelmeer">
+            <label xml:lang="de" text="B.2.b.Mittelmeer Regionale Geschichte der Kartographie / Mittelmeer"/>
+          </category>
         </category>
-        <category ID="c">
-            <label xml:lang="de" text="Persönlichkeiten der Kartographie"/>
-            <category ID="c_z">
-                <label xml:lang="de" text="Biographie, Persönliches"/>
-            </category>
+        <category ID="b_2_c">
+          <label xml:lang="de" text="B.2.c Regionale Geschichte der Kartographie / Afrika"/>
         </category>
-        <category ID="d">
-            <label xml:lang="de" text="Organisationen und Institutionen der Kartographie"/>
-            <category ID="d_1">
-                <label xml:lang="de" text="Organisation und Institutionen der Kartographie / Allgemeines"/>
-            </category>
-            <category ID="d_2">
-                <label xml:lang="de" text="Kartographische Gesellschaften"/>
-            </category>
-            <category ID="d_3">
-                <label xml:lang="de" text="Institutionen der Lehre und Forschung"/>
-            </category>
-            <category ID="d_4">
-                <label xml:lang="de" text="Kartographische Ausbildung"/>
-            </category>
-            <category ID="d_5">
-                <label xml:lang="de" text="Kartenhersteller"/>
-            </category>
-            <category ID="d_6">
-                <label xml:lang="de" text="Kartensammlungen"/>
-            </category>
-            <category ID="d_7">
-                <label xml:lang="de" text="Veranstaltungen, Tagungen, Ausstellungen"/>
-            </category>
-            <category ID="d_8">
-                <label xml:lang="de" text="Rechtsfragen, Urheberrecht"/>
-            </category>
+        <category ID="b_2_d">
+          <label xml:lang="de" text="B.2.d Regionale Geschichte der Kartographie / Amerika"/>
         </category>
-        <category ID="e">
-            <label xml:lang="de" text="Theoretische Kartographie"/>
-            <category ID="e_1">
-                <label xml:lang="de" text="Wesen der Kartographie"/>
-            </category>
-            <category ID="e_2">
-                <label xml:lang="de" text="Kartographische Terminologie"/>
-            </category>
-            <category ID="e_3">
-                <label xml:lang="de" text="Theoretische Grundlagen der Kartographie"/>
-            </category>
-            <category ID="e_4">
-                <label xml:lang="de" text="Graphische Grundlagen der Kartographie"/>
-            </category>
-            <category ID="e_5">
-                <label xml:lang="de" text="Kartendaten"/>
-                <category ID="e_5_a">
-                    <label xml:lang="de" text="Geodäsie, Vermessung, Topographie"/>
-                </category>
-                <category ID="e_5_b">
-                    <label xml:lang="de" text="Photogrammetrie, Fernerkundung"/>
-                </category>
-                <category ID="e_5_c">
-                    <label xml:lang="de" text="Thematische Kartendaten"/>
-                </category>
-            </category>
-            <category ID="e_6">
-                <label xml:lang="de" text="Kartenentwurf und Kartengestaltung"/>
-                <category ID="e_6_a">
-                    <label xml:lang="de" text="Kartenredaktion"/>
-                </category>
-                <category ID="e_6_b">
-                    <label xml:lang="de" text="Kartentypen, Kartographische Methoden"/>
-                </category>
-                <category ID="e_6_c">
-                    <label xml:lang="de" text="Kartenmaßstab, Blattschnitt, Blattbezeichnung"/>
-                </category>
-                <category ID="e_6_d">
-                    <label xml:lang="de" text="Kartennetzentwurf, mathematische Kartographie"/>
-                </category>
-                <category ID="e_6_e">
-                    <label xml:lang="de" text="Legende, Zeichenvorschriften, Musterblätter, Signaturenmaßstab"/>
-                </category>
-                <category ID="e_6_f">
-                    <label xml:lang="de" text="Generalisierung"/>
-                </category>
-                <category ID="e_6_g">
-                    <label xml:lang="de" text="Namenschreibung, Ortsnamenkunde"/>
-                </category>
-            </category>
-            <category ID="e_7">
-                <label xml:lang="de" text="Kartenaktualisierung"/>
-            </category>
+        <category ID="b_2_e">
+          <label xml:lang="de" text="B.2.e Regionale Geschichte der Kartographie / Asien"/>
         </category>
-        <category ID="f">
-            <label xml:lang="de" text="Kartenherstellung, Praktische Kartographie"/>
-            <category ID="f_1">
-                <label xml:lang="de" text="Kartenherstellung, Praktische Kartographie / Allgemeines"/>
-            </category>
-            <category ID="f_2">
-                <label xml:lang="de" text="Herkömmliche Zeichenund Reproduktionsverfahren"/>
-                <category ID="f_2_a">
-                    <label xml:lang="de" text="Zeichenund Reproduktionsverfahren / Allgemeines"/>
-                </category>
-                <category ID="f_2_b">
-                    <label xml:lang="de" text="Zeichenverfahren, Gravurverfahren"/>
-                </category>
-                <category ID="f_2_c">
-                    <label xml:lang="de" text="Kartenbeschriftungsverfahren"/>
-                </category>
-                <category ID="f_2_d">
-                    <label xml:lang="de" text="Photographische Reproduktionsverfahren"/>
-                </category>
-                <category ID="f_2_e">
-                    <label xml:lang="de" text="Nichtphotographische Reproduktionsverfahren"/>
-                </category>
-                <category ID="f_2_f">
-                    <label xml:lang="de" text="Vervielfältigungsverfahren, Druckverfahren"/>
-                </category>
-            </category>
-            <category ID="f_3">
-                <label xml:lang="de" text="Rechnergestützte Kartentechnik"/>
-                <category ID="f_3_a">
-                    <label xml:lang="de" text="Rechnergestützte Kartentechnik / Allgemeines"/>
-                </category>
-                <category ID="f_3_b">
-                    <label xml:lang="de" text="Verfahren der Datenerfassung und Datenspeicherung"/>
-                </category>
-                <category ID="f_3_c">
-                    <label xml:lang="de" text="Verfahren der Datenaufbereitung, digitale Generalisierung"/>
-                </category>
-                <category ID="f_3_d">
-                    <label xml:lang="de" text="Digitale Geländemodelle"/>
-                </category>
-                <category ID="f_3_e">
-                    <label xml:lang="de" text="Verfahren der Datenausgabe"/>
-                </category>
-            </category>
+        <category ID="b_2_f">
+          <label xml:lang="de" text="B.2.f Regionale Geschichte der Kartographie / Australien und Ozeanien"/>
         </category>
-        <category ID="g">
-            <label xml:lang="de" text="Raumbezogene Informationssysteme"/>
-            <category ID="g_1">
-                <label xml:lang="de" text="Raumbezogene Informationssysteme / Allgemeines, graphische Datenbanken"/>
-            </category>
-            <category ID="g_2">
-                <label xml:lang="de" text="Geographische Informationssysteme (GIS)"/>
-            </category>
-            <category ID="g_3">
-                <label xml:lang="de" text="Landinformationssysteme (LIS)"/>
-            </category>
+        <category ID="b_2_g">
+          <label xml:lang="de" text="B.2.g Regionale Geschichte der Kartographie / Europa"/>
+          <category ID="b_2_g_deutschland">
+            <label xml:lang="de" text="B.2.g.Deutschland Deutschland"/>
+          </category>
+          <category ID="b_2_g_deutschland_historisch">
+            <label xml:lang="de" text="B.2.g.Deutschland_historisch Deutschland historisch"/>
+          </category>
         </category>
-        <category ID="h">
-            <label xml:lang="de" text="Topographische Kartographie"/>
-            <category ID="h_1">
-                <label xml:lang="de" text="Topographische Kartographie / Allgemeines u. Zeichenvorschriften"/>
-            </category>
-            <category ID="h_2">
-                <label xml:lang="de" text="Maßstabsbestimmte Kartengruppen"/>
-                <category ID="h_2_a">
-                    <label xml:lang="de" text="Topographische Kartographie / Karten bis 1:10000"/>
-                </category>
-                <category ID="h_2_b">
-                    <label xml:lang="de" text="Topographische Kartographie / Karten von 1:10000 bis 1:300000"/>
-                </category>
-                <category ID="h_2_c">
-                    <label xml:lang="de" text="Topographische Kartographie / Karten kleiner als 1:300000"/>
-                </category>
-            </category>
-            <category ID="h_3">
-                <label xml:lang="de" text="Inhaltselemente topographischer Karten"/>
-                <category ID="h_3_a">
-                    <label xml:lang="de" text="Situation"/>
-                </category>
-                <category ID="h_3_b">
-                    <label xml:lang="de" text="Gelände"/>
-                </category>
-            </category>
+        <category ID="b_2_h">
+          <label xml:lang="de" text="B.2.h Regionale Geschichte der Kartographie / Polargebiete"/>
         </category>
-        <category ID="i">
-            <label xml:lang="de" text="Thematische Kartographie"/>
-            <category ID="i_1">
-                <label xml:lang="de" text="Thematische Kartographie / Allgemeines, Zeichenvorschriften"/>
-            </category>
-            <category ID="i_2">
-                <label xml:lang="de" text="Thematische Kartographie / Karten in verschiedenen Maßstäben"/>
-                <category ID="i_2_a">
-                    <label xml:lang="de" text="Thematische Kartographie / Karten bis 1:10000"/>
-                </category>
-                <category ID="i_2_b">
-                    <label xml:lang="de" text="Thematische Kartographie / Karten von 1:10000 bis 1:300000"/>
-                </category>
-                <category ID="i_2_c">
-                    <label xml:lang="de" text="Thematische Kartographie / Karten kleiner als 1:300000"/>
-                </category>
-            </category>
-            <category ID="i_3">
-                <label xml:lang="de" text="Inhaltsbestimmte Kartengruppen"/>
-                <category ID="i_3_architektur">
-                    <label xml:lang="de" text="Architektur"/>
-                </category>
-                <category ID="i_3_archaeologie">
-                    <label xml:lang="de" text="Archäologie"/>
-                </category>
-                <category ID="i_3_astronomie">
-                    <label xml:lang="de" text="Astronomie"/>
-                </category>
-                <category ID="i_3_bergbau">
-                    <label xml:lang="de" text="Bergbau"/>
-                </category>
-                <category ID="i_3_bevoelkerung">
-                    <label xml:lang="de" text="Bevölkerung"/>
-                </category>
-                <category ID="i_3_biologie">
-                    <label xml:lang="de" text="Biologie"/>
-                </category>
-                <category ID="i_3_bodennutzung">
-                    <label xml:lang="de" text="Bodennutzung"/>
-                </category>
-                <category ID="i_3_bodenschaetze">
-                    <label xml:lang="de" text="Bodenschätze"/>
-                </category>
-                <category ID="i_3_boeden">
-                    <label xml:lang="de" text="Böden"/>
-                </category>
-                <category ID="i_3_demographie">
-                    <label xml:lang="de" text="Demographie"/>
-                </category>
-                <category ID="i_3_ethnographie">
-                    <label xml:lang="de" text="Ethnographie"/>
-                </category>
-                <category ID="i_3_ethnologie">
-                    <label xml:lang="de" text="Ethnologie"/>
-                </category>
-                <category ID="i_3_forstwirtschaft">
-                    <label xml:lang="de" text="Forstwirtschaft"/>
-                </category>
-                <category ID="i_3_geochemie">
-                    <label xml:lang="de" text="Geochemie"/>
-                </category>
-                <category ID="i_3_geologie">
-                    <label xml:lang="de" text="Geologie"/>
-                </category>
-                <category ID="i_3_geomorphologie">
-                    <label xml:lang="de" text="Geomorphologie"/>
-                </category>
-                <category ID="i_3_geophysik">
-                    <label xml:lang="de" text="Geophysik"/>
-                </category>
-                <category ID="i_3_geowissenschaften">
-                    <label xml:lang="de" text="Geowissenschaften"/>
-                </category>
-                <category ID="i_3_geschichte">
-                    <label xml:lang="de" text="Geschichte"/>
-                </category>
-                <category ID="i_3_glaziologie">
-                    <label xml:lang="de" text="Glaziologie"/>
-                </category>
-                <category ID="i_3_hydrographie">
-                    <label xml:lang="de" text="Hydrographie"/>
-                </category>
-                <category ID="i_3_hydrologie">
-                    <label xml:lang="de" text="Hydrologie"/>
-                </category>
-                <category ID="i_3_industrie">
-                    <label xml:lang="de" text="Industrie"/>
-                </category>
-                <category ID="i_3_infrastruktur">
-                    <label xml:lang="de" text="Infrastruktur"/>
-                </category>
-                <category ID="i_3_klimatologie_und_meteorologie">
-                    <label xml:lang="de" text="Klimatologie und Meteorologie"/>
-                </category>
-                <category ID="i_3_kultur">
-                    <label xml:lang="de" text="Kultur"/>
-                </category>
-                <category ID="i_3_landnutzung">
-                    <label xml:lang="de" text="Landnutzung"/>
-                </category>
-                <category ID="i_3_landschaft">
-                    <label xml:lang="de" text="Landschaft"/>
-                </category>
-                <category ID="i_3_landwirtschaft">
-                    <label xml:lang="de" text="Landwirtschaft"/>
-                </category>
-                <category ID="i_3_luftbilder">
-                    <label xml:lang="de" text="Luftbilder"/>
-                </category>
-                <category ID="i_3_luftfahrt">
-                    <label xml:lang="de" text="Luftfahrt"/>
-                </category>
-                <category ID="i_3_medizin">
-                    <label xml:lang="de" text="Medizin"/>
-                </category>
-                <category ID="i_3_militaerkartographie">
-                    <label xml:lang="de" text="Militär"/>
-                </category>
-                <category ID="i_3_musik">
-                    <label xml:lang="de" text="Musik"/>
-                </category>
-                <category ID="i_3_ozeanographie">
-                    <label xml:lang="de" text="Ozeanographie"/>
-                </category>
-                <category ID="i_3_palaeographie">
-                    <label xml:lang="de" text="Palaeographie"/>
-                </category>
-                <category ID="i_3_pedologie">
-                    <label xml:lang="de" text="Pedologie"/>
-                </category>
-                <category ID="i_3_planung">
-                    <label xml:lang="de" text="Planung"/>
-                </category>
-                <category ID="i_3_planungskartographie">
-                    <label xml:lang="de" text="Planungskartographie"/>
-                </category>
-                <category ID="i_3_politik">
-                    <label xml:lang="de" text="Politik"/>
-                </category>
-                <category ID="i_3_recht">
-                    <label xml:lang="de" text="Recht"/>
-                </category>
-                <category ID="i_3_religion">
-                    <label xml:lang="de" text="Religion"/>
-                </category>
-                <category ID="i_3_seekarten">
-                    <label xml:lang="de" text="Seekarten"/>
-                </category>
-                <category ID="i_3_siedlung">
-                    <label xml:lang="de" text="Siedlung"/>
-                </category>
-                <category ID="i_3_siedlungen">
-                    <label xml:lang="de" text="Siedlungen"/>
-                </category>
-                <category ID="i_3_soziologie">
-                    <label xml:lang="de" text="Soziologie"/>
-                </category>
-                <category ID="i_3_sprache">
-                    <label xml:lang="de" text="Sprache"/>
-                </category>
-                <category ID="i_3_statistik">
-                    <label xml:lang="de" text="Statistik"/>
-                </category>
-                <category ID="i_3_tourismus">
-                    <label xml:lang="de" text="Tourismus"/>
-                </category>
-                <category ID="i_3_transport">
-                    <label xml:lang="de" text="Transport"/>
-                </category>
-                <category ID="i_3_umwelt">
-                    <label xml:lang="de" text="Umwelt"/>
-                </category>
-                <category ID="i_3_vegetation">
-                    <label xml:lang="de" text="Vegetation"/>
-                </category>
-                <category ID="i_3_verkehr">
-                    <label xml:lang="de" text="Verkehr"/>
-                </category>
-                <category ID="i_3_verwaltung">
-                    <label xml:lang="de" text="Verwaltung"/>
-                </category>
-                <category ID="i_3_volkskunde">
-                    <label xml:lang="de" text="Volkskunde"/>
-                </category>
-                <category ID="i_3_wirtschaft">
-                    <label xml:lang="de" text="Wirtschaft"/>
-                </category>
-                <category ID="i_3_zentralasien">
-                    <label xml:lang="de" text="Zentralasien"/>
-                </category>
-                <category ID="i_3_oekologie">
-                    <label xml:lang="de" text="Ökologie"/>
-                </category>
-            </category>
+        <category ID="b_2_i">
+          <label xml:lang="de" text="B.2.i Regionale Geschichte der Kartographie / Weltraum"/>
         </category>
-        <category ID="j">
-            <label xml:lang="de" text="Atlaskartographie"/>
-            <category ID="j_1">
-                <label xml:lang="de" text="Atlaskartographie / Allgemeines"/>
-            </category>
-            <category ID="j_2">
-                <label xml:lang="de" text="Weltatlanten"/>
-            </category>
-            <category ID="j_3">
-                <label xml:lang="de" text="Topographische Atlanten"/>
-            </category>
-            <category ID="j_4">
-                <label xml:lang="de" text="Thematische Atlanten, Planungsatlanten"/>
-            </category>
-            <category ID="j_5">
-                <label xml:lang="de" text="Schulatlanten"/>
-            </category>
-            <category ID="j_6">
-                <label xml:lang="de" text="Regionalatlanten"/>
-            </category>
-            <category ID="j_7">
-                <label xml:lang="de" text="Luftund Satellitenbildatlanten"/>
-            </category>
+      </category>
+      <category ID="b_3">
+        <label xml:lang="de" text="B.3 Epochen der Geschichte der Kartographie"/>
+        <category ID="b_3_a">
+          <label xml:lang="de" text="B.3.a Epochen der Geschichte der Kartographie / Allgemeines"/>
         </category>
-        <category ID="k">
-            <label xml:lang="de" text="Taktile Karten, Blindenkarten"/>
-            <category ID="k_z">
-                <label xml:lang="de" text="Taktile Karten, Blindenkarten"/>
-            </category>
+        <category ID="b_3_b">
+          <label xml:lang="de" text="B.3.b Antike"/>
         </category>
-        <category ID="l">
-            <label xml:lang="de" text="Filmund Bildschirmkarten"/>
-            <category ID="l_z">
-                <label xml:lang="de" text="Filmund Bildschirmkarten"/>
-            </category>
+        <category ID="b_3_c">
+          <label xml:lang="de" text="B.3.c Mittelalter"/>
         </category>
-        <category ID="m">
-            <label xml:lang="de" text="Kartenverwandte Darstellungen"/>
-            <category ID="m_1">
-                <label xml:lang="de" text="Kartenverwandte Darstellungen / Allgemeines"/>
-            </category>
-            <category ID="m_2">
-                <label xml:lang="de" text="Dreidimensionale Darstellungen"/>
-            </category>
-            <category ID="m_3">
-                <label xml:lang="de" text="Zweidimensionale Darstellungen"/>
-            </category>
+        <category ID="b_3_d">
+          <label xml:lang="de" text="B.3.d Renaissance"/>
         </category>
-        <category ID="n">
-            <label xml:lang="de" text="Kartennutzung"/>
-            <category ID="n_1">
-                <label xml:lang="de" text="Kartennutzung / Allgemeines, Hilfsmittel des Kartengebrauchs"/>
-            </category>
-            <category ID="n_2">
-                <label xml:lang="de" text="Wahrnehmung, Kognitive Karten"/>
-            </category>
-            <category ID="n_3">
-                <label xml:lang="de" text="Kartenlesen, Karteninterpretation, Kartometrie"/>
-            </category>
-            <category ID="n_4">
-                <label xml:lang="de" text="Funktionsbereiche der Kartographie"/>
-                <category ID="n_4_hydrographie">
-                    <label xml:lang="de" text="Hydrographie"/>
-                </category>
-                <category ID="n_4_journalistische_kartographie">
-                    <label xml:lang="de" text="Journalistische Kartographie"/>
-                </category>
-                <category ID="n_4_katasterkartographie">
-                    <label xml:lang="de" text="Katasterkartographie"/>
-                </category>
-                <category ID="n_4_kolonialkartographie">
-                    <label xml:lang="de" text="Kolonialkartographie"/>
-                </category>
-                <category ID="n_4_medienkartographie">
-                    <label xml:lang="de" text="Medienkartographie"/>
-                </category>
-                <category ID="n_4_militaerkartographie">
-                    <label xml:lang="de" text="Militärkartographie"/>
-                </category>
-                <category ID="n_4_navigationskartographie">
-                    <label xml:lang="de" text="Navigationskartographie"/>
-                </category>
-                <category ID="n_4_planungskartographie">
-                    <label xml:lang="de" text="Planungskartographie"/>
-                </category>
-                <category ID="n_4_schulkartographie">
-                    <label xml:lang="de" text="Schulkartographie"/>
-                </category>
-                <category ID="n_4_simulationssysteme">
-                    <label xml:lang="de" text="Simulationssysteme"/>
-                </category>
-                <category ID="n_4_tourismuskartographie">
-                    <label xml:lang="de" text="Tourismuskartographie"/>
-                </category>
-            </category>
-            <category ID="n_5">
-                <label xml:lang="de" text="Karten auf anderen Medien"/>
-            </category>
-            <category ID="n_6">
-                <label xml:lang="de" text="Kartographie in Beziehung zu anderen Wissenschaften"/>
-            </category>
+        <category ID="b_3_e">
+          <label xml:lang="de" text="B.3.e Barock"/>
         </category>
-        <category ID="o">
-            <label xml:lang="de" text="Regionale Kartographie"/>
-            <category ID="o_1">
-                <label xml:lang="de" text="Regionale Kartographie / Allgemeines"/>
-            </category>
-            <category ID="o_2">
-                <label xml:lang="de" text="Regionale Kartographie / Alle Regionen"/>
-                <category ID="o_2_a">
-                    <label xml:lang="de" text="Regionen / Welt"/>
-                </category>
-                <category ID="o_2_b">
-                    <label xml:lang="de" text="Regionen / Ozeane und Meere"/>
-                    <category ID="o_2_b_indischer_ozean">
-                        <label xml:lang="de" text="Indischer Ozean"/>
-                    </category>
-                    <category ID="o_2_b_mittelmeer">
-                        <label xml:lang="de" text="Mittelmeer"/>
-                    </category>
-                    <category ID="o_2_b_ostsee">
-                        <label xml:lang="de" text="Ostsee"/>
-                    </category>
-                    <category ID="o_2_b_pazifischer_ozean">
-                        <label xml:lang="de" text="Pazifischer Ozean"/>
-                    </category>
-                </category>
-                <category ID="o_2_c">
-                    <label xml:lang="de" text="Regionen / Afrika"/>
-                    <category ID="o_2_c_aegypten">
-                        <label xml:lang="de" text="Ägypten"/>
-                    </category>
-                    <category ID="o_2_c_aequatorialguinea">
-                        <label xml:lang="de" text="Äquatorialguinea"/>
-                    </category>
-                    <category ID="o_2_c_aethiopien">
-                        <label xml:lang="de" text="Äthiopien"/>
-                    </category>
-                    <category ID="o_2_c_algerien">
-                        <label xml:lang="de" text="Algerien"/>
-                    </category>
-                    <category ID="o_2_c_angola">
-                        <label xml:lang="de" text="Angola"/>
-                    </category>
-                    <category ID="o_2_c_benin">
-                        <label xml:lang="de" text="Benin"/>
-                    </category>
-                    <category ID="o_2_c_botswana">
-                        <label xml:lang="de" text="Botswana"/>
-                    </category>
-                    <category ID="o_2_c_burkina_faso">
-                        <label xml:lang="de" text="Burkina Faso"/>
-                    </category>
-                    <category ID="o_2_c_burundi">
-                        <label xml:lang="de" text="Burundi"/>
-                    </category>
-                    <category ID="o_2_c_demokratische_republik_kongo">
-                        <label xml:lang="de" text="Demokratische Republik Kongo"/>
-                    </category>
-                    <category ID="o_2_c_dschibuti">
-                        <label xml:lang="de" text="Dschibuti"/>
-                    </category>
-                    <category ID="o_2_c_elfenbeinkueste">
-                        <label xml:lang="de" text="Elfenbeinküste"/>
-                    </category>
-                    <category ID="o_2_c_eritrea">
-                        <label xml:lang="de" text="Eritrea"/>
-                    </category>
-                    <category ID="o_2_c_gabun">
-                        <label xml:lang="de" text="Gabun"/>
-                    </category>
-                    <category ID="o_2_c_gambia">
-                        <label xml:lang="de" text="Gambia"/>
-                    </category>
-                    <category ID="o_2_c_ghana">
-                        <label xml:lang="de" text="Ghana"/>
-                    </category>
-                    <category ID="o_2_c_guinea-bissau">
-                        <label xml:lang="de" text="Guinea-Bissau"/>
-                    </category>
-                    <category ID="o_2_c_kamerun">
-                        <label xml:lang="de" text="Kamerun"/>
-                    </category>
-                    <category ID="o_2_c_kapverdische_republik">
-                        <label xml:lang="de" text="Kapverdische Republik"/>
-                    </category>
-                    <category ID="o_2_c_kenia">
-                        <label xml:lang="de" text="Kenia"/>
-                    </category>
-                    <category ID="o_2_c_kongo">
-                        <label xml:lang="de" text="Kongo"/>
-                    </category>
-                    <category ID="o_2_c_kongo-brazzaville">
-                        <label xml:lang="de" text="Kongo-Brazzaville"/>
-                    </category>
-                    <category ID="o_2_c_lesotho">
-                        <label xml:lang="de" text="Lesotho"/>
-                    </category>
-                    <category ID="o_2_c_liberia">
-                        <label xml:lang="de" text="Liberia"/>
-                    </category>
-                    <category ID="o_2_c_libyen">
-                        <label xml:lang="de" text="Libyen"/>
-                    </category>
-                    <category ID="o_2_c_madagaskar">
-                        <label xml:lang="de" text="Madagaskar"/>
-                    </category>
-                    <category ID="o_2_c_mali">
-                        <label xml:lang="de" text="Mali"/>
-                    </category>
-                    <category ID="o_2_c_marokko">
-                        <label xml:lang="de" text="Marokko"/>
-                    </category>
-                    <category ID="o_2_c_mauretanien">
-                        <label xml:lang="de" text="Mauretanien"/>
-                    </category>
-                    <category ID="o_2_c_mosambik">
-                        <label xml:lang="de" text="Mosambik"/>
-                    </category>
-                    <category ID="o_2_c_namibia">
-                        <label xml:lang="de" text="Namibia"/>
-                    </category>
-                    <category ID="o_2_c_niger">
-                        <label xml:lang="de" text="Niger"/>
-                    </category>
-                    <category ID="o_2_c_nigeria">
-                        <label xml:lang="de" text="Nigeria"/>
-                    </category>
-                    <category ID="o_2_c_ostafrika">
-                        <label xml:lang="de" text="Ostafrika"/>
-                    </category>
-                    <category ID="o_2_c_ruanda">
-                        <label xml:lang="de" text="Ruanda"/>
-                    </category>
-                    <category ID="o_2_c_sambia">
-                        <label xml:lang="de" text="Sambia"/>
-                    </category>
-                    <category ID="o_2_c_samoa">
-                        <label xml:lang="de" text="Samoa"/>
-                    </category>
-                    <category ID="o_2_c_senegal">
-                        <label xml:lang="de" text="Senegal"/>
-                    </category>
-                    <category ID="o_2_c_seychellen">
-                        <label xml:lang="de" text="Seychellen"/>
-                    </category>
-                    <category ID="o_2_c_simbabwe">
-                        <label xml:lang="de" text="Simbabwe"/>
-                    </category>
-                    <category ID="o_2_c_somalia">
-                        <label xml:lang="de" text="Somalia"/>
-                    </category>
-                    <category ID="o_2_c_sudan">
-                        <label xml:lang="de" text="Sudan"/>
-                    </category>
-                    <category ID="o_2_c_swasiland">
-                        <label xml:lang="de" text="Swasiland"/>
-                    </category>
-                    <category ID="o_2_c_suedafrika">
-                        <label xml:lang="de" text="Südafrika"/>
-                    </category>
-                    <category ID="o_2_c_suedliches_afrika">
-                        <label xml:lang="de" text="Südliches Afrika"/>
-                    </category>
-                    <category ID="o_2_c_tansania">
-                        <label xml:lang="de" text="Tansania"/>
-                    </category>
-                    <category ID="o_2_c_togo">
-                        <label xml:lang="de" text="Togo"/>
-                    </category>
-                    <category ID="o_2_c_tschad">
-                        <label xml:lang="de" text="Tschad"/>
-                    </category>
-                    <category ID="o_2_c_tunesien">
-                        <label xml:lang="de" text="Tunesien"/>
-                    </category>
-                    <category ID="o_2_c_uganda">
-                        <label xml:lang="de" text="Uganda"/>
-                    </category>
-                    <category ID="o_2_c_zaire">
-                        <label xml:lang="de" text="Zaire"/>
-                    </category>
-                    <category ID="o_2_c_zambia">
-                        <label xml:lang="de" text="Zambia"/>
-                    </category>
-                    <category ID="o_2_c_zentralafrikanische_republik">
-                        <label xml:lang="de" text="Zentralafrikanische Republik"/>
-                    </category>
-                </category>
-                <category ID="o_2_d">
-                    <label xml:lang="de" text="Regionen / Amerika"/>
-                    <category ID="o_2_d_amerika">
-                        <label xml:lang="de" text="Amerika"/>
-                    </category>
-                    <category ID="o_2_d_argentinien">
-                        <label xml:lang="de" text="Argentinien"/>
-                    </category>
-                    <category ID="o_2_d_aruba">
-                        <label xml:lang="de" text="Aruba"/>
-                    </category>
-                    <category ID="o_2_d_bahamas">
-                        <label xml:lang="de" text="Bahamas"/>
-                    </category>
-                    <category ID="o_2_d_barbados">
-                        <label xml:lang="de" text="Barbados"/>
-                    </category>
-                    <category ID="o_2_d_belize">
-                        <label xml:lang="de" text="Belize"/>
-                    </category>
-                    <category ID="o_2_d_bolivien">
-                        <label xml:lang="de" text="Bolivien"/>
-                    </category>
-                    <category ID="o_2_d_brasilien">
-                        <label xml:lang="de" text="Brasilien"/>
-                    </category>
-                    <category ID="o_2_d_chile">
-                        <label xml:lang="de" text="Chile"/>
-                    </category>
-                    <category ID="o_2_d_costa_rica">
-                        <label xml:lang="de" text="Costa Rica"/>
-                    </category>
-                    <category ID="o_2_d_curaçao">
-                        <label xml:lang="de" text="Curaçao"/>
-                    </category>
-                    <category ID="o_2_d_dominica">
-                        <label xml:lang="de" text="Dominica"/>
-                    </category>
-                    <category ID="o_2_d_dominikanische_republik">
-                        <label xml:lang="de" text="Dominikanische Republik"/>
-                    </category>
-                    <category ID="o_2_d_ecuador">
-                        <label xml:lang="de" text="Ecuador"/>
-                    </category>
-                    <category ID="o_2_d_el_salvador">
-                        <label xml:lang="de" text="El Salvador"/>
-                    </category>
-                    <category ID="o_2_d_franzoesisch-guayana">
-                        <label xml:lang="de" text="Französisch-Guayana"/>
-                    </category>
-                    <category ID="o_2_d_groenland">
-                        <label xml:lang="de" text="Grönland"/>
-                    </category>
-                    <category ID="o_2_d_guatemala">
-                        <label xml:lang="de" text="Guatemala"/>
-                    </category>
-                    <category ID="o_2_d_guyana">
-                        <label xml:lang="de" text="Guyana"/>
-                    </category>
-                    <category ID="o_2_d_haiti">
-                        <label xml:lang="de" text="Haiti"/>
-                    </category>
-                    <category ID="o_2_d_honduras">
-                        <label xml:lang="de" text="Honduras"/>
-                    </category>
-                    <category ID="o_2_d_iberoamerika">
-                        <label xml:lang="de" text="Iberoamerika"/>
-                    </category>
-                    <category ID="o_2_d_jamaika">
-                        <label xml:lang="de" text="Jamaika"/>
-                    </category>
-                    <category ID="o_2_d_kanada">
-                        <label xml:lang="de" text="Kanada"/>
-                    </category>
-                    <category ID="o_2_d_karibik">
-                        <label xml:lang="de" text="Karibik"/>
-                    </category>
-                    <category ID="o_2_d_kolumbien">
-                        <label xml:lang="de" text="Kolumbien"/>
-                    </category>
-                    <category ID="o_2_d_kuba">
-                        <label xml:lang="de" text="Kuba"/>
-                    </category>
-                    <category ID="o_2_d_mexiko">
-                        <label xml:lang="de" text="Mexiko"/>
-                    </category>
-                    <category ID="o_2_d_mittelamerika">
-                        <label xml:lang="de" text="Mittelamerika"/>
-                    </category>
-                    <category ID="o_2_d_nicaragua">
-                        <label xml:lang="de" text="Nicaragua"/>
-                    </category>
-                    <category ID="o_2_d_panama">
-                        <label xml:lang="de" text="Panama"/>
-                    </category>
-                    <category ID="o_2_d_paraguay">
-                        <label xml:lang="de" text="Paraguay"/>
-                    </category>
-                    <category ID="o_2_d_peru">
-                        <label xml:lang="de" text="Peru"/>
-                    </category>
-                    <category ID="o_2_d_st_kitts_und_nevis">
-                        <label xml:lang="de" text="St. Kitts und Nevis"/>
-                    </category>
-                    <category ID="o_2_d_suriname">
-                        <label xml:lang="de" text="Suriname"/>
-                    </category>
-                    <category ID="o_2_d_suedamerika">
-                        <label xml:lang="de" text="Südamerika"/>
-                    </category>
-                    <category ID="o_2_d_trinidad_und_tobago">
-                        <label xml:lang="de" text="Trinidad und Tobago"/>
-                    </category>
-                    <category ID="o_2_d_usa">
-                        <label xml:lang="de" text="USA"/>
-                    </category>
-                    <category ID="o_2_d_uruguay">
-                        <label xml:lang="de" text="Uruguay"/>
-                    </category>
-                    <category ID="o_2_d_venezuela">
-                        <label xml:lang="de" text="Venezuela"/>
-                    </category>
-                    <category ID="o_2_d_westindische_inseln">
-                        <label xml:lang="de" text="Westindische Inseln"/>
-                    </category>
-                </category>
-                <category ID="o_2_e">
-                    <label xml:lang="de" text="Regionen / Asien"/>
-                    <category ID="o_2_e_afghanistan">
-                        <label xml:lang="de" text="Afghanistan"/>
-                    </category>
-                    <category ID="o_2_e_arabische_halbinsel">
-                        <label xml:lang="de" text="Arabische Halbinsel"/>
-                    </category>
-                    <category ID="o_2_e_armenien">
-                        <label xml:lang="de" text="Armenien"/>
-                    </category>
-                    <category ID="o_2_e_aserbaidschan">
-                        <label xml:lang="de" text="Aserbaidschan"/>
-                    </category>
-                    <category ID="o_2_e_bahrain">
-                        <label xml:lang="de" text="Bahrain"/>
-                    </category>
-                    <category ID="o_2_e_bangladesch">
-                        <label xml:lang="de" text="Bangladesch"/>
-                    </category>
-                    <category ID="o_2_e_bhutan">
-                        <label xml:lang="de" text="Bhutan"/>
-                    </category>
-                    <category ID="o_2_e_burma">
-                        <label xml:lang="de" text="Burma"/>
-                    </category>
-                    <category ID="o_2_e_china">
-                        <label xml:lang="de" text="China"/>
-                    </category>
-                    <category ID="o_2_e_gus">
-                        <label xml:lang="de" text="GUS (asiatischer Teil)"/>
-                    </category>
-                    <category ID="o_2_e_georgien">
-                        <label xml:lang="de" text="Georgien"/>
-                    </category>
-                    <category ID="o_2_e_hongkong">
-                        <label xml:lang="de" text="Hongkong"/>
-                    </category>
-                    <category ID="o_2_e_indien">
-                        <label xml:lang="de" text="Indien"/>
-                    </category>
-                    <category ID="o_2_e_indonesien">
-                        <label xml:lang="de" text="Indonesien"/>
-                    </category>
-                    <category ID="o_2_e_irak">
-                        <label xml:lang="de" text="Irak"/>
-                    </category>
-                    <category ID="o_2_e_iran">
-                        <label xml:lang="de" text="Iran"/>
-                    </category>
-                    <category ID="o_2_e_israel">
-                        <label xml:lang="de" text="Israel"/>
-                    </category>
-                    <category ID="o_2_e_japan">
-                        <label xml:lang="de" text="Japan"/>
-                    </category>
-                    <category ID="o_2_e_jemen">
-                        <label xml:lang="de" text="Jemen"/>
-                    </category>
-                    <category ID="o_2_e_jordanien">
-                        <label xml:lang="de" text="Jordanien"/>
-                    </category>
-                    <category ID="o_2_e_kambodscha">
-                        <label xml:lang="de" text="Kambodscha"/>
-                    </category>
-                    <category ID="o_2_e_kasachstan">
-                        <label xml:lang="de" text="Kasachstan"/>
-                    </category>
-                    <category ID="o_2_e_katar">
-                        <label xml:lang="de" text="Katar"/>
-                    </category>
-                    <category ID="o_2_e_kirgisistan">
-                        <label xml:lang="de" text="Kirgisistan"/>
-                    </category>
-                    <category ID="o_2_e_korea">
-                        <label xml:lang="de" text="Korea"/>
-                    </category>
-                    <category ID="o_2_e_kuwait">
-                        <label xml:lang="de" text="Kuwait"/>
-                    </category>
-                    <category ID="o_2_e_laos">
-                        <label xml:lang="de" text="Laos"/>
-                    </category>
-                    <category ID="o_2_e_libanon">
-                        <label xml:lang="de" text="Libanon"/>
-                    </category>
-                    <category ID="o_2_e_macao">
-                        <label xml:lang="de" text="Macao"/>
-                    </category>
-                    <category ID="o_2_e_malaysia">
-                        <label xml:lang="de" text="Malaysia"/>
-                    </category>
-                    <category ID="o_2_e_mongolei">
-                        <label xml:lang="de" text="Mongolei"/>
-                    </category>
-                    <category ID="o_2_e_nepal">
-                        <label xml:lang="de" text="Nepal"/>
-                    </category>
-                    <category ID="o_2_e_oman">
-                        <label xml:lang="de" text="Oman"/>
-                    </category>
-                    <category ID="o_2_e_pakistan">
-                        <label xml:lang="de" text="Pakistan"/>
-                    </category>
-                    <category ID="o_2_e_palaestina">
-                        <label xml:lang="de" text="Palästina"/>
-                    </category>
-                    <category ID="o_2_e_philippinen">
-                        <label xml:lang="de" text="Philippinen"/>
-                    </category>
-                    <category ID="o_2_e_russische_foederation">
-                        <label xml:lang="de" text="Russische Föderation (asiatischer Teil)"/>
-                    </category>
-                    <category ID="o_2_e_russland">
-                        <label xml:lang="de" text="Russland (asiatischer Teil)"/>
-                    </category>
-                    <category ID="o_2_e_saudi-arabien">
-                        <label xml:lang="de" text="Saudi-Arabien"/>
-                    </category>
-                    <category ID="o_2_e_singapur">
-                        <label xml:lang="de" text="Singapur"/>
-                    </category>
-                    <category ID="o_2_e_sri_lanka">
-                        <label xml:lang="de" text="Sri Lanka"/>
-                    </category>
-                    <category ID="o_2_e_sudan">
-                        <label xml:lang="de" text="Sudan"/>
-                    </category>
-                    <category ID="o_2_e_syrien">
-                        <label xml:lang="de" text="Syrien"/>
-                    </category>
-                    <category ID="o_2_e_suedostasien">
-                        <label xml:lang="de" text="Südostasien"/>
-                    </category>
-                    <category ID="o_2_e_tadschikistan">
-                        <label xml:lang="de" text="Tadschikistan"/>
-                    </category>
-                    <category ID="o_2_e_taiwan">
-                        <label xml:lang="de" text="Taiwan"/>
-                    </category>
-                    <category ID="o_2_e_thailand">
-                        <label xml:lang="de" text="Thailand"/>
-                    </category>
-                    <category ID="o_2_e_tibet">
-                        <label xml:lang="de" text="Tibet"/>
-                    </category>
-                    <category ID="o_2_e_tuerkei">
-                        <label xml:lang="de" text="Türkei"/>
-                    </category>
-                    <category ID="o_2_e_udssr">
-                        <label xml:lang="de" text="UdSSR (asiatischer Teil)"/>
-                    </category>
-                    <category ID="o_2_e_usbekistan">
-                        <label xml:lang="de" text="Usbekistan"/>
-                    </category>
-                    <category ID="o_2_e_vereinigte_arabische_emirate">
-                        <label xml:lang="de" text="Vereinigte Arabische Emirate"/>
-                    </category>
-                    <category ID="o_2_e_vietnam">
-                        <label xml:lang="de" text="Vietnam"/>
-                    </category>
-                    <category ID="o_2_e_zypern">
-                        <label xml:lang="de" text="Zypern"/>
-                    </category>
-                </category>
-                <category ID="o_2_f">
-                    <label xml:lang="de" text="Regionen / Australien, Ozeanien"/>
-                    <category ID="o_2_f_australien">
-                        <label xml:lang="de" text="Australien"/>
-                    </category>
-                    <category ID="o_2_f_fidschi">
-                        <label xml:lang="de" text="Fidschi"/>
-                    </category>
-                    <category ID="o_2_f_marshallinseln">
-                        <label xml:lang="de" text="Marshallinseln"/>
-                    </category>
-                    <category ID="o_2_f_neu-kaledonien">
-                        <label xml:lang="de" text="Neu-Kaledonien"/>
-                    </category>
-                    <category ID="o_2_f_neuguinea">
-                        <label xml:lang="de" text="Neuguinea"/>
-                    </category>
-                    <category ID="o_2_f_neuseeland">
-                        <label xml:lang="de" text="Neuseeland"/>
-                    </category>
-                    <category ID="o_2_f_ozeanien">
-                        <label xml:lang="de" text="Ozeanien"/>
-                    </category>
-                    <category ID="o_2_f_papua-neuguinea">
-                        <label xml:lang="de" text="Papua-Neuguinea"/>
-                    </category>
-                    <category ID="o_2_f_salomonen">
-                        <label xml:lang="de" text="Salomonen"/>
-                    </category>
-                    <category ID="o_2_f_samoa">
-                        <label xml:lang="de" text="Samoa"/>
-                    </category>
-                    <category ID="o_2_f_vanuatu">
-                        <label xml:lang="de" text="Vanuatu"/>
-                    </category>
-                </category>
-                <category ID="o_2_g">
-                    <label xml:lang="de" text="Regionen / Europa"/>
-                    <category ID="o_2_g_albanien">
-                        <label xml:lang="de" text="Albanien"/>
-                    </category>
-                    <category ID="o_2_g_andorra">
-                        <label xml:lang="de" text="Andorra"/>
-                    </category>
-                    <category ID="o_2_g_balkan">
-                        <label xml:lang="de" text="Balkan"/>
-                    </category>
-                    <category ID="o_2_g_baltikum">
-                        <label xml:lang="de" text="Baltikum"/>
-                    </category>
-                    <category ID="o_2_g_belarus">
-                        <label xml:lang="de" text="Belarus"/>
-                    </category>
-                    <category ID="o_2_g_belgien">
-                        <label xml:lang="de" text="Belgien"/>
-                    </category>
-                    <category ID="o_2_g_bosnien_und_herzegowina">
-                        <label xml:lang="de" text="Bosnien und Herzegowina"/>
-                    </category>
-                    <category ID="o_2_g_bulgarien">
-                        <label xml:lang="de" text="Bulgarien"/>
-                    </category>
-                    <category ID="o_2_g_deutschland">
-                        <label xml:lang="de" text="Deutschland"/>
-                    </category>
-                    <category ID="o_2_g_deutschland^_bundesrepublik">
-                        <label xml:lang="de" text="Deutschland, Bundesrepublik"/>
-                    </category>
-                    <category ID="o_2_g_deutschland^_deutsche_demokratische_republik">
-                        <label xml:lang="de" text="Deutschland, Deutsche Demokratische Republik"/>
-                    </category>
-                    <category ID="o_2_g_daenemark">
-                        <label xml:lang="de" text="Dänemark"/>
-                    </category>
-                    <category ID="o_2_g_estland">
-                        <label xml:lang="de" text="Estland"/>
-                    </category>
-                    <category ID="o_2_g_finnland">
-                        <label xml:lang="de" text="Finnland"/>
-                    </category>
-                    <category ID="o_2_g_frankreich">
-                        <label xml:lang="de" text="Frankreich"/>
-                    </category>
-                    <category ID="o_2_g_gus">
-                        <label xml:lang="de" text="GUS (europäischer Teil)"/>
-                    </category>
-                    <category ID="o_2_g_griechenland">
-                        <label xml:lang="de" text="Griechenland"/>
-                    </category>
-                    <category ID="o_2_g_grossbritannien">
-                        <label xml:lang="de" text="Großbritannien"/>
-                    </category>
-                    <category ID="o_2_g_groenland">
-                        <label xml:lang="de" text="Grönland"/>
-                    </category>
-                    <category ID="o_2_g_irland">
-                        <label xml:lang="de" text="Irland"/>
-                    </category>
-                    <category ID="o_2_g_island">
-                        <label xml:lang="de" text="Island"/>
-                    </category>
-                    <category ID="o_2_g_italien">
-                        <label xml:lang="de" text="Italien"/>
-                    </category>
-                    <category ID="o_2_g_jugoslawien">
-                        <label xml:lang="de" text="Jugoslawien"/>
-                    </category>
-                    <category ID="o_2_g_kroatien">
-                        <label xml:lang="de" text="Kroatien"/>
-                    </category>
-                    <category ID="o_2_g_lettland">
-                        <label xml:lang="de" text="Lettland"/>
-                    </category>
-                    <category ID="o_2_g_liechtenstein">
-                        <label xml:lang="de" text="Liechtenstein"/>
-                    </category>
-                    <category ID="o_2_g_litauen">
-                        <label xml:lang="de" text="Litauen"/>
-                    </category>
-                    <category ID="o_2_g_luxemburg">
-                        <label xml:lang="de" text="Luxemburg"/>
-                    </category>
-                    <category ID="o_2_g_malta">
-                        <label xml:lang="de" text="Malta"/>
-                    </category>
-                    <category ID="o_2_g_mazedonien">
-                        <label xml:lang="de" text="Mazedonien"/>
-                    </category>
-                    <category ID="o_2_g_mitteleuropa">
-                        <label xml:lang="de" text="Mitteleuropa"/>
-                    </category>
-                    <category ID="o_2_g_moldawien">
-                        <label xml:lang="de" text="Moldawien"/>
-                    </category>
-                    <category ID="o_2_g_monaco">
-                        <label xml:lang="de" text="Monaco"/>
-                    </category>
-                    <category ID="o_2_g_niederlande">
-                        <label xml:lang="de" text="Niederlande"/>
-                    </category>
-                    <category ID="o_2_g_norwegen">
-                        <label xml:lang="de" text="Norwegen"/>
-                    </category>
-                    <category ID="o_2_g_polen">
-                        <label xml:lang="de" text="Polen"/>
-                    </category>
-                    <category ID="o_2_g_portugal">
-                        <label xml:lang="de" text="Portugal"/>
-                    </category>
-                    <category ID="o_2_g_rumaenien">
-                        <label xml:lang="de" text="Rumänien"/>
-                    </category>
-                    <category ID="o_2_g_russische_foederation">
-                        <label xml:lang="de" text="Russische Föderation (europäischer Teil)"/>
-                    </category>
-                    <category ID="o_2_g_russland">
-                        <label xml:lang="de" text="Russland (europäischer Teil)"/>
-                    </category>
-                    <category ID="o_2_g_schweden">
-                        <label xml:lang="de" text="Schweden"/>
-                    </category>
-                    <category ID="o_2_g_schweiz">
-                        <label xml:lang="de" text="Schweiz"/>
-                    </category>
-                    <category ID="o_2_g_serbien">
-                        <label xml:lang="de" text="Serbien"/>
-                    </category>
-                    <category ID="o_2_g_slowakei">
-                        <label xml:lang="de" text="Slowakei"/>
-                    </category>
-                    <category ID="o_2_g_slowenien">
-                        <label xml:lang="de" text="Slowenien"/>
-                    </category>
-                    <category ID="o_2_g_spanien">
-                        <label xml:lang="de" text="Spanien"/>
-                    </category>
-                    <category ID="o_2_g_tschechische_republik">
-                        <label xml:lang="de" text="Tschechische Republik"/>
-                    </category>
-                    <category ID="o_2_g_tschechoslowakei">
-                        <label xml:lang="de" text="Tschechoslowakei"/>
-                    </category>
-                    <category ID="o_2_g_tuerkei">
-                        <label xml:lang="de" text="Türkei"/>
-                    </category>
-                    <category ID="o_2_g_udssr">
-                        <label xml:lang="de" text="UdSSR (europäischer Teil)"/>
-                    </category>
-                    <category ID="o_2_g_ukraine">
-                        <label xml:lang="de" text="Ukraine"/>
-                    </category>
-                    <category ID="o_2_g_ungarn">
-                        <label xml:lang="de" text="Ungarn"/>
-                    </category>
-                    <category ID="o_2_g_weissrussland">
-                        <label xml:lang="de" text="Weißrussland"/>
-                    </category>
-                    <category ID="o_2_g_zypern">
-                        <label xml:lang="de" text="Zypern"/>
-                    </category>
-                    <category ID="o_2_g_oesterreich">
-                        <label xml:lang="de" text="Österreich"/>
-                    </category>
-                </category>
-                <category ID="o_2_h">
-                    <label xml:lang="de" text="Regionen / Polargebiete"/>
-                    <category ID="o_2_h_antarktis">
-                        <label xml:lang="de" text="Antarktis"/>
-                    </category>
-                    <category ID="o_2_h_arktis">
-                        <label xml:lang="de" text="Arktis"/>
-                    </category>
-                </category>
-                <category ID="o_2_i">
-                    <label xml:lang="de" text="Weltraum"/>
-                    <category ID="o_2_i_mars">
-                        <label xml:lang="de" text="Mars"/>
-                    </category>
-                    <category ID="o_2_i_mond">
-                        <label xml:lang="de" text="Mond"/>
-                    </category>
-                    <category ID="o_2_i_saturn">
-                        <label xml:lang="de" text="Saturn"/>
-                    </category>
-                    <category ID="o_2_i_venus">
-                        <label xml:lang="de" text="Venus"/>
-                    </category>
-                </category>
-            </category>
+        <category ID="b_3_f">
+          <label xml:lang="de" text="B.3.f Moderne"/>
         </category>
-    </categories>
+      </category>
+    </category>
+    <category ID="c">
+      <label xml:lang="de" text="C Persönlichkeiten der Kartographie"/>
+      <category ID="c_z">
+        <label xml:lang="de" text="C.z Biographie, Persönliches"/>
+      </category>
+    </category>
+    <category ID="d">
+      <label xml:lang="de" text="D Organisationen und Institutionen der Kartographie"/>
+      <category ID="d_1">
+        <label xml:lang="de" text="D.1 Organisation und Institutionen der Kartographie / Allgemeines"/>
+      </category>
+      <category ID="d_2">
+        <label xml:lang="de" text="D.2 Kartographische Gesellschaften"/>
+      </category>
+      <category ID="d_3">
+        <label xml:lang="de" text="D.3 Institutionen der Lehre und Forschung"/>
+      </category>
+      <category ID="d_4">
+        <label xml:lang="de" text="D.4 Kartographische Ausbildung"/>
+      </category>
+      <category ID="d_5">
+        <label xml:lang="de" text="D.5 Kartenhersteller"/>
+      </category>
+      <category ID="d_6">
+        <label xml:lang="de" text="D.6 Kartensammlungen"/>
+      </category>
+      <category ID="d_7">
+        <label xml:lang="de" text="D.7 Veranstaltungen, Tagungen, Ausstellungen"/>
+      </category>
+      <category ID="d_8">
+        <label xml:lang="de" text="D.8 Rechtsfragen, Urheberrecht"/>
+      </category>
+    </category>
+    <category ID="e">
+      <label xml:lang="de" text="E Theoretische Kartographie"/>
+      <category ID="e_1">
+        <label xml:lang="de" text="E.1 Wesen der Kartographie"/>
+      </category>
+      <category ID="e_2">
+        <label xml:lang="de" text="E.2 Kartographische Terminologie"/>
+      </category>
+      <category ID="e_3">
+        <label xml:lang="de" text="E.3 Theoretische Grundlagen der Kartographie"/>
+      </category>
+      <category ID="e_4">
+        <label xml:lang="de" text="E.4 Graphische Grundlagen der Kartographie"/>
+      </category>
+      <category ID="e_5">
+        <label xml:lang="de" text="E.5 Kartendaten"/>
+        <category ID="e_5_a">
+          <label xml:lang="de" text="E.5.a Geodäsie, Vermessung, Topographie"/>
+        </category>
+        <category ID="e_5_b">
+          <label xml:lang="de" text="E.5.b Photogrammetrie, Fernerkundung"/>
+        </category>
+        <category ID="e_5_c">
+          <label xml:lang="de" text="E.5.c Thematische Kartendaten"/>
+        </category>
+      </category>
+      <category ID="e_6">
+        <label xml:lang="de" text="E.6 Kartenentwurf und Kartengestaltung"/>
+        <category ID="e_6_a">
+          <label xml:lang="de" text="E.6.a Kartenredaktion"/>
+        </category>
+        <category ID="e_6_b">
+          <label xml:lang="de" text="E.6.b Kartentypen, Kartographische Methoden"/>
+        </category>
+        <category ID="e_6_c">
+          <label xml:lang="de" text="E.6.c Kartenmaßstab, Blattschnitt, Blattbezeichnung"/>
+        </category>
+        <category ID="e_6_d">
+          <label xml:lang="de" text="E.6.d Kartennetzentwurf, mathematische Kartographie"/>
+        </category>
+        <category ID="e_6_e">
+          <label xml:lang="de" text="E.6.e Legende, Zeichenvorschriften, Musterblätter, Signaturenmaßstab"/>
+        </category>
+        <category ID="e_6_f">
+          <label xml:lang="de" text="E.6.f Generalisierung"/>
+        </category>
+        <category ID="e_6_g">
+          <label xml:lang="de" text="E.6.g Namenschreibung, Ortsnamenkunde"/>
+        </category>
+      </category>
+      <category ID="e_7">
+        <label xml:lang="de" text="E.7 Kartenaktualisierung"/>
+      </category>
+    </category>
+    <category ID="f">
+      <label xml:lang="de" text="F Kartenherstellung, Praktische Kartographie"/>
+      <category ID="f_1">
+        <label xml:lang="de" text="F.1 Kartenherstellung, Praktische Kartographie / Allgemeines"/>
+      </category>
+      <category ID="f_2">
+        <label xml:lang="de" text="F.2 Herkömmliche Zeichenund Reproduktionsverfahren"/>
+        <category ID="f_2_a">
+          <label xml:lang="de" text="F.2.a Zeichenund Reproduktionsverfahren / Allgemeines"/>
+        </category>
+        <category ID="f_2_b">
+          <label xml:lang="de" text="F.2.b Zeichenverfahren, Gravurverfahren"/>
+        </category>
+        <category ID="f_2_c">
+          <label xml:lang="de" text="F.2.c Kartenbeschriftungsverfahren"/>
+        </category>
+        <category ID="f_2_d">
+          <label xml:lang="de" text="F.2.d Photographische Reproduktionsverfahren"/>
+        </category>
+        <category ID="f_2_e">
+          <label xml:lang="de" text="F.2.e Nichtphotographische Reproduktionsverfahren"/>
+        </category>
+        <category ID="f_2_f">
+          <label xml:lang="de" text="F.2.f Vervielfältigungsverfahren, Druckverfahren"/>
+        </category>
+      </category>
+      <category ID="f_3">
+        <label xml:lang="de" text="F.3 Rechnergestützte Kartentechnik"/>
+        <category ID="f_3_a">
+          <label xml:lang="de" text="F.3.a Rechnergestützte Kartentechnik / Allgemeines"/>
+        </category>
+        <category ID="f_3_b">
+          <label xml:lang="de" text="F.3.b Verfahren der Datenerfassung und Datenspeicherung"/>
+        </category>
+        <category ID="f_3_c">
+          <label xml:lang="de" text="F.3.c Verfahren der Datenaufbereitung, digitale Generalisierung"/>
+        </category>
+        <category ID="f_3_d">
+          <label xml:lang="de" text="F.3.d Digitale Geländemodelle"/>
+        </category>
+        <category ID="f_3_e">
+          <label xml:lang="de" text="F.3.e Verfahren der Datenausgabe"/>
+        </category>
+      </category>
+    </category>
+    <category ID="g">
+      <label xml:lang="de" text="G Raumbezogene Informationssysteme"/>
+      <category ID="g_1">
+        <label xml:lang="de" text="G.1 Raumbezogene Informationssysteme / Allgemeines, graphische Datenbanken"/>
+      </category>
+      <category ID="g_2">
+        <label xml:lang="de" text="G.2 Geographische Informationssysteme (GIS)"/>
+      </category>
+      <category ID="g_3">
+        <label xml:lang="de" text="G.3 Landinformationssysteme (LIS)"/>
+      </category>
+    </category>
+    <category ID="h">
+      <label xml:lang="de" text="H Topographische Kartographie"/>
+      <category ID="h_1">
+        <label xml:lang="de" text="H.1 Topographische Kartographie / Allgemeines u. Zeichenvorschriften"/>
+      </category>
+      <category ID="h_2">
+        <label xml:lang="de" text="H.2 Maßstabsbestimmte Kartengruppen"/>
+        <category ID="h_2_a">
+          <label xml:lang="de" text="H.2.a Topographische Kartographie / Karten bis 110000"/>
+        </category>
+        <category ID="h_2_b">
+          <label xml:lang="de" text="H.2.b Topographische Kartographie / Karten von 110000 bis 1300000"/>
+        </category>
+        <category ID="h_2_c">
+          <label xml:lang="de" text="H.2.c Topographische Kartographie / Karten kleiner als 1300000"/>
+        </category>
+      </category>
+      <category ID="h_3">
+        <label xml:lang="de" text="H.3 Inhaltselemente topographischer Karten"/>
+        <category ID="h_3_a">
+          <label xml:lang="de" text="H.3.a Situation"/>
+        </category>
+        <category ID="h_3_b">
+          <label xml:lang="de" text="H.3.b Gelände"/>
+        </category>
+      </category>
+    </category>
+    <category ID="i">
+      <label xml:lang="de" text="I Thematische Kartographie"/>
+      <category ID="i_1">
+        <label xml:lang="de" text="I.1 Thematische Kartographie / Allgemeines, Zeichenvorschriften"/>
+      </category>
+      <category ID="i_2">
+        <label xml:lang="de" text="I.2 Thematische Kartographie / Karten in verschiedenen Maßstäben"/>
+        <category ID="i_2_a">
+          <label xml:lang="de" text="I.2.a Thematische Kartographie / Karten bis 110000"/>
+        </category>
+        <category ID="i_2_b">
+          <label xml:lang="de" text="I.2.b Thematische Kartographie / Karten von 110000 bis 1300000"/>
+        </category>
+        <category ID="i_2_c">
+          <label xml:lang="de" text="I.2.c Thematische Kartographie / Karten kleiner als 1300000"/>
+        </category>
+      </category>
+      <category ID="i_3">
+        <label xml:lang="de" text="I.3 Inhaltsbestimmte Kartengruppen"/>
+        <category ID="i_3_architektur">
+          <label xml:lang="de" text="I.3.Architektur Architektur"/>
+        </category>
+        <category ID="i_3_archaeologie">
+          <label xml:lang="de" text="I.3.Archäologie Archäologie"/>
+        </category>
+        <category ID="i_3_astronomie">
+          <label xml:lang="de" text="I.3.Astronomie Astronomie"/>
+        </category>
+        <category ID="i_3_bergbau">
+          <label xml:lang="de" text="I.3.Bergbau Bergbau"/>
+        </category>
+        <category ID="i_3_bevoelkerung">
+          <label xml:lang="de" text="I.3.Bevölkerung Bevölkerung"/>
+        </category>
+        <category ID="i_3_biologie">
+          <label xml:lang="de" text="I.3.Biologie Biologie"/>
+        </category>
+        <category ID="i_3_bodennutzung">
+          <label xml:lang="de" text="I.3.Bodennutzung Bodennutzung"/>
+        </category>
+        <category ID="i_3_bodenschaetze">
+          <label xml:lang="de" text="I.3.Bodenschätze Bodenschätze"/>
+        </category>
+        <category ID="i_3_boeden">
+          <label xml:lang="de" text="I.3.Böden Böden"/>
+        </category>
+        <category ID="i_3_demographie">
+          <label xml:lang="de" text="I.3.Demographie Demographie"/>
+        </category>
+        <category ID="i_3_ethnographie">
+          <label xml:lang="de" text="I.3.Ethnographie Ethnographie"/>
+        </category>
+        <category ID="i_3_ethnologie">
+          <label xml:lang="de" text="I.3.Ethnologie Ethnologie"/>
+        </category>
+        <category ID="i_3_forstwirtschaft">
+          <label xml:lang="de" text="I.3.Forstwirtschaft Forstwirtschaft"/>
+        </category>
+        <category ID="i_3_geochemie">
+          <label xml:lang="de" text="I.3.Geochemie Geochemie"/>
+        </category>
+        <category ID="i_3_geologie">
+          <label xml:lang="de" text="I.3.Geologie Geologie"/>
+        </category>
+        <category ID="i_3_geomorphologie">
+          <label xml:lang="de" text="I.3.Geomorphologie Geomorphologie"/>
+        </category>
+        <category ID="i_3_geophysik">
+          <label xml:lang="de" text="I.3.Geophysik Geophysik"/>
+        </category>
+        <category ID="i_3_geowissenschaften">
+          <label xml:lang="de" text="I.3.Geowissenschaften Geowissenschaften"/>
+        </category>
+        <category ID="i_3_geschichte">
+          <label xml:lang="de" text="I.3.Geschichte Geschichte"/>
+        </category>
+        <category ID="i_3_glaziologie">
+          <label xml:lang="de" text="I.3.Glaziologie Glaziologie"/>
+        </category>
+        <category ID="i_3_hydrographie">
+          <label xml:lang="de" text="I.3.Hydrographie Hydrographie"/>
+        </category>
+        <category ID="i_3_hydrologie">
+          <label xml:lang="de" text="I.3.Hydrologie Hydrologie"/>
+        </category>
+        <category ID="i_3_industrie">
+          <label xml:lang="de" text="I.3.Industrie Industrie"/>
+        </category>
+        <category ID="i_3_infrastruktur">
+          <label xml:lang="de" text="I.3.Infrastruktur Infrastruktur"/>
+        </category>
+        <category ID="i_3_klimatologie_und_meteorologie">
+          <label xml:lang="de" text="I.3.Klimatologie_und_Meteorologie Klimatologie und Meteorologie"/>
+        </category>
+        <category ID="i_3_kultur">
+          <label xml:lang="de" text="I.3.Kultur Kultur"/>
+        </category>
+        <category ID="i_3_landnutzung">
+          <label xml:lang="de" text="I.3.Landnutzung Landnutzung"/>
+        </category>
+        <category ID="i_3_landschaft">
+          <label xml:lang="de" text="I.3.Landschaft Landschaft"/>
+        </category>
+        <category ID="i_3_landwirtschaft">
+          <label xml:lang="de" text="I.3.Landwirtschaft Landwirtschaft"/>
+        </category>
+        <category ID="i_3_luftbilder">
+          <label xml:lang="de" text="I.3.Luftbilder Luftbilder"/>
+        </category>
+        <category ID="i_3_luftfahrt">
+          <label xml:lang="de" text="I.3.Luftfahrt Luftfahrt"/>
+        </category>
+        <category ID="i_3_medizin">
+          <label xml:lang="de" text="I.3.Medizin Medizin"/>
+        </category>
+        <category ID="i_3_militaerkartographie">
+          <label xml:lang="de" text="I.3.Militärkartographie Militär"/>
+        </category>
+        <category ID="i_3_musik">
+          <label xml:lang="de" text="I.3.Musik Musik"/>
+        </category>
+        <category ID="i_3_ozeanographie">
+          <label xml:lang="de" text="I.3.Ozeanographie Ozeanographie"/>
+        </category>
+        <category ID="i_3_palaeographie">
+          <label xml:lang="de" text="I.3.Palaeographie Palaeographie"/>
+        </category>
+        <category ID="i_3_pedologie">
+          <label xml:lang="de" text="I.3.Pedologie Pedologie"/>
+        </category>
+        <category ID="i_3_planung">
+          <label xml:lang="de" text="I.3.Planung Planung"/>
+        </category>
+        <category ID="i_3_planungskartographie">
+          <label xml:lang="de" text="I.3.Planungskartographie Planungskartographie"/>
+        </category>
+        <category ID="i_3_politik">
+          <label xml:lang="de" text="I.3.Politik Politik"/>
+        </category>
+        <category ID="i_3_recht">
+          <label xml:lang="de" text="I.3.Recht Recht"/>
+        </category>
+        <category ID="i_3_religion">
+          <label xml:lang="de" text="I.3.Religion Religion"/>
+        </category>
+        <category ID="i_3_seekarten">
+          <label xml:lang="de" text="I.3.Seekarten Seekarten"/>
+        </category>
+        <category ID="i_3_siedlung">
+          <label xml:lang="de" text="I.3.Siedlung Siedlung"/>
+        </category>
+        <category ID="i_3_siedlungen">
+          <label xml:lang="de" text="I.3.Siedlungen Siedlungen"/>
+        </category>
+        <category ID="i_3_soziologie">
+          <label xml:lang="de" text="I.3.Soziologie Soziologie"/>
+        </category>
+        <category ID="i_3_sprache">
+          <label xml:lang="de" text="I.3.Sprache Sprache"/>
+        </category>
+        <category ID="i_3_statistik">
+          <label xml:lang="de" text="I.3.Statistik Statistik"/>
+        </category>
+        <category ID="i_3_tourismus">
+          <label xml:lang="de" text="I.3.Tourismus Tourismus"/>
+        </category>
+        <category ID="i_3_transport">
+          <label xml:lang="de" text="I.3.Transport Transport"/>
+        </category>
+        <category ID="i_3_umwelt">
+          <label xml:lang="de" text="I.3.Umwelt Umwelt"/>
+        </category>
+        <category ID="i_3_vegetation">
+          <label xml:lang="de" text="I.3.Vegetation Vegetation"/>
+        </category>
+        <category ID="i_3_verkehr">
+          <label xml:lang="de" text="I.3.Verkehr Verkehr"/>
+        </category>
+        <category ID="i_3_verwaltung">
+          <label xml:lang="de" text="I.3.Verwaltung Verwaltung"/>
+        </category>
+        <category ID="i_3_volkskunde">
+          <label xml:lang="de" text="I.3.Volkskunde Volkskunde"/>
+        </category>
+        <category ID="i_3_wirtschaft">
+          <label xml:lang="de" text="I.3.Wirtschaft Wirtschaft"/>
+        </category>
+        <category ID="i_3_zentralasien">
+          <label xml:lang="de" text="I.3.Zentralasien Zentralasien"/>
+        </category>
+        <category ID="i_3_oekologie">
+          <label xml:lang="de" text="I.3.Ökologie Ökologie"/>
+        </category>
+      </category>
+    </category>
+    <category ID="j">
+      <label xml:lang="de" text="J Atlaskartographie"/>
+      <category ID="j_1">
+        <label xml:lang="de" text="J.1 Atlaskartographie / Allgemeines"/>
+      </category>
+      <category ID="j_2">
+        <label xml:lang="de" text="J.2 Weltatlanten"/>
+      </category>
+      <category ID="j_3">
+        <label xml:lang="de" text="J.3 Topographische Atlanten"/>
+      </category>
+      <category ID="j_4">
+        <label xml:lang="de" text="J.4 Thematische Atlanten, Planungsatlanten"/>
+      </category>
+      <category ID="j_5">
+        <label xml:lang="de" text="J.5 Schulatlanten"/>
+      </category>
+      <category ID="j_6">
+        <label xml:lang="de" text="J.6 Regionalatlanten"/>
+      </category>
+      <category ID="j_7">
+        <label xml:lang="de" text="J.7 Luftund Satellitenbildatlanten"/>
+      </category>
+    </category>
+    <category ID="k">
+      <label xml:lang="de" text="K Taktile Karten, Blindenkarten"/>
+      <category ID="k_z">
+        <label xml:lang="de" text="K.z Taktile Karten, Blindenkarten"/>
+      </category>
+    </category>
+    <category ID="l">
+      <label xml:lang="de" text="L Filmund Bildschirmkarten"/>
+      <category ID="l_z">
+        <label xml:lang="de" text="L.z Filmund Bildschirmkarten"/>
+      </category>
+    </category>
+    <category ID="m">
+      <label xml:lang="de" text="M Kartenverwandte Darstellungen"/>
+      <category ID="m_1">
+        <label xml:lang="de" text="M.1 Kartenverwandte Darstellungen / Allgemeines"/>
+      </category>
+      <category ID="m_2">
+        <label xml:lang="de" text="M.2 Dreidimensionale Darstellungen"/>
+      </category>
+      <category ID="m_3">
+        <label xml:lang="de" text="M.3 Zweidimensionale Darstellungen"/>
+      </category>
+    </category>
+    <category ID="n">
+      <label xml:lang="de" text="N Kartennutzung"/>
+      <category ID="n_1">
+        <label xml:lang="de" text="N.1 Kartennutzung / Allgemeines, Hilfsmittel des Kartengebrauchs"/>
+      </category>
+      <category ID="n_2">
+        <label xml:lang="de" text="N.2 Wahrnehmung, Kognitive Karten"/>
+      </category>
+      <category ID="n_3">
+        <label xml:lang="de" text="N.3 Kartenlesen, Karteninterpretation, Kartometrie"/>
+      </category>
+      <category ID="n_4">
+        <label xml:lang="de" text="N.4 Funktionsbereiche der Kartographie"/>
+        <category ID="n_4_hydrographie">
+          <label xml:lang="de" text="N.4.Hydrographie Hydrographie"/>
+        </category>
+        <category ID="n_4_journalistische_kartographie">
+          <label xml:lang="de" text="N.4.Journalistische_Kartographie Journalistische Kartographie"/>
+        </category>
+        <category ID="n_4_katasterkartographie">
+          <label xml:lang="de" text="N.4.Katasterkartographie Katasterkartographie"/>
+        </category>
+        <category ID="n_4_kolonialkartographie">
+          <label xml:lang="de" text="N.4.Kolonialkartographie Kolonialkartographie"/>
+        </category>
+        <category ID="n_4_medienkartographie">
+          <label xml:lang="de" text="N.4.Medienkartographie Medienkartographie"/>
+        </category>
+        <category ID="n_4_militaerkartographie">
+          <label xml:lang="de" text="N.4.Militärkartographie Militärkartographie"/>
+        </category>
+        <category ID="n_4_navigationskartographie">
+          <label xml:lang="de" text="N.4.Navigationskartographie Navigationskartographie"/>
+        </category>
+        <category ID="n_4_planungskartographie">
+          <label xml:lang="de" text="N.4.Planungskartographie Planungskartographie"/>
+        </category>
+        <category ID="n_4_schulkartographie">
+          <label xml:lang="de" text="N.4.Schulkartographie Schulkartographie"/>
+        </category>
+        <category ID="n_4_simulationssysteme">
+          <label xml:lang="de" text="N.4.Simulationssysteme Simulationssysteme"/>
+        </category>
+        <category ID="n_4_tourismuskartographie">
+          <label xml:lang="de" text="N.4.Tourismuskartographie Tourismuskartographie"/>
+        </category>
+      </category>
+      <category ID="n_5">
+        <label xml:lang="de" text="N.5 Karten auf anderen Medien"/>
+      </category>
+      <category ID="n_6">
+        <label xml:lang="de" text="N.6 Kartographie in Beziehung zu anderen Wissenschaften"/>
+      </category>
+    </category>
+    <category ID="o">
+      <label xml:lang="de" text="O Regionale Kartographie"/>
+      <category ID="o_1">
+        <label xml:lang="de" text="O.1 Regionale Kartographie / Allgemeines"/>
+      </category>
+      <category ID="o_2">
+        <label xml:lang="de" text="O.2 Regionale Kartographie / Alle Regionen"/>
+        <category ID="o_2_a">
+          <label xml:lang="de" text="O.2.a Regionen / Welt"/>
+        </category>
+        <category ID="o_2_b">
+          <label xml:lang="de" text="O.2.b Regionen / Ozeane und Meere"/>
+          <category ID="o_2_b_indischer_ozean">
+            <label xml:lang="de" text="O.2.b.Indischer_Ozean Indischer Ozean"/>
+          </category>
+          <category ID="o_2_b_mittelmeer">
+            <label xml:lang="de" text="O.2.b.Mittelmeer Mittelmeer"/>
+          </category>
+          <category ID="o_2_b_ostsee">
+            <label xml:lang="de" text="O.2.b.Ostsee Ostsee"/>
+          </category>
+          <category ID="o_2_b_pazifischer_ozean">
+            <label xml:lang="de" text="O.2.b.Pazifischer_Ozean Pazifischer Ozean"/>
+          </category>
+        </category>
+        <category ID="o_2_c">
+          <label xml:lang="de" text="O.2.c Regionen / Afrika"/>
+          <category ID="o_2_c_aegypten">
+            <label xml:lang="de" text="O.2.c.Ägypten Ägypten"/>
+          </category>
+          <category ID="o_2_c_aequatorialguinea">
+            <label xml:lang="de" text="O.2.c.Äquatorialguinea Äquatorialguinea"/>
+          </category>
+          <category ID="o_2_c_aethiopien">
+            <label xml:lang="de" text="O.2.c.Äthiopien Äthiopien"/>
+          </category>
+          <category ID="o_2_c_algerien">
+            <label xml:lang="de" text="O.2.c.Algerien Algerien"/>
+          </category>
+          <category ID="o_2_c_angola">
+            <label xml:lang="de" text="O.2.c.Angola Angola"/>
+          </category>
+          <category ID="o_2_c_benin">
+            <label xml:lang="de" text="O.2.c.Benin Benin"/>
+          </category>
+          <category ID="o_2_c_botswana">
+            <label xml:lang="de" text="O.2.c.Botswana Botswana"/>
+          </category>
+          <category ID="o_2_c_burkina_faso">
+            <label xml:lang="de" text="O.2.c.Burkina_Faso Burkina Faso"/>
+          </category>
+          <category ID="o_2_c_burundi">
+            <label xml:lang="de" text="O.2.c.Burundi Burundi"/>
+          </category>
+          <category ID="o_2_c_demokratische_republik_kongo">
+            <label xml:lang="de" text="O.2.c.Demokratische_Republik_Kongo Demokratische Republik Kongo"/>
+          </category>
+          <category ID="o_2_c_dschibuti">
+            <label xml:lang="de" text="O.2.c.Dschibuti Dschibuti"/>
+          </category>
+          <category ID="o_2_c_elfenbeinkueste">
+            <label xml:lang="de" text="O.2.c.Elfenbeinküste Elfenbeinküste"/>
+          </category>
+          <category ID="o_2_c_eritrea">
+            <label xml:lang="de" text="O.2.c.Eritrea Eritrea"/>
+          </category>
+          <category ID="o_2_c_gabun">
+            <label xml:lang="de" text="O.2.c.Gabun Gabun"/>
+          </category>
+          <category ID="o_2_c_gambia">
+            <label xml:lang="de" text="O.2.c.Gambia Gambia"/>
+          </category>
+          <category ID="o_2_c_ghana">
+            <label xml:lang="de" text="O.2.c.Ghana Ghana"/>
+          </category>
+          <category ID="o_2_c_guinea-bissau">
+            <label xml:lang="de" text="O.2.c.Guinea-Bissau Guinea-Bissau"/>
+          </category>
+          <category ID="o_2_c_kamerun">
+            <label xml:lang="de" text="O.2.c.Kamerun Kamerun"/>
+          </category>
+          <category ID="o_2_c_kapverdische_republik">
+            <label xml:lang="de" text="O.2.c.Kapverdische_Republik Kapverdische Republik"/>
+          </category>
+          <category ID="o_2_c_kenia">
+            <label xml:lang="de" text="O.2.c.Kenia Kenia"/>
+          </category>
+          <category ID="o_2_c_kongo">
+            <label xml:lang="de" text="O.2.c.Kongo Kongo"/>
+          </category>
+          <category ID="o_2_c_kongo-brazzaville">
+            <label xml:lang="de" text="O.2.c.Kongo-Brazzaville Kongo-Brazzaville"/>
+          </category>
+          <category ID="o_2_c_lesotho">
+            <label xml:lang="de" text="O.2.c.Lesotho Lesotho"/>
+          </category>
+          <category ID="o_2_c_liberia">
+            <label xml:lang="de" text="O.2.c.Liberia Liberia"/>
+          </category>
+          <category ID="o_2_c_libyen">
+            <label xml:lang="de" text="O.2.c.Libyen Libyen"/>
+          </category>
+          <category ID="o_2_c_madagaskar">
+            <label xml:lang="de" text="O.2.c.Madagaskar Madagaskar"/>
+          </category>
+          <category ID="o_2_c_mali">
+            <label xml:lang="de" text="O.2.c.Mali Mali"/>
+          </category>
+          <category ID="o_2_c_marokko">
+            <label xml:lang="de" text="O.2.c.Marokko Marokko"/>
+          </category>
+          <category ID="o_2_c_mauretanien">
+            <label xml:lang="de" text="O.2.c.Mauretanien Mauretanien"/>
+          </category>
+          <category ID="o_2_c_mosambik">
+            <label xml:lang="de" text="O.2.c.Mosambik Mosambik"/>
+          </category>
+          <category ID="o_2_c_namibia">
+            <label xml:lang="de" text="O.2.c.Namibia Namibia"/>
+          </category>
+          <category ID="o_2_c_niger">
+            <label xml:lang="de" text="O.2.c.Niger Niger"/>
+          </category>
+          <category ID="o_2_c_nigeria">
+            <label xml:lang="de" text="O.2.c.Nigeria Nigeria"/>
+          </category>
+          <category ID="o_2_c_ostafrika">
+            <label xml:lang="de" text="O.2.c.Ostafrika Ostafrika"/>
+          </category>
+          <category ID="o_2_c_ruanda">
+            <label xml:lang="de" text="O.2.c.Ruanda Ruanda"/>
+          </category>
+          <category ID="o_2_c_sambia">
+            <label xml:lang="de" text="O.2.c.Sambia Sambia"/>
+          </category>
+          <category ID="o_2_c_samoa">
+            <label xml:lang="de" text="O.2.c.Samoa Samoa"/>
+          </category>
+          <category ID="o_2_c_senegal">
+            <label xml:lang="de" text="O.2.c.Senegal Senegal"/>
+          </category>
+          <category ID="o_2_c_seychellen">
+            <label xml:lang="de" text="O.2.c.Seychellen Seychellen"/>
+          </category>
+          <category ID="o_2_c_simbabwe">
+            <label xml:lang="de" text="O.2.c.Simbabwe Simbabwe"/>
+          </category>
+          <category ID="o_2_c_somalia">
+            <label xml:lang="de" text="O.2.c.Somalia Somalia"/>
+          </category>
+          <category ID="o_2_c_sudan">
+            <label xml:lang="de" text="O.2.c.Sudan Sudan"/>
+          </category>
+          <category ID="o_2_c_swasiland">
+            <label xml:lang="de" text="O.2.c.Swasiland Swasiland"/>
+          </category>
+          <category ID="o_2_c_suedafrika">
+            <label xml:lang="de" text="O.2.c.Südafrika Südafrika"/>
+          </category>
+          <category ID="o_2_c_suedliches_afrika">
+            <label xml:lang="de" text="O.2.c.Südliches_Afrika Südliches Afrika"/>
+          </category>
+          <category ID="o_2_c_tansania">
+            <label xml:lang="de" text="O.2.c.Tansania Tansania"/>
+          </category>
+          <category ID="o_2_c_togo">
+            <label xml:lang="de" text="O.2.c.Togo Togo"/>
+          </category>
+          <category ID="o_2_c_tschad">
+            <label xml:lang="de" text="O.2.c.Tschad Tschad"/>
+          </category>
+          <category ID="o_2_c_tunesien">
+            <label xml:lang="de" text="O.2.c.Tunesien Tunesien"/>
+          </category>
+          <category ID="o_2_c_uganda">
+            <label xml:lang="de" text="O.2.c.Uganda Uganda"/>
+          </category>
+          <category ID="o_2_c_zaire">
+            <label xml:lang="de" text="O.2.c.Zaire Zaire"/>
+          </category>
+          <category ID="o_2_c_zambia">
+            <label xml:lang="de" text="O.2.c.Zambia Zambia"/>
+          </category>
+          <category ID="o_2_c_zentralafrikanische_republik">
+            <label xml:lang="de" text="O.2.c.Zentralafrikanische_Republik Zentralafrikanische Republik"/>
+          </category>
+        </category>
+        <category ID="o_2_d">
+          <label xml:lang="de" text="O.2.d Regionen / Amerika"/>
+          <category ID="o_2_d_amerika">
+            <label xml:lang="de" text="O.2.d.Amerika Amerika"/>
+          </category>
+          <category ID="o_2_d_argentinien">
+            <label xml:lang="de" text="O.2.d.Argentinien Argentinien"/>
+          </category>
+          <category ID="o_2_d_aruba">
+            <label xml:lang="de" text="O.2.d.Aruba Aruba"/>
+          </category>
+          <category ID="o_2_d_bahamas">
+            <label xml:lang="de" text="O.2.d.Bahamas Bahamas"/>
+          </category>
+          <category ID="o_2_d_barbados">
+            <label xml:lang="de" text="O.2.d.Barbados Barbados"/>
+          </category>
+          <category ID="o_2_d_belize">
+            <label xml:lang="de" text="O.2.d.Belize Belize"/>
+          </category>
+          <category ID="o_2_d_bolivien">
+            <label xml:lang="de" text="O.2.d.Bolivien Bolivien"/>
+          </category>
+          <category ID="o_2_d_brasilien">
+            <label xml:lang="de" text="O.2.d.Brasilien Brasilien"/>
+          </category>
+          <category ID="o_2_d_chile">
+            <label xml:lang="de" text="O.2.d.Chile Chile"/>
+          </category>
+          <category ID="o_2_d_costa_rica">
+            <label xml:lang="de" text="O.2.d.Costa Rica Costa Rica"/>
+          </category>
+          <category ID="o_2_d_curaçao">
+            <label xml:lang="de" text="O.2.d.Curaçao Curaçao"/>
+          </category>
+          <category ID="o_2_d_dominica">
+            <label xml:lang="de" text="O.2.d.Dominica Dominica"/>
+          </category>
+          <category ID="o_2_d_dominikanische_republik">
+            <label xml:lang="de" text="O.2.d.Dominikanische_Republik Dominikanische Republik"/>
+          </category>
+          <category ID="o_2_d_ecuador">
+            <label xml:lang="de" text="O.2.d.Ecuador Ecuador"/>
+          </category>
+          <category ID="o_2_d_el_salvador">
+            <label xml:lang="de" text="O.2.d.El_Salvador El Salvador"/>
+          </category>
+          <category ID="o_2_d_franzoesisch-guayana">
+            <label xml:lang="de" text="O.2.d.Französisch-Guayana Französisch-Guayana"/>
+          </category>
+          <category ID="o_2_d_groenland">
+            <label xml:lang="de" text="O.2.d.Grönland Grönland"/>
+          </category>
+          <category ID="o_2_d_guatemala">
+            <label xml:lang="de" text="O.2.d.Guatemala Guatemala"/>
+          </category>
+          <category ID="o_2_d_guyana">
+            <label xml:lang="de" text="O.2.d.Guyana Guyana"/>
+          </category>
+          <category ID="o_2_d_haiti">
+            <label xml:lang="de" text="O.2.d.Haiti Haiti"/>
+          </category>
+          <category ID="o_2_d_honduras">
+            <label xml:lang="de" text="O.2.d.Honduras Honduras"/>
+          </category>
+          <category ID="o_2_d_iberoamerika">
+            <label xml:lang="de" text="O.2.d.Iberoamerika Iberoamerika"/>
+          </category>
+          <category ID="o_2_d_jamaika">
+            <label xml:lang="de" text="O.2.d.Jamaika Jamaika"/>
+          </category>
+          <category ID="o_2_d_kanada">
+            <label xml:lang="de" text="O.2.d.Kanada Kanada"/>
+          </category>
+          <category ID="o_2_d_karibik">
+            <label xml:lang="de" text="O.2.d.Karibik Karibik"/>
+          </category>
+          <category ID="o_2_d_kolumbien">
+            <label xml:lang="de" text="O.2.d.Kolumbien Kolumbien"/>
+          </category>
+          <category ID="o_2_d_kuba">
+            <label xml:lang="de" text="O.2.d.Kuba Kuba"/>
+          </category>
+          <category ID="o_2_d_mexiko">
+            <label xml:lang="de" text="O.2.d.Mexiko Mexiko"/>
+          </category>
+          <category ID="o_2_d_mittelamerika">
+            <label xml:lang="de" text="O.2.d.Mittelamerika Mittelamerika"/>
+          </category>
+          <category ID="o_2_d_nicaragua">
+            <label xml:lang="de" text="O.2.d.Nicaragua Nicaragua"/>
+          </category>
+          <category ID="o_2_d_panama">
+            <label xml:lang="de" text="O.2.d.Panama Panama"/>
+          </category>
+          <category ID="o_2_d_paraguay">
+            <label xml:lang="de" text="O.2.d.Paraguay Paraguay"/>
+          </category>
+          <category ID="o_2_d_peru">
+            <label xml:lang="de" text="O.2.d.Peru Peru"/>
+          </category>
+          <category ID="o_2_d_st_kitts_und_nevis">
+            <label xml:lang="de" text="O.2.d.St_Kitts_und_Nevis St. Kitts und Nevis"/>
+          </category>
+          <category ID="o_2_d_suriname">
+            <label xml:lang="de" text="O.2.d.Suriname Suriname"/>
+          </category>
+          <category ID="o_2_d_suedamerika">
+            <label xml:lang="de" text="O.2.d.Südamerika Südamerika"/>
+          </category>
+          <category ID="o_2_d_trinidad_und_tobago">
+            <label xml:lang="de" text="O.2.d.Trinidad_und_Tobago Trinidad und Tobago"/>
+          </category>
+          <category ID="o_2_d_usa">
+            <label xml:lang="de" text="O.2.d.USA USA"/>
+          </category>
+          <category ID="o_2_d_uruguay">
+            <label xml:lang="de" text="O.2.d.Uruguay Uruguay"/>
+          </category>
+          <category ID="o_2_d_venezuela">
+            <label xml:lang="de" text="O.2.d.Venezuela Venezuela"/>
+          </category>
+          <category ID="o_2_d_westindische_inseln">
+            <label xml:lang="de" text="O.2.d.Westindische_Inseln Westindische Inseln"/>
+          </category>
+        </category>
+        <category ID="o_2_e">
+          <label xml:lang="de" text="O.2.e Regionen / Asien"/>
+          <category ID="o_2_e_afghanistan">
+            <label xml:lang="de" text="O.2.e.Afghanistan Afghanistan"/>
+          </category>
+          <category ID="o_2_e_arabische_halbinsel">
+            <label xml:lang="de" text="O.2.e.Arabische_Halbinsel Arabische Halbinsel"/>
+          </category>
+          <category ID="o_2_e_armenien">
+            <label xml:lang="de" text="O.2.e.Armenien Armenien"/>
+          </category>
+          <category ID="o_2_e_aserbaidschan">
+            <label xml:lang="de" text="O.2.e.Aserbaidschan Aserbaidschan"/>
+          </category>
+          <category ID="o_2_e_bahrain">
+            <label xml:lang="de" text="O.2.e.Bahrain Bahrain"/>
+          </category>
+          <category ID="o_2_e_bangladesch">
+            <label xml:lang="de" text="O.2.e.Bangladesch Bangladesch"/>
+          </category>
+          <category ID="o_2_e_bhutan">
+            <label xml:lang="de" text="O.2.e.Bhutan Bhutan"/>
+          </category>
+          <category ID="o_2_e_burma">
+            <label xml:lang="de" text="O.2.e.Burma Burma"/>
+          </category>
+          <category ID="o_2_e_china">
+            <label xml:lang="de" text="O.2.e.China China"/>
+          </category>
+          <category ID="o_2_e_gus">
+            <label xml:lang="de" text="O.2.e.GUS GUS (asiatischer Teil)"/>
+          </category>
+          <category ID="o_2_e_georgien">
+            <label xml:lang="de" text="O.2.e.Georgien Georgien"/>
+          </category>
+          <category ID="o_2_e_hongkong">
+            <label xml:lang="de" text="O.2.e.Hongkong Hongkong"/>
+          </category>
+          <category ID="o_2_e_indien">
+            <label xml:lang="de" text="O.2.e.Indien Indien"/>
+          </category>
+          <category ID="o_2_e_indonesien">
+            <label xml:lang="de" text="O.2.e.Indonesien Indonesien"/>
+          </category>
+          <category ID="o_2_e_irak">
+            <label xml:lang="de" text="O.2.e.Irak Irak"/>
+          </category>
+          <category ID="o_2_e_iran">
+            <label xml:lang="de" text="O.2.e.Iran Iran"/>
+          </category>
+          <category ID="o_2_e_israel">
+            <label xml:lang="de" text="O.2.e.Israel Israel"/>
+          </category>
+          <category ID="o_2_e_japan">
+            <label xml:lang="de" text="O.2.e.Japan Japan"/>
+          </category>
+          <category ID="o_2_e_jemen">
+            <label xml:lang="de" text="O.2.e.Jemen Jemen"/>
+          </category>
+          <category ID="o_2_e_jordanien">
+            <label xml:lang="de" text="O.2.e.Jordanien Jordanien"/>
+          </category>
+          <category ID="o_2_e_kambodscha">
+            <label xml:lang="de" text="O.2.e.Kambodscha Kambodscha"/>
+          </category>
+          <category ID="o_2_e_kasachstan">
+            <label xml:lang="de" text="O.2.e.Kasachstan Kasachstan"/>
+          </category>
+          <category ID="o_2_e_katar">
+            <label xml:lang="de" text="O.2.e.Katar Katar"/>
+          </category>
+          <category ID="o_2_e_kirgisistan">
+            <label xml:lang="de" text="O.2.e.Kirgisistan Kirgisistan"/>
+          </category>
+          <category ID="o_2_e_korea">
+            <label xml:lang="de" text="O.2.e.Korea Korea"/>
+          </category>
+          <category ID="o_2_e_kuwait">
+            <label xml:lang="de" text="O.2.e.Kuwait Kuwait"/>
+          </category>
+          <category ID="o_2_e_laos">
+            <label xml:lang="de" text="O.2.e.Laos Laos"/>
+          </category>
+          <category ID="o_2_e_libanon">
+            <label xml:lang="de" text="O.2.e.Libanon Libanon"/>
+          </category>
+          <category ID="o_2_e_macao">
+            <label xml:lang="de" text="O.2.e.Macao Macao"/>
+          </category>
+          <category ID="o_2_e_malaysia">
+            <label xml:lang="de" text="O.2.e.Malaysia Malaysia"/>
+          </category>
+          <category ID="o_2_e_mongolei">
+            <label xml:lang="de" text="O.2.e.Mongolei Mongolei"/>
+          </category>
+          <category ID="o_2_e_nepal">
+            <label xml:lang="de" text="O.2.e.Nepal Nepal"/>
+          </category>
+          <category ID="o_2_e_oman">
+            <label xml:lang="de" text="O.2.e.Oman Oman"/>
+          </category>
+          <category ID="o_2_e_pakistan">
+            <label xml:lang="de" text="O.2.e.Pakistan Pakistan"/>
+          </category>
+          <category ID="o_2_e_palaestina">
+            <label xml:lang="de" text="O.2.e.Palästina Palästina"/>
+          </category>
+          <category ID="o_2_e_philippinen">
+            <label xml:lang="de" text="O.2.e.Philippinen Philippinen"/>
+          </category>
+          <category ID="o_2_e_russische_foederation">
+            <label xml:lang="de" text="O.2.e.Russische_Föderation Russische Föderation (asiatischer Teil)"/>
+          </category>
+          <category ID="o_2_e_russland">
+            <label xml:lang="de" text="O.2.e.Russland Russland (asiatischer Teil)"/>
+          </category>
+          <category ID="o_2_e_saudi-arabien">
+            <label xml:lang="de" text="O.2.e.Saudi-Arabien Saudi-Arabien"/>
+          </category>
+          <category ID="o_2_e_singapur">
+            <label xml:lang="de" text="O.2.e.Singapur Singapur"/>
+          </category>
+          <category ID="o_2_e_sri_lanka">
+            <label xml:lang="de" text="O.2.e.Sri_Lanka Sri Lanka"/>
+          </category>
+          <category ID="o_2_e_sudan">
+            <label xml:lang="de" text="O.2.e.Sudan Sudan"/>
+          </category>
+          <category ID="o_2_e_syrien">
+            <label xml:lang="de" text="O.2.e.Syrien Syrien"/>
+          </category>
+          <category ID="o_2_e_suedostasien">
+            <label xml:lang="de" text="O.2.e.Südostasien Südostasien"/>
+          </category>
+          <category ID="o_2_e_tadschikistan">
+            <label xml:lang="de" text="O.2.e.Tadschikistan Tadschikistan"/>
+          </category>
+          <category ID="o_2_e_taiwan">
+            <label xml:lang="de" text="O.2.e.Taiwan Taiwan"/>
+          </category>
+          <category ID="o_2_e_thailand">
+            <label xml:lang="de" text="O.2.e.Thailand Thailand"/>
+          </category>
+          <category ID="o_2_e_tibet">
+            <label xml:lang="de" text="O.2.e.Tibet Tibet"/>
+          </category>
+          <category ID="o_2_e_tuerkei">
+            <label xml:lang="de" text="O.2.e.Türkei Türkei"/>
+          </category>
+          <category ID="o_2_e_udssr">
+            <label xml:lang="de" text="O.2.e.UdSSR UdSSR (asiatischer Teil)"/>
+          </category>
+          <category ID="o_2_e_usbekistan">
+            <label xml:lang="de" text="O.2.e.Usbekistan Usbekistan"/>
+          </category>
+          <category ID="o_2_e_vereinigte_arabische_emirate">
+            <label xml:lang="de" text="O.2.e.Vereinigte_Arabische_Emirate Vereinigte Arabische Emirate"/>
+          </category>
+          <category ID="o_2_e_vietnam">
+            <label xml:lang="de" text="O.2.e.Vietnam Vietnam"/>
+          </category>
+          <category ID="o_2_e_zypern">
+            <label xml:lang="de" text="O.2.e.Zypern Zypern"/>
+          </category>
+        </category>
+        <category ID="o_2_f">
+          <label xml:lang="de" text="O.2.f Regionen / Australien, Ozeanien"/>
+          <category ID="o_2_f_australien">
+            <label xml:lang="de" text="O.2.f.Australien Australien"/>
+          </category>
+          <category ID="o_2_f_fidschi">
+            <label xml:lang="de" text="O.2.f.Fidschi Fidschi"/>
+          </category>
+          <category ID="o_2_f_marshallinseln">
+            <label xml:lang="de" text="O.2.f.Marshallinseln Marshallinseln"/>
+          </category>
+          <category ID="o_2_f_neu-kaledonien">
+            <label xml:lang="de" text="O.2.f.Neu-Kaledonien Neu-Kaledonien"/>
+          </category>
+          <category ID="o_2_f_neuguinea">
+            <label xml:lang="de" text="O.2.f.Neuguinea Neuguinea"/>
+          </category>
+          <category ID="o_2_f_neuseeland">
+            <label xml:lang="de" text="O.2.f.Neuseeland Neuseeland"/>
+          </category>
+          <category ID="o_2_f_ozeanien">
+            <label xml:lang="de" text="O.2.f.Ozeanien Ozeanien"/>
+          </category>
+          <category ID="o_2_f_papua-neuguinea">
+            <label xml:lang="de" text="O.2.f.Papua-Neuguinea Papua-Neuguinea"/>
+          </category>
+          <category ID="o_2_f_salomonen">
+            <label xml:lang="de" text="O.2.f.Salomonen Salomonen"/>
+          </category>
+          <category ID="o_2_f_samoa">
+            <label xml:lang="de" text="O.2.f.Samoa Samoa"/>
+          </category>
+          <category ID="o_2_f_vanuatu">
+            <label xml:lang="de" text="O.2.f.Vanuatu Vanuatu"/>
+          </category>
+        </category>
+        <category ID="o_2_g">
+          <label xml:lang="de" text="O.2.g Regionen / Europa"/>
+          <category ID="o_2_g_albanien">
+            <label xml:lang="de" text="O.2.g.Albanien Albanien"/>
+          </category>
+          <category ID="o_2_g_andorra">
+            <label xml:lang="de" text="O.2.g.Andorra Andorra"/>
+          </category>
+          <category ID="o_2_g_balkan">
+            <label xml:lang="de" text="O.2.g.Balkan Balkan"/>
+          </category>
+          <category ID="o_2_g_baltikum">
+            <label xml:lang="de" text="O.2.g.Baltikum Baltikum"/>
+          </category>
+          <category ID="o_2_g_belarus">
+            <label xml:lang="de" text="O.2.g.Belarus Belarus"/>
+          </category>
+          <category ID="o_2_g_belgien">
+            <label xml:lang="de" text="O.2.g.Belgien Belgien"/>
+          </category>
+          <category ID="o_2_g_bosnien_und_herzegowina">
+            <label xml:lang="de" text="O.2.g.Bosnien und Herzegowina Bosnien und Herzegowina"/>
+          </category>
+          <category ID="o_2_g_bulgarien">
+            <label xml:lang="de" text="O.2.g.Bulgarien Bulgarien"/>
+          </category>
+          <category ID="o_2_g_deutschland">
+            <label xml:lang="de" text="O.2.g.Deutschland Deutschland"/>
+          </category>
+          <category ID="o_2_g_deutschland^_bundesrepublik">
+            <label xml:lang="de" text="O.2.g.Deutschland,_Bundesrepublik Deutschland, Bundesrepublik"/>
+          </category>
+          <category ID="o_2_g_deutschland^_deutsche_demokratische_republik">
+            <label xml:lang="de" text="O.2.g.Deutschland,_Deutsche_Demokratische_Republik Deutschland, Deutsche Demokratische Republik"/>
+          </category>
+          <category ID="o_2_g_daenemark">
+            <label xml:lang="de" text="O.2.g.Dänemark Dänemark"/>
+          </category>
+          <category ID="o_2_g_estland">
+            <label xml:lang="de" text="O.2.g.Estland Estland"/>
+          </category>
+          <category ID="o_2_g_finnland">
+            <label xml:lang="de" text="O.2.g.Finnland Finnland"/>
+          </category>
+          <category ID="o_2_g_frankreich">
+            <label xml:lang="de" text="O.2.g.Frankreich Frankreich"/>
+          </category>
+          <category ID="o_2_g_gus">
+            <label xml:lang="de" text="O.2.g.GUS GUS (europäischer Teil)"/>
+          </category>
+          <category ID="o_2_g_griechenland">
+            <label xml:lang="de" text="O.2.g.Griechenland Griechenland"/>
+          </category>
+          <category ID="o_2_g_grossbritannien">
+            <label xml:lang="de" text="O.2.g.Großbritannien Großbritannien"/>
+          </category>
+          <category ID="o_2_g_groenland">
+            <label xml:lang="de" text="O.2.g.Grönland Grönland"/>
+          </category>
+          <category ID="o_2_g_irland">
+            <label xml:lang="de" text="O.2.g.Irland Irland"/>
+          </category>
+          <category ID="o_2_g_island">
+            <label xml:lang="de" text="O.2.g.Island Island"/>
+          </category>
+          <category ID="o_2_g_italien">
+            <label xml:lang="de" text="O.2.g.Italien Italien"/>
+          </category>
+          <category ID="o_2_g_jugoslawien">
+            <label xml:lang="de" text="O.2.g.Jugoslawien Jugoslawien"/>
+          </category>
+          <category ID="o_2_g_kroatien">
+            <label xml:lang="de" text="O.2.g.Kroatien Kroatien"/>
+          </category>
+          <category ID="o_2_g_lettland">
+            <label xml:lang="de" text="O.2.g.Lettland Lettland"/>
+          </category>
+          <category ID="o_2_g_liechtenstein">
+            <label xml:lang="de" text="O.2.g.Liechtenstein Liechtenstein"/>
+          </category>
+          <category ID="o_2_g_litauen">
+            <label xml:lang="de" text="O.2.g.Litauen Litauen"/>
+          </category>
+          <category ID="o_2_g_luxemburg">
+            <label xml:lang="de" text="O.2.g.Luxemburg Luxemburg"/>
+          </category>
+          <category ID="o_2_g_malta">
+            <label xml:lang="de" text="O.2.g.Malta Malta"/>
+          </category>
+          <category ID="o_2_g_mazedonien">
+            <label xml:lang="de" text="O.2.g.Mazedonien Mazedonien"/>
+          </category>
+          <category ID="o_2_g_mitteleuropa">
+            <label xml:lang="de" text="O.2.g.Mitteleuropa Mitteleuropa"/>
+          </category>
+          <category ID="o_2_g_moldawien">
+            <label xml:lang="de" text="O.2.g.Moldawien Moldawien"/>
+          </category>
+          <category ID="o_2_g_monaco">
+            <label xml:lang="de" text="O.2.g.Monaco Monaco"/>
+          </category>
+          <category ID="o_2_g_niederlande">
+            <label xml:lang="de" text="O.2.g.Niederlande Niederlande"/>
+          </category>
+          <category ID="o_2_g_norwegen">
+            <label xml:lang="de" text="O.2.g.Norwegen Norwegen"/>
+          </category>
+          <category ID="o_2_g_polen">
+            <label xml:lang="de" text="O.2.g.Polen Polen"/>
+          </category>
+          <category ID="o_2_g_portugal">
+            <label xml:lang="de" text="O.2.g.Portugal Portugal"/>
+          </category>
+          <category ID="o_2_g_rumaenien">
+            <label xml:lang="de" text="O.2.g.Rumänien Rumänien"/>
+          </category>
+          <category ID="o_2_g_russische_foederation">
+            <label xml:lang="de" text="O.2.g.Russische_Föderation Russische Föderation (europäischer Teil)"/>
+          </category>
+          <category ID="o_2_g_russland">
+            <label xml:lang="de" text="O.2.g.Russland Russland (europäischer Teil)"/>
+          </category>
+          <category ID="o_2_g_schweden">
+            <label xml:lang="de" text="O.2.g.Schweden Schweden"/>
+          </category>
+          <category ID="o_2_g_schweiz">
+            <label xml:lang="de" text="O.2.g.Schweiz Schweiz"/>
+          </category>
+          <category ID="o_2_g_serbien">
+            <label xml:lang="de" text="O.2.g.Serbien Serbien"/>
+          </category>
+          <category ID="o_2_g_slowakei">
+            <label xml:lang="de" text="O.2.g.Slowakei Slowakei"/>
+          </category>
+          <category ID="o_2_g_slowenien">
+            <label xml:lang="de" text="O.2.g.Slowenien Slowenien"/>
+          </category>
+          <category ID="o_2_g_spanien">
+            <label xml:lang="de" text="O.2.g.Spanien Spanien"/>
+          </category>
+          <category ID="o_2_g_tschechische_republik">
+            <label xml:lang="de" text="O.2.g.Tschechische_Republik Tschechische Republik"/>
+          </category>
+          <category ID="o_2_g_tschechoslowakei">
+            <label xml:lang="de" text="O.2.g.Tschechoslowakei Tschechoslowakei"/>
+          </category>
+          <category ID="o_2_g_tuerkei">
+            <label xml:lang="de" text="O.2.g.Türkei Türkei"/>
+          </category>
+          <category ID="o_2_g_udssr">
+            <label xml:lang="de" text="O.2.g.UdSSR UdSSR (europäischer Teil)"/>
+          </category>
+          <category ID="o_2_g_ukraine">
+            <label xml:lang="de" text="O.2.g.Ukraine Ukraine"/>
+          </category>
+          <category ID="o_2_g_ungarn">
+            <label xml:lang="de" text="O.2.g.Ungarn Ungarn"/>
+          </category>
+          <category ID="o_2_g_weissrussland">
+            <label xml:lang="de" text="O.2.g.Weißrussland Weißrussland"/>
+          </category>
+          <category ID="o_2_g_zypern">
+            <label xml:lang="de" text="O.2.g.Zypern Zypern"/>
+          </category>
+          <category ID="o_2_g_oesterreich">
+            <label xml:lang="de" text="O.2.g.Österreich Österreich"/>
+          </category>
+        </category>
+        <category ID="o_2_h">
+          <label xml:lang="de" text="O.2.h Regionen / Polargebiete"/>
+          <category ID="o_2_h_antarktis">
+            <label xml:lang="de" text="O.2.h.Antarktis Antarktis"/>
+          </category>
+          <category ID="o_2_h_arktis">
+            <label xml:lang="de" text="O.2.h.Arktis Arktis"/>
+          </category>
+        </category>
+        <category ID="o_2_i">
+          <label xml:lang="de" text="O.2.i Weltraum"/>
+          <category ID="o_2_i_mars">
+            <label xml:lang="de" text="O.2.i.Mars Mars"/>
+          </category>
+          <category ID="o_2_i_mond">
+            <label xml:lang="de" text="O.2.i.Mond Mond"/>
+          </category>
+          <category ID="o_2_i_saturn">
+            <label xml:lang="de" text="O.2.i.Saturn Saturn"/>
+          </category>
+          <category ID="o_2_i_venus">
+            <label xml:lang="de" text="O.2.i.Venus Venus"/>
+          </category>
+        </category>
+      </category>
+    </category>
+  </categories>
 </mycoreclass>

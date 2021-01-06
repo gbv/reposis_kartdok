@@ -13,7 +13,7 @@
       <label xml:lang="x-hosts" text="journal series collection proceedings standalone" />
       <category ID="chapter">
         <label xml:lang="en" text="Book chapter" />
-        <label xml:lang="x-hosts" text="monograph book collection" />
+        <label xml:lang="x-hosts" text="book collection" />
         <label xml:lang="de" text="Buchkapitel" />
         <label xml:lang="x-mapping" text="marcgt:article diniPublType:bookPart" />
       </category>
@@ -36,17 +36,17 @@
         <label xml:lang="de" text="Blog-Eintrag" />
       </category>
     </category>
-    <category ID="book">
-      <label xml:lang="de" text="Buch" />
-      <label xml:lang="x-mapping" text="marcgt:book diniPublType:book" />
-      <label xml:lang="x-hosts" text="series standalone" />
-      <label xml:lang="en" text="Book" />
+    <category ID="single_contribution">
+        <label xml:lang="x-mapping" text="marcgt:article diniPublType:article" />
+        <label xml:lang="en" text="Genuine Open Access Single Contribution" />
+        <label xml:lang="de" text="Genuiner Open Access-Einzelbeitrag" />
+        <label xml:lang="x-hosts" text="series standalone" />
     </category>
-    <category ID="monograph">
-      <label xml:lang="en" text="Monograph" />
-      <label xml:lang="de" text="Monographie" />
+    <category ID="book">
+      <label xml:lang="de" text="Buch, Monographie" />
       <label xml:lang="x-mapping" text="marcgt:book diniPublType:book" />
       <label xml:lang="x-hosts" text="series standalone" />
+      <label xml:lang="en" text="Book, Monograph" />
     </category>
     <category ID="thesis">
       <label xml:lang="en" text="Thesis" />
