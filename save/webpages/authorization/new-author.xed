@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de">
+    <h3>Registrierung</h3>
+    <p>
+     Vor der Publikation Ihres Beitrags auf KartDok ist eine einmalige Registrierung erforderlich. 
+     Zu diesem Zweck vervollständigen Sie bitte das folgende Formular unter Eingabe einer Nutzerkennung 
+     (höchstens 16 Zeichen, bitte nur Kleinbuchstaben ohne Sonderzeichen und/oder Ziffern), sowie eines 
+     Passworts (Maximallänge von 16 Zeichen, bitte keine Leerzeichen). Um die Registrierung abzuschließen, 
+     müssen Sie einmal den Link aufrufen, der Ihnen unmittelbar im Anschluss an die angegebene E-Mail-Adresse 
+     zugesendet wird, nachdem Sie das Formular abgesandt haben. Vielen Dank!
+    </p>
+    <p>
+      Mit Ihren Zugangsdaten können Sie sich nun jederzeit am Server von KartDok
+      <a href="../servlets/MCRLoginServlet?url=../content/index.xml">anmelden,</a>
+      um beliebig viele Beiträge im Open Access zu publizieren.
+    </p>
+  </section>
+  <section xml:lang="all" i18n="component.user2.admin.create.title">
+    <xed:form class="userEditor form-horizontal" role="form" xmlns:xed="http://www.mycore.de/xeditor" xmlns:mcruser="http://www.mycore.de/components/mcruser">
+      <xed:cancel url="{$ServletsBaseURL}MirSelfRegistrationServlet" />
+      <xed:bind xpath="user">
+        <xed:bind xpath="attributes/attribute[@name='mailtoken']/@value" initially="{xed:generate-id()}" />
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">
+              <xed:output i18n="component.user2.admin.create.title" />
+            </h3>
+          </div>
+          <div class="card-body">
+            <xed:include uri="webapp:editor/editor-includes.xed" ref="failed-validation-messages" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="userAccount" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="realName" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="email" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/user-editor.xed" ref="passwords" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-kartdok-includes.xed" ref="institute" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="captcha" />
+
+            <xed:validate display="global" xpath="/user/@name"
+              test="not(xed:call-java('org.mycore.mir.authorization.MirSelfRegistrationServlet', 'userExists', /user))"
+            >
+              <xed:output i18n="selfRegistration.error.userExists" />
+            </xed:validate>
+          </div>
+          <div class="card-footer clearfix">
+            <div class="float-right">
+              <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="buttons" />
+            </div>
+          </div>
+        </div>
+      </xed:bind>
+    </xed:form>
+  </section>
+</MyCoReWebPage>

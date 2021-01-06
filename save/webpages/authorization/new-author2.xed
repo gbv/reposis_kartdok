@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="all" i18n="component.user2.admin.create.title">
+    <h3>
+      <i18n key="selfRegistration.step.create.title" />
+    </h3>
+    <p>
+      <i18n key="selfRegistration.step.create.info" />
+    </p>
+
+    <xed:form class="userEditor form-horizontal" role="form" xmlns:xed="http://www.mycore.de/xeditor" xmlns:mcruser="http://www.mycore.de/components/mcruser">
+      <xed:cancel url="{$ServletsBaseURL}MirSelfRegistrationServlet" />
+      <xed:bind xpath="user">
+        <xed:bind xpath="attributes/attribute[@name='mailtoken']/@value" initially="{xed:generate-id()}" />
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">
+              <xed:output i18n="component.user2.admin.create.title" />
+            </h3>
+          </div>
+          <div class="card-body">
+            <xed:include uri="webapp:editor/editor-includes.xed" ref="failed-validation-messages" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="userAccount" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="realName" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="email" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/user-editor.xed" ref="passwords" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="captcha" />
+
+            <xed:validate display="global" xpath="/user/@name"
+              test="not(xed:call-java('org.mycore.mir.authorization.MirSelfRegistrationServlet', 'userExists', /user))"
+            >
+              <xed:output i18n="selfRegistration.error.userExists" />
+            </xed:validate>
+          </div>
+          <div class="card-footer clearfix">
+            <div class="float-right">
+              <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="buttons" />
+            </div>
+          </div>
+        </div>
+      </xed:bind>
+    </xed:form>
+  </section>
+</MyCoReWebPage>

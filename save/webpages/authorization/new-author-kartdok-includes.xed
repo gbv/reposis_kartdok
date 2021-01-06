@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mcruser="http://www.mycore.de/components/mcruser">
+  <xed:template id="institute">
+    <mcruser:template name="textInput" xpath="attributes/institute" id="institute" i18n="component.user2.author.institute"
+      required="false" matches=".*" maxlength="50"  />
+  </xed:template>
+</xed:template>
