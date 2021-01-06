@@ -71,7 +71,6 @@
 
       <div id="more_options_box" class="row form-group">
         <h2>Publikation aus anderen Datenquellen importieren</h2>
-        <div class="row">
             <div class="col-sm-12 col-md-8">
                 <p>
                   Sie haben zudem die Möglichkeit, die bibliographischen Daten Ihres Beitrags aus den Datenbanken <a
@@ -86,42 +85,44 @@
               <ul>
                   <li>
                       <a href="https://de.wikipedia.org/wiki/Digital_Object_Identifier"
-                          title="https://de.wikipedia.org/wiki/Digital_Object_Identifier">DOI</a> (z. B.:
-                      <i>10.1080/00087041.2017.1304498</i>)
+                          title="https://de.wikipedia.org/wiki/Digital_Object_Identifier">DOI</a> (z.B. <i>10.1080/00087041.2017.1304498</i>)
                   </li>
                   <li>
                       <a href="https://www.isbn-international.org/content/what-isbn"
-                          title="https://www.isbn-international.org/content/what-isbn">ISBN</a> (z. B.: <i>978-0-429-46419-5</i>)
+                          title="https://www.isbn-international.org/content/what-isbn">ISBN</a> (z.B. <i>978-0-429-46419-5</i>)
                   </li>
                   <li>
                       <a href="https://www.fami-portal.de/lexicon/index.php?entry-pdf-export/269-ppn/"
-                          title="https://www.fami-portal.de/lexicon/index.php?entry-pdf-export/269-ppn/">K10plus-PPN</a> (z. B.:
-                      <i>1695581822</i>)
+                          title="https://www.fami-portal.de/lexicon/index.php?entry-pdf-export/269-ppn/">K10plus-PPN</a> (z.B. <i>1695581822</i>)
                   </li>
                   <li>
                       <a href="https://service.elsevier.com/app/answers/detail/a_id/11236/supporthub/scopus/kw/ID/"
-                          title="https://service.elsevier.com/app/answers/detail/a_id/11236/supporthub/scopus/kw/ID/">Scopus-ID</a>(Document
-                      Identifier - EID, z. B.: <i>2-s2.0-85084045695</i>)
+                          title="https://service.elsevier.com/app/answers/detail/a_id/11236/supporthub/scopus/kw/ID/">Scopus-ID</a> (Document Identifier - EID, z.B. <i>2-s2.0-85084045695</i>)
                   </li>
                   <li>
-                      <a href="" title="Current Document">IEEE-ID</a>(IEEE Article Number, z. B.: <i>9149400</i>)
+                      <a href="" title="Current Document">IEEE-ID</a> (IEEE Article Number, z.B. <i>9149400</i>)
                   </li>
                   <li>
-                      <a href="" title="Current Document">ISSN</a>(z. B.: <i>2524-4965</i>)
+                      <a href="" title="Current Document">ISSN</a> (z.B. <i>2524-4965</i>)
                   </li>
                   <li>
                       <a href="https://zdb-katalog.de/expertsearch.xhtml"
-                          title="https://zdb-katalog.de/expertsearch.xhtml">ZDB-ID</a>(z. B.: <i>3010252-2</i>)
+                          title="https://zdb-katalog.de/expertsearch.xhtml">ZDB-ID</a> (z.B. <i>3010252-2</i>)
                   </li>
               </ul>
                 </p>
             </div>
-        </div>
+
         <div class="row form-group">
           <label class="col-sm-3 col-lg-2 control-label">
             <select name="type">
               <option value="doi">DOI</option>
               <option value="isbn">ISBN</option>
+              <option value="ppn">K10plus-PPN</option>
+              <option value="scopus">Scopus-ID</option>
+              <option value="ieee">IEEE-ID</option>
+              <option value="issn">ISSN</option>
+              <option value="zdbid">ZDB-ID</option>
             </select>
           </label>
           <div class="col-sm-7 col-md-5 col-lg-4">
@@ -134,7 +135,7 @@
       <div class="row form-group">
         <div class="col-sm-3 col-md-2"></div>
         <div class="col-sm-5 col-md-4">
-          <button type="submit" class="btn btn-primary btn-md">Melden</button>
+          <a href="../rights/vertrag.pdf" class="btn btn-primary btn-md">Publikationsvertrag (PDF)</a> <button type="submit" class="btn btn-primary btn-md">Weiter</button>
         </div>
       </div>
 
