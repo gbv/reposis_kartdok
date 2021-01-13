@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="kartdok_bc">
-  <label xml:lang="x-uri" text="https://karten.sbb-berlin.de/classifications/genres"/>
+  <label xml:lang="x-uri" text="https://karten.sbb-berlin.de/classifications/kartdok_bc"/>
   <label xml:lang="de" text="KartDok BC" description="Liste der Kategorien"/>
   <label xml:lang="en" text="KartDok BC" description="List of publication types"/>
   <categories>

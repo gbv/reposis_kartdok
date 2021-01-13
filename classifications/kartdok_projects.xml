@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="kartdok_projects">
+  <label xml:lang="x-uri" text="https://karten.sbb-berlin.de/classifications/kartdok_projects"/>
+  <label xml:lang="de" text="KartDok Projekte" description="Liste der Projekte"/>
+  <label xml:lang="en" text="KartDok Projects" description="List of projects"/>
+  <categories>
+    <category ID="test">
+      <label xml:lang="de" text="Testprojekt"/>
+      <label xml:lang="en" text="Test project"/>
+    </category>
+  </categories>
+</mycoreclass>

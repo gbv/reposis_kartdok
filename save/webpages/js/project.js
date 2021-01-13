@@ -25,6 +25,16 @@ $(document).ready(function() {
   // prevent dropdown from leaving visible page area
   $(".language-menu").addClass('dropdown-menu-right');
 
+  // hide openAIRE in forms intially
+  if ( localStorage.getItem('open_aire_options_are_visible') === "false" ){
+    $('#open-aire_box').css('display', 'none');
+  }
+
+  // toggle openAIRE in forms on-click 
+  $("#open-aire_trigger_checkbox").click(function(){
+    toggleOAOptions();
+  });
+
 });
 
 $( document ).ajaxComplete(function() {
@@ -32,3 +42,19 @@ $( document ).ajaxComplete(function() {
   $("select#genre option[value='series']").remove();
   $("select#genre option[value='journal']").remove();
 });
+
+
+function toggleOAOptions() {
+  var duration = 500;
+  if ( $('#open-aire_box').is(':visible') ) {
+    $('#open-aire_trigger').removeClass('glyphicon-check');
+    $('#open-aire_trigger').addClass('glyphicon-unchecked');
+    $('#open-aire_box').fadeOut( duration );
+    localStorage.setItem("open_aire_options_are_visible", false);
+  } else {
+    $('#open-aire_trigger').removeClass('glyphicon-unchecked');
+    $('#open-aire_trigger').addClass('glyphicon-check');
+    $('#open-aire_box').fadeIn( duration );
+    localStorage.setItem("open_aire_options_are_visible", true);
+  }
+}
