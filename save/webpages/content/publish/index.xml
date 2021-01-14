@@ -1,64 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MyCoReWebPage>
-    <section title="Publizieren" xml:lang="de"/>
-    <section title="New publication" xml:lang="en"/>
-    <section xml:lang="all">
-        <script src='../../js/mir/select-doctype.js'></script>
-        <h1>Publizieren</h1>
+  <section title="Publizieren" xml:lang="de"/>
+  <section title="Publication" xml:lang="en"/>
+  <section xml:lang="de">
+    <script src='../../js/mir/select-doctype.min.js'> </script>
 
-        <!-- introduction -->
-        <div class="row">
-            <div class="col-sm-12 col-md-8">
+      <form id="submit_publication"
+            class="form-horizontal"
+            role="form"
+            method="get"
+            action="../../editor/editor-dynamic.xed">
+
+            <h2>Veröffentlichen</h2>
+            <h3>Dokument einreichen</h3>
+            <div class="row">
+              <div class="col-sm-12 col-md-8">
                 <p>
-                    Zur Veröffentlichung Ihres Beitrags auf KartDok ist zunächst die Erfassung seiner bibliographischen
-                    Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu – so im konkreten
-                    Fall überhaupt erforderlich – die dem Typus Ihrer Publikation entsprechende Erfassungsmaske. Bitte
-                    beachten Sie, dass alle mit einen Asterisk * gekennzeichneten Felder der jeweils gewählten
-                    Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden
-                    Sie bitte ergänzend einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift
-                    versehenen <a href="../rights/vertrag.pdf">Publikationsvertrag</a> an:
-                    <span class="madress">kartdok [at] sbb.spk-berlin.de</span>
+                  Zur Veröffentlichung Ihres Beitrags auf KartDok ist zunächst die Erfassung seiner bibliographischen Daten erforderlich. Bitte
+                  beachten Sie, dass alle mit einem Asterisk * gekennzeichneten Felder der jeweils gewählten Erfassungsmaske verpflichtend zu befüllen sind (Pflichtfelder).
                 </p>
+                <p>
+                  Für jede angemeldete Veröffentlichung übersenden Sie uns bitte ergänzend den vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift versehenen
+                  <a href="../rights/vertrag.pdf">Publikationsvertrag (PDF)</a> an: <span class="madress">kartdok [at] sbb.spk-berlin.de</span>
+                </p>
+              </div>
             </div>
-        </div>
 
-        <form id="submit_publication"
-              class="form-horizontal"
-              role="form"
-              method="get"
-              action="../../editor/editor-dynamic.xed">
+            <h3>Publikationstyp auswählen</h3>
+            <div class="row">
+              <div class="col-sm-12 col-md-8">
+                <p>
+                  Zur Erfassung der bibliographischen Daten wählen Sie bitte den Typ Ihrer Publikation aus. Dazu kombinieren Sie aus dem zweiteiligen Auswahlmenü – so im 
+                  konkreten Fall überhaupt erforderlich – das dem Typ Ihrer Publikation entsprechende Erfassungsformular.
+                </p>
+              </div>
+            </div>
 
-            <!-- genre -->
             <div class="row form-group">
-                <label for="genre" class="col-sm-3 col-lg-2 control-label">
-                    <text i18n="component.mods.genre"/>
-                </label>
-                <div class="col-sm-7 col-md-5 col-lg-4">
-                    <select id="genre" class="form-control" name="genre" size="1">
-                    </select>
+              <label for="genre" class="col-sm-3 col-lg-2 control-label">
+                <text i18n="component.mods.genre" />
+              </label>
+              <div class="col-sm-7 col-md-5 col-lg-4">
+                <select id="genre" class="form-control" name="genre" size="1">
+                </select>
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <label for="host"  class="col-sm-3 col-lg-2 control-label">
+                <text i18n="mir.select.host" />
+              </label>
+              <div class="col-sm-7 col-md-5 col-lg-4">
+                <select id="host" class="form-control" name="host" size="1">
+                </select>
+              </div>
+            </div>
+
+            <div id="more_options_toggle" class="row">
+              <div class="col-sm-3 col-lg-2"></div>
+              <div class="col-sm-9 col-lg-10">
+                <span id="more_options_trigger">
+                  <span id="more_options_label">weitere Optionen anzeigen</span>
+                  <span id="more_options_label_hide" class="d-none">weitere Optionen ausblenden</span>
+                  <span id="more_options_button" class="fas fa-chevron-up"></span>
+                </span>
+              </div>
+            </div>
+
+            <!-- more options -->
+            <div id="more_options_box" class="row form-group">
+              <h3>Publikation aus anderen Datenquellen importieren</h3>
+                <div class="row">
+                  <div class="col-sm-12 col-md-8">
+                    <p>
+                      Sie haben zudem die Möglichkeit, die bibliographischen Daten Ihres Beitrags aus den Datenbanken
+                      <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>,
+                      <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> und
+                      <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> sowie
+                      <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> und
+                      <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a>
+                      in das betreffende Erfassungsformular zu importieren. Hierzu wählen Sie für
+                      die Suche Ihres Beitrags in den Datenbanken zunächst bitte den betreffenden Identifikator aus und geben diesen ein.
+                    </p>
+                  </div>
                 </div>
-            </div>
 
-            <!-- host -->
-            <div class="row form-group">
-                <label for="host" class="col-sm-3 col-lg-2 control-label">
-                    <text i18n="mir.select.host"/>
-                </label>
-                <div class="col-sm-7 col-md-5 col-lg-4">
-                    <select id="host" class="form-control" name="host" size="1">
+                <div class="row form-group">
+                  <div class="col-sm-3 col-lg-2 control-label">
+                    <select name="type" class="form-control">
+                      <option value="doi">DOI</option>
+                      <option value="isbn">ISBN</option>
+                      <option value="ppn">K10plus-PPN</option>
+                      <option value="scopus">Scopus-ID</option>
+                      <option value="ieee">IEEE-ID</option>
+                      <option value="issn">ISSN</option>
+                      <option value="zdbid">ZDB-ID</option>
                     </select>
+                  </div>
+                  <div class="col-sm-7 col-md-5 col-lg-4">
+                    <input class="form-control" type="text" name="modsId" />
+                  </div>
+                  <div class="col-sm-2 col-md-2">
+                    <a class="btn btn-secondary info-button" data-content="DOI (z.B. 10.1080/00087041.2017.1304498)" data-placement="right" data-toggle="popover" role="button" tabindex="0" data-original-title="" title="">
+                      <i class="fas fa-info"></i>
+                    </a>
+                  </div>
                 </div>
-            </div>
+              </div>
 
-            <!-- submit -->
-            <div class="row form-group">
+              <div class="row form-group">
                 <div class="col-sm-3 col-md-2"></div>
                 <div class="col-sm-5 col-md-4">
-                    <button type="submit" class="btn btn-default">Melden</button>
+                  <a href="../rights/vertrag.pdf" class="btn btn-light btn-md">Publikationsvertrag (PDF)</a>
+                  <button type="submit" class="btn btn-primary">Weiter</button>
                 </div>
-            </div>
+              </div>
 
         </form>
     </section>
+
 </MyCoReWebPage>
