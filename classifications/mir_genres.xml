@@ -107,13 +107,11 @@
       <label xml:lang="de" text="Zeitschrift" />
       <label xml:lang="en" text="Journal" />
       <label xml:lang="x-mapping" text="marcgt:journal diniPublType:Periodical" />
-      <label xml:lang="x-editor" text="false" />
     </category>
     <category ID="series">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:Periodical" />
       <label xml:lang="en" text="Series" />
-      <label xml:lang="x-editor" text="false" />
       <label xml:lang="de" text="Schriftenreihe" />
     </category>
     <category ID="blog">
@@ -121,7 +119,6 @@
       <label xml:lang="de" text="Blog" />
       <label xml:lang="x-mapping" text="marcgt:web_site diniPublType:Website" />
       <label xml:lang="en" text="Blog" />
-      <label xml:lang="x-editor" text="false" />
     </category>
     <category ID="research_data">
       <label xml:lang="de" text="Forschungsdaten" />

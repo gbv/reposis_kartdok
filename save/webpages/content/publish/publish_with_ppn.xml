@@ -1,63 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MyCoReWebPage>
-  <section title="Publizieren" xml:lang="de"/>
-  <section title="New publication" xml:lang="en"/>
+  <section title="Publizieren" xml:lang="de" />
+  <section title="New publication" xml:lang="en" />
   <section xml:lang="all">
-    <script src='../../js/mir/select-doctype.js'> </script>
-  <h1>Veröffentlichen</h1>
+    <script src='../../js/mir/select-doctype.js'></script>
+    <h1>Veröffentlichen</h1>
 
-<!-- introduction -->
-  <div class="row">
-    <div class="col-sm-12 col-md-8">
-      <p>
+    <!-- introduction -->
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <p>
           Zur Veröffentlichung Ihres Beitrags auf KartDok ist zunächst die Erfassung seiner bibliographischen Daten erforderlich. Bitte
           beachten Sie, dass alle mit einem Asterisk * gekennzeichneten Felder der jeweils gewählten Erfassungsmaske verpflichtend zu befüllen sindg (Pflichtfelder).
       </p>
-      <p>
+        <p>
           Für jede angemeldete Veröffentlichung übersenden Sie uns bitte ergänzend den vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift versehenen
-        <a href="../rights/vertrag.pdf">Publikationsvertrag (PDF)</a> an: <span class="madress">kartdok [at] sbb.spk-berlin.de</span>
-      </p>
+          <a href="../rights/vertrag.pdf">Publikationsvertrag (PDF)</a>
+          an:
+          <span class="madress">kartdok [at] sbb.spk-berlin.de</span>
+        </p>
+      </div>
     </div>
-  </div>
 
-  <h2>Publikationstyp auswählen</h2>
-  <div class="row">
-    <div class="col-sm-12 col-md-8">
-      <p>
+    <h2>Publikationstyp auswählen</h2>
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <p>
           Zur Erfassung der bibliographischen Daten wählen Sie bitte den Typ Ihrer Publikation aus. Dazu kombinieren Sie aus dem zweiteiligen Auswahlmenü – so im 
-              konkreten Fall überhaupt erforderlich – das dem Typ Ihrer Publikation entsprechende Erfassungsformular.<br />
-      </p>
-    </div>
-  </div>
-
-  <form id="submit_publication"
-        class="form-horizontal"
-        role="form"
-        method="get"
-        action="../../editor/editor-dynamic.xed">
-
-<!-- genre -->
-    <div class="row form-group">
-      <label for="genre" class="col-sm-3 col-lg-2 control-label">
-        <text i18n="component.mods.genre" />
-      </label>
-      <div class="col-sm-7 col-md-5 col-lg-4">
-        <select id="genre" class="form-control" name="genre" size="1">
-        </select>
+              konkreten Fall überhaupt erforderlich – das dem Typ Ihrer Publikation entsprechende Erfassungsformular.
+          <br />
+        </p>
       </div>
     </div>
 
-<!-- host -->
-    <div class="row form-group">
-      <label for="host"  class="col-sm-3 col-lg-2 control-label">
-        <text i18n="mir.select.host" />
-      </label>
-      <div class="col-sm-7 col-md-5 col-lg-4">
-        <select id="host" class="form-control" name="host" size="1">
-        </select>
+    <form id="submit_publication" class="form-horizontal" role="form" method="get" action="../../editor/editor-dynamic.xed">
+
+      <!-- genre -->
+      <div class="row form-group">
+        <label for="genre" class="col-sm-3 col-lg-2 control-label">
+          <text i18n="component.mods.genre" />
+        </label>
+        <div class="col-sm-7 col-md-5 col-lg-4">
+          <select id="genre" class="form-control" name="genre" size="1"></select>
+        </div>
       </div>
-    </div>
+
+      <!-- host -->
+      <div class="row form-group">
+        <label for="host" class="col-sm-3 col-lg-2 control-label">
+          <text i18n="mir.select.host" />
+        </label>
+        <div class="col-sm-7 col-md-5 col-lg-4">
+          <select id="host" class="form-control" name="host" size="1"></select>
+        </div>
+      </div>
 
       <div id="more_options_toggle" class="row">
         <div class="col-sm-3 col-lg-2"></div>
@@ -71,50 +68,25 @@
 
       <div id="more_options_box" class="row form-group">
         <h2>Publikation aus anderen Datenquellen importieren</h2>
-            <div class="col-sm-12 col-md-8">
-                <p>
-                  Sie haben zudem die Möglichkeit, die bibliographischen Daten Ihres Beitrags aus den Datenbanken <a
-                  href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636"
-                  title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>, <a
-                  href="https://crossref.org/" title="https://crossref.org/">Crossref</a> und <a href="https://ieeexplore.ieee.org/"
-                  title="https://ieeexplore.ieee.org/">IEEE Xplore</a> sowie <a href="https://opac.k10plus.de/"
-                  title="https://opac.k10plus.de/">K10plus</a> und <a href="https://zdb-katalog.de/"
-                  title="https://zdb-katalog.de/">ZDB</a> in das betreffende Erfassungsformular zu importieren. Hierzu wählen Sie für
-              die Suche Ihres Beitrags in den Datenbanken zunächst bitte den betreffenden Identifikator aus und geben diesen ein:
-              
-              <ul>
-                  <li>
-                      <a href="https://de.wikipedia.org/wiki/Digital_Object_Identifier"
-                          title="https://de.wikipedia.org/wiki/Digital_Object_Identifier">DOI</a> (z.B. <i>10.1080/00087041.2017.1304498</i>)
-                  </li>
-                  <li>
-                      <a href="https://www.isbn-international.org/content/what-isbn"
-                          title="https://www.isbn-international.org/content/what-isbn">ISBN</a> (z.B. <i>978-0-429-46419-5</i>)
-                  </li>
-                  <li>
-                      <a href="https://www.fami-portal.de/lexicon/index.php?entry-pdf-export/269-ppn/"
-                          title="https://www.fami-portal.de/lexicon/index.php?entry-pdf-export/269-ppn/">K10plus-PPN</a> (z.B. <i>1695581822</i>)
-                  </li>
-                  <li>
-                      <a href="https://service.elsevier.com/app/answers/detail/a_id/11236/supporthub/scopus/kw/ID/"
-                          title="https://service.elsevier.com/app/answers/detail/a_id/11236/supporthub/scopus/kw/ID/">Scopus-ID</a> (Document Identifier - EID, z.B. <i>2-s2.0-85084045695</i>)
-                  </li>
-                  <li>
-                      <a href="" title="Current Document">IEEE-ID</a> (IEEE Article Number, z.B. <i>9149400</i>)
-                  </li>
-                  <li>
-                      <a href="" title="Current Document">ISSN</a> (z.B. <i>2524-4965</i>)
-                  </li>
-                  <li>
-                      <a href="https://zdb-katalog.de/expertsearch.xhtml"
-                          title="https://zdb-katalog.de/expertsearch.xhtml">ZDB-ID</a> (z.B. <i>3010252-2</i>)
-                  </li>
-              </ul>
-                </p>
-            </div>
+        <div class="col-sm-12 col-md-8">
+          <p>
+            Sie haben zudem die Möglichkeit, die bibliographischen Daten Ihres Beitrags aus den Datenbanken
+            <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>
+            ,
+            <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a>
+            und
+            <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a>
+            sowie
+            <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a>
+            und
+            <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a>
+            in das betreffende Erfassungsformular zu importieren. Hierzu wählen Sie für
+              die Suche Ihres Beitrags in den Datenbanken zunächst bitte den betreffenden Identifikator aus und geben diesen ein.
+          </p>
+        </div>
 
         <div class="row form-group">
-          <label class="col-sm-3 col-lg-2 control-label">
+          <label class="col-sm-3 col-md-2 col-form-label text-right">
             <select name="type">
               <option value="doi">DOI</option>
               <option value="isbn">ISBN</option>
@@ -125,17 +97,22 @@
               <option value="zdbid">ZDB-ID</option>
             </select>
           </label>
-          <div class="col-sm-7 col-md-5 col-lg-4">
+          <div class="col-sm-5 col-md-4">
             <input class="form-control" type="text" name="modsId" />
           </div>
+          <div class="col-sm-4 col-md-6"><a class="btn btn-secondary info-button" data-content="DOI (z.B. 10.1080/00087041.2017.1304498)" data-placement="right" data-toggle="popover" role="button" tabindex="0" data-original-title="" title="">
+            <i class="fas fa-info"></i>
+          </a></div>
         </div>
       </div>
 
-<!-- submit -->
+
+      <!-- submit -->
       <div class="row form-group">
         <div class="col-sm-3 col-md-2"></div>
         <div class="col-sm-5 col-md-4">
-          <a href="../rights/vertrag.pdf" class="btn btn-primary btn-md">Publikationsvertrag (PDF)</a> <button type="submit" class="btn btn-primary btn-md">Weiter</button>
+          <a href="../rights/vertrag.pdf" class="btn btn-primary btn-md">Publikationsvertrag (PDF)</a>
+          <button type="submit" class="btn btn-primary btn-md">Weiter</button>
         </div>
       </div>
 
