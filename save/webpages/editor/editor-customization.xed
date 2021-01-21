@@ -5,6 +5,7 @@
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
     <xed:include ref="kartdok_bc" before="sdnb.repeat" />
+    <xed:include ref="kartdok_projects" after="kartdok_bc" />
   </xed:modify>
 
   <xed:modify ref="genres.publication.common">
