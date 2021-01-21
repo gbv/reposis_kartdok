@@ -33,6 +33,9 @@ body > section {
   padding-right: 0;
 }
 
+.shariff .orientation-horizontal li {
+  margin-right: 0.7%;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

@@ -39,6 +39,10 @@
   }
 }
 
+li.mir-lang > a.nav-link {
+  text-transform: uppercase;
+}
+
 .dropdown-menu {
   border: 1px solid rgba(0,0,0,.15);
   border-radius: 4px;
