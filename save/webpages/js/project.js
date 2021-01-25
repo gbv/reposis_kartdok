@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-  // spam protection for mails
+   // spam protection for mails
   $('span.madress').each(function(i) {
       var text = $(this).text();
       var address = text.replace(" [at] ", "@");
@@ -30,7 +30,7 @@ $(document).ready(function() {
     $('#open-aire_box').css('display', 'none');
   }
 
-  // toggle openAIRE in forms on-click 
+  // toggle openAIRE in forms on-click
   $("#open-aire_trigger_checkbox").click(function(){
     toggleOAOptions();
   });

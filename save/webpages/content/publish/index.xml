@@ -69,53 +69,66 @@
             </div>
 
             <!-- more options -->
-            <div id="more_options_box" class="row form-group">
-              <h3>Publikation aus anderen Datenquellen importieren</h3>
-                <div class="row">
-                  <div class="col-sm-12 col-md-8">
-                    <p>
-                      Sie haben zudem die Möglichkeit, die bibliographischen Daten Ihres Beitrags aus den Datenbanken
-                      <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>,
-                      <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> und
-                      <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> sowie
-                      <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> und
-                      <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a>
-                      in das betreffende Erfassungsformular zu importieren. Hierzu wählen Sie für
-                      die Suche Ihres Beitrags in den Datenbanken zunächst bitte den betreffenden Identifikator aus und geben diesen ein.
-                    </p>
-                  </div>
-                </div>
+            <div id="more_options_box">
 
-                <div class="row form-group">
-                  <div class="col-sm-3 col-lg-2 control-label">
-                    <select name="type" class="form-control">
-                      <option value="doi">DOI</option>
-                      <option value="isbn">ISBN</option>
-                      <option value="ppn">K10plus-PPN</option>
-                      <option value="scopus">Scopus-ID</option>
-                      <option value="ieee">IEEE-ID</option>
-                      <option value="issn">ISSN</option>
-                      <option value="zdbid">ZDB-ID</option>
-                    </select>
-                  </div>
-                  <div class="col-md-5 col-lg-4">
-                    <input class="form-control" type="text" name="modsId" />
-                  </div>
-                  <div class="col-sm-2 col-md-2">
-                    <a class="btn btn-secondary info-button" data-placement="right" data-bs-toggle="tooltip" data-toggle="popover" role="button" tabindex="0" data-original-title="" title="DOI (z.B. 10.1080/00087041.2017.1304498)">
-                      <i class="fas fa-info"></i>
-                    </a>
-                  </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-8">
+                  <h3>Publikation aus anderen Datenquellen importieren</h3>
+                  <p>
+                    Sie haben zudem die Möglichkeit, die bibliographischen Daten Ihres Beitrags aus den Datenbanken
+                    <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>,
+                    <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> und
+                    <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> sowie
+                    <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> und
+                    <a href="https://zdb-katalog.de/" title="https://zdb-katalog.de/">ZDB</a>
+                    in das betreffende Erfassungsformular zu importieren. Hierzu wählen Sie für
+                    die Suche Ihres Beitrags in den Datenbanken zunächst bitte den betreffenden Identifikator aus und geben diesen ein.
+                  </p>
                 </div>
               </div>
 
               <div class="row form-group">
-                <div class="col-sm-3 col-md-2"></div>
-                <div class="col-sm-5 col-md-4">
-                  <a href="../rights/vertrag.pdf" class="btn btn-light btn-md">Publikationsvertrag (PDF)</a>
-                  <button type="submit" class="btn btn-primary">Weiter</button>
+                <div class="col-sm-3 col-lg-2 control-label mb-1">
+                  <select name="type" class="form-control">
+                    <option value="doi">DOI</option>
+                    <option value="isbn">ISBN</option>
+                    <option value="ppn">K10plus-PPN</option>
+                    <option value="scopus">Scopus-ID</option>
+                    <option value="ieee">IEEE-ID</option>
+                    <option value="issn">ISSN</option>
+                    <option value="zdbid">ZDB-ID</option>
+                  </select>
+                </div>
+                <div class="col-md-5 col-lg-4 mb-1">
+                  <input class="form-control" type="text" name="modsId" />
+                </div>
+                <div class="col-sm-2 col-md-2 mb-1">
+                  <a class="btn btn-secondary info-button publish-import-popover" 
+                     role="button" 
+                     tabindex="0">
+                    <i class="fas fa-info"></i>
+                  </a>
                 </div>
               </div>
+              <script>
+                $(document).ready(function() {
+                  $('.publish-import-popover').popover({
+                      html: true,
+                      placement: 'right', 
+                      title: '<strong>Überschrift</strong>',
+                      content: '<a href="#">HTML Hilfetext</a>'
+                  });
+                });
+              </script>
+            </div>
+
+            <div class="row form-group mt-5">
+              <div class="col-sm-3 col-md-2"></div>
+              <div class="col-sm-5 col-md-4">
+                <a href="../rights/vertrag.pdf" class="btn btn-light btn-md">Publikationsvertrag (PDF)</a>
+                <button type="submit" class="btn btn-primary">Weiter</button>
+              </div>
+            </div>
 
         </form>
     </section>

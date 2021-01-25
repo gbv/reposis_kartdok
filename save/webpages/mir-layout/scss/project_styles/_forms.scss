@@ -6,7 +6,15 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+// TODO: seems it's a unsolved migration problem
+// see mir _form.scss with the same selector
+#submit_publication {
+  input,
+  select,
+  #more_options_box p {
+    width: 100%;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
