@@ -102,7 +102,7 @@
                     <input class="form-control" type="text" name="modsId" />
                   </div>
                   <div class="col-sm-2 col-md-2">
-                    <a class="btn btn-secondary info-button" data-content="DOI (z.B. 10.1080/00087041.2017.1304498)" data-placement="right" data-toggle="popover" role="button" tabindex="0" data-original-title="" title="">
+                    <a class="btn btn-secondary info-button" data-placement="right" data-bs-toggle="tooltip" data-toggle="popover" role="button" tabindex="0" data-original-title="" title="DOI (z.B. 10.1080/00087041.2017.1304498)">
                       <i class="fas fa-info"></i>
                     </a>
                   </div>
