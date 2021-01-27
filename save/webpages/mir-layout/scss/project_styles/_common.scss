@@ -43,7 +43,7 @@
 
   // Resize the popover info box on the publish page,
   // because otherwise the content fit not very well  
-  .publish-import-popover-box {
+  .publish-import-popover-box .popover {
     max-width: 460px;
   }
 // Large devices (desktops) and below: <= 1200px
