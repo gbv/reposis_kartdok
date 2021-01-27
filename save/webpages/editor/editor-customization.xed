@@ -11,10 +11,12 @@
   </xed:modify>
 
   <xed:modify ref="genres.publication.common">
-    <xed:include ref="kartdok_bc" before="sdnb.repeat" />
+    <xed:include ref="sdnb.repeat.filtered" before="sdnb.repeat" />
+    <xed:remove ref="sdnb.repeat" />
+    <xed:include ref="kartdok_bc" before="sdnb.repeated.filtered" />
     <xed:include ref="link.repeated" before="kartdok_bc" />
     <xed:include ref="kartdok_projects" after="kartdok_bc" />
-    <xed:include ref="openAIRE" after="sdnb.repeat" />
+    <xed:include ref="openAIRE" after="sdnb.repeated.filtered" />
     <xed:include ref="abstract.repeated" after="abstract.simple" />
     <xed:remove ref="abstract.simple" />
     <xed:include ref="kartdok.subject" after="subject.simple" />
@@ -86,6 +88,38 @@
 
   <xed:template id="date.issued.required">
     <mir:textfield xpath="mods:originInfo[@eventType='publication']/mods:dateIssued[@encoding='w3cdtf']" label="mir.date.issued.10" help-text="{i18n:mir.help.date.issued.10}" placeholder="{i18n:mir.placeholder.date}" class="required" required="true" required-i18n="mir.validation.date.issued" />
+  </xed:template>
+
+  <xed:template id="sdnb.repeat.filtered">
+    <xed:repeat xpath="mods:classification[@authority='sdnb'][@displayLabel='sdnb']" min="1" max="10" method="build">
+      <div class="form-group {$xed-validation-marker}">
+        <div class="form-group row">
+          <label class="col-md-3 control-label">
+            <xed:output i18n="editor.search.mir.sdnb" />
+            :
+          </label>
+          <div class="col-md-6">
+            <select class="form-control form-control-inline">
+              <option value="">
+                <xed:output i18n="mir.select" />
+              </option>
+              <xed:choose>
+                <xed:when test="xed:call-java('org.mycore.common.xml.MCRXMLFunctions','isCurrentUserInRole','submitter')">
+                  <option title="520 Astronomie, Kartographie" value="520">520 Astronomie, Kartographie</option>
+                  <option title="550 Geowissenschaften" value="550">550 Geowissenschaften</option>
+                  <option title="910 Geografie, Reisen" value="910">910 Geografie, Reisen</option>
+                  <option title="914.3 Geografie, Reisen (Deutschland)" value="914.3">914.3 Geografie, Reisen (Deutschland)</option>
+                </xed:when>
+                <xed:otherwise>
+                  <xed:include uri="xslStyle:items2options:classification:editor:-1:children:SDNB" />
+                </xed:otherwise>
+              </xed:choose>
+            </select>
+          </div>
+          <mir:help-pmud help-text="{i18n:mir.help.sdnb}" pmud="true" />
+        </div>
+      </div>
+    </xed:repeat>
   </xed:template>
 
   <xed:template id="cartographics.repeated">
