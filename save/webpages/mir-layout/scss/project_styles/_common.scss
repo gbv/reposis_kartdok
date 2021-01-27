@@ -35,7 +35,17 @@
     padding: 7px 13px;
   }
 
+  // reduce margins of the info box on the publish page
+  #publish-import-popover-content-list {
+    padding-left: 1rem;
+    margin-bottom: 0;
+  }
 
+  // Resize the popover info box on the publish page,
+  // because otherwise the content fit not very well  
+  .publish-import-popover-box {
+    max-width: 460px;
+  }
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
