@@ -61,8 +61,8 @@
               <div class="col-sm-3 col-lg-2"></div>
               <div class="col-sm-9 col-lg-10">
                 <span id="more_options_trigger">
-                  <span id="more_options_label">weitere Optionen anzeigen</span>
-                  <span id="more_options_label_hide" class="d-none">weitere Optionen ausblenden</span>
+                  <span id="more_options_label">bibliographische Daten importieren</span>
+                  <span id="more_options_label_hide" class="d-none">bibliographische Daten importieren</span>
                   <span id="more_options_button" class="fas fa-chevron-up"></span>
                 </span>
               </div>
@@ -127,11 +127,11 @@
                         (Document Identifier - EID, z.B. <i>2-s2.0-85084045695</i>)
                       </li>
                       <li>
-                        <a href="#">IEEE-ID</a> 
+                        <a href="https://ieeexplore.ieee.org/Xplorehelp/searching-ieee-xplore/command-search#summary-of-data-fields">IEEE-ID</a> 
                         (IEEE Article Number, z.B. <i>9149400</i>)
                       </li>
                       <li>
-                        <a href="#">ISSN</a> 
+                        <a href="https://www.dnb.de/DE/Professionell/Services/ISSN/issn_node.html#doc224512bodyText1">ISSN</a> 
                         (z.B. <i>2524-4965</i>)
                       </li>
                       <li>
