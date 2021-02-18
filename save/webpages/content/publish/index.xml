@@ -160,7 +160,7 @@
             <div class="row form-group mt-5">
               <div class="col-sm-3 col-md-2"></div>
               <div class="col-sm-5 col-md-4">
-                <a href="../rights/vertrag.pdf" class="btn btn-light btn-md">Publikationsvertrag (PDF)</a>
+                <a href="../rights/vertrag.pdf" class="btn btn-dark btn-md">Publikationsvertrag (PDF)</a>
                 <button type="submit" class="btn btn-primary">Weiter</button>
               </div>
             </div>
