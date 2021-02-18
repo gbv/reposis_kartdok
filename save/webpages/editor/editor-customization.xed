@@ -6,7 +6,7 @@
   <xed:modify ref="admin.fields">
     <xed:remove ref="cartographics" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
-    <xed:include ref="kartdok_bc" before="sdnb.repeat" />
+    <xed:include ref="kartdok_bc.search" before="sdnb.repeat" />
     <xed:include ref="kartdok_projects" after="kartdok_bc" />
   </xed:modify>
 
@@ -55,7 +55,7 @@
         </label>
         <div class="col-md-6">
           <xed:bind xpath="mods:classification[@authorityURI='https://karten.sbb-berlin.de/classifications/kartdok_bc'][@displayLabel='kartdok_bc']/@valueURIxEditor">
-            <div class="form-control form-control-inline">
+            <div class="controls">
               <xed:include ref="kartdok_bc.list" />
             </div>
           </xed:bind>
@@ -65,7 +65,7 @@
   </xed:template>
 
   <xed:template id="kartdok_bc.list">
-    <select class="form-control form-control-inline lang-select" data-dlang="{$MCR.Metadata.DefaultLang}" data-langs="{$MCR.Metadata.Languages}">
+    <select class="form-control form-control-inline bc-select">
       <xed:choose>
         <xed:when test="string-length(.) &gt; 0">
           <option value="{.}" selected="">
@@ -73,8 +73,8 @@
           </option>
         </xed:when>
         <xed:otherwise>
-          <option value="{$MCR.Metadata.DefaultLang}" selected="">
-            <xed:output value="{$MCR.Metadata.DefaultLang}" />
+          <option value="" selected="">
+            <xed:output value="" />
           </option>
         </xed:otherwise>
       </xed:choose>
