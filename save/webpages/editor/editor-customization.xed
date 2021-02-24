@@ -158,7 +158,7 @@
     <xed:remove ref="openAIRE" />
     <xed:include ref="research.data.date.repeated.fixed" after="research.data.date.repeated" />
     <xed:remove ref="research.data.date.repeated" />
-    <xed:include ref="research.data.date.repeated.publication.fixed" after="research.data.date.repeated.fixed" />
+    <!--<xed:include ref="research.data.date.repeated.publication" after="research.data.date.repeated" />-->
     <xed:remove ref="sdnb.repeat" />
     <xed:remove ref="abstract.simple" />
     <xed:remove ref="embargo.datetimepicker" />
@@ -202,9 +202,9 @@
     <xed:remove ref="abstract.simple" />
     <xed:remove ref="geographic" />
     <xed:remove ref="cartographics" />
-    <xed:include ref="research.data.date.repeated.fixed" after="date.recorded.datetimepicker" />
+    <xed:include ref="research.data.date.repeated" after="date.recorded.datetimepicker" />
     <xed:remove ref="date.recorded.datetimepicker" />
-    <xed:include ref="research.data.date.repeated.publication.fixed" after="research.data.date.repeated.fixed" />
+    <xed:include ref="research.data.date.repeated.publication" after="research.data.date.repeated" />
     <xed:include ref="station" before="language" />
     <xed:include ref="abstract.repeated" after="link.repeated" />
     <xed:include ref="kartdok.subject" after="abstract.repeated" />
@@ -612,7 +612,7 @@
   </xed:template>
 
   <xed:template id="research.data.date.repeated.publication.fixed">
-    <xed:repeat xpath="mods:originInfo" min="1" max="6">
+    <xed:repeat xpath="mods:originInfo" min="2" max="6">
       <div class="form-group row">
         <div class="col-md-3">
           <xed:bind xpath="@eventType" default="creation">
@@ -623,7 +623,7 @@
               <option value="collection">
                 <xed:output i18n="mir.date.collected" />
               </option>
-              <option value="publication" selected="selected">
+              <option value="publication">
                 <xed:output i18n="mir.date.issued.10" />
               </option>
               <option value="review">
