@@ -44,40 +44,34 @@
         <url xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xlink:type="locator"/>
       </category>
     </category>
-    <category ID="odc_pddl">
-      <label xml:lang="en" text="PDDL - Public Domain Dedication and License"/>
-      <label xml:lang="de" text="PDDL - Public Domain Dedication and License"/>
-    </category>
-    <category ID="odc_by">
-      <label xml:lang="de" text="ODC-By - Attribution License"/>
-      <label xml:lang="en" text="ODC-By - Attribution License"/>
-    </category>
-    <category ID="odc_odbl">
-      <label xml:lang="de" text="ODC-ODbL - Open Database License"/>
-      <label xml:lang="en" text="ODC-ODbL - Open Database License"/>
-    </category>
-    <category ID="oa_nlz">
-      <label xml:lang="de" text="Open-Access im Zuge einer Allianz- bzw. Nationallizenz"/>
-      <label xml:lang="en" text="Open Access related to alliance or national license"/>
-    </category>
-    <category ID="ogl">
-      <label xml:lang="en" text="Open Government Licence"/>
-      <label xml:lang="de" text="Open Government Licence"/>
-      <url xlink:href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/open-government-licence/" xlink:type="locator"/>
-      <category ID="ogl_3.0">
-        <label xml:lang="de" text="OGL 3.0"/>
-        <label xml:lang="en" text="OGL 3.0"/>
-        <url xlink:href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" xlink:type="locator"/>
+    <category ID="odc">
+      <label xml:lang="de" text="Open Data Commons Lizenzen"/>
+      <label xml:lang="x-group" text="true"/>
+      <label xml:lang="en" text="Open Data Commons Lizences"/>
+      <category ID="odc_by">
+        <label xml:lang="de" text="ODC-By - Attribution License" />
+        <label xml:lang="en" text="ODC-By - Attribution License" />
       </category>
-      <category ID="ogl_2.0">
-        <label xml:lang="de" text="OGL 2.0"/>
-        <label xml:lang="en" text="OGL 2.0"/>
-        <url xlink:href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/" xlink:type="locator"/>
+      <category ID="odc_odbl">
+        <label xml:lang="de" text="ODC-ODbL - Open Database License" />
+        <label xml:lang="en" text="ODC-ODbL - Open Database License" />
       </category>
-      <category ID="ogl_1.0">
-        <label xml:lang="de" text="OGL 1.0"/>
-        <label xml:lang="en" text="OGL 1.0"/>
-        <url xlink:href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/" xlink:type="locator"/>
+      <category ID="odc_pddl">
+        <label xml:lang="en" text="PDDL - Public Domain Dedication and License" />
+        <label xml:lang="de" text="PDDL - Public Domain Dedication and License" />
+      </category>
+    </category>
+    <category ID="cc_pd_1.0">
+      <label xml:lang="x-group" text="true" />
+      <label xml:lang="de" text="Public Domain" />
+      <url xlink:href="https://creativecommons.org/share-your-work/public-domain/" xlink:type="locator" />
+      <category ID="cc_zero_1.0">
+        <label xml:lang="de" text="CC0 1.0 Universell" description="CC0 1.0 Universal (CC0 1.0) Public Domain Dedication " />
+        <url xlink:href="https://creativecommons.org/publicdomain/zero/1.0/" xlink:type="locator" />
+      </category>
+      <category ID="cc_mark_1.0">
+        <label xml:lang="de" text="Public Domain Mark 1.0" description="No Known Copyright" />
+        <url xlink:href="https://creativecommons.org/share-your-work/public-domain/pdm/" xlink:type="locator" />
       </category>
     </category>
   </categories>
