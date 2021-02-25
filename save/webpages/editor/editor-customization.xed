@@ -7,7 +7,7 @@
     <xed:remove ref="cartographics" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_bc.search" before="sdnb.repeat" />
-    <xed:include ref="kartdok_projects" after="kartdok_bc" />
+    <xed:include ref="kartdok_projects" after="sdnb.repeat" />
   </xed:modify>
 
   <xed:modify ref="genres.publication.common">
