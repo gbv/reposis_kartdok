@@ -296,7 +296,7 @@
       </div>
     </fieldset>
   </xed:template>
-  
+
   <xed:template id="kartdok_bc">
     <xed:bind xpath="mods:classification[@authorityURI='https://karten.sbb-berlin.de/classifications/kartdok_bc'][@displayLabel='kartdok_bc']/@valueURIxEditor">
       <div class="form-group row {$xed-validation-marker}">
@@ -669,12 +669,11 @@
 
   <xed:template id="abstract.repeated.collapsed">
     <fieldset>
-      <legend class="mir-fieldset-legend">
-        <a href="#test" data-toggle="collapse"></a>
+      <legend class="mir-fieldset-legend mir-fieldset-collapsed">
           <xed:output i18n="mir.abstract.text" />
           <span class="fas fa-chevron-down expand-item" title="{i18n:mir.help.expand}" aria-hidden="true"></span>
       </legend>
-      <div id="test" class="collapse-2 d-none">
+      <div class="d-none">
         <xed:repeat xpath="mods:abstract" min="1" max="3">
           <div class="mir-fieldset-content">
             <div class="form-group row">
@@ -695,5 +694,5 @@
       </div>
     </fieldset>
   </xed:template>
-  
+
 </xed:template>
