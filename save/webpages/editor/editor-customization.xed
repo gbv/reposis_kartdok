@@ -4,10 +4,14 @@
 
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
+    <xed:remove ref="abstract.simple" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
     <xed:remove ref="cartographics" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_bc.search" before="sdnb.repeat" />
     <xed:include ref="kartdok_projects" after="sdnb.repeat" />
+    <xed:include ref="openAIRE.collapsed" after="openAIRE" />
+    <xed:remove ref="openAIRE" />
   </xed:modify>
 
   <xed:modify ref="genres.publication.common">
@@ -20,11 +24,11 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
-    <xed:include ref="further_information" after="openAIRE" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
   </xed:modify>
 
   <xed:modify ref="genres.book.common">
@@ -37,13 +41,13 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
     <xed:remove ref="embargo.datetimepicker" />
     <xed:remove ref="shelfmark" />
-    <xed:include ref="further_information" after="openAIRE" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
   </xed:modify>
 
   <xed:modify ref="genres.thesis">
@@ -67,13 +71,13 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
     <xed:remove ref="embargo.datetimepicker" />
     <xed:remove ref="shelfmark" />
-    <xed:include ref="further_information" after="openAIRE" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
     <xed:remove ref="classification" />
   </xed:modify>
 
@@ -117,11 +121,11 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
-    <xed:include ref="further_information" after="openAIRE" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
   </xed:modify>
 
   <xed:modify ref="genres.report.common">
@@ -137,11 +141,11 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
-    <xed:include ref="further_information" after="openAIRE" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
   </xed:modify>
 
   <xed:modify ref="genres.journal.common">
@@ -155,7 +159,7 @@
   <xed:modify ref="genres.research_data">
     <xed:include ref="title.original" after="title" />
     <xed:remove ref="title" />
-    <xed:remove ref="openAIRE" />
+    <xed:remove ref="openAIRE.collapsed" />
     <xed:include ref="research.data.date.repeated.fixed" after="research.data.date.repeated" />
     <xed:remove ref="research.data.date.repeated" />
     <!--<xed:include ref="research.data.date.repeated.publication" after="research.data.date.repeated" />-->
@@ -174,11 +178,11 @@
     <xed:include ref="geographic.complex" after="physical.description.note" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
-    <xed:include ref="further_information_with_copyrightMD" after="openAIRE" />
+    <xed:include ref="further_information_with_copyrightMD" after="openAIRE.collapsed" />
   </xed:modify>
 
   <xed:modify ref="genres.poster">
@@ -212,11 +216,11 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
-    <xed:include ref="further_information" after="openAIRE" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
   </xed:modify>
 
   <xed:modify ref="hosts.journal">
@@ -232,7 +236,6 @@
 
 
   <!-- ========== kartdok specific templates ========== -->
-
 
   <xed:template id="genres.single_contribution">
     <xed:include ref="title.original" />
@@ -251,8 +254,8 @@
     <xed:include ref="geographic.complex"  />
     <xed:include ref="cartographics.repeated" />
     <xed:include ref="kartdok_projects" />
-    <xed:include ref="openAIRE" />
-    <xed:include ref="further_information" after="openAIRE" />
+    <xed:include ref="openAIRE.collapsed" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
   </xed:template>
 
   <xed:template id="further_information">
@@ -568,8 +571,8 @@
     <xed:include ref="geographic.complex"  />
     <xed:include ref="cartographics.repeated" />
     <xed:include ref="kartdok_projects" />
-    <xed:include ref="openAIRE" />
-    <xed:include ref="further_information.without_embargo" after="openAIRE" />
+    <xed:include ref="openAIRE.collapsed" />
+    <xed:include ref="further_information.without_embargo" after="openAIRE.collapsed" />
   </xed:template>
 
   <xed:template id="research.data.date.repeated.fixed">
@@ -667,6 +670,7 @@
     </mir:person.repeated>
   </xed:template>
 
+  <!-- TODO: Replace once the collapse feature is available in MIR -->
   <xed:template id="abstract.repeated.collapsed">
     <fieldset>
       <legend class="mir-fieldset-legend mir-fieldset-collapsed">
@@ -693,6 +697,43 @@
         </xed:repeat>
       </div>
     </fieldset>
+  </xed:template>
+
+    <!-- TODO: Replace once the collapse feature is available in MIR -->
+  <xed:template id="openAIRE.collapsed">
+    <fieldset id="open-aire_box">
+      <legend class="mir-fieldset-legend mir-fieldset-collapsed">
+        <xed:output i18n="mir.project.information" />
+        <span class="fas fa-chevron-down expand-item" title="{i18n:mir.help.expand}" aria-hidden="true"></span>
+      </legend>
+      <div class="d-none">
+        <div class="mir-fieldset-content mir-openAIRE-container">
+          <mir:textfield.nobind id="name" label="mir.project.name" help-text="{i18n:mir.help.project.name}" autocomplete="off" />
+          <mir:textfield.nobind id="acronym" label="mir.project.acronym" help-text="{i18n:mir.help.project.acronym}" autocomplete="off" />
+          <div class="form-group row">
+            <label class="col-md-3 col-form-label text-right" />
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-4">
+                  <input type="text" class="form-control inputWarning" name="" placeholder="{i18n:mir.project.grantID}" />
+                </div>
+                <div class="col-md-4">
+                  <input type="text" class="form-control inputWarning" name="" placeholder="{i18n:mir.project.sponsor.programmID}" />
+                </div>
+                <div class="col-md-4">
+                  <input type="text" class="form-control inputWarning" name="" placeholder="{i18n:mir.project.sponsor.organisationID}" />
+                </div>
+              </div>
+            </div>
+            <mir:help-pmud help-text="{i18n:mir.help.project.grant}" pmud="false" />
+          </div>
+          <xed:bind xpath="mods:openAireID">
+            <input type="hidden" />
+          </xed:bind>
+        </div>
+      </div>
+    </fieldset>
+    <script type="text/javascript" src="{$WebApplicationBaseURL}js/mir/openaire.min.js" />
   </xed:template>
 
 </xed:template>
