@@ -65,7 +65,7 @@
             <div class="ml-3">
               *
               <input type="checkbox" value="true" required="required" />
-              Ich habe die Datenschutzerklärung gelesen und erkenne sie an.
+              Ich habe die <a href="../below/rights.xml">Datenschutzerklärung</a> gelesen und erkenne sie an.
             </div>
           </div>
           </xed:bind>

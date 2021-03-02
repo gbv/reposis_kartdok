@@ -7,7 +7,7 @@
     <menu id="below" dir="/content/below">
         <label xml:lang="de">Footer-Menü</label>
         <label xml:lang="en">Footer menu</label>
-        <item href="/content/below/contact.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/below/contact.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Kontakt</label>
             <label xml:lang="en">Contact</label>
         </item>
