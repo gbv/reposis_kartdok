@@ -30,6 +30,10 @@
     right: 5px;
   }
 }
+// TODO: change this in MIR
+#more_options_toggle {
+  color: $input-placeholder-color;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

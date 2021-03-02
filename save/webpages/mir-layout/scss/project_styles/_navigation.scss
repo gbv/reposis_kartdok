@@ -38,7 +38,12 @@
     background-color: transparent;
   }
 }
-
+.nav-tabs {
+  .nav-link {
+    text-transform: none;
+    text-decoration: none;
+  }
+}
 li.mir-lang > a.nav-link {
   text-transform: uppercase;
 }
