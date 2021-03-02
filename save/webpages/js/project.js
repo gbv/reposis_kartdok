@@ -44,7 +44,17 @@ $(document).ready(function() {
          setSelect2BC($(this));
      }
   });
-  
+
+  // expand click behavoir to legend that contains the trigger
+  // collapsed legend was clicked
+  $("body").on("click", ".mir-fieldset-collapsed", function (event) {
+    // if contained trigger was not clicked
+    if ( !$(event.target).hasClass('expand-item') ) {
+      // simulate click on trigger
+      $(event.target).find('.expand-item').click();
+    }
+  });
+
 });
 
 function toggleOAOptions() {
@@ -153,4 +163,3 @@ function addDefault(elm, res) {
 function getOptionWithValBC(elm, val) {
   return $(elm).find("option[value='" + val + "']");
 }
-

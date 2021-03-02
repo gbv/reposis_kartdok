@@ -15,6 +15,21 @@
     width: 100%;
   }
 }
+.mir-fieldset-collapsed {
+  margin-bottom: 2rem;
+  position: relative;
+  cursor: pointer;
+  &.hiddenDetail {
+    margin-bottom: 0;
+    border-style: solid;
+    border-width: 0px 0px 2px;
+    border-color: #ccc;
+  }
+  span.expand-item {
+    position: absolute;
+    right: 5px;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

@@ -4,23 +4,232 @@
 
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
+    <xed:remove ref="abstract.simple" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
     <xed:remove ref="cartographics" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_bc.search" before="sdnb.repeat" />
-    <xed:include ref="kartdok_projects" after="kartdok_bc" />
+    <xed:include ref="kartdok_projects" after="sdnb.repeat" />
+    <xed:include ref="openAIRE.collapsed" after="openAIRE" />
+    <xed:remove ref="openAIRE" />
   </xed:modify>
 
   <xed:modify ref="genres.publication.common">
-    <xed:include ref="sdnb.repeat.filtered" before="sdnb.repeat" />
+    <xed:include ref="link.repeated" after="doi.handle.urn.repeated" />
     <xed:remove ref="sdnb.repeat" />
-    <xed:include ref="kartdok_bc" before="sdnb.repeat.filtered" />
-    <xed:include ref="link.repeated" before="kartdok_bc" />
-    <xed:include ref="kartdok_projects" after="kartdok_bc" />
-    <xed:include ref="openAIRE" after="sdnb.repeat.filtered" />
-    <xed:include ref="abstract.repeated" after="abstract.simple" />
     <xed:remove ref="abstract.simple" />
-    <xed:include ref="kartdok.subject" after="subject.simple" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
+    <xed:include ref="kartdok.subject" after="abstract.repeated" />
     <xed:remove ref="subject.simple" />
+    <xed:include ref="geographic.complex" after="kartdok.subject" />
+    <xed:include ref="cartographics.repeated" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:remove ref="rights" />
+    <xed:remove ref="institutes" />
+    <xed:remove ref="comment" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
+  </xed:modify>
+
+  <xed:modify ref="genres.book.common">
+    <xed:include ref="link.repeated" after="doi.handle.urn.repeated" />
+    <xed:remove ref="sdnb.repeat" />
+    <xed:remove ref="abstract.simple" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
+    <xed:include ref="kartdok.subject" after="abstract.repeated" />
+    <xed:remove ref="subject.simple" />
+    <xed:include ref="geographic.complex" after="kartdok.subject" />
+    <xed:include ref="cartographics.repeated" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:remove ref="rights" />
+    <xed:remove ref="institutes" />
+    <xed:remove ref="comment" />
+    <xed:remove ref="embargo.datetimepicker" />
+    <xed:remove ref="shelfmark" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
+  </xed:modify>
+
+  <xed:modify ref="genres.thesis">
+    <xed:remove ref="classification" />
+   </xed:modify>
+
+   <xed:modify ref="genres.other_thesis.common">
+    <xed:include ref="author.repeated" before="thesis.advisor.reviewer.repeated" />
+    <xed:include ref="advisor.repeated" after="author.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.repeated" />
+  </xed:modify>
+
+  <xed:modify ref="genres.thesis.common">
+    <xed:remove ref="type.of.resource.repeated" />
+    <xed:include ref="doi.handle.urn.repeated" after="identifier.isbn" />
+    <xed:include ref="link.repeated" after="doi.handle.urn.repeated" />
+    <xed:remove ref="sdnb.repeat" />
+    <xed:remove ref="subject.simple" />
+    <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
+    <xed:remove ref="subject.simple" />
+    <xed:include ref="geographic.complex" after="kartdok.subject" />
+    <xed:include ref="cartographics.repeated" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:remove ref="rights" />
+    <xed:remove ref="institutes" />
+    <xed:remove ref="comment" />
+    <xed:remove ref="embargo.datetimepicker" />
+    <xed:remove ref="shelfmark" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
+    <xed:remove ref="classification" />
+  </xed:modify>
+
+  <xed:modify ref="genres.dissertation">
+    <xed:include ref="thesis.advisor.reviewer.extented.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="shelfmark" />
+  </xed:modify>
+
+  <xed:modify ref="genres.habilitation">
+    <xed:include ref="thesis.advisor.reviewer.extented.habil.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="shelfmark" />
+  </xed:modify>
+
+  <xed:modify ref="genres.diploma_thesis">
+    <xed:include ref="thesis.advisor.reviewer.reduced.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:include ref="date.submitted.datetimepicker" after="year.issued" />
+    <xed:include ref="date.accepted.datetimepicker" after="date.submitted.datetimepicker" />
+  </xed:modify>
+
+  <xed:modify ref="genres.master_thesis">
+    <xed:include ref="thesis.advisor.reviewer.reduced.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:include ref="date.submitted.datetimepicker" after="year.issued" />
+    <xed:include ref="date.accepted.datetimepicker" after="date.submitted.datetimepicker" />
+  </xed:modify>
+
+  <!-- ToDo: Fix this in MIR-->
+  <xed:modify ref="genres.speech">
+    <xed:include ref="title.original"  before="title"/>
+    <xed:remove ref="title" />
+    <xed:remove ref="subtitle" />
+    <xed:include ref="link.repeated" after="doi.handle.urn.repeated" />
+    <xed:remove ref="sdnb.repeat" />
+    <xed:remove ref="abstract.simple" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
+    <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
+    <xed:remove ref="subject.simple" />
+    <xed:include ref="geographic.complex" after="kartdok.subject" />
+    <xed:include ref="cartographics.repeated" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:remove ref="rights" />
+    <xed:remove ref="institutes" />
+    <xed:remove ref="comment" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
+  </xed:modify>
+
+  <xed:modify ref="genres.report.common">
+    <xed:include ref="title.original"  before="title"/>
+    <xed:remove ref="title" />
+    <xed:remove ref="subtitle" />
+    <xed:include ref="link.repeated" after="doi.handle.urn.repeated" />
+    <xed:remove ref="sdnb.repeat" />
+    <xed:remove ref="abstract.simple" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
+    <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
+    <xed:remove ref="subject.simple" />
+    <xed:include ref="geographic.complex" after="kartdok.subject" />
+    <xed:include ref="cartographics.repeated" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:remove ref="rights" />
+    <xed:remove ref="institutes" />
+    <xed:remove ref="comment" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
+  </xed:modify>
+
+  <xed:modify ref="genres.journal.common">
+    <xed:include ref="link.repeated" after="sdnb.repeat" />
+    <xed:remove ref="sdnb.repeat" />
+    <xed:include ref="kartdok.subject" after="abstract.simple" />
+    <xed:remove ref="subject.simple" />
+    <xed:remove ref="shelfmark" />
+  </xed:modify>
+
+  <xed:modify ref="genres.research_data">
+    <xed:include ref="title.original" after="title" />
+    <xed:remove ref="title" />
+    <xed:remove ref="openAIRE" />
+    <xed:include ref="research.data.date.repeated.fixed" after="research.data.date.repeated" />
+    <xed:remove ref="research.data.date.repeated" />
+    <!--<xed:include ref="research.data.date.repeated.publication" after="research.data.date.repeated" />-->
+    <xed:remove ref="sdnb.repeat" />
+    <xed:remove ref="abstract.simple" />
+    <xed:remove ref="embargo.datetimepicker" />
+    <xed:remove ref="copyrightMD" />
+    <xed:remove ref="access" />
+    <xed:remove ref="physical.description.note" />
+    <xed:remove ref="cartographics" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
+    <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
+    <xed:remove ref="subject.simple" />
+    <xed:include ref="physical.description.form" after="kartdok.subject" />
+    <xed:include ref="physical.description.note" after="physical.description.form" />
+    <xed:include ref="geographic.complex" after="physical.description.note" />
+    <xed:include ref="cartographics.repeated" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:remove ref="rights" />
+    <xed:remove ref="institutes" />
+    <xed:remove ref="comment" />
+    <xed:include ref="further_information_with_copyrightMD" after="openAIRE.collapsed" />
+  </xed:modify>
+
+  <xed:modify ref="genres.poster">
+    <xed:include ref="link.repeated" after="sdnb.repeat" />
+    <xed:remove ref="sdnb.repeat" />
+    <xed:include ref="kartdok.subject" after="abstract.simple" />
+    <xed:remove ref="subject.simple" />
+    <xed:include ref="geographic.complex" after="kartdok.subject" />
+    <xed:include ref="cartographics.repeated" after="geographic.complex" />
+  </xed:modify>
+
+  <xed:modify ref="genres.av.common">
+    <xed:include ref="title.original"  before="title"/>
+    <xed:remove ref="title" />
+    <xed:remove ref="subtitle" />
+    <xed:remove ref="name.repeated" />
+    <xed:include ref="conference" after="title.original" />
+    <xed:include ref="producer.speaker.repeated" after="conference" />
+    <xed:include ref="link.repeated" after="doi.handle.urn.repeated" />
+    <xed:remove ref="sdnb.repeat" />
+    <xed:remove ref="abstract.simple" />
+    <xed:remove ref="geographic" />
+    <xed:remove ref="cartographics" />
+    <xed:include ref="research.data.date.repeated" after="date.recorded.datetimepicker" />
+    <xed:remove ref="date.recorded.datetimepicker" />
+    <xed:include ref="research.data.date.repeated.publication" after="research.data.date.repeated" />
+    <xed:include ref="station" before="language" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
+    <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
+    <xed:remove ref="subject.simple" />
+    <xed:include ref="geographic.complex" after="kartdok.subject" />
+    <xed:include ref="cartographics.repeated" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:remove ref="rights" />
+    <xed:remove ref="institutes" />
+    <xed:remove ref="comment" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
+  </xed:modify>
+
+  <xed:modify ref="hosts.journal">
+    <xed:remove ref="identifier.isbn.journal.relItemsearch" />
+    <xed:remove ref="shelfmark.journal.relItemsearch" />
+  </xed:modify>
+
+  <xed:modify ref="hosts.book">
+    <xed:remove ref="shelfmark.book.relItemsearch" />
   </xed:modify>
 
   <!-- ========== validation ========== -->
@@ -29,7 +238,66 @@
   <!-- ========== kartdok specific templates ========== -->
 
   <xed:template id="genres.single_contribution">
-    <xed:include ref="genres.publication.common" />
+    <xed:include ref="title.original" />
+    <xed:include ref="author.repeated" />
+    <xed:include ref="year.issued" />
+    <xed:include ref="place" />
+    <xed:include ref="publisher"  />
+    <xed:include ref="edition" />
+    <xed:include ref="extent" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.isbn" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="abstract.repeated.collapsed" />
+    <xed:include ref="kartdok.subject" />
+    <xed:include ref="geographic.complex"  />
+    <xed:include ref="cartographics.repeated" />
+    <xed:include ref="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" />
+    <xed:include ref="further_information" after="openAIRE.collapsed" />
+  </xed:template>
+
+  <xed:template id="further_information">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="kartdok.forms.further_information" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:include ref="rights" />
+        <xed:include ref="embargo.datetimepicker" after="rights" />
+        <xed:include ref="institutes" after="embargo.datetimepicker" />
+        <xed:include ref="comment" after="institutes" />
+      </div>
+    </fieldset>
+  </xed:template>
+
+  <xed:template id="further_information.without_embargo">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="kartdok.forms.further_information" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:include ref="rights" />
+        <xed:include ref="institutes" after="rights" />
+        <xed:include ref="comment" after="institutes" />
+      </div>
+    </fieldset>
+  </xed:template>
+
+  <xed:template id="further_information_with_copyrightMD">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="kartdok.forms.further_information" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:include ref="rights" />
+        <xed:include ref="embargo.datetimepicker" after="rights" />
+        <xed:include ref="copyrightMD"  after="embargo.datetimepicker"/>
+        <xed:include ref="institutes" after="copyrightMD" />
+        <xed:include ref="comment" after="institutes" />
+      </div>
+    </fieldset>
   </xed:template>
 
   <xed:template id="kartdok_bc">
@@ -40,6 +308,9 @@
         </label>
         <div class="col-md-6">
           <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
             <xed:include uri="xslStyle:items2options:classification:editor:-1:children:kartdok_bc" />
           </select>
         </div>
@@ -89,6 +360,9 @@
         </label>
         <div class="col-md-6">
           <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
             <xed:include uri="xslStyle:items2options:classification:editor:-1:children:kartdok_projects" />
           </select>
         </div>
@@ -220,15 +494,246 @@
     <xed:include ref="author.repeated" />
     <xed:include ref="date.issued.required" />
     <xed:include ref="language" />
-    <xed:include ref="kartdok_bc" />
     <xed:include ref="identifier.managed" />
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="blog_entry_link" />
-    <xed:include ref="abstract.repeated" />
+    <xed:include ref="abstract.repeated.collapsed" />
     <xed:include ref="subject.simple" />
-    <xed:include ref="rights" />
-    <xed:include ref="institutes" />
-    <xed:include ref="comment" />
+    <xed:include ref="geographic.complex" />
+    <xed:include ref="cartographics.repeated" />
+    <xed:include ref="kartdok_projects" />
+    <xed:include ref="further_information" />
+  </xed:template>
+
+  <xed:template id="thesis.advisor.reviewer.extented.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='rev']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
+      <option value="aut">
+        <xed:output i18n="kartdok.role.thesis.habilitant" />
+      </option>
+      <option value="aut">
+        <xed:output i18n="mir.role.thesis" />
+      </option>
+      <option value="ths">
+        <xed:output i18n="mir.role.advisor" />
+      </option>
+      <option value="rev">
+        <xed:output i18n="mir.role.reviewer" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+
+  <xed:template id="thesis.advisor.reviewer.extented.habil.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='rev']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
+      <option value="aut">
+        <xed:output i18n="mir.role.thesis" />
+      </option>
+      <option value="aut" selected="selected">
+        <xed:output i18n="kartdok.role.thesis.habilitant" />
+      </option>
+      <option value="ths">
+        <xed:output i18n="mir.role.advisor" />
+      </option>
+      <option value="rev">
+        <xed:output i18n="mir.role.reviewer" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+
+  <xed:template id="thesis.advisor.reviewer.reduced.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor}">
+      <xed:include uri="xslStyle:items2options:classification:editor:-1:children:marcrelator" />
+    </mir:person.repeated>
+  </xed:template>
+
+  <xed:template id="genres.issue">
+    <xed:include ref="title.original" />
+    <xed:include ref="author.repeated" />
+    <xed:include ref="editor.repeated" />
+    <xed:include ref="year.issued" />
+    <xed:include ref="place" />
+    <xed:include ref="publisher"  />
+    <xed:include ref="edition" />
+    <xed:include ref="extent" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.isbn" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="abstract.repeated.collapsed" />
+    <xed:include ref="kartdok.subject" />
+    <xed:include ref="geographic.complex"  />
+    <xed:include ref="cartographics.repeated" />
+    <xed:include ref="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" />
+    <xed:include ref="further_information.without_embargo" after="openAIRE.collapsed" />
+  </xed:template>
+
+  <xed:template id="research.data.date.repeated.fixed">
+    <xed:repeat xpath="mods:originInfo" min="1" max="6">
+      <div class="form-group row">
+        <div class="col-md-3">
+          <xed:bind xpath="@eventType" default="creation">
+            <select class="form-control form-control-inline date-select">
+              <option value="creation">
+                <xed:output i18n="mir.date.created" />
+              </option>
+              <option value="collection">
+                <xed:output i18n="mir.date.collected" />
+              </option>
+              <option value="publication">
+                <xed:output i18n="mir.date.issued.10" />
+              </option>
+              <option value="review">
+                <xed:output i18n="mir.date.reviewed" />
+              </option>
+              <option value="update">
+                <xed:output i18n="mir.date.updated" />
+              </option>
+            </select>
+          </xed:bind>
+        </div>
+        <mir:dateRangeInput xpath="mods:dateCreated[@encoding='w3cdtf']" class="datetimepicker date-changeable col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="creation" />
+        <mir:dateRangeInput xpath="mods:dateCaptured[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="collection" />
+        <mir:dateRangeInput xpath="mods:dateIssued[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="publication" />
+        <mir:dateRangeInput xpath="mods:dateOther[@type='reviewed'][@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6"
+          placeholder="{i18n:mir.placeholder.date}" type="review" />
+        <mir:dateRangeInput xpath="mods:dateModified[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="update" />
+        <mir:help-pmud help-text="{i18n:mir.help.date.repeated}" pmud="true" />
+      </div>
+    </xed:repeat>
+  </xed:template>
+
+  <xed:template id="research.data.date.repeated.publication.fixed">
+    <xed:repeat xpath="mods:originInfo" min="2" max="6">
+      <div class="form-group row">
+        <div class="col-md-3">
+          <xed:bind xpath="@eventType" default="creation">
+            <select class="form-control form-control-inline date-select">
+              <option value="creation">
+                <xed:output i18n="mir.date.created" />
+              </option>
+              <option value="collection">
+                <xed:output i18n="mir.date.collected" />
+              </option>
+              <option value="publication">
+                <xed:output i18n="mir.date.issued.10" />
+              </option>
+              <option value="review">
+                <xed:output i18n="mir.date.reviewed" />
+              </option>
+              <option value="update">
+                <xed:output i18n="mir.date.updated" />
+              </option>
+            </select>
+          </xed:bind>
+        </div>
+        <mir:dateRangeInput xpath="mods:dateCreated[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="creation" />
+        <mir:dateRangeInput xpath="mods:dateCaptured[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="collection" />
+        <mir:dateRangeInput xpath="mods:dateIssued[@encoding='w3cdtf']" class="datetimepicker date-changeable col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="publication" />
+        <mir:dateRangeInput xpath="mods:dateOther[@type='reviewed'][@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6"
+          placeholder="{i18n:mir.placeholder.date}" type="review" />
+        <mir:dateRangeInput xpath="mods:dateModified[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="update" />
+        <mir:help-pmud help-text="{i18n:mir.help.date.repeated}" pmud="true" />
+      </div>
+    </xed:repeat>
+  </xed:template>
+
+  <xed:template id="producer.speaker.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='cre']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='pro']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='spk']" />
+    <mir:person.repeated help-text="{i18n:mir.help.producer.speaker}">
+      <option value="cre">
+        <xed:output i18n="mir.role.creator" />
+      </option>
+      <option value="pro">
+        <xed:output i18n="mir.role.producer" />
+      </option>
+      <option value="spk">
+        <xed:output i18n="mir.role.speaker" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+
+  <!-- TODO: Replace once the collapse feature is available in MIR -->
+  <xed:template id="abstract.repeated.collapsed">
+    <fieldset>
+      <legend class="mir-fieldset-legend mir-fieldset-collapsed">
+          <xed:output i18n="mir.abstract.text" />
+          <span class="fas fa-chevron-down expand-item" title="{i18n:mir.help.expand}" aria-hidden="true"></span>
+      </legend>
+      <div class="d-none">
+        <xed:repeat xpath="mods:abstract" min="1" max="3">
+          <div class="mir-fieldset-content">
+            <div class="form-group row">
+              <label class="col-md-3 col-form-label text-right">
+                <xed:output i18n="mir.abstract.in" />
+              </label>
+              <div class="col-md-6">
+                <xed:bind xpath="@xml:lang" initially="de">
+                  <xed:include ref="lang.list" />
+                </xed:bind>
+              </div>
+              <mir:help-pmud help-text="{i18n:mir.help.abstract.language}" pmud="true" />
+            </div>
+            <mir:textfield xpath="@xlink:href" label="mir.abstract.aslink" help-text="{i18n:mir.help.abstract.aslink}" placeholder="{i18n:mir.placeholder.abstract.link}" />
+            <mir:htmlArea xpath="." label="mir.abstract.ortext" help-text="{i18n:mir.help.abstract.ortext}" rows="5" />
+          </div>
+        </xed:repeat>
+      </div>
+    </fieldset>
+  </xed:template>
+
+    <!-- TODO: Replace once the collapse feature is available in MIR -->
+  <xed:template id="openAIRE.collapsed">
+    <fieldset id="open-aire_box">
+      <legend class="mir-fieldset-legend mir-fieldset-collapsed">
+        <xed:output i18n="mir.project.information" />
+        <span class="fas fa-chevron-down expand-item" title="{i18n:mir.help.expand}" aria-hidden="true"></span>
+      </legend>
+      <div class="d-none">
+        <div class="mir-fieldset-content mir-openAIRE-container">
+          <mir:textfield.nobind id="name" label="mir.project.name" help-text="{i18n:mir.help.project.name}" autocomplete="off" />
+          <mir:textfield.nobind id="acronym" label="mir.project.acronym" help-text="{i18n:mir.help.project.acronym}" autocomplete="off" />
+          <div class="form-group row">
+            <label class="col-md-3 col-form-label text-right" />
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-4">
+                  <input type="text" class="form-control inputWarning" name="" placeholder="{i18n:mir.project.grantID}" />
+                </div>
+                <div class="col-md-4">
+                  <input type="text" class="form-control inputWarning" name="" placeholder="{i18n:mir.project.sponsor.programmID}" />
+                </div>
+                <div class="col-md-4">
+                  <input type="text" class="form-control inputWarning" name="" placeholder="{i18n:mir.project.sponsor.organisationID}" />
+                </div>
+              </div>
+            </div>
+            <mir:help-pmud help-text="{i18n:mir.help.project.grant}" pmud="false" />
+          </div>
+          <xed:bind xpath="mods:openAireID">
+            <input type="hidden" />
+          </xed:bind>
+        </div>
+      </div>
+    </fieldset>
+    <script type="text/javascript" src="{$WebApplicationBaseURL}js/mir/openaire.min.js" />
   </xed:template>
 
 </xed:template>
