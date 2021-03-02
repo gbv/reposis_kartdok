@@ -100,6 +100,20 @@ li.mir-lang > a.nav-link {
   color: white !important;
 }
 
+a:not([href]).dropdown-item {
+  color: $projectLinkGray;
+  text-decoration: underline;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.datepicker.dropdown-menu {
+  color: $body-color;
+  background-color: white;
+}
+
 .flatmir-footer .nav-link {
   padding: 0; // override mir settings
 }
