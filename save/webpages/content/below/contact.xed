@@ -79,8 +79,8 @@
           <!-- Buttons -->
           <div class="form-group row ">
             <div class="ml-3">
-              <button id="save"  class="btn btn-primary" xed:target="servlet" xed:href="MCRMailer" type="submit">Nachricht senden</button>
               <button id="reset" class="btn btn-dark"    type="reset">Formular leeren</button>
+              <button id="save"  class="btn btn-primary" xed:target="servlet" xed:href="MCRMailer" type="submit">Nachricht senden</button>
             </div>
           </div>
           
