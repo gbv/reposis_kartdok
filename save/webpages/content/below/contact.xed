@@ -54,7 +54,7 @@
               * E-Mail:
             </label>
             <div class="col-md-6">
-              <input placeholder="max.mustermann@tu-bs.de" class="form-control input-md" type="email" required="required" />
+              <input placeholder="max.mustermann@kartdok.de" class="form-control input-md" type="email" required="required" />
             </div>
           </div>
           </xed:bind>
