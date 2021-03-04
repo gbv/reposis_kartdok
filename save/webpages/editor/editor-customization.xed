@@ -5,9 +5,8 @@
 
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
-    <!-- TODO Fix bug in MIR - abstract.repeated runs into a 500 while saving a edited document -->
-    <!-- <xed:remove ref="abstract.simple" />
-    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />-->
+    <xed:remove ref="abstract.repeated" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
     <xed:remove ref="cartographics" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_bc.search" before="sdnb.repeat" />
