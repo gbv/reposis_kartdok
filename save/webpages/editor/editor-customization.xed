@@ -5,8 +5,9 @@
 
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
-    <xed:remove ref="abstract.simple" />
-    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
+    <!-- TODO Fix bug in MIR - abstract.repeated runs into a 500 while saving a edited document -->
+    <!-- <xed:remove ref="abstract.simple" />
+    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />-->
     <xed:remove ref="cartographics" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_bc.search" before="sdnb.repeat" />
@@ -503,6 +504,12 @@
   </xed:template>
 
   <xed:template id="genres.blog">
+    <xed:include ref="title" />
+    <xed:include ref="genres.journal.common" />
+    <xed:include ref="rights" />
+  </xed:template>
+
+  <xed:template id="genres.blog_entry">
     <xed:include ref="title.original" />
     <xed:include ref="author.repeated" />
     <xed:include ref="date.issued.required" />
@@ -515,7 +522,7 @@
     <xed:include ref="geographic.complex" />
     <xed:include ref="cartographics.repeated" />
     <xed:include ref="kartdok_projects" />
-    <xed:include ref="further_information.without_embargo" />
+    <xed:include ref="further_information" />
   </xed:template>
 
   <xed:template id="thesis.advisor.reviewer.extented.repeated">
