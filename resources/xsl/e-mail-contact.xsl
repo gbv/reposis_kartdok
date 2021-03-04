@@ -17,6 +17,7 @@
       <email>
         <from><xsl:value-of select="concat(to_name, '&lt;', to_mail, '&gt;')"/></from>
         <to><xsl:value-of select="$MCR.mir-module.EditorMail" /></to>
+        <bcc><xsl:value-of select="concat(to_name, '&lt;', to_mail, '&gt;')"/></bcc>
         <subject><xsl:value-of select="concat('[KartDok - Kontaktformular] ', subject)" /></subject>
         <body><xsl:value-of select="body" /></body>
       </email>
