@@ -64,8 +64,8 @@
   </xed:modify>
 
   <xed:modify ref="genres.other_thesis.common">
-    <xed:include ref="thesis.advisor.reviewer.reduced.repeated" before="thesis.advisor.reviewer.all.repeated" />
-    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:include ref="thesis.advisor.reviewer.reduced.repeated" before="thesis.advisor.reviewer.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.repeated" />
   </xed:modify>
 
   <xed:modify ref="genres.thesis.common">
@@ -203,6 +203,9 @@
   </xed:modify>
 
   <xed:modify ref="genres.poster">
+    <xed:include ref="title.original"  before="title"/>
+    <xed:remove ref="title" />
+    <xed:remove ref="subtitle" />
     <xed:include ref="extent" after="place" />
     <xed:include ref="link.repeated" after="sdnb.repeat" />
     <xed:remove ref="sdnb.repeat" />
