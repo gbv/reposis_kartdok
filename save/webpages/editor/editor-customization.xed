@@ -39,6 +39,8 @@
   </xed:template>
 
   <xed:modify ref="genres.book.common">
+    <xed:include ref="identifier.isbn.fixed" after="identifier.isbn" />
+    <xed:remove ref="identifier.isbn" />
     <xed:include ref="link.repeated" after="doi.handle.urn.repeated" />
     <xed:remove ref="sdnb.repeat" />
     <xed:remove ref="abstract.simple" />
@@ -69,11 +71,14 @@
   <xed:modify ref="genres.thesis.common">
     <xed:remove ref="type.of.resource.repeated" />
     <xed:include ref="doi.handle.urn.repeated" after="identifier.isbn" />
+    <xed:include ref="identifier.isbn.fixed" after="identifier.isbn" />
+    <xed:remove ref="identifier.isbn" />
     <xed:include ref="link.repeated" after="doi.handle.urn.repeated" />
     <xed:remove ref="sdnb.repeat" />
     <xed:remove ref="subject.simple" />
+    <xed:include ref="abstract.repeated.collapsed" after="abstract.repeated" />
+    <xed:remove ref="abstract.repeated" />
     <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
-    <xed:remove ref="subject.simple" />
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
@@ -164,6 +169,8 @@
     <xed:include ref="kartdok.subject" after="abstract.simple" />
     <xed:remove ref="subject.simple" />
     <xed:remove ref="shelfmark" />
+    <xed:include ref="identifier.issn.fixed" after="identifier.issn"  />
+    <xed:remove ref="identifier.issn" />
   </xed:modify>
 
   <xed:modify ref="genres.research_data">
@@ -250,10 +257,28 @@
     <xed:remove ref="shelfmark.book.relItemsearch" />
   </xed:modify>
 
+  <xed:modify ref="hosts.proceedings">
+    <xed:include ref="title.proceedings.relItemsearch.required" after="title.proceedings.relItemsearch" />
+    <xed:remove ref="title.proceedings.relItemsearch" />
+  </xed:modify>
+
   <!-- ========== validation ========== -->
 
 
   <!-- ========== kartdok specific templates ========== -->
+  <!-- TODO Fix missing help text  -->
+  <xed:template id="identifier.isbn.fixed">
+    <mir:textfield xpath="mods:identifier[@type='isbn']" label="mir.identifier.isbn" help-text="{i18n:mir.help.identifier.isbn}"/>
+  </xed:template>
+
+  <xed:template id="identifier.issn.fixed">
+    <mir:textfield xpath="mods:identifier[@type='issn']" label="mir.identifier.issn" help-text="{i18n:mir.help.identifier.issn}" />
+  </xed:template>
+
+  <xed:template id="title.proceedings.relItemsearch.required">
+    <mir:relItemsearch searchengine="title" genre="proceedings" responsefield="mods.title" xpath="mods:titleInfo/mods:title" label="mir.title" 
+    class="required" required="true" required-i18n="mir.validation.title.proceedings"/>
+  </xed:template>
 
   <xed:template id="genres.single_contribution">
     <xed:include ref="title.original" />
@@ -264,7 +289,7 @@
     <xed:include ref="edition" />
     <xed:include ref="extent" />
     <xed:include ref="language" />
-    <xed:include ref="identifier.isbn" />
+    <xed:include ref="identifier.isbn.fixed" />
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="abstract.repeated.collapsed" />
@@ -456,7 +481,7 @@
         <div class="col-md-6">
           <input name="/mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:subject/mods:cartographics/mods:coordinates" value="" class="form-control" id="" type="text"></input>
         </div>
-        <mir:help-pmud help-text="{i18n:mir.help.sdnb}" pmud="true" />
+        <mir:help-pmud help-text="{i18n:mir.help.cartographics.coordinates}" pmud="true" />
       </div>
       <div class="form-group row openstreetmap">
         <div class="col-md-2 offset-md-3">
@@ -530,7 +555,7 @@
     <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='rev']" />
     <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
       <option value="aut">
-        <xed:output i18n="kartdok.role.thesis.habilitant" />
+        <xed:output i18n="kartdok.role.thesis.habilitand" />
       </option>
       <option value="aut">
         <xed:output i18n="mir.role.thesis" />
@@ -553,7 +578,7 @@
         <xed:output i18n="mir.role.thesis" />
       </option>
       <option value="aut" selected="selected">
-        <xed:output i18n="kartdok.role.thesis.habilitant" />
+        <xed:output i18n="kartdok.role.thesis.habilitand" />
       </option>
       <option value="ths">
         <xed:output i18n="mir.role.advisor" />
@@ -582,7 +607,7 @@
     <xed:include ref="edition" />
     <xed:include ref="extent" />
     <xed:include ref="language" />
-    <xed:include ref="identifier.isbn" />
+    <xed:include ref="identifier.isbn.fixed" />
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="abstract.repeated.collapsed" />
