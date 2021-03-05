@@ -428,7 +428,7 @@
   </xed:template>
 
   <xed:template id="title.blog.relItemsearch">
-    <mir:relItemsearch searchengine="title" genre="blog" responsefield="mods.title" xpath="mods:titleInfo/mods:title" label="mir.title.blog" help-text="{i18n:mir.help.title.blog}" class="required" />
+    <mir:relItemsearch searchengine="title" genre="blog" responsefield="mods.title" xpath="mods:titleInfo/mods:title" label="mir.title.blog" help-text="{i18n:mir.help.title.blog}" class="required" required="true" required-i18n="mir.validation.blog.title"/>
   </xed:template>
 
   <xed:template id="identifier.issn.blog.relItemsearch">
@@ -545,7 +545,8 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="blog_entry_link" />
     <xed:include ref="abstract.repeated.collapsed" />
-    <xed:include ref="subject.simple" />
+    <xed:include ref="kartdok.subject" after="subject.simple" />
+    <xed:remove ref="subject.simple" />
     <xed:include ref="geographic.complex" />
     <xed:include ref="cartographics.repeated" />
     <xed:include ref="kartdok_projects" />
