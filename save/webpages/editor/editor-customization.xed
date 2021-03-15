@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
+<xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xed:param name="host" default="standalone" />
 
   <!-- ========== extend editor-genres.xed ========== -->
@@ -482,15 +482,17 @@
           <xed:output i18n="mir.cartographics.coordinates" />
         </label>
         <div class="col-md-6">
-          <input type="text" class="form-control form-control-inline" placeholder="{i18n:mir.placeholder.cartographics.coordinates}"></input>
+          <input id="{@id}" type="text" class="form-control" placeholder="{i18n:mir.placeholder.cartographics.coordinates}">
+            <xsl:copy-of select="@placeholder" />
+          </input>
         </div>
         <mir:help-pmud help-text="{i18n:mir.help.cartographics.coordinates}" pmud="true" />
       </div>
       <div class="form-group row openstreetmap">
         <div class="col-md-2 offset-md-3">
           <button type="button" class="show_openstreetmap btn btn-secondary" data-lat="{$MIR.editor.start.coordinates.lat}" data-lon="{$MIR.editor.start.coordinates.lon}">
-          OpenStreetMap
-        </button>
+            OpenStreetMap
+          </button>
         </div>
         <div class="col-md-6 offset-md-3 collapse openstreetmap-container">
           <label>
