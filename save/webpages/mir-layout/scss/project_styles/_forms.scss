@@ -33,6 +33,12 @@
 // TODO: change this in MIR
 #more_options_toggle {
   color: $input-placeholder-color;
+  margin: 0 0 0 0;
+}
+
+#more_options_toggle #more_options_trigger #more_options_label {
+  padding: 0 0 0 0;
+  vertical-align: middle;
 }
 
 // Large devices (desktops) and below: <= 1200px

@@ -57,23 +57,20 @@
               </div>
             </div>
 
-            <div id="more_options_toggle" class="row">
-              <div class="col-sm-3 col-lg-2"></div>
-              <div class="col-sm-9 col-lg-10">
+            <div id="more_options_toggle" class="row mt-4">
+              <h3>
                 <span id="more_options_trigger">
-                  <span id="more_options_label">bibliographische Daten importieren</span>
-                  <span id="more_options_label_hide" class="d-none">bibliographische Daten importieren</span>
+                  <span id="more_options_label">Publikation aus anderen Datenquellen importieren</span>
+                  <span id="more_options_label_hide" class="d-none">Publikation aus anderen Datenquellen importieren</span>
                   <span id="more_options_button" class="fas fa-chevron-up"></span>
                 </span>
-              </div>
+              </h3>
             </div>
 
             <!-- more options -->
             <div id="more_options_box">
-
               <div class="row">
                 <div class="col-sm-12 col-md-8">
-                  <h3>Publikation aus anderen Datenquellen importieren</h3>
                   <p>
                     Sie haben zudem die Möglichkeit, die bibliographischen Daten Ihres Beitrags aus den Datenbanken
                     <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>,
