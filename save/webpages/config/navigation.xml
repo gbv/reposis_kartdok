@@ -108,6 +108,12 @@
     <menu id="user">
         <label xml:lang="de">Nutzermenü</label>
         <label xml:lang="en">User menu</label>
+        <group id="thisusercontent">
+            <item href="/servlets/solr/select?q=createdby:USERNAME" type="intern" replaceMenu="false" constrainPopUp="false">
+                <label xml:lang="de">Eigene Dokumente</label>
+                <label xml:lang="en">My Documents</label>
+            </item>
+        </group>
         <group id="thisuser">
             <item href="/authorization/change-password.xed?action=password" type="extern" replaceMenu="false" constrainPopUp="false">
                 <label xml:lang="de">Passwort ändern</label>
