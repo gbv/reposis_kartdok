@@ -789,6 +789,21 @@
       </div>
     </fieldset>
   </xed:template>
+  
+  <!-- Overwrite place in order to make it repeatable -->
+  <xed:template id="place">
+    <xed:repeat xpath="mods:originInfo[@eventType='publication']/mods:place/mods:placeTerm[@type='text']" min="1" max="10" label="mir.place" help-text="{i18n:mir.help.place}">
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="mir.place" />
+        </label>
+        <div class="col-md-6">
+          <input id="{@id}" type="text" class="form-control" />
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.place}" pmud="true" />
+      </div>
+    </xed:repeat>
+  </xed:template>
 
     <!-- TODO: Replace once the collapse feature is available in MIR -->
   <xed:template id="openAIRE.collapsed">
