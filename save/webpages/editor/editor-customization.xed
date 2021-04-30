@@ -13,6 +13,9 @@
     <xed:include ref="kartdok_projects" after="sdnb.repeat" />
     <xed:include ref="openAIRE.collapsed" after="openAIRE" />
     <xed:remove ref="openAIRE" />
+    <xed:include ref="institutes.repeat" after="institutes" />
+    <xed:include ref="kd_institute" after="institutes.repeat" />
+    <xed:remove ref="institutes" />
   </xed:modify>
 
   <xed:template id="genres.publication.common">
@@ -312,8 +315,9 @@
       <div class="mir-fieldset-content">
         <xed:include ref="rights" />
         <xed:include ref="embargo.datetimepicker" after="rights" />
-        <xed:include ref="institutes" after="embargo.datetimepicker" />
-        <xed:include ref="comment" after="institutes" />
+        <xed:include ref="institutes.repeat" after="embargo.datetimepicker" />
+        <xed:include ref="kd_institute" after="institutes.repeat" />
+        <xed:include ref="comment" after="kd_institute" />
       </div>
     </fieldset>
   </xed:template>
@@ -325,8 +329,9 @@
       </legend>
       <div class="mir-fieldset-content">
         <xed:include ref="rights" />
-        <xed:include ref="institutes" after="rights" />
-        <xed:include ref="comment" after="institutes" />
+        <xed:include ref="institutes.repeat" after="rights" />
+        <xed:include ref="kd_institute" after="institutes.repeat" />
+        <xed:include ref="comment" after="kd_institute" />
       </div>
     </fieldset>
   </xed:template>
@@ -340,8 +345,9 @@
         <xed:include ref="rights" />
         <xed:include ref="embargo.datetimepicker" after="rights" />
         <xed:include ref="copyrightMD"  after="embargo.datetimepicker"/>
-        <xed:include ref="institutes" after="copyrightMD" />
-        <xed:include ref="comment" after="institutes" />
+        <xed:include ref="institutes.repeat" after="copyrightMD" />
+        <xed:include ref="kd_institute" after="institutes.repeat" />
+        <xed:include ref="comment" after="kd_institute" />
       </div>
     </fieldset>
   </xed:template>
@@ -788,6 +794,10 @@
         </xed:repeat>
       </div>
     </fieldset>
+  </xed:template>
+
+  <xed:template id="kd_institute">
+    <mir:textfield xpath="mods:note[@type='kd_institute']" label="mir.institutes.other" help-text="{i18n:mir.help.institutes.other}" />
   </xed:template>
   
   <!-- Overwrite place in order to make it repeatable -->
