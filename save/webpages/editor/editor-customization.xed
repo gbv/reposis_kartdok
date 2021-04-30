@@ -36,6 +36,7 @@
     <xed:include ref="geographic.complex" />
     <xed:include ref="cartographics.repeated" />
     <xed:include ref="kartdok_projects" />
+    <xed:include ref="kd_projects" />
     <xed:include ref="openAIRE.collapsed" />
     <xed:include ref="further_information" />
   </xed:template>
@@ -52,7 +53,8 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:include ref="kd_projects" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
@@ -84,7 +86,8 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:include ref="kd_projects" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
@@ -134,7 +137,8 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:include ref="kd_projects" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
@@ -158,7 +162,8 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:include ref="kd_projects" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
@@ -197,7 +202,8 @@
     <xed:include ref="geographic.complex" after="physical.description.note" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:include ref="kd_projects" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
@@ -246,7 +252,8 @@
     <xed:include ref="geographic.complex" after="kartdok.subject" />
     <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_projects" after="cartographics.repeated" />
-    <xed:include ref="openAIRE.collapsed" after="kartdok_projects" />
+    <xed:include ref="kd_projects" after="kartdok_projects" />
+    <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
@@ -302,6 +309,7 @@
     <xed:include ref="geographic.complex"  />
     <xed:include ref="cartographics.repeated" />
     <xed:include ref="kartdok_projects" />
+    <xed:include ref="kd_projects" />
     <xed:include ref="openAIRE.collapsed" />
     <xed:include ref="further_information" after="openAIRE.collapsed" />
   </xed:template>
@@ -557,6 +565,7 @@
     <xed:include ref="geographic.complex" />
     <xed:include ref="cartographics.repeated" />
     <xed:include ref="kartdok_projects" />
+    <xed:include ref="kd_projects" after="kartdok_projects" />
     <xed:include ref="further_information" />
   </xed:template>
 
@@ -626,6 +635,7 @@
     <xed:include ref="geographic.complex"  />
     <xed:include ref="cartographics.repeated" />
     <xed:include ref="kartdok_projects" />
+    <xed:include ref="kd_projects" />
     <xed:include ref="openAIRE.collapsed" />
     <xed:include ref="further_information.without_embargo" after="openAIRE.collapsed" />
   </xed:template>
@@ -797,6 +807,10 @@
 
   <xed:template id="kd_institute">
     <mir:textfield xpath="mods:note[@type='kd_institute']" label="mir.institutes.other" help-text="{i18n:mir.help.institutes.other}" />
+  </xed:template>
+
+  <xed:template id="kd_projects">
+    <mir:textfield xpath="mods:note[@type='kd_projects']" label="mir.kd_projetcs.other" help-text="{i18n:mir.help.kd_projetcs.other}" />
   </xed:template>
   
   <!-- Overwrite place in order to make it repeatable -->
