@@ -14,7 +14,6 @@
     <xed:include ref="openAIRE.collapsed" after="openAIRE" />
     <xed:remove ref="openAIRE" />
     <xed:include ref="institutes.repeat" after="institutes" />
-    <xed:include ref="kd_institute" after="institutes.repeat" />
     <xed:remove ref="institutes" />
   </xed:modify>
 
