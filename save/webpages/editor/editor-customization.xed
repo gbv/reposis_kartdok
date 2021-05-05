@@ -495,9 +495,7 @@
           <xed:output i18n="mir.cartographics.coordinates" />
         </label>
         <div class="col-md-6">
-          <input id="{@id}" type="text" class="form-control" placeholder="{i18n:mir.placeholder.cartographics.coordinates}">
-            <xsl:copy-of select="@placeholder" />
-          </input>
+          <input id="{@id}" type="text" class="form-control" placeholder="{i18n:mir.placeholder.cartographics.coordinates}" />
         </div>
         <mir:help-pmud help-text="{i18n:mir.help.cartographics.coordinates}" pmud="true" />
       </div>
