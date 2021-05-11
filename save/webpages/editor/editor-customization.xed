@@ -179,14 +179,14 @@
     <xed:include ref="identifier.issn.fixed" after="identifier.issn"  />
     <xed:remove ref="identifier.issn" />
   </xed:modify>
-
+<!--
   <xed:modify ref="genres.research_data">
     <xed:include ref="title.original" after="title" />
     <xed:remove ref="title" />
     <xed:remove ref="openAIRE" />
     <xed:include ref="research.data.date.repeated.fixed" after="research.data.date.repeated" />
     <xed:remove ref="research.data.date.repeated" />
-    <!--<xed:include ref="research.data.date.repeated.publication" after="research.data.date.repeated" />-->
+    ##<xed:include ref="research.data.date.repeated.publication" after="research.data.date.repeated" />##
     <xed:remove ref="sdnb.repeat" />
     <xed:remove ref="abstract.simple" />
     <xed:remove ref="embargo.datetimepicker" />
@@ -209,7 +209,7 @@
     <xed:remove ref="comment" />
     <xed:include ref="further_information_with_copyrightMD" after="openAIRE.collapsed" />
   </xed:modify>
-
+-->
   <xed:modify ref="genres.poster">
     <xed:include ref="title.original"  before="title"/>
     <xed:remove ref="title" />
@@ -435,7 +435,46 @@
       <mir:topic.repeated min="1" max="20" label="mir.subject.topic" help-text="{i18n:mir.help.subject.topic.gnd}" class="required" required="true" required-i18n="mir.validation.subject" />
     </xed:bind>
   </xed:template>
-
+<!--
+  <xed:template id="kartdok.subject">
+    <xed:repeat xpath="mods:topic" min="{@min}" max="{@max}">
+      <xsl:variable name="xed-val-marker" > {$xed-validation-marker} </xsl:variable>
+        <xed:bind xpath="@authorityURI" initially="http://d-nb.info/gnd/">
+          <input type="hidden" />
+        </xed:bind>
+        <div class="form-group row {@class} {$xed-val-marker}">
+          <label class="col-md-3 col-form-label text-right">
+            <xed:output i18n="{@label}" />Test
+          </label>
+          <xsl:choose>
+            <xsl:when test="@extended='true'">
+              <div class="col-md-6 center-vertical">
+                <div class="search-topic-extended">
+                  <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="topic.input" />
+                </div>
+                <span class="fas fa-chevron-down expand-item" data-target=".topicExtended-container" title="{i18n:translate('mir.help.expand')}" aria-hidden="true"></span>
+              </div>
+            </xsl:when>
+            <xsl:otherwise>
+              <div class="col-md-6">
+                  <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="topic.input" />
+                </div>
+            </xsl:otherwise>
+          </xsl:choose>
+          <div class="col-md-3">
+            <xsl:if test="string-length(@help-text) &gt; 0">
+            <xsl:call-template name="mir-helpbutton" />
+            </xsl:if>
+            <xsl:call-template name="mir-pmud" />
+          </div>
+        </div>
+        <span class="mir-fieldset-content topicExtended-container d-none">
+          <xed:include uri="xs  lStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="topicIdentifier" />
+        </span>
+        <xsl:call-template name="mir-required" />     
+    </xed:repeat>
+  </xed:template>
+-->
   <xed:template id="blog_entry_link">
     <mir:textfield xpath="mods:location/mods:url[@access='raw object']" label="mir.link.blog_entry" help-text="{i18n:mir.help.link.blog_entry}" class="required" required="true" required-i18n="mir.validation.link.blog_entry" />
   </xed:template>

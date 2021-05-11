@@ -44,14 +44,14 @@
         </script>
     </section>
 
-    <section xml:lang="en" title="KartDok - Repositorium Kartographie">
+    <section xml:lang="en" title="KartDok - Cartography repository">
         <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
             <div class="row">
                 <div class="col-md-9 offset-md-2" lang="de">
                     <h1>
                         KartDok
                         <br/>
-                        Repositorium Kartographie
+                        Cartography repository
                     </h1>
                     <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
                         <div class="input-group input-group-lg w-100">
@@ -87,7 +87,6 @@
         </script>
     </section>
     <meta>
-        <log lastEditor="administrator" date="2020-04-24" time="10:15"/>
     </meta>
 
 </MyCoReWebPage>
