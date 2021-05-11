@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="NUTZUNGSBEDINGUNGEN">
+    <section xml:lang="de" title="Nutzungsbedingungen">
         <div class="row">
-            <div class="col-md-10" lang="de">
+            <div class="col-md-10">
                 <h1>Nutzungsbedingungen</h1>
                 <p>
                     Informationen zur Nutzung.
@@ -30,9 +30,36 @@
             </div>
         </div>
     </section>
-    <section xml:lang="en" title="TERMS OF USE">
+    <section xml:lang="en" title="Terns of use">
+        <div class="row">
+            <div class="col-md-10">
+                <h1>Terms of Use</h1>
+                <p>
+                    Information about use.
+                </p>
+                <p>
+                   Further explanations.
+                </p>
+                <h2>
+                    Headline 1
+                </h2>
+                <p>
+                    This is text here.
+                </p>
+                <h2>
+                    Headline 2
+                </h2>
+                <p>
+                    Here is much more text.
+                    <ul>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
     </section>
     <meta>
-        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
     </meta>
 </MyCoReWebPage>

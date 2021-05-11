@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-  <section xml:lang="de">
+  <section xml:lang="de" i18n="component.user2.admin.create.title">
     <h3>Registrierung</h3>
     <p>
      Vor der Publikation Ihres Beitrags auf KartDok ist eine einmalige Registrierung erforderlich. 
      Zu diesem Zweck vervollständigen Sie bitte das folgende Formular unter Eingabe einer Nutzerkennung 
      (höchstens 16 Zeichen, bitte nur Kleinbuchstaben ohne Sonderzeichen und/oder Ziffern), sowie eines 
-     Passworts (mindestens 8 und maximal 16 Zeichen lang, bitte keine Leerzeichen). Um die Registrierung abzuschließen, 
-     müssen Sie einmal den Link aufrufen, der Ihnen unmittelbar im Anschluss an die angegebene E-Mail-Adresse 
-     zugesendet wird, nachdem Sie das Formular abgesandt haben. Vielen Dank!
+     Passworts (mindestens 8 und maximal 16 Zeichen lang, bitte keine Leerzeichen). Um die Registrierung
+     abzuschließen, müssen Sie einmal den Link aufrufen, der Ihnen unmittelbar im Anschluss an die
+     angegebene E-Mail-Adresse zugesendet wird, nachdem Sie das Formular abgesandt haben. Vielen Dank!
     </p>
     <p>
       Mit Ihren Zugangsdaten können Sie sich nun jederzeit am Server von KartDok
@@ -17,6 +17,23 @@
       um beliebig viele Beiträge im Open Access zu publizieren.
     </p>
   </section>
+
+  <section xml:lang="en" i18n="component.user2.admin.create.title">
+    <h3>Registration</h3>
+    <p>
+      Before publishing your contribution on KartDok, a one-time registration is required. For this purpose, 
+      please complete the following form by entering a user ID (maximum 16 characters, please only use lower 
+      case letters without special characters and/or numbers), as well as a password (minimum 8 and maximum 
+      16 characters long, please no spaces). In order to complete the registration, you must call up the link 
+      once, which will be sent to you immediately after you have submitted the form. Thank you very much!
+    </p>
+    <p>
+      With your access data, you can now
+      <a href="../servlets/MCRLoginServlet?url=../content/index.xml">log in</a>
+      to the KartDok server at any time to publish as many contributions as you wish in Open Access.
+    </p>
+  </section>
+
   <section xml:lang="all" i18n="component.user2.admin.create.title">
     <xed:form class="userEditor form-horizontal" role="form" xmlns:xed="http://www.mycore.de/xeditor" xmlns:mcruser="http://www.mycore.de/components/mcruser">
       <xed:cancel url="{$ServletsBaseURL}MirSelfRegistrationServlet" />
