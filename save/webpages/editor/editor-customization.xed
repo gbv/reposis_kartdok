@@ -179,14 +179,11 @@
     <xed:include ref="identifier.issn.fixed" after="identifier.issn"  />
     <xed:remove ref="identifier.issn" />
   </xed:modify>
-<!--
+
   <xed:modify ref="genres.research_data">
     <xed:include ref="title.original" after="title" />
     <xed:remove ref="title" />
     <xed:remove ref="openAIRE" />
-    <xed:include ref="research.data.date.repeated.fixed" after="research.data.date.repeated" />
-    <xed:remove ref="research.data.date.repeated" />
-    ##<xed:include ref="research.data.date.repeated.publication" after="research.data.date.repeated" />##
     <xed:remove ref="sdnb.repeat" />
     <xed:remove ref="abstract.simple" />
     <xed:remove ref="embargo.datetimepicker" />
@@ -194,7 +191,7 @@
     <xed:remove ref="access" />
     <xed:remove ref="physical.description.note" />
     <xed:remove ref="cartographics" />
-    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
+    <xed:include ref="abstract.repeated.collapsed" after="related.item.link" />
     <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
     <xed:remove ref="subject.simple" />
     <xed:include ref="physical.description.form" after="kartdok.subject" />
@@ -209,7 +206,7 @@
     <xed:remove ref="comment" />
     <xed:include ref="further_information_with_copyrightMD" after="openAIRE.collapsed" />
   </xed:modify>
--->
+
   <xed:modify ref="genres.poster">
     <xed:include ref="title.original"  before="title"/>
     <xed:remove ref="title" />
@@ -241,9 +238,7 @@
     <xed:remove ref="abstract.simple" />
     <xed:remove ref="geographic" />
     <xed:remove ref="cartographics" />
-    <!--<xed:include ref="research.data.date.repeated.creation.fixed" after="date.recorded.datetimepicker" />-->
-    <xed:include ref="research.data.date.repeated.creation.fixed" after="date.recorded.datetimepicker" />
-    <!--<xed:include ref="research.data.date.repeated.publication.fixed" after="research.data.date.repeated.collection.fixed" />-->
+    <xed:include ref="research.data.date.repeated" after="date.recorded.datetimepicker" />
     <xed:remove ref="date.recorded.datetimepicker"/>
     <xed:include ref="station" before="language" />
     <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
@@ -325,6 +320,42 @@
         <xed:include ref="institutes.repeat" after="embargo.datetimepicker" />
         <xed:include ref="kd_institute" after="institutes.repeat" />
         <xed:include ref="comment" after="kd_institute" />
+      </div>
+    </fieldset>
+  </xed:template>
+
+  <xed:template id="related.item.link">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="kartdok.forms.linked_resources" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:repeat xpath="mods:relatedItem" min="1" max="10">
+          <div class="form-group row">
+            <div class="col-md-3">
+              <xed:bind xpath="@type">
+                <select class="form-control form-control-inline" style="text-align: right; font-weight:bold;">
+                  <option value="original">
+                    <xed:output i18n="mir.relatedItem.original" />
+                  </option>
+                  <option value="otherVersion">
+                    <xed:output i18n="mir.relatedItem.otherVersion" />
+                  </option>
+                  <option value="otherFormat">
+                    <xed:output i18n="mir.relatedItem.otherFormat" />
+                  </option>
+                </select>
+              </xed:bind>
+            </div>
+            <div class="col-md-6">
+              <xed:bind xpath="mods:titleInfo/mods:title">
+                <input type="text" class="form-control" placeholder="{i18n:mir.placeholder.title.link}" />
+              </xed:bind>
+            </div>
+            <mir:help-pmud help-text="{i18n:mir.help.link.title}" pmud="true" />
+          </div>
+          <mir:textfield xpath="mods:location/mods:url[@access='raw object']" help-text="{i18n:mir.help.link.raw_object}" placeholder="{i18n:mir.placeholder.abstract.link}" />
+        </xed:repeat>
       </div>
     </fieldset>
   </xed:template>
@@ -678,6 +709,46 @@
   </xed:template>
 
   <!-- TODO: Add row to <div class="form-group"> in MIR --> 
+    <xed:template id="research.data.date.repeated">
+      <xed:repeat xpath="mods:originInfo" min="1" max="6">
+        <div class="form-group row">
+          <div class="col-md-3">
+            <xed:bind xpath="@eventType" default="creation">
+              <select class="form-control form-control-inline date-select">
+                <option value="creation">
+                  <xed:output i18n="mir.date.created" />
+                </option>
+                <option value="collection">
+                  <xed:output i18n="mir.date.collected" />
+                </option>
+                <option value="publication">
+                  <xed:output i18n="mir.date.issued.10" />
+                </option>
+                <option value="review">
+                  <xed:output i18n="mir.date.reviewed" />
+                </option>
+                <option value="update">
+                  <xed:output i18n="mir.date.updated" />
+                </option>
+              </select>
+            </xed:bind>
+          </div>
+          <mir:dateRangeInput xpath="mods:dateCreated[@encoding='w3cdtf']" class="datetimepicker date-changeable col-md-6" placeholder="{i18n:mir.placeholder.date}"
+            type="creation" />
+          <mir:dateRangeInput xpath="mods:dateCaptured[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+            type="collection" />
+          <mir:dateRangeInput xpath="mods:dateIssued[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+            type="publication" />
+          <mir:dateRangeInput xpath="mods:dateOther[@type='reviewed'][@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6"
+            placeholder="{i18n:mir.placeholder.date}" type="review" />
+          <mir:dateRangeInput xpath="mods:dateModified[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+            type="update" />
+          <mir:help-pmud help-text="{i18n:mir.help.date.repeated}" pmud="true" />
+        </div>
+      </xed:repeat>
+    </xed:template>
+
+
   <xed:template id="research.data.date.repeated.creation.fixed">
     <xed:repeat xpath="mods:originInfo" min="1" max="6">
       <div class="form-group row">
@@ -762,11 +833,11 @@
         <div class="col-md-3">
           <xed:bind xpath="@eventType" default="publication">
             <select class="form-control form-control-inline">
-              <option value="publication">
-                <xed:output i18n="mir.date.issued.10" />
-              </option>
               <option value="creation">
                 <xed:output i18n="mir.date.created" />
+              </option>
+              <option value="publication" selected='selected'>
+                <xed:output i18n="mir.date.issued.10" />
               </option>
               <option value="collection">
                 <xed:output i18n="mir.date.collected" />
