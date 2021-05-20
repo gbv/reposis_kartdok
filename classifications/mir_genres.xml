@@ -96,6 +96,12 @@
         <label xml:lang="x-hosts" text="series standalone" />
       </category>
     </category>
+    <category ID="kartdok_collection">
+      <label xml:lang="de" text="Kartdok-Collection" />
+      <label xml:lang="x-mapping" text="marcgt:series diniPublType:Other" />
+      <label xml:lang="x-hosts" text="series standalone" />
+      <label xml:lang="en" text="Kartdok Collection" />
+    </category>
     <category ID="report">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report" />
