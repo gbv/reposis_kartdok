@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="noteTypes">
+  <url xlink:href="http://www.loc.gov/standards/mods/mods-notes.html" xlink:type="locator" />
+  <label xml:lang="de" text="Kommentartyp" />
+  <label xml:lang="en" text="Type of note" />
+  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/noteTypes" />
+  <categories>
+    <category ID="admin">
+      <label xml:lang="en" text="intern comment" />
+      <label xml:lang="de" text="interner Kommentar" />
+      <label xml:lang="x-access" text="submitter editor admin" />
+    </category>
+    <category ID="content">
+      <label xml:lang="en" text="Type of content" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Art des Inhalts" />
+    </category>
+    <category ID="kd_projects">
+      <label xml:lang="de" text="Projektzusammenhang" description="Freitextfeld falls Eintrag in Klassifikation fehlt" />
+      <label xml:lang="x-access" text="admin" />
+    </category>
+    <category ID="kd_institute">
+      <label xml:lang="de" text="Einrichtung" description="Freitextfeld falls Einrichtung fehlt" />
+      <label xml:lang="en" text="Institution" />
+      <label xml:lang="x-access" text="admin" />
+    </category>
+    <category ID="thesis">
+      <label xml:lang="en" text="Dissertation note" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Hochschulvermerk" />
+    </category>
+  </categories>
+</mycoreclass>
