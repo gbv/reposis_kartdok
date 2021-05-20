@@ -914,11 +914,11 @@
   </xed:template>
 
   <xed:template id="kd_institute">
-    <mir:textfield xpath="mods:note[@type='kd_institute']" label="mir.institutes.other" help-text="{i18n:mir.help.institutes.other}" />
+    <mir:textfield xpath="mods:note[@type='kd institute']" label="mir.institutes.other" help-text="{i18n:mir.help.institutes.other}" />
   </xed:template>
 
   <xed:template id="kd_projects">
-    <mir:textfield xpath="mods:note[@type='kd_projects']" label="mir.kd_projetcs.other" help-text="{i18n:mir.help.kd_projetcs.other}" />
+    <mir:textfield xpath="mods:note[@type='kd projects']" label="mir.kd_projetcs.other" help-text="{i18n:mir.help.kd_projetcs.other}" />
   </xed:template>
   
   <!-- Overwrite place in order to make it repeatable -->
