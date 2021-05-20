@@ -7,8 +7,6 @@
   <xed:modify ref="admin.fields">
     <xed:remove ref="abstract.repeated" />
     <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
-    <xed:remove ref="cartographics" />
-    <xed:include ref="cartographics.repeated" after="geographic.complex" />
     <xed:include ref="kartdok_bc.search" before="sdnb.repeat" />
     <xed:include ref="kartdok_projects" after="sdnb.repeat" />
     <xed:include ref="openAIRE.collapsed" after="openAIRE" />
@@ -34,7 +32,7 @@
     <xed:include ref="abstract.repeated.collapsed" />
     <xed:include ref="kartdok.subject" />
     <xed:include ref="geographic.complex" />
-    <xed:include ref="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" />
     <xed:include ref="kartdok_projects" />
     <xed:include ref="kd_projects" />
     <xed:include ref="openAIRE.collapsed" />
@@ -51,8 +49,8 @@
     <xed:include ref="kartdok.subject" after="abstract.repeated" />
     <xed:remove ref="subject.simple" />
     <xed:include ref="geographic.complex" after="kartdok.subject" />
-    <xed:include ref="cartographics.repeated" after="geographic.complex" />
-    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeat" />
     <xed:include ref="kd_projects" after="kartdok_projects" />
     <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
@@ -84,8 +82,8 @@
     <xed:remove ref="abstract.repeated" />
     <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
     <xed:include ref="geographic.complex" after="kartdok.subject" />
-    <xed:include ref="cartographics.repeated" after="geographic.complex" />
-    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeat" />
     <xed:include ref="kd_projects" after="kartdok_projects" />
     <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
@@ -135,8 +133,8 @@
     <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
     <xed:remove ref="subject.simple" />
     <xed:include ref="geographic.complex" after="kartdok.subject" />
-    <xed:include ref="cartographics.repeated" after="geographic.complex" />
-    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeat" />
     <xed:include ref="kd_projects" after="kartdok_projects" />
     <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
@@ -160,8 +158,8 @@
     <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
     <xed:remove ref="subject.simple" />
     <xed:include ref="geographic.complex" after="kartdok.subject" />
-    <xed:include ref="cartographics.repeated" after="geographic.complex" />
-    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeat" />
     <xed:include ref="kd_projects" after="kartdok_projects" />
     <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
@@ -190,15 +188,14 @@
     <xed:remove ref="copyrightMD" />
     <xed:remove ref="access" />
     <xed:remove ref="physical.description.note" />
-    <xed:remove ref="cartographics" />
     <xed:include ref="abstract.repeated.collapsed" after="related.item.link" />
     <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
     <xed:remove ref="subject.simple" />
     <xed:include ref="physical.description.form" after="kartdok.subject" />
     <xed:include ref="physical.description.note" after="physical.description.form" />
     <xed:include ref="geographic.complex" after="physical.description.note" />
-    <xed:include ref="cartographics.repeated" after="geographic.complex" />
-    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeat" />
     <xed:include ref="kd_projects" after="kartdok_projects" />
     <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
@@ -219,11 +216,11 @@
     <xed:include ref="kartdok.subject" after="abstract.simple" />
     <xed:remove ref="subject.simple" />
     <xed:include ref="geographic.complex" after="kartdok.subject" />
-    <xed:include ref="cartographics.repeated" after="geographic.complex" />
+    <xed:include ref="cartographics.repeat" after="geographic.complex" />
     <xed:remove ref="rights" />
     <xed:remove ref="institutes" />
     <xed:remove ref="comment" />
-    <xed:include ref="further_information.without_embargo" after="cartographics.repeated" />
+    <xed:include ref="further_information.without_embargo" after="cartographics.repeat" />
   </xed:modify>
 
   <xed:modify ref="genres.av.common">
@@ -237,7 +234,6 @@
     <xed:remove ref="sdnb.repeat" />
     <xed:remove ref="abstract.simple" />
     <xed:remove ref="geographic" />
-    <xed:remove ref="cartographics" />
     <xed:include ref="research.data.date.repeated" after="date.recorded.datetimepicker" />
     <xed:remove ref="date.recorded.datetimepicker"/>
     <xed:include ref="station" before="language" />
@@ -245,8 +241,8 @@
     <xed:include ref="kartdok.subject" after="abstract.repeated.collapsed" />
     <xed:remove ref="subject.simple" />
     <xed:include ref="geographic.complex" after="kartdok.subject" />
-    <xed:include ref="cartographics.repeated" after="geographic.complex" />
-    <xed:include ref="kartdok_projects" after="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" after="geographic.complex" />
+    <xed:include ref="kartdok_projects" after="cartographics.repeat" />
     <xed:include ref="kd_projects" after="kartdok_projects" />
     <xed:include ref="openAIRE.collapsed" after="kd_projects" />
     <xed:remove ref="rights" />
@@ -302,7 +298,7 @@
     <xed:include ref="abstract.repeated.collapsed" />
     <xed:include ref="kartdok.subject" />
     <xed:include ref="geographic.complex"  />
-    <xed:include ref="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" />
     <xed:include ref="kartdok_projects" />
     <xed:include ref="kd_projects" />
     <xed:include ref="openAIRE.collapsed" />
@@ -558,7 +554,8 @@
     display="global" />
   </xed:template>
 
-  <xed:template id="cartographics.repeated">
+  <!-- ToDo: Add placeholder to the mir template-->
+  <xed:template id="cartographics.repeat">
     <xed:repeat xpath="mods:subject/mods:cartographics/mods:coordinates" min="1" max="20" label="mir.cartographics.coordinates" help-text="{i18n:mir.help.cartographics.coordinates}">
       <div class="form-group row">
         <label class="col-md-3 col-form-label text-right">
@@ -613,6 +610,10 @@
     </div>
   </xed:template>
 
+  <xed:template id="genres.kartdok_collection">
+    <xed:include ref="genres.collection" />
+  </xed:template>
+
   <xed:template id="genres.blog">
     <xed:include ref="title" />
     <xed:include ref="genres.journal.common" />
@@ -631,7 +632,7 @@
     <xed:include ref="kartdok.subject" after="subject.simple" />
     <xed:remove ref="subject.simple" />
     <xed:include ref="geographic.complex" />
-    <xed:include ref="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" />
     <xed:include ref="kartdok_projects" />
     <xed:include ref="kd_projects" after="kartdok_projects" />
     <xed:include ref="further_information" />
@@ -701,7 +702,7 @@
     <xed:include ref="abstract.repeated.collapsed" />
     <xed:include ref="kartdok.subject" />
     <xed:include ref="geographic.complex"  />
-    <xed:include ref="cartographics.repeated" />
+    <xed:include ref="cartographics.repeat" />
     <xed:include ref="kartdok_projects" />
     <xed:include ref="kd_projects" />
     <xed:include ref="openAIRE.collapsed" />
