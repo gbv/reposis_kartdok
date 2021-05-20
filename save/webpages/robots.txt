@@ -1,0 +1,10 @@
+User-agent: *
+Crawl-delay: 10
+Allow: /servlets/MCRFileNodeServlet/
+Allow: /rsc/sass/
+Disallow: /*?
+Disallow: /servlets/
+Disallow: /browse/
+Disallow: /rsc/
+Disallow: /api/
+Sitemap: https://kartdok.staatsbibliothek-berlin.de/sitemap_google.xml
