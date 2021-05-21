@@ -57,6 +57,12 @@ $(document).ready(function() {
 
 });
 
+// TODO: Remove once we implement a better solution to hide genre types in pull down menu
+$( document ).ajaxComplete(function() {
+  // remove kartdok_collection as option from publish/index.xml
+  $("select#genre option[value='kartdok_collection']").remove();
+});
+
 function toggleOAOptions() {
   var duration = 500;
   if ( $('#open-aire_box').is(':visible') ) {
