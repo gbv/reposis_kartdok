@@ -19,8 +19,12 @@ $(document).ready(function() {
 
   // replace placeholder USERNAME with username
   var userID = $("#currentUser strong").html();
-  var newHref = 'https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
+//  var newHref = 'https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+//  $("a[href='https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
+  var newHref = 'https://kartdok.staatsbibliothek-berlin.de/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='https://kartdok.staatsbibliothek-berlin.de/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
+
+
 
   // prevent dropdown from leaving visible page area
   $(".language-menu").addClass('dropdown-menu-right');
@@ -62,21 +66,6 @@ $( document ).ajaxComplete(function() {
   // remove kartdok_collection as option from publish/index.xml
   $("select#genre option[value='kartdok_collection']").remove();
 });
-
-function toggleOAOptions() {
-  var duration = 500;
-  if ( $('#open-aire_box').is(':visible') ) {
-    $('#open-aire_trigger').removeClass('glyphicon-check');
-    $('#open-aire_trigger').addClass('glyphicon-unchecked');
-    $('#open-aire_box').fadeOut( duration );
-    localStorage.setItem("open_aire_options_are_visible", false);
-  } else {
-    $('#open-aire_trigger').removeClass('glyphicon-unchecked');
-    $('#open-aire_trigger').addClass('glyphicon-check');
-    $('#open-aire_box').fadeIn( duration );
-    localStorage.setItem("open_aire_options_are_visible", true);
-  }
-}
 
 // TODO: Parameterize the select function in MIR (type-ahead)
 function setLabelForClassificationBC(parent) {
