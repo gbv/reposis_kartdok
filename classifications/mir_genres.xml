@@ -97,10 +97,10 @@
       </category>
     </category>
     <category ID="kartdok_collection">
-      <label xml:lang="de" text="Kartdok-Collection" />
+      <label xml:lang="de" text="KartDok-Collection" />
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:Other" />
       <label xml:lang="x-hosts" text="series standalone" />
-      <label xml:lang="en" text="Kartdok Collection" />
+      <label xml:lang="en" text="KartDok Collection" />
     </category>
     <category ID="report">
       <label xml:lang="x-hosts" text="standalone" />
