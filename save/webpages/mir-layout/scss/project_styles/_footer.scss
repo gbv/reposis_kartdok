@@ -15,7 +15,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #95a6b1;
+  background-color: #8497A4; // #95a6b1;
   .nav-link {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -24,6 +24,9 @@
     &:focus {
       background-color: transparent;
     }
+  }
+  a {
+    color: #FFFFFF;
   }
 }
 

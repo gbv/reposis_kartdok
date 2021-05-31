@@ -37,7 +37,7 @@
         </div>
         <div class="project_parent_logo">
           <a href="https://staatsbibliothek-berlin.de/">
-            <img class="sbb-logo" src="{$WebApplicationBaseURL}/images/SBB_Logo_sRGB_no_border.png" />
+            <img class="sbb-logo" alt="Logo der Staatsbibliothek zu Berlin" title="zur Seite der Staatsbibliothek zu Berlin" src="{$WebApplicationBaseURL}/images/SBB_Logo_sRGB_no_border.png" />
           </a>
         </div>
       </div>
