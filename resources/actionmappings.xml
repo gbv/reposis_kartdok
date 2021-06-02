@@ -34,8 +34,8 @@
     </action>
     <action action="update">
       <when condition="(group = admin) or (group = editor)" url="/servlets/MCRLockServlet?url=/editor/editor-dynamic.xed" />
-      <when condition="(status != published) and (status != blocked) and (status != deleted) and (group = specialist)" url="/servlets/MCRLockServlet?url=/editor/editor-dynamic.xed" />
-      <when condition="(status != published) and (status != review)" url="/servlets/MCRLockServlet?url=/editor/editor-dynamic.xed" />
+      <when condition="(status != new) and (status != published) and (status != blocked) and (status != deleted) and (group = specialist)" url="/servlets/MCRLockServlet?url=/editor/editor-dynamic.xed" />
+      <when condition="(status != submitted) and (status != review) and (status != publishable) and (status != published) and (status != review)" url="/servlets/MCRLockServlet?url=/editor/editor-dynamic.xed" />
     </action>
     <action action="update-admin">
       <when condition="(group = admin) or (group = editor)" url="/servlets/MCRLockServlet?url=/editor/editor-admins.xed" />

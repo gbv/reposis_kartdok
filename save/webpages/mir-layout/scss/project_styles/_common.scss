@@ -46,6 +46,11 @@
   .publish-import-popover-box .popover {
     max-width: 460px;
   }
+  
+  // change background color of workflow box
+  .workflow-box {
+    background-color: #cbeef1;
+  }
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
