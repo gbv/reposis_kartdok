@@ -567,7 +567,6 @@
   <xed:template id="genres.blog">
     <xed:include ref="title" />
     <xed:include ref="genres.journal.common" />
-    <xed:include ref="rights" />
   </xed:template>
 
   <xed:template id="genres.blog_entry">
@@ -579,8 +578,7 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="blog_entry_link" />
     <xed:include ref="abstract.repeated.collapsed" />
-    <xed:include ref="subject.simple.required" after="subject.simple" />
-    <xed:remove ref="subject.simple" />
+    <xed:include ref="subject.simple.required" />
     <xed:include ref="geographic.complex" />
     <xed:include ref="cartographics.repeat" />
     <xed:include ref="kartdok_projects" />
