@@ -860,9 +860,6 @@
               <option value="object in context">
                 <xed:output i18n="mir.link.object_in_context" />
               </option>
-              <option value="object in research data">
-                <xed:output i18n="mir.link.research_data" />
-              </option>
             </select>
           </xed:bind>
         </div>
