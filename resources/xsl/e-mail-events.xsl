@@ -17,10 +17,8 @@
 
   <xsl:template match="/">
     <xsl:message>
-      type:
-      <xsl:value-of select="$type" />
-      action:
-      <xsl:value-of select="$action" />
+      type: <xsl:value-of select="$type" />
+      action: <xsl:value-of select="$action" />
     </xsl:message>
     <email>
       <from><xsl:value-of select="$MCR.mir-module.MailSender" /></from>
@@ -30,57 +28,256 @@
 
   <xsl:template match="mycoreobject" mode="email">
     <xsl:choose>
-      <xsl:when test="not(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and mcrxsl:isCurrentUserInRole('submitter') and ($action='create')">
+
+      <!-- Submitted -->
+      <xsl:when test="not(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and mcrxsl:isCurrentUserInRole('submitter') and ($action='update') and service/servstates/servstate[@classid='state']/@categid='submitted'">
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiver" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
               <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']">
-                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']"
-                  mode="printModsClassInfo" />
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']" mode="printModsClassInfo" />
               </xsl:when>
               <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']">
-                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']"
-                  mode="printModsClassInfo" />
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']" mode="printModsClassInfo" />
               </xsl:when>
               <xsl:otherwise>
                 <xsl:value-of select="'Objekt'" />
               </xsl:otherwise>
             </xsl:choose>
           </xsl:variable>
-          <xsl:value-of select="concat($objectType,' erstellt: ',@ID)" />
+          <xsl:value-of select="concat($objectType,' zur Überprüfung eingereicht: ',@ID)" />
         </subject>
         <body>
+          <xsl:value-of select="'Folgende Publikation wurde zur Überprüfung eingereicht:'" />
           <xsl:value-of select="$newline" />
-          <xsl:value-of select="i18n:translate('mir.email.events.newdocument.headline')" />
+          <xsl:apply-templates select="." mode="output" />
           <xsl:value-of select="$newline" />
+          <xsl:value-of select="$newline" />
+          <xsl:value-of select="'Link zur Publikation in der zur Überprüfung eingereichten Version'" />
+          <xsl:value-of select="$newline" />
+          <xsl:variable name="version" select="document(concat('versioninfo:', @ID))/versions/version[1]/@r" />
+          <xsl:value-of select="concat('Link: &lt;',$WebApplicationBaseURL,'receive/',@ID, '?r=',$version,'&gt;')" />
+          <xsl:value-of select="$newline" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="document(concat('user:',service/servflags[@class='MCRMetaLangText']/servflag[@type='createdby']))/user" mode="output" />
+          <xsl:if test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='author2editor']">
+            <xsl:value-of select="$newline" />
+            <xsl:value-of select="$newline" />
+            <xsl:value-of select="'Der / Die Einreichende macht dazu folgende Anmerkung:'" />
+            <xsl:value-of select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='author2editor']" />
+            <xsl:value-of select="$newline" />
+          </xsl:if>
+        </body>
+      </xsl:when>
+
+      <!-- Created-->
+      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='new'">
+        <!-- SEND EMAIL -->
+        <xsl:apply-templates select="." mode="mailReceiver" />
+        <subject>
+          <xsl:variable name="objectType">
+            <xsl:choose>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="'Objekt'" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="concat($objectType,' zurück an Autor: ',@ID)" />
+        </subject>
+        <body>
+          <xsl:value-of select="'Es sind Korrekturen nötig, genauere Informationen folgen:'" /> <!-- ToDo -->
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="." mode="output" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="document(concat('user:',service/servflags[@class='MCRMetaLangText']/servflag[@type='createdby']))/user" mode="output" />
+          <xsl:variable name="version" select="document(concat('versioninfo:', @ID))/versions/version[1]/@r" />
+          <xsl:variable name="objectURL">
+            <xsl:value-of select="$WebApplicationBaseURL" />
+            <xsl:text>receive/</xsl:text>
+            <xsl:value-of select="@ID" />
+            <xsl:text>?r=</xsl:text>
+            <xsl:value-of select="$version" />
+            <xsl:text></xsl:text>
+          </xsl:variable>
+          <xsl:value-of select="$newline" />
+          <xsl:text>Diese Nachricht bezieht sich auf folgende Version des Dokuments:</xsl:text>
+          <xsl:value-of select="$objectURL" />
+          <xsl:if test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='editor2author']">
+            <xsl:value-of select="$newline" />
+            <xsl:value-of select="'Die Leopoldina-Bibliothek macht dazu folgende Anmerkung:'" />
+            <xsl:value-of select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='editor2author']" />
+            <xsl:value-of select="$newline" />
+          </xsl:if>
+        </body>
+      </xsl:when>
+
+      <!-- Marked For Publication -->
+      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='publishable'">
+        <!-- SEND EMAIL -->
+        <xsl:apply-templates select="." mode="mailReceiver" />
+        <subject>
+          <xsl:variable name="objectType">
+            <xsl:choose>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="'Objekt'" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="concat($objectType,' wurde für die Veröffentlichung vorgemerkt: ',@ID)" />
+        </subject>
+        <body>
+          <xsl:value-of select="'Folgende Publikation wurde nun für die Veröffentlichung vorgemerkt:'" />
           <xsl:value-of select="$newline" />
           <xsl:apply-templates select="." mode="output" />
           <xsl:value-of select="$newline" />
           <xsl:apply-templates select="document('user:current')/user" mode="output" />
+          <xsl:value-of select="$newline" />
         </body>
       </xsl:when>
+
+      <!-- Deleted -->
+      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='deleted'">
+        <!-- SEND EMAIL -->
+        <xsl:apply-templates select="." mode="mailReceiver" />
+        <subject>
+          <xsl:variable name="objectType">
+            <xsl:choose>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="'Objekt'" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="concat($objectType,' wurde gelöscht: ',@ID)" />
+        </subject>
+        <body>
+          <xsl:value-of select="'Folgende Publikation wurde auf dem Publikationsserver gelöscht:'" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="." mode="output" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="document('user:current')/user" mode="output" />
+          <xsl:value-of select="$newline" />
+        </body>
+      </xsl:when>
+
+      <!-- Blocked -->
+      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='blocked'">
+        <!-- SEND EMAIL -->
+        <xsl:apply-templates select="." mode="mailReceiver" />
+        <subject>
+          <xsl:variable name="objectType">
+            <xsl:choose>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="'Objekt'" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="concat($objectType,' wurde gesperrt: ',@ID)" />
+        </subject>
+        <body>
+          <xsl:value-of select="'Folgende Publikation wurde auf dem Publikationsserver gesperrt:'" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="." mode="output" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="document('user:current')/user" mode="output" />
+          <xsl:value-of select="$newline" />
+        </body>
+      </xsl:when>
+
+      <!-- In Review -->
+      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='review'">
+        <!-- SEND EMAIL -->
+        <xsl:apply-templates select="." mode="mailReceiver" />
+        <subject>
+          <xsl:variable name="objectType">
+            <xsl:choose>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="'Objekt'" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="concat($objectType,' wurde in Bearbeitung gesetzt: ',@ID)" />
+        </subject>
+        <body>
+          <xsl:value-of select="'Folgende Publikation wurde in Bearbeitung gesetzt:'" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="." mode="output" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="document('user:current')/user" mode="output" />
+          <xsl:value-of select="$newline" />
+        </body>
+      </xsl:when>
+
+      <!-- Published-->
+      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='published'">
+        <!-- SEND EMAIL -->
+        <xsl:apply-templates select="." mode="mailReceiver" />
+        <subject>
+          <xsl:variable name="objectType">
+            <xsl:choose>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="'Objekt'" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="concat($objectType,' wurde veröffentlicht: ',@ID)" />
+        </subject>
+        <body>
+          <xsl:value-of select="'Folgende Publikation wurde nun auf dem Publikationsserver veröffentlicht:'" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="." mode="output" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="document('user:current')/user" mode="output" />
+          <xsl:value-of select="$newline" />
+          <xsl:text>Falls eine Embargo-Frist angegeben wurde, wird die Publikation erst nach deren Ablauf öffentlich sichtbar.</xsl:text>
+          <xsl:value-of select="$newline" />
+        </body>
+      </xsl:when>
+
       <xsl:otherwise>
         <!-- DO NOT SEND EMAIL -->
-        <xsl:choose>
-          <xsl:when test="not($action='create')">
-            <xsl:message>
-              <xsl:value-of select="'Do not send mail as action is not create.'" />
-            </xsl:message>
-          </xsl:when>
-          <xsl:when test="not(mcrxsl:isCurrentUserInRole('submitter'))">
-            <xsl:message>
-              <xsl:value-of select="concat('Do not send mail as current user ',$CurrentUser, ' is not in group creator.')" />
-            </xsl:message>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:message>
-              <xsl:value-of select="'Do not send mail for unknown reason.'" />
-            </xsl:message>
-          </xsl:otherwise>
-        </xsl:choose>
+        <xsl:message>
+          <xsl:value-of select="'Do not send mail.'" />
+        </xsl:message>
       </xsl:otherwise>
+
     </xsl:choose>
   </xsl:template>
 
@@ -114,8 +311,7 @@
 
   <xsl:template match="mycoreobject" mode="output">
     <xsl:if test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:titleInfo/mods:title">
-      <xsl:value-of
-        select="concat(i18n:translate('mir.email.title'),' ',./metadata/def.modsContainer/modsContainer/mods:mods/mods:titleInfo/mods:title[1],$newline)" />
+      <xsl:value-of select="concat(i18n:translate('mir.email.title'),' ',./metadata/def.modsContainer/modsContainer/mods:mods/mods:titleInfo/mods:title[1],$newline)" />
     </xsl:if>
     <xsl:if test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:name[mods:role/mods:roleTerm='aut']">
       <xsl:variable name="authors">
@@ -133,14 +329,16 @@
 
   <xsl:template match="mycoreobject" mode="mailReceiver">
     <xsl:if test="string-length($MCR.mir-module.EditorMail)&gt;0">
-      <xsl:for-each select="str:tokenize($MCR.mir-module.EditorMail,',')" >
-        <to> <xsl:value-of select="." /> </to>
+      <xsl:for-each select="str:tokenize($MCR.mir-module.EditorMail,',')">
+        <to>
+          <xsl:value-of select="." />
+        </to>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="$MCR.mir-module.sendEditorMailToCurrentAuthor = 'true'">
       <to>
-        <xsl:variable  name="user" select="document(concat('user:',service/servflags[@class='MCRMetaLangText']/servflag[@type='createdby']))" />
-        <xsl:value-of select="$user/user/eMail"/>
+        <xsl:variable name="user" select="document(concat('user:',service/servflags[@class='MCRMetaLangText']/servflag[@type='createdby']))" />
+        <xsl:value-of select="$user/user/eMail" />
       </to>
     </xsl:if>
     <xsl:for-each select="$institutemember">
@@ -169,7 +367,7 @@
     <xsl:variable name="categurl">
       <xsl:if test="url">
         <xsl:choose>
-            <!-- MCRObjectID should not contain a ':' so it must be an external link then -->
+          <!-- MCRObjectID should not contain a ':' so it must be an external link then -->
           <xsl:when test="contains(url/@xlink:href,':')">
             <xsl:value-of select="url/@xlink:href" />
           </xsl:when>
@@ -233,7 +431,7 @@
     <xsl:value-of select="concat(' (',@valueURI,')')" />
   </xsl:template>
 
-<!-- Names -->
+  <!-- Names -->
   <xsl:template match="mods:name" mode="printName">
     <xsl:choose>
       <xsl:when test="mods:namePart">
