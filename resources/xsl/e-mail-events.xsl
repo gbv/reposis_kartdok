@@ -108,11 +108,11 @@
             <xsl:text></xsl:text>
           </xsl:variable>
           <xsl:value-of select="$newline" />
-          <xsl:text>Diese Nachricht bezieht sich auf folgende Version des Dokuments:</xsl:text>
+          <xsl:text>Diese Nachricht bezieht sich auf folgende Version des Dokuments: </xsl:text>
           <xsl:value-of select="$objectURL" />
           <xsl:if test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='editor2author']">
             <xsl:value-of select="$newline" />
-            <xsl:value-of select="'Die Leopoldina-Bibliothek macht dazu folgende Anmerkung:'" />
+            <xsl:value-of select="'KartDok macht dazu folgende Anmerkung:'" />
             <xsl:value-of select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='editor2author']" />
             <xsl:value-of select="$newline" />
           </xsl:if>
