@@ -1,33 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="noteTypes">
-  <url xlink:href="http://www.loc.gov/standards/mods/mods-notes.html" xlink:type="locator" />
   <label xml:lang="de" text="Kommentartyp" />
   <label xml:lang="en" text="Type of note" />
   <label xml:lang="x-uri" text="http://www.mycore.org/classifications/noteTypes" />
   <categories>
     <category ID="admin">
-      <label xml:lang="en" text="intern comment" />
-      <label xml:lang="de" text="interner Kommentar" />
-      <label xml:lang="x-access" text="submitter editor admin" />
+      <label xml:lang="en" text="Intern comment" />
+      <label xml:lang="de" text="Interner Kommentar" />
+      <label xml:lang="x-access" text="submitter editor admin specialist" />
+    </category>
+    <category ID="statement_of_responsibility">
+      <label xml:lang="en" text="Statement of responsibility" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Verantwortlichkeitsangabe" />
+    </category>
+    <category ID="bibliography">
+      <label xml:lang="en" text="Bibliographic notes" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Bibliografische Angaben" />
     </category>
     <category ID="content">
       <label xml:lang="en" text="Type of content" />
       <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Art des Inhalts" />
     </category>
+    <category ID="language">
+      <label xml:lang="en" text="Language information" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Angaben zur Sprache" />
+    </category>
+    <category ID="biographical/historical">
+      <label xml:lang="en" text="Biographical/historical information" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Biografische / Historische Informationen" />
+    </category>
+    <category ID="creation/production_credits">
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="en" text="Creation/production credits" />
+      <label xml:lang="de" text="Erstellungs- / Produktionserwähnung" />
+    </category>
+    <category ID="version_identification">
+      <label xml:lang="en" text="Version identification" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Versionskennzeichen" />
+    </category>
+    <category ID="thesis">
+      <label xml:lang="en" text="Thesis statement" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Hochschulvermerk" />
+    </category>
+    <category ID="venue">
+      <label xml:lang="en" text="Venue" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Veranstaltungsort" />
+    </category>
+    <category ID="date">
+      <label xml:lang="en" text="Date" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Datum" />
+    </category>
+    <category ID="date/sequential_designation">
+      <label xml:lang="en" text="Date/sequential designation" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Datierte / Nummerierte Veröffentlichungen" />
+    </category>
+    <category ID="exhibitions">
+      <label xml:lang="en" text="Exhibitions" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Ausstellungen" />
+    </category>
+    <category ID="system_details">
+      <label xml:lang="en" text="System details" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="System-Angaben" />
+    </category>
+    <category ID="publications">
+      <label xml:lang="en" text="Publications" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Veröffentlichungen" />
+    </category>
+    <category ID="additional_physical_form">
+      <label xml:lang="en" text="Additional physical form" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Zusätzliche physikalische Formen" />
+    </category>
+    <category ID="citation/reference">
+      <label xml:lang="en" text="Citation/reference" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Zitierungen / Referenzen" />
+    </category>
+    <category ID="accrual_policy">
+      <label xml:lang="en" text="Accrual policy" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Zugangsrichtlinie" />
+    </category>
     <category ID="kd_projects">
       <label xml:lang="de" text="Projektzusammenhang" description="Freitextfeld falls Eintrag in Klassifikation fehlt" />
+      <label xml:lang="en" text="Project context" />
       <label xml:lang="x-access" text="admin" />
     </category>
     <category ID="kd_institute">
       <label xml:lang="de" text="Einrichtung" description="Freitextfeld falls Einrichtung fehlt" />
       <label xml:lang="en" text="Institution" />
       <label xml:lang="x-access" text="admin" />
-    </category>
-    <category ID="thesis">
-      <label xml:lang="en" text="Dissertation note" />
-      <label xml:lang="x-access" text="guest" />
-      <label xml:lang="de" text="Hochschulvermerk" />
     </category>
   </categories>
 </mycoreclass>
