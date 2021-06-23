@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration status="OFF">
   <appenders>
-    <RollingFile name="RollingFile" fileName="/mcr/log"
+    <Console name="Console" target="SYSTEM_OUT">
+    <PatternLayout>
+      <Pattern>%highlight{%d{ISO8601} %-5p %X{loginId} %c{1}: %m%n%ex}</Pattern>
+    </PatternLayout>
+    </Console>
+    <RollingFile name="RollingFile" fileName="/mcr/log/mycore-app.log"
       filePattern="/mcr/log/$${date:yyyy-MM}/mycore-app-%d{MM-dd-yyyy}-%i.log.gz">
       <PatternLayout>
         <Pattern>%highlight{%d{ISO8601} %-5p %X{loginId} %c{1}: %m%n%ex}</Pattern>
@@ -14,9 +19,11 @@
   </appenders>
   <loggers>
     <root level="info">
+      <appender-ref ref="Console" />
       <appender-ref ref="RollingFile" />
     </root>
     <logger name="org.hibernate" level="error" />
     <logger name="org.mycore.frontend.editor.validation" level="info" />
+    <logger name="org.mycore.common.xsl.MCRTraceListener" level="info" />
   </loggers>
 </configuration>
