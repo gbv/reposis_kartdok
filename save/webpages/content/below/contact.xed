@@ -71,6 +71,29 @@
           </xed:bind>
 
           <!-- Captacha -->
+          <!-- TODO: Remove this once MIR-993 is fixed -->
+          <xed:if test="string-length($MIR.ReCaptcha.site.key) &gt; 0">
+            <script src='https://www.google.com/recaptcha/api.js' />
+            <script type="text/javascript">
+            <![CDATA[
+                var verifyCallback = function(response) {
+                  $('#my-g-recaptcha-response').val(response);
+                };
+            ]]>
+            </script>
+            <script src='https://www.google.com/recaptcha/api.js?hl={$CurrentLang}'></script>
+            <xed:bind xpath="attributes/attribute[@name='recaptchaParam']/@value">
+              <div class="form-group row {$xed-validation-marker} required">
+                <label class="col-md-2 control-label" for="my-g-recaptcha-response">
+                  <xed:output i18n="selfRegistration.captcha" />
+                </label>
+                <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="{$MIR.ReCaptcha.site.key}" data-callback="verifyCallback" />
+                <input id="my-g-recaptcha-response" type="hidden" />
+                <xed:validate display="global" i18n="selfRegistration.error.captcha" test="xed:call-java('org.mycore.mir.authorization.ReCaptcha', 'isSubmittedCaptchaCorrect', .)" />
+              </div>
+            </xed:bind>
+            <xed:cleanup-rule xpath="//attribute[@name='recaptchaParam']" relevant-if="true" />
+          </xed:if>
 
           <!-- Hidden parameters for MCRMailer -->
           <input type="hidden" value="../content/below/contact.xed?XSL.Status.Style=success&amp;XSL.Status.Message=kartdok.contact.success" name="goto" /><!-- where to go after sending mail -->
