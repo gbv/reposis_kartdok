@@ -2,7 +2,7 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
 
-  <section xml:lang="all" title="Veröffentlichen von E-Publikationen">
+  <section xml:lang="de" title="Kontakt">
     <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
       <xed:bind xpath="/contactMail">
         <h1>Kontakt</h1>
@@ -73,7 +73,7 @@
           <!-- Captacha -->
           <!-- TODO: Remove this once MIR-993 is fixed -->
           <xed:if test="string-length($MIR.ReCaptcha.site.key) &gt; 0">
-            <script src='https://www.google.com/recaptcha/api.js' />
+
             <script type="text/javascript">
             <![CDATA[
                 var verifyCallback = function(response) {
@@ -81,7 +81,7 @@
                 };
             ]]>
             </script>
-            <script src='https://www.google.com/recaptcha/api.js?hl={$CurrentLang}'></script>
+
             <xed:bind xpath="attributes/attribute[@name='recaptchaParam']/@value">
               <div class="form-group row {$xed-validation-marker} required">
                 <label class="col-md-2 control-label" for="my-g-recaptcha-response">
@@ -89,7 +89,8 @@
                 </label>
                 <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="{$MIR.ReCaptcha.site.key}" data-callback="verifyCallback" />
                 <input id="my-g-recaptcha-response" type="hidden" />
-                <xed:validate display="global" i18n="selfRegistration.error.captcha" test="xed:call-java('org.mycore.mir.authorization.ReCaptcha', 'isSubmittedCaptchaCorrect', .)" />
+                <xed:validate display="global" i18n="selfRegistration.error.captcha"
+                              test="xed:call-java('org.mycore.mir.authorization.ReCaptcha', 'isSubmittedCaptchaCorrect', .)" />
               </div>
             </xed:bind>
             <xed:cleanup-rule xpath="//attribute[@name='recaptchaParam']" relevant-if="true" />
