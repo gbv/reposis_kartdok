@@ -10,7 +10,7 @@
                         <br/>
                         Repositorium Kartographie
                     </h1>
-                    <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
+                    <form action="../servlets/solr/findPublic" id="project-searchMainPage" class="form-inline" role="search">
                         <div class="input-group input-group-lg w-100">
                             <input
                                     name="condQuery"
@@ -53,7 +53,7 @@
                         <br/>
                         Cartography repository
                     </h1>
-                    <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
+                    <form action="../servlets/solr/findPublic" id="project-searchMainPage" class="form-inline" role="search">
                         <div class="input-group input-group-lg w-100">
                             <input
                                     name="condQuery"
