@@ -17,11 +17,7 @@
     <category ID="review">
       <label xml:lang="en" text="in review" />
       <label xml:lang="de" text="in Bearbeitung" />
-      <label xml:lang="x-next" text="publishable,published,new" />
-    </category>
-    <category ID="publishable">
-      <label xml:lang="de" text="für Veröffentlichung vorgemerkt" />
-      <label xml:lang="en" text="marked for publication" />
+      <label xml:lang="x-next" text="published,new" />
     </category>
     <category ID="published">
       <label xml:lang="x-next" text="blocked,deleted" />
