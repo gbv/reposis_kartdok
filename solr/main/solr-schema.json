@@ -10,6 +10,6 @@
       "name": "modifiedby",
       "type": "string",
       "multiValued": false,
-      "stored": false
+      "stored": false}
   }
 ]
