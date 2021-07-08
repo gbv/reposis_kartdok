@@ -17,6 +17,14 @@
                             href="https://bik-fuer-alle.de/easy-checks.html" target="_blank" class="extern">Test
                     </a> durchgeführt werden.
                 </p>
+                <h2>Stand der Vereinbarkeit mit den Anforderungen</h2>
+                <p>
+                  Diese Website befindet sich im Aufbau. Beim einen vorläufige BITV-Test über die funktionale Teile und 
+                  das Design sind unterschiedlichste technischen Defizite und Mängel
+                  identifiziert worden, die eine barrierefreie Nutzung der Webseite erschweren. Diese sind in dem 
+                  <a href="accessibility_test_mir.xml">Protokoll</a> vom Test aufgelistet und werden sukzessive behoben.
+                </p>
+                <p>Diese Erklärung wurde am 08.07.2021 erstellt.</p>
                 <h2>Möglichkeiten der Kontaktaufnahme</h2>
                 <p>Falls Sie der Meinung sind, dass die Barrierefreiheit in unserem Webangebot nicht ausreichend
                     umgesetzt wurde, bitten wir Sie um Kontaktaufnahme. Wir versuchen, den Mangel
@@ -35,6 +43,6 @@
         </div>
     </section>
     <meta>
-        <log lastEditor="administrator" date="2020-09-22" time="12:30"/>
+        <log lastEditor="administrator" date="2021-07-08" time="08:53"/>
     </meta>
 </MyCoReWebPage>
