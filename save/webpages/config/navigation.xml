@@ -34,7 +34,7 @@
         </item>
     </menu>
     <menu id="search">
-        <item href="/servlets/solr/select?q=state:published AND objectType:mods&amp;rows=5&amp;start=0&amp;sort=created+desc" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/servlets/solr/selectPublic?q=objectType:mods&amp;rows=5&amp;start=0&amp;sort=created+desc" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">neueste Dokumente</label>
             <label xml:lang="en">recent documents</label>
         </item>
