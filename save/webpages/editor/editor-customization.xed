@@ -218,33 +218,23 @@
     <xed:include ref="further_information.without_embargo" after="cartographics.repeat" />
   </xed:modify>
 
-  <xed:modify ref="genres.av.common">
-    <xed:include ref="title.original"  before="title"/>
-    <xed:remove ref="title" />
-    <xed:remove ref="subtitle" />
-    <xed:remove ref="name.repeated" />
-    <xed:include ref="conference" after="title.original" />
-    <xed:include ref="producer.speaker.repeated" after="conference" />
-    <xed:include ref="link.repeated" after="doi.handle.urn.repeated" />
-    <xed:remove ref="sdnb.repeat" />
-    <xed:remove ref="abstract.simple" />
-    <xed:remove ref="geographic" />
-    <xed:include ref="av.date.repeated" after="date.recorded.datetimepicker" />
-    <xed:remove ref="date.recorded.datetimepicker"/>
-    <xed:include ref="station" before="language" />
-    <xed:include ref="abstract.repeated.collapsed" after="link.repeated" />
-    <xed:include ref="subject.simple.required" after="abstract.repeated.collapsed" />
-    <xed:remove ref="subject.simple" />
-    <xed:include ref="geographic.complex" after="subject.simple.required" />
-    <xed:include ref="cartographics.repeat" after="geographic.complex" />
-    <xed:include ref="kartdok_projects" after="cartographics.repeat" />
-    <xed:include ref="kd_projects" after="kartdok_projects" />
-    <xed:include ref="openAIRE.collapsed" after="kd_projects" />
-    <xed:remove ref="rights" />
-    <xed:remove ref="institutes" />
-    <xed:remove ref="comment" />
-    <xed:include ref="further_information" after="openAIRE.collapsed" />
-  </xed:modify>
+  <xed:template id="genres.av.common">
+    <xed:include ref="title.original" />
+    <xed:include ref="conference" />
+    <xed:include ref="av.name.all.repeated" />
+    <xed:include ref="av.date.repeated" />
+    <xed:include ref="station" />
+    <xed:include ref="language" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="abstract.repeated.collapsed" />
+    <xed:include ref="subject.simple.required" />
+    <xed:include ref="geographic.complex" />
+    <xed:include ref="cartographics.repeat" />
+    <xed:include ref="kartdok_projects" />
+    <xed:include ref="kd_projects" />
+    <xed:include ref="openAIRE.collapsed" />
+    <xed:include ref="further_information" />
+  </xed:template>
 
   <xed:modify ref="hosts.journal">
     <xed:remove ref="identifier.isbn.journal.relItemsearch" />
@@ -737,6 +727,14 @@
       </xed:repeat>
     </xed:template>
 
+    <xed:template id="av.name.all.repeated">
+      <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+      <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='pro']" />
+      <mir:person.repeated help-text="{i18n:mir.help.av.name.all}">
+        <xed:include uri="xslStyle:items2options:classification:editor:-1:children:marcrelator" />
+      </mir:person.repeated>
+    </xed:template>
+
   <xed:template id="research.data.date.repeated.collection.fixed">
     <xed:repeat xpath="mods:originInfo" min="6" max="10">
       <div class="form-group row">
@@ -810,7 +808,7 @@
     </xed:repeat>
   </xed:template>
 
-
+  <!-- TODO:Refactor 
   <xed:template id="producer.speaker.repeated">
     <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='cre']" />
     <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='pro']" />
@@ -827,7 +825,7 @@
       </option>
     </mir:person.repeated>
   </xed:template>
-
+  -->
   <!-- TODO: Replace once the collapse feature is available in MIR -->
   <xed:template id="abstract.repeated.collapsed">
     <fieldset>
