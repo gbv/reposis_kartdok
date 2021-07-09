@@ -551,7 +551,7 @@
   </xed:template>
 
   <xed:template id="genres.kartdok_collection">
-    <xed:include ref="genres.collection" />
+    <xed:include ref="title" />
   </xed:template>
 
   <xed:template id="genres.blog">
@@ -715,7 +715,8 @@
           </div>
           <mir:dateRangeInput xpath="mods:dateCreated[@encoding='w3cdtf']" class="datetimepicker date-changeable col-md-6" placeholder="{i18n:mir.placeholder.date}"
             type="creation" />
-          <mir:dateRangeInput xpath="mods:dateCaptured[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"            type="collection" />
+          <mir:dateRangeInput xpath="mods:dateCaptured[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}" 
+            type="collection" />
           <mir:dateRangeInput xpath="mods:dateIssued[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
             type="publication" />
           <mir:dateRangeInput xpath="mods:dateOther[@type='reviewed'][@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6"
@@ -775,19 +776,21 @@
   </xed:template>
 
   <xed:template id="research.data.date.repeated.publication">
+    <xed:bind xpath="mods:originInfo[@eventType='creation']" />
+    <xed:bind xpath="mods:originInfo[@eventType='publication']" />
     <xed:repeat xpath="mods:originInfo" min="1" max="6">
       <div class="form-group row">
         <div class="col-md-3">
-          <xed:bind xpath="@eventType" default="{$xed-val-marker}">
-            <select class="form-control form-control-inline">
+          <xed:bind xpath="@eventType" default="creation">
+            <select class="form-control form-control-inline date-select">
               <option value="creation">
                 <xed:output i18n="mir.date.created" />
               </option>
-              <option value="publication">
-                <xed:output i18n="mir.date.issued.10" />
-              </option>
               <option value="collection">
                 <xed:output i18n="mir.date.collected" />
+              </option>
+              <option value="publication">
+                <xed:output i18n="mir.date.issued.10" />
               </option>
               <option value="review">
                 <xed:output i18n="mir.date.reviewed" />
@@ -798,11 +801,16 @@
             </select>
           </xed:bind>
         </div>
-        <mir:dateRangeInput xpath="mods:dateCreated[@encoding='w3cdtf']" class="datetimepicker date-changeable col-md-6" placeholder="{i18n:mir.placeholder.date}" type="creation" />
-        <mir:dateRangeInput xpath="mods:dateCaptured[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}" type="collection" />
-        <mir:dateRangeInput xpath="mods:dateIssued[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}" type="publication" />
-        <mir:dateRangeInput xpath="mods:dateOther[@type='reviewed'][@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6"  placeholder="{i18n:mir.placeholder.date}" type="review" />
-        <mir:dateRangeInput xpath="mods:dateModified[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}" type="update" />
+        <mir:dateRangeInput xpath="mods:dateCreated[@encoding='w3cdtf']" class="datetimepicker date-changeable col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="creation" />
+        <mir:dateRangeInput xpath="mods:dateCaptured[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}" 
+          type="collection" />
+        <mir:dateRangeInput xpath="mods:dateIssued[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="publication" />
+        <mir:dateRangeInput xpath="mods:dateOther[@type='reviewed'][@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6"
+          placeholder="{i18n:mir.placeholder.date}" type="review" />
+        <mir:dateRangeInput xpath="mods:dateModified[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+          type="update" />
         <mir:help-pmud help-text="{i18n:mir.help.date.repeated}" pmud="true" />
       </div>
     </xed:repeat>
