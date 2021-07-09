@@ -53,7 +53,7 @@
             <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="email" />
             <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/user-editor.xed" ref="passwords" />
             <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-kartdok-includes.xed" ref="institute" />
-            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-includes.xed" ref="captcha" />
+            <xed:include uri="xslStyle:user-xeditor-templates:webapp:authorization/new-author-kartdok-includes.xed" ref="captcha" />
 
             <xed:validate display="global" xpath="/user/@name"
               test="not(xed:call-java('org.mycore.mir.authorization.MirSelfRegistrationServlet', 'userExists', /user))"

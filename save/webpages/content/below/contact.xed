@@ -2,7 +2,7 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
 
-  <section xml:lang="de" title="Veröffentlichen von E-Publikationen">
+  <section xml:lang="de" title="Kontakt">
     <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
       <xed:bind xpath="/contactMail">
         <h1>Kontakt</h1>
@@ -73,7 +73,6 @@
           <!-- Captacha -->
           <!-- TODO: Remove this once MIR-993 is fixed -->
           <xed:if test="string-length($MIR.ReCaptcha.site.key) &gt; 0">
-            <script src='https://www.google.com/recaptcha/api.js' />
             <script type="text/javascript">
             <![CDATA[
                 var verifyCallback = function(response) {
@@ -112,7 +111,7 @@
     </xed:form>
   </section>
 
-  <section xml:lang="en" title="Publish e-publications">
+  <section xml:lang="en" title="Contact">
     <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
       <xed:bind xpath="/contactMail">
         <h1>Contact</h1>
@@ -183,7 +182,6 @@
           <!-- Captacha -->
           <!-- TODO: Remove this once MIR-993 is fixed -->
           <xed:if test="string-length($MIR.ReCaptcha.site.key) &gt; 0">
-            <script src='https://www.google.com/recaptcha/api.js' />
             <script type="text/javascript">
             <![CDATA[
                 var verifyCallback = function(response) {
