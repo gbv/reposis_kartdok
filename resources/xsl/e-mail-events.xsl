@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:mcrmods="xalan://org.mycore.mods.classification.MCRMODSClassificationSupport"
-  xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:acl="xalan://org.mycore.access.MCRAccessManager"
-  xmlns:mods="http://www.loc.gov/mods/v3" xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation" xmlns:str="http://exslt.org/strings" exclude-result-prefixes="acl mcrxsl mcrmods mods xlink str i18n">
+                xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:acl="xalan://org.mycore.access.MCRAccessManager"
+                xmlns:mods="http://www.loc.gov/mods/v3" xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation" xmlns:str="http://exslt.org/strings" exclude-result-prefixes="acl mcrxsl mcrmods mods xlink str i18n">
   <xsl:param name="action" />
   <xsl:param name="CurrentUser" />
   <xsl:param name="DefaultLang" />
@@ -14,7 +14,7 @@
   <xsl:variable name="newline" select="'&#xA;'" />
   <xsl:variable name="categories" select="document('classification:metadata:1:children:mir_institutes')/mycoreclass/categories" />
   <xsl:variable name="institutemember" select="$categories/category[mcrxsl:isCurrentUserInRole(concat('mir_institutes:',@ID))]" />
-
+  
   <xsl:template match="/">
     <xsl:message>
       type: <xsl:value-of select="$type" />
@@ -25,14 +25,14 @@
       <xsl:apply-templates select="/*" mode="email" />
     </email>
   </xsl:template>
-
+  
   <xsl:template match="mycoreobject" mode="email">
     <xsl:choose>
-
+      
       <!-- Submitted -->
       <xsl:when test="not(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and mcrxsl:isCurrentUserInRole('submitter') and ($action='update') and service/servstates/servstate[@classid='state']/@categid='submitted'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiver" />
+        <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
@@ -71,11 +71,11 @@
           </xsl:if>
         </body>
       </xsl:when>
-
+      
       <!-- Created-->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='new'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiver" />
+        <xsl:apply-templates select="." mode="mailReceiverEditorAuthor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
@@ -118,11 +118,11 @@
           </xsl:if>
         </body>
       </xsl:when>
-
+      
       <!-- Marked For Publication -->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='publishable'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiver" />
+        <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
@@ -148,11 +148,11 @@
           <xsl:value-of select="$newline" />
         </body>
       </xsl:when>
-
+      
       <!-- Deleted -->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='deleted'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiver" />
+        <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
@@ -178,11 +178,11 @@
           <xsl:value-of select="$newline" />
         </body>
       </xsl:when>
-
+      
       <!-- Blocked -->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='blocked'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiver" />
+        <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
@@ -208,11 +208,11 @@
           <xsl:value-of select="$newline" />
         </body>
       </xsl:when>
-
+      
       <!-- In Review -->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='review'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiver" />
+        <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
@@ -238,11 +238,11 @@
           <xsl:value-of select="$newline" />
         </body>
       </xsl:when>
-
+      
       <!-- Published-->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='published'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiver" />
+        <xsl:apply-templates select="." mode="mailReceiverEditorAuthor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
@@ -270,21 +270,21 @@
           <xsl:value-of select="$newline" />
         </body>
       </xsl:when>
-
+      
       <xsl:otherwise>
         <!-- DO NOT SEND EMAIL -->
         <xsl:message>
           <xsl:value-of select="'Do not send mail.'" />
         </xsl:message>
       </xsl:otherwise>
-
+      
     </xsl:choose>
   </xsl:template>
-
+  
   <xsl:template match="mycorederivate" mode="email">
     <!-- DO NOT SEND EMAIL -->
   </xsl:template>
-
+  
   <xsl:template match="user" mode="output">
     <xsl:variable name="instNames">
       <xsl:for-each select="$institutemember">
@@ -308,7 +308,7 @@
     <xsl:value-of select="concat(i18n:translate('mir.email.link'),' ',$ServletsBaseURL,'MCRUserServlet?action=show&amp;id=',@name,'@',@realm,$newline)" />
     <xsl:value-of select="@id" />
   </xsl:template>
-
+  
   <xsl:template match="mycoreobject" mode="output">
     <xsl:if test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:titleInfo/mods:title">
       <xsl:value-of select="concat(i18n:translate('mir.email.title'),' ',./metadata/def.modsContainer/modsContainer/mods:mods/mods:titleInfo/mods:title[1],$newline)" />
@@ -326,7 +326,7 @@
     </xsl:if>
     <xsl:value-of select="concat(i18n:translate('mir.email.link'),' &lt;',$WebApplicationBaseURL,'receive/',@ID, '&gt;')" />
   </xsl:template>
-
+  
   <xsl:template match="mycoreobject" mode="mailReceiver">
     <xsl:if test="string-length($MCR.mir-module.EditorMail)&gt;0">
       <xsl:for-each select="str:tokenize($MCR.mir-module.EditorMail,',')">
@@ -349,6 +349,38 @@
       </xsl:choose>
     </xsl:for-each>
   </xsl:template>
+  
+  <xsl:template match="mycoreobject" mode="mailReceiverEditor">
+    <xsl:if test="string-length($MCR.mir-module.EditorMail)&gt;0">
+      <xsl:for-each select="str:tokenize($MCR.mir-module.EditorMail,',')">
+        <to>
+          <xsl:value-of select="." />
+        </to>
+      </xsl:for-each>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="mycoreobject" mode="mailReceiverAuthor">
+    <to>
+      <xsl:variable name="user" select="document(concat('user:',service/servflags[@class='MCRMetaLangText']/servflag[@type='createdby']))" />
+      <xsl:value-of select="$user/user/eMail" />
+    </to>
+  </xsl:template>
+  
+  <xsl:template match="mycoreobject" mode="mailReceiverEditorAuthor">
+    <xsl:if test="string-length($MCR.mir-module.EditorMail)&gt;0">
+      <xsl:for-each select="str:tokenize($MCR.mir-module.EditorMail,',')">
+        <to>
+          <xsl:value-of select="." />
+        </to>
+      </xsl:for-each>
+      <to>
+        <xsl:variable name="user" select="document(concat('user:',service/servflags[@class='MCRMetaLangText']/servflag[@type='createdby']))" />
+        <xsl:value-of select="$user/user/eMail" />
+      </to>
+    </xsl:if>
+  </xsl:template>
+
 
   <!-- Classification support -->
   <xsl:template name="selectDefaultLang">
@@ -362,7 +394,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
+  
   <xsl:template match="category" mode="printModsClassInfo">
     <xsl:variable name="categurl">
       <xsl:if test="url">
@@ -377,7 +409,7 @@
         </xsl:choose>
       </xsl:if>
     </xsl:variable>
-
+    
     <xsl:variable name="selectLang">
       <xsl:call-template name="selectDefaultLang">
         <xsl:with-param name="nodes" select="./label" />
@@ -394,7 +426,7 @@
       </xsl:choose>
     </xsl:for-each>
   </xsl:template>
-
+  
   <xsl:template match="*" mode="printModsClassInfo">
     <xsl:variable name="classlink" select="mcrmods:getClassCategLink(.)" />
     <xsl:choose>
@@ -415,7 +447,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
+  
   <xsl:template match="*[@valueURI]" mode="hrefLink">
     <xsl:choose>
       <xsl:when test="mods:displayForm">
@@ -430,7 +462,7 @@
     </xsl:choose>
     <xsl:value-of select="concat(' (',@valueURI,')')" />
   </xsl:template>
-
+  
   <!-- Names -->
   <xsl:template match="mods:name" mode="printName">
     <xsl:choose>
@@ -452,5 +484,5 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
+  
 </xsl:stylesheet>
