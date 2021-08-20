@@ -34,12 +34,12 @@
         </item>
     </menu>
     <menu id="search">
+        <label xml:lang="de">Recherche</label>
+        <label xml:lang="en">Search</label>
         <item href="/servlets/solr/selectPublic?q=objectType:mods&amp;rows=5&amp;start=0&amp;sort=created+desc" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">neueste Dokumente</label>
             <label xml:lang="en">recent documents</label>
         </item>
-        <label xml:lang="de">Recherche</label>
-        <label xml:lang="en">Search</label>
         <item href="/content/search/simple.xed" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">einfach</label>
             <label xml:lang="en">simple</label>
