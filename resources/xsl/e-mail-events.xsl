@@ -75,7 +75,7 @@
       <!-- Created-->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='new'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiverEditorAuthor" />
+        <xsl:apply-templates select="." mode="mailReceiverAuthor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
