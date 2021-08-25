@@ -196,7 +196,7 @@
 
   <xsl:template name="getLayoutSearchSolrCore">
     <xsl:choose>
-      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('submitter')">
+      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')">
         <xsl:text>/find</xsl:text>
       </xsl:when>
       <xsl:otherwise>
