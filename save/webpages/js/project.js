@@ -1,4 +1,33 @@
+  // page is fully loaded, including all frames, objects and images
+$(window).load(function() {
+  // check url for anchor
+  if (location.href.indexOf("#") != -1) {
+    // get anchor element
+    var anchor = $(location.hash);
+    var anchorContainer = anchor.parent().parent("fieldset");
+    var anchorToggle = anchorContainer.find("legend.mir-fieldset-legend");
+    console.log("url contains anchor");
+    // when anchor is hidden
+    if( !anchorToggle.hasClass("hiddenDetail") ) {
+      console.log("anchor block is collapsed");
+      // show anchor block
+      var trueAnchorToggle = anchorToggle.find(".expand-item");
+      trueAnchorToggle.closest("legend").toggleClass("hiddenDetail").next().toggleClass("d-none");
+      if( trueAnchorToggle.hasClass("fa-chevron-down") ) {
+        trueAnchorToggle.removeClass("fa-chevron-down");
+        trueAnchorToggle.addClass("fa-chevron-up");
+      }
+      else {
+        trueAnchorToggle.removeClass("fa-chevron-up");
+        trueAnchorToggle.addClass("fa-chevron-down");
+      }
+      // scroll to anchor
+      $('html,body').animate({scrollTop: anchor.offset().top},'slow');
+    }
+  }
+});
 
+// document is loaded and DOM is ready
 $(document).ready(function() {
 
    // spam protection for mails
