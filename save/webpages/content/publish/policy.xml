@@ -7,7 +7,144 @@
 
 <h2>1. Ziele und inhaltliche Kriterien für KartDok</h2>
 
-<p><em>KartDok – Repositorium für Kartographie</em> (nachfolgend <em>KartDok</em> genannt]) ist die zentrale Publikationsplattform der <a href="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/karten/">Kartenabteilung</a> der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz.</p>
+<p><em>KartDok – Repositorium für Kartographie</em> (nachfolgend <em>KartDok</em> genannt) ist die zentrale Publikationsplattform der <a href="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/karten/">Kartenabteilung</a> der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz.</p>
+
+<p>KartDok bietet Wissenschaftlerinnen und Wissenschaftlern die organisatorischen und technischen Rahmenbedingungen zur elektronischen Publikation wissenschaftlicher Dokumente über Kartographie und Geovisualisierung. Es wurde im Rahmen des von der <a href="https://www.dfg.de/">Deutschen Forschungsgemeinschaft</a> geförderten <a href="https://kartographie.staatsbibliothek-berlin.de/">Fachinformationsdienstes Kartographie und Geobasisdaten</a> (FID Karten) aufgebaut.</p>
+
+<h3>Inhaltlicher Zuschnitt</h3>
+
+<p>Unter inhaltlichem Aspekt sind für die elektronischen Dokumente zwei Auswahlkriterien für eine Erst- oder Zweitveröffentlichung auf KartDok verbindlich:</p>
+
+<ul>
+	<li>Die thematische Verortung des betreffenden Beitrags im Bereich der Kartographie und Geovisualisierung.</li>
+	<li>Die wissenschaftliche Qualität des betreffenden Beitrags, wie sie beispielsweise durch die akademische Reputation der einreichenden Person verbürgt ist. Eine darüberhinausgehende wissenschaftliche Qualitätsprüfung der eingereichten Dokumente nimmt der Betreiber ausdrücklich nicht vor, bedingt sich aber grundsätzlich das Recht aus, Beiträge aus formalen wie inhaltlichen Gründen nicht zu veröffentlichen.</li>
+</ul>
+
+<p><u>Bitte beachten Sie</u>: In KartDok können Karten, Geovisualisierungen etc. derzeit nur als Beilage zu entsprechenden Veröffentlichungen über diese Werke publiziert werden.</p>
+
+<h3>Zielgruppe</h3>
+
+<p>Als fachbezogener Publikationsservice steht KartDok vorwiegend dem graduierten wissenschaftlichen Personal von Universitäten und außeruniversitären Forschungseinrichtungen sowie unabhängigen Wissenschaftlerinnen und Wissenschaftlern zur Verfügung, wenn der Schwerpunkt ihrer wissenschaftlichen Aktivitäten auf den verschiedenen Feldern der Kartographie und der Geovisualisierung liegt. Studentische Qualifikationsschriften werden nur in Ausnahmefällen auf Basis einer Veröffentlichungsempfehlung des betreuenden Hochschullehrpersonals zur Veröffentlichung auf KartDok zugelassen.</p>
+
+<h3>Formale Aspekte</h3>
+
+<p>Unter formalem Aspekt sind für die elektronischen Dokumente diese Auswahlkriterien verbindlich:</p>
+
+<ul>
+	<li>Erstveröffentlichungen von Originalbeiträgen</li>
+	<li>Zweitveröffentlichungen</li>
+	<li>Datensupplemente zu Beiträgen in KartDok</li>
+</ul>
+
+<p>Bei Aufsätzen, die zuvor bereits in Zeitschriften oder Sammelwerken publiziert worden sind, wird folgende Version für KartDok bevorzugt: die Selbstarchivierung der paginierten Verlagsversion oder zumindest eines Postprints der tatsächlich erschienenen Textfassung (zur Veröffentlichung frei gegebene Manuskripte weichen in der Regel inhaltlich nicht mehr von der Verlagsversion ab) wird gegenüber der Veröffentlichung eines nicht inhaltsidentischen Preprints (beim Verlag eingereichte, noch nicht begutachtete Version) bevorzugt. Bitte beachten Sie in diesem Zusammenhang auch die <a href="../rights/copyright.xml">Hinweise zum Urheberrecht</a>.</p>
+
+<p> </p>
+
+<h2>2. Elektronische Dokumente, die über KartDok veröffentlicht und verbreitet werden</h2>
+
+<h3>Elektronisches Dokument</h3>
+
+<p>Unter dem Begriff „elektronisches Dokument” wird im Sinne dieser Leitlinien ein Dokument verstanden, welches auf Text, Grafik, Audio- oder Video-Sequenzen oder sonstigen Daten basiert, in digitaler Form auf einem Datenträger gespeichert ist und über Rechnernetze verbreitet wird.</p>
+
+<p>Ein über KartDok zu veröffentlichendes elektronisches Dokument erfüllt folgende Bedingungen:</p>
+
+<ol>
+	<li>Es ist zur Verbreitung in der Öffentlichkeit bestimmt.</li>
+	<li>Es stellt kein dynamisches Dokument dar. Sind Veränderungen notwendig, wird das geänderte elektronische Dokument als neue Version gespeichert.</li>
+	<li>Es entspricht den vom Betreiber vorgegebenen technischen Parametern.</li>
+</ol>
+
+<h3>Technische Parameter</h3>
+
+<ul>
+	<li><strong>Dateiformate</strong>: KartDok unterstützt alle Dateiformate, bevorzugt jedoch die Nutzung offener Dateiformate, die zur Langzeitarchivierung geeignet sind und über frei zugängliche Darstellungsprogramme angezeigt werden können (z. B. PDF/UA). Ergänzend kann auch das Originalformat des Dokuments archiviert werden. Formatmigrationen werden bei Bedarf vorgenommen, um z. B. die Langzeitverfügbarkeit zu gewährleisten.</li>
+	<li><strong>Technischen Schutzvorrichtungen</strong>: Das elektronische Dokument muss frei sein von jeglichen technischen Schutzvorrichtungen und Verfahren des Digitalen Rechtemanagements (DRM).</li>
+	<li><strong>Layout</strong>: Es gibt keine Layout-Vorgaben.</li>
+</ul>
+
+<h3>Digitale Barrierefreiheit</h3>
+
+<p>Gemäß der aktuell gültigen Fassungen von Barrierefreie-Informationstechnik-Verordnung (<a href="https://www.gesetze-im-internet.de/bitv_2_0/">BITV 2.0</a>) und Behindertengleichstellungsgesetz (<a href="https://www.gesetze-im-internet.de/bgg/">BGG</a>) ergeben sich für das elektronische Dokument die Anforderungen zur technischen Umsetzung digitaler Barrierefreiheit. Gemäß diesen beiden Normen ist der Betreiber bestrebt, ausschließlich barrierefreie Dokumente auf KartDok zu veröffentlichen und zu verbreiten.</p>
+
+<ul>
+	<li><strong>Dokumente im PDF-Format</strong>: PDF-Dokumente sollen möglichst im PDF-Standard für barrierefreie PDF-Dokumente <a href="https://de.wikipedia.org/wiki/PDF/UA">PDF/UA</a> eingereicht werden. Sollten Sie eine bestimmte PDF-Datei benötigen, die noch nicht barrierefrei zur Verfügung steht, so kontaktieren Sie uns bitte gegebenenfalls über unser <a href="../below/contact.xed"><u>Kontaktformular</u></a>.</li>
+	<li><strong>Audiodateien</strong>: Zu Audiodateien sollen möglichst Transkriptionen oder andere Volltextalternativen mit eingereicht werden.</li>
+	<li><strong>Videos</strong>: Videos mit Ton sollen möglichst mit Untertitel oder mit Transkriptionen eingereicht werden.</li>
+</ul>
+
+<h3>Veränderung und Löschung von elektronischen Dokumenten</h3>
+
+<ul>
+	<li>Eine Löschung sowie jede nachträgliche Veränderung von auf KartDok veröffentlichten elektronischen Dokumenten ist nicht vorgesehen. Formatmigrationen gelten nicht als Veränderung des Dokuments.</li>
+	<li>Inhaltliche Modifikationen an bereits auf KartDok veröffentlichten Dokumenten sind ausschließlich durch Upload einer aktualisierten Version möglich, die auf KartDok erneut publiziert werden kann.</li>
+	<li>Sollte – etwa aus strafrechtlichen oder urheberrechtlichen Gründen – die öffentliche Zugänglichkeit eines bereits publizierten Beitrags nicht erlaubt sein, so wird der Zugriff auf ihn gesperrt und dies unter seinen persistenten Webadressen bekanntgegeben.</li>
+</ul>
+
+<p> </p>
+
+<h2>3. Erklärung zu Open Access</h2>
+
+<p>Die Kartenabteilung der <a href="https://staatsbibliothek-berlin.de/die-staatsbibliothek/open-access">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz unterstützt den offenen Zugang zu wissenschaftlichem Wissen</a> und bekennt sich ausdrücklich zu den Inhalten der <a href="https://openaccess.mpg.de/Berliner-Erklaerung">Berliner Erklärung über den offenen Zugang zu wissenschaftlichem Wissen</a> sowie der von der Stiftung Preußischer Kulturbesitz formulierten <a href="http://www.preussischer-kulturbesitz.de/schwerpunkte/digitalisierung/best-practice-empfehlung-zu-open-access.html">Empfehlung für die Umsetzung der Berliner Erklärung von 2003</a> im Bereich der unterzeichnenden Kultureinrichtungen.</p>
+
+<p> </p>
+
+<h2>4. Rechtliche Rahmenbedingungen</h2>
+
+<p>Für das Publizieren auf KartDok gelten folgende rechtliche Rahmenbedingungen:</p>
+
+<ul>
+	<li><strong>Registrierung</strong>: Vor der Publikation des elektronischen Dokuments auf KartDok ist eine einmalige <a href="/kartdok//authorization/new-author.xed?action=register">Registrierung</a> der Antragstellerin oder des Antragstellers erforderlich. Nach dem Registrierungsvorgang kann sich die Antragstellerin oder der Antragsteller jederzeit am Server von KartDok <a href="/kartdok/servlets//MCRLoginServlet?url=../content/index.xml">einloggen</a>, um beliebig viele elektronische Dokumente im Open Access gemäß dieser Leitlinie zu publizieren.</li>
+	<li><strong>Urheberrecht</strong>: Das elektronische Dokument wird von der Antragstellerin oder dem Antragsteller unter Wahrung des <a href="http://www.gesetze-im-internet.de/urhg/index.html">geltenden deutschen Urheberrechts</a> auf KartDok eingereicht. Für dessen vollumfängliche Einhaltung ist der Antragsteller oder die Antragstellerin verantwortlich.</li>
+	<li><strong>Rechteübertragung an den Betreiber: </strong>Mit Upload des elektronischen Dokuments auf unsern Server sowie auf Grundlage des schriftlichen Publikationsvertrags räumt die Antragstellerin oder der Antragsteller dem Betreiber das nichtausschließliche (einfache) Nutzungsrecht ein, das elektronische Dokument sowie alle ergänzend zur Verfügung gestellten formalen wie inhaltlichen Beschreibungsdaten auf den Servern von KartDok zu vervielfältigen, dauerhaft elektronisch zu speichern, zu verbreiten und als digitale Publikation im Internet kostenfrei öffentlich zugänglich zu machen. Dritten ist im Zuge dieser öffentlichen Verfügbarkeit die Nutzung und Vervielfältigung der auf KartDok publizierten Werke ausschließlich zum wissenschaftlichen, privaten und sonstigen eigenen Gebrauch (§§ <a href="https://www.gesetze-im-internet.de/urhg/__53.html">53</a>, <a href="https://www.gesetze-im-internet.de/urhg/__60c.html">60c</a>, <a href="https://www.gesetze-im-internet.de/urhg/__60d.html">60d</a> UrhG) gestattet. Insbesondere für Zwecke der digitalen Langzeitarchivierung ist der Betreiber berechtigt, technische Änderungen am Format des gelieferten elektronischen Dokuments vorzunehmen sowie die Ablieferungspflichten für Netzpublikationen gegenüber der Deutschen Nationalbibliothek (<a href="https://www.gesetze-im-internet.de/dnbg/__16.html">§ 16 DNBG</a>) zu erfüllen. Alle übrigen Verwertungsrechte bleiben hiervon unberührt – ebenso wie das Recht der Antragstellerin oder des Antragstellers zur Vergabe einer Open Content-Lizenz.</li>
+	<li><strong>Publikationsvertrag</strong>: Die Rechteübertragung bedarf grundsätzlich der Schriftform (Publikationsvertrag). Die Antragstellerin oder der Antragsteller sendet für das elektronische Dokument den vollständig ausgefüllten und mit ihrer bzw. seiner elektronischen Unterschrift versehenen <a href="../rights/vertrag.pdf">Publikationsvertrag (PDF)</a> im Dateiformat PDF per E-Mail an: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>. Alternativ kann der Publikationsvertrag auch ausgedruckt, unterschrieben und als PDF per Mail oder per Post eingesandt werden.</li>
+	<li><strong>Nutzungs- und Weiterverbreitungsrechte</strong>: Die Antragstellerin oder der Antragsteller entscheidet, ob und unter welcher Open Content-Lizenz ihr bzw. sein elektronisches Dokument in KartDok veröffentlicht wird. Die Antragstellerin oder der Antragsteller trägt hierbei die Verantwortung dafür, dass keine Urheberrechte oder andere Rechte Dritter verletzt werden – etwa im Kontext von Gemeinschaftspublikationen. Bitte beachten Sie in diesem Zusammenhang die ausführlichen <a href="..//rights/copyright.xml">Hinweise</a> zu den urheberrechtlichen Rahmenbedingungen des Open Access-Publizierens auf KartDok.</li>
+	<li><strong>Vorbehalt des Betreibers</strong>: Der Betreiber behält es sich für KartDok vor, die Registrierung wie auch die Veröffentlichung einzelner elektronischer Dokumente in begründeten Ausnahmefällen zu verweigern.</li>
+</ul>
+
+<p> </p>
+
+<h2>5. Technische Besonderheiten von KartDok</h2>
+
+<ol>
+	<li>Die elektronischen Dokumente werden mit individuellen und dauerhaften Adressen versehen, welche einen unmittelbaren Zugriff auf die Dokumente erlauben. Die Adressen werden in Kooperation mit der <a href="https://www.dnb.de/DE/Home/home_node.html">Deutschen Nationalbibliothek</a> (DNB) als URNs (<a href="https://www.dnb.de/DE/Professionell/Services/URN-Service/urn-service_node.html">Uniform Resource Name</a>) registriert. Die Administration und Pflege der URNs wird vom Betreiber garantiert. Ergänzend hierzu werden in Kooperation mit der DOI-Registrierungsagentur <a href="https://datacite.org/">DataCite</a> DOIs (<a href="https://datacite.org/dois.html">Digital Object Identifiers</a>) vergeben.</li>
+	<li>Das Auffinden der elektronischen Dokumente ist über Bibliothekskataloge (z. B. <a href="https://stabikat.de/">StaBiKat</a>), Fachbibliographien (z. B. <a href="https://bc.staatsbibliothek-berlin.de/">Bibliographia Cartographica</a><u>)</u>, Recherchen in bibliografischen Metadaten, über alphabetische und klassifikatorische Ordnungen sowie dynamisch erstellte Listen und Indizes möglich.</li>
+	<li>Die formalen und inhaltsbezogenen Metadaten zu den veröffentlichten Beiträgen können über eine standardisierte Schnittstelle (<a href="https://www.openarchives.org/pmh/">OAI-PMH 2.0</a>) an etablierte wissenschaftliche Suchmaschinen (z.B. <a href="https://www.base-search.net/">BASE</a> und <a href="https://oaister.worldcat.org/">OAIster</a>) weitergegeben werden. Daneben werden Suchbots über spezielle Tags in den Webseiten und eine Sitemap speziell unterstützt, um beispielsweise auch die Sichtbarkeit bei <a href="https://scholar.google.de/">Google Scholar</a> zu erhöhen. Dies gewährt eine globale Sichtbarkeit der hier eingestellten Daten.</li>
+	<li>Die Archivierungsdauer der Formate hängt von der Verfügbarkeit des Formates, der Betrachtungssoftware sowie den Konvertierungsmöglichkeiten ab. Die Archivierungsdauer von mindestens 5 Jahre wird vom technischen Betreiber von KartDok, der <a href="https://www.gbv.de/Verbundzentrale">Verbundzentrale des Gemeinsamen Bibliotheksverbundes</a> (VZG), garantiert. Zusätzlich werden die auf KartDok veröffentlichten Inhalte von der Deutschen Nationalbibliothek (DNB) im Rahmen Ihres gesetzlichen Sammlungsauftrags für digitale Medien und Netzpublikationen langzeitarchiviert.</li>
+</ol>
+
+<p> </p>
+
+<h2>6. Der Sammelauftrag des Betreibers</h2>
+
+<p>Der Sammelauftrag für den Betreiber umfasst die Speicherung, Katalogisierung und Archivierung aller elektronischen Dokumente, die auf KartDok veröffentlicht werden. Dies bezieht sich sowohl auf rein elektronische Publikationen als auch auf elektronische Versionen gedruckter Dokumente.</p>
+
+<p>Die Urheberrechte der Autorinnen und Autoren bleiben gewahrt. Die Veröffentlichung auf KartDok steht einer weiteren Veröffentlichung der Dokumente in Fachzeitschriften oder Monografien sowie auf anderen Servern nicht entgegen.</p>
+
+<p>Die Einhaltung von Urheber-, Verwertungs- oder Bildrechten Dritter liegt in der Verantwortung der Autorinnen und Autoren bzw. der Herausgeberinnen und Herausgeber der elektronischen Dokumente.</p>
+
+<p> </p>
+
+<h2>7. Organisatorische Regelungen</h2>
+
+<ol>
+	<li>Der Betreiber von KartDok ist die <a href="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/karten/">Kartenabteilung</a> der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz. Der technische Betrieb von KartDok erfolgt auf Basis des Software-Frameworks <a href="https://www.mycore.de/">MyCoRe</a> durch die Verbundzentrale des Gemeinsamen Bibliotheksverbundes (<a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service/">Repository-Service der VZG</a>).</li>
+	<li>Die elektronische Veröffentlichung von Publikationen ist für die Wissenschaftlerinnen und Wissenschaftler kostenfrei.</li>
+	<li>Für die Veröffentlichung notwendige zusätzliche Arbeiten wie die Aufbereitung der elektronischen Dokumente oder die Konvertierung in andere Formate werden von den Mitarbeiterinnen und Mitarbeitern des Betreibers nach Absprache betreut oder durchgeführt. Arbeiten, die einen bedeutenden Mehraufwand erfordern, können in Rechnung gestellt werden.</li>
+	<li>Ansprechpartner für alle KartDok betreffenden Fragen finden Sie in unseren <a href="../below/imprint.xml">Kontaktdaten</a> (Impressum). Für Nachfragen an das KartDok-Team können Sie auch das <a href="../below/contact.xed">Kontaktformular</a> bzw. unsere E-Mailadresse nutzen: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>.</li>
+</ol>
+</div>
+</div>
+</section><section xml:lang="en" title="Guideline for publishing"><div class="row">
+<div class="col-md-12">
+<h1>Guideline for publishing in KartDok</h1>
+
+<p>The English version for this page is currently in progress.</p>
+
+<p> </p>
+
+<h2>1. Ziele und inhaltliche Kriterien für KartDok</h2>
+
+<p><em>KartDok – Repositorium für Kartographie</em> (nachfolgend <em>KartDok</em> genannt) ist die zentrale Publikationsplattform der <a href="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/karten/">Kartenabteilung</a> der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz.</p>
 
 <p>KartDok bietet Wissenschaftlerinnen und Wissenschaftlern die organisatorischen und technischen Rahmenbedingungen zur elektronischen Publikation wissenschaftlicher Dokumente über Kartographie und Geovisualisierung. Es wurde im Rahmen des von der <a href="https://www.dfg.de/">Deutschen Forschungsgemeinschaft</a> geförderten <a href="https://kartographie.staatsbibliothek-berlin.de/">Fachinformationsdienstes Kartographie und Geobasisdaten</a> (FID Karten) aufgebaut.</p>
 
@@ -88,58 +225,49 @@
 
 <p> </p>
 
+<h2>4. Rechtliche Rahmenbedingungen</h2>
+
+<p>Für das Publizieren auf KartDok gelten folgende rechtliche Rahmenbedingungen:</p>
+
+<ul>
+	<li><strong>Registrierung</strong>: Vor der Publikation des elektronischen Dokuments auf KartDok ist eine einmalige <a href="/kartdok//authorization/new-author.xed?action=register">Registrierung</a> der Antragstellerin oder des Antragstellers erforderlich. Nach dem Registrierungsvorgang kann sich die Antragstellerin oder der Antragsteller jederzeit am Server von KartDok <a href="/kartdok/servlets//MCRLoginServlet?url=../content/index.xml">einloggen</a>, um beliebig viele elektronische Dokumente im Open Access gemäß dieser Leitlinie zu publizieren.</li>
+	<li><strong>Urheberrecht</strong>: Das elektronische Dokument wird von der Antragstellerin oder dem Antragsteller unter Wahrung des <a href="http://www.gesetze-im-internet.de/urhg/index.html">geltenden deutschen Urheberrechts</a> auf KartDok eingereicht. Für dessen vollumfängliche Einhaltung ist der Antragsteller oder die Antragstellerin verantwortlich.</li>
+	<li><strong>Rechteübertragung an den Betreiber: </strong>Mit Upload des elektronischen Dokuments auf unsern Server sowie auf Grundlage des schriftlichen Publikationsvertrags räumt die Antragstellerin oder der Antragsteller dem Betreiber das nichtausschließliche (einfache) Nutzungsrecht ein, das elektronische Dokument sowie alle ergänzend zur Verfügung gestellten formalen wie inhaltlichen Beschreibungsdaten auf den Servern von KartDok zu vervielfältigen, dauerhaft elektronisch zu speichern, zu verbreiten und als digitale Publikation im Internet kostenfrei öffentlich zugänglich zu machen. Dritten ist im Zuge dieser öffentlichen Verfügbarkeit die Nutzung und Vervielfältigung der auf KartDok publizierten Werke ausschließlich zum wissenschaftlichen, privaten und sonstigen eigenen Gebrauch (§§ <a href="https://www.gesetze-im-internet.de/urhg/__53.html">53</a>, <a href="https://www.gesetze-im-internet.de/urhg/__60c.html">60c</a>, <a href="https://www.gesetze-im-internet.de/urhg/__60d.html">60d</a> UrhG) gestattet. Insbesondere für Zwecke der digitalen Langzeitarchivierung ist der Betreiber berechtigt, technische Änderungen am Format des gelieferten elektronischen Dokuments vorzunehmen sowie die Ablieferungspflichten für Netzpublikationen gegenüber der Deutschen Nationalbibliothek (<a href="https://www.gesetze-im-internet.de/dnbg/__16.html">§ 16 DNBG</a>) zu erfüllen. Alle übrigen Verwertungsrechte bleiben hiervon unberührt – ebenso wie das Recht der Antragstellerin oder des Antragstellers zur Vergabe einer Open Content-Lizenz.</li>
+	<li><strong>Publikationsvertrag</strong>: Die Rechteübertragung bedarf grundsätzlich der Schriftform (Publikationsvertrag). Die Antragstellerin oder der Antragsteller sendet für das elektronische Dokument den vollständig ausgefüllten und mit ihrer bzw. seiner elektronischen Unterschrift versehenen <a href="../rights/vertrag.pdf">Publikationsvertrag (PDF)</a> im Dateiformat PDF per E-Mail an: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>. Alternativ kann der Publikationsvertrag auch ausgedruckt, unterschrieben und als PDF per Mail oder per Post eingesandt werden.</li>
+	<li><strong>Nutzungs- und Weiterverbreitungsrechte</strong>: Die Antragstellerin oder der Antragsteller entscheidet, ob und unter welcher Open Content-Lizenz ihr bzw. sein elektronisches Dokument in KartDok veröffentlicht wird. Die Antragstellerin oder der Antragsteller trägt hierbei die Verantwortung dafür, dass keine Urheberrechte oder andere Rechte Dritter verletzt werden – etwa im Kontext von Gemeinschaftspublikationen. Bitte beachten Sie in diesem Zusammenhang die ausführlichen <a href="..//rights/copyright.xml">Hinweise</a> zu den urheberrechtlichen Rahmenbedingungen des Open Access-Publizierens auf KartDok.</li>
+	<li><strong>Vorbehalt des Betreibers</strong>: Der Betreiber behält es sich für KartDok vor, die Registrierung wie auch die Veröffentlichung einzelner elektronischer Dokumente in begründeten Ausnahmefällen zu verweigern.</li>
+</ul>
+
 <p> </p>
+
+<h2>5. Technische Besonderheiten von KartDok</h2>
+
+<ol>
+	<li>Die elektronischen Dokumente werden mit individuellen und dauerhaften Adressen versehen, welche einen unmittelbaren Zugriff auf die Dokumente erlauben. Die Adressen werden in Kooperation mit der <a href="https://www.dnb.de/DE/Home/home_node.html">Deutschen Nationalbibliothek</a> (DNB) als URNs (<a href="https://www.dnb.de/DE/Professionell/Services/URN-Service/urn-service_node.html">Uniform Resource Name</a>) registriert. Die Administration und Pflege der URNs wird vom Betreiber garantiert. Ergänzend hierzu werden in Kooperation mit der DOI-Registrierungsagentur <a href="https://datacite.org/">DataCite</a> DOIs (<a href="https://datacite.org/dois.html">Digital Object Identifiers</a>) vergeben.</li>
+	<li>Das Auffinden der elektronischen Dokumente ist über Bibliothekskataloge (z. B. <a href="https://stabikat.de/">StaBiKat</a>), Fachbibliographien (z. B. <a href="https://bc.staatsbibliothek-berlin.de/">Bibliographia Cartographica</a><u>)</u>, Recherchen in bibliografischen Metadaten, über alphabetische und klassifikatorische Ordnungen sowie dynamisch erstellte Listen und Indizes möglich.</li>
+	<li>Die formalen und inhaltsbezogenen Metadaten zu den veröffentlichten Beiträgen können über eine standardisierte Schnittstelle (<a href="https://www.openarchives.org/pmh/">OAI-PMH 2.0</a>) an etablierte wissenschaftliche Suchmaschinen (z.B. <a href="https://www.base-search.net/">BASE</a> und <a href="https://oaister.worldcat.org/">OAIster</a>) weitergegeben werden. Daneben werden Suchbots über spezielle Tags in den Webseiten und eine Sitemap speziell unterstützt, um beispielsweise auch die Sichtbarkeit bei <a href="https://scholar.google.de/">Google Scholar</a> zu erhöhen. Dies gewährt eine globale Sichtbarkeit der hier eingestellten Daten.</li>
+	<li>Die Archivierungsdauer der Formate hängt von der Verfügbarkeit des Formates, der Betrachtungssoftware sowie den Konvertierungsmöglichkeiten ab. Die Archivierungsdauer von mindestens 5 Jahre wird vom technischen Betreiber von KartDok, der <a href="https://www.gbv.de/Verbundzentrale">Verbundzentrale des Gemeinsamen Bibliotheksverbundes</a> (VZG), garantiert. Zusätzlich werden die auf KartDok veröffentlichten Inhalte von der Deutschen Nationalbibliothek (DNB) im Rahmen Ihres gesetzlichen Sammlungsauftrags für digitale Medien und Netzpublikationen langzeitarchiviert.</li>
+</ol>
+
+<p> </p>
+
+<h2>6. Der Sammelauftrag des Betreibers</h2>
+
+<p>Der Sammelauftrag für den Betreiber umfasst die Speicherung, Katalogisierung und Archivierung aller elektronischen Dokumente, die auf KartDok veröffentlicht werden. Dies bezieht sich sowohl auf rein elektronische Publikationen als auch auf elektronische Versionen gedruckter Dokumente.</p>
+
+<p>Die Urheberrechte der Autorinnen und Autoren bleiben gewahrt. Die Veröffentlichung auf KartDok steht einer weiteren Veröffentlichung der Dokumente in Fachzeitschriften oder Monografien sowie auf anderen Servern nicht entgegen.</p>
+
+<p>Die Einhaltung von Urheber-, Verwertungs- oder Bildrechten Dritter liegt in der Verantwortung der Autorinnen und Autoren bzw. der Herausgeberinnen und Herausgeber der elektronischen Dokumente.</p>
+
+<p> </p>
+
+<h2>7. Organisatorische Regelungen</h2>
+
+<ol>
+	<li>Der Betreiber von KartDok ist die <a href="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/karten/">Kartenabteilung</a> der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz. Der technische Betrieb von KartDok erfolgt auf Basis des Software-Frameworks <a href="https://www.mycore.de/">MyCoRe</a> durch die Verbundzentrale des Gemeinsamen Bibliotheksverbundes (<a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service/">Repository-Service der VZG</a>).</li>
+	<li>Die elektronische Veröffentlichung von Publikationen ist für die Wissenschaftlerinnen und Wissenschaftler kostenfrei.</li>
+	<li>Für die Veröffentlichung notwendige zusätzliche Arbeiten wie die Aufbereitung der elektronischen Dokumente oder die Konvertierung in andere Formate werden von den Mitarbeiterinnen und Mitarbeitern des Betreibers nach Absprache betreut oder durchgeführt. Arbeiten, die einen bedeutenden Mehraufwand erfordern, können in Rechnung gestellt werden.</li>
+	<li>Ansprechpartner für alle KartDok betreffenden Fragen finden Sie in unseren <a href="../below/imprint.xml">Kontaktdaten</a> (Impressum). Für Nachfragen an das KartDok-Team können Sie auch das <a href="../below/contact.xed">Kontaktformular</a> bzw. unsere E-Mailadresse nutzen: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>.</li>
+</ol>
 </div>
-</div>
-</section><section xml:lang="en" title="Guideline for publishing"><div class="row">
-            <div class="col-md-12">
-                <h2>Guideline for publishing in KartDok</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
-                </p>
-                <p>Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Imperdiet sed euismod nisi
-                    porta lorem mollis aliquam ut. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum
-                    arcu. Nec feugiat in fermentum posuere urna nec tincidunt praesent. Praesent elementum facilisis
-                    leo vel fringilla est. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Suscipit
-                    tellus mauris a diam maecenas sed. Praesent elementum facilisis leo vel fringilla est
-                    ullamcorper eget nulla. Orci sagittis eu volutpat odio facilisis mauris sit amet. Eget gravida
-                    cum sociis natoque penatibus et magnis dis. In nisl nisi scelerisque eu. Massa tincidunt dui ut
-                    ornare. Semper eget duis at tellus at urna condimentum mattis. Viverra suspendisse potenti
-                    nullam ac tortor vitae purus faucibus ornare.
-                </p>
-                <p>Fermentum odio eu feugiat pretium nibh. Fermentum posuere urna nec tincidunt praesent semper
-                    feugiat nibh sed. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Sit amet dictum
-                    sit amet. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Viverra orci sagittis
-                    eu volutpat. Non diam phasellus vestibulum lorem sed risus ultricies. Odio tempor orci dapibus
-                    ultrices in iaculis nunc sed. Pharetra vel turpis nunc eget. Odio morbi quis commodo odio aenean
-                    sed adipiscing. Amet cursus sit amet dictum sit. Nam libero justo laoreet sit amet cursus sit.
-                    Amet risus nullam eget felis eget nunc lobortis mattis.
-                </p>
-                <p>
-                    Odio aenean sed adipiscing diam donec adipiscing. Eget nunc lobortis mattis aliquam. Viverra
-                    accumsan in nisl nisi scelerisque eu. Netus et malesuada fames ac turpis. Egestas integer eget
-                    aliquet nibh praesent tristique magna sit. Ultrices neque ornare aenean euismod. Platea dictumst
-                    quisque sagittis purus sit amet volutpat. Suscipit adipiscing bibendum est ultricies integer
-                    quis. Varius quam quisque id diam vel quam elementum. At consectetur lorem donec massa sapien
-                    faucibus. Volutpat consequat mauris nunc congue. Pellentesque dignissim enim sit amet venenatis.
-                    Vitae tempus quam pellentesque nec nam aliquam. Tristique sollicitudin nibh sit amet commodo.
-                    Felis donec et odio pellentesque.
-                </p>
-                <p>Potenti nullam ac tortor vitae purus faucibus ornare. Volutpat maecenas volutpat blandit aliquam
-                    etiam. Orci eu lobortis elementum nibh tellus molestie nunc. Quam adipiscing vitae proin
-                    sagittis nisl rhoncus mattis rhoncus urna. Est ullamcorper eget nulla facilisi etiam dignissim
-                    diam quis enim. Risus at ultrices mi tempus imperdiet nulla. Non nisi est sit amet facilisis
-                    magna etiam. Fermentum dui faucibus in ornare quam. Duis ultricies lacus sed turpis tincidunt id
-                    aliquet risus. Sagittis vitae et leo duis ut diam quam nulla. Egestas dui id ornare arcu odio
-                    ut.
-                </p>
-            </div>
-        </div></section><meta><log lastEditor="admin-ro" date="2021-08-19" time="18:13" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="admin-ro" date="2021-10-01" time="12:38" /></meta></MyCoReWebPage>

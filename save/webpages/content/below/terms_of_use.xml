@@ -1,65 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Nutzungsbedingungen">
-        <div class="row">
-            <div class="col-md-10">
-                <h1>Nutzungsbedingungen</h1>
-                <p>
-                    Informationen zur Nutzung.
-                </p>
-                <p>
-                    Weitere Erklärungen.
-                </p>
-                <h2>
-                    Überschrift 1
-                </h2>
-                <p>
-                    Hier kommt noch Text.
-                </p>
-                <h2>
-                    Überschrift 2
-                </h2>
-                <p>
-                    Hier kommt noch viel mehr Text.
-                    <ul>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section xml:lang="en" title="Terns of use">
-        <div class="row">
-            <div class="col-md-10">
-                <h1>Terms of Use</h1>
-                <p>
-                    Information about use.
-                </p>
-                <p>
-                   Further explanations.
-                </p>
-                <h2>
-                    Headline 1
-                </h2>
-                <p>
-                    This is text here.
-                </p>
-                <h2>
-                    Headline 2
-                </h2>
-                <p>
-                    Here is much more text.
-                    <ul>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta>
-    </meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Nutzungsbedingungen"><div class="row">
+<div class="col-md-10">
+<h1>Nutzungsbedingungen für KartDok</h1>
+
+<p> </p>
+
+<p>Die elektronischen Dokumente werden in KartDok, sofern möglich, unter einer <a href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples" title="CC-Lizenz">CC-Lizenz</a> veröffentlicht. Alle auf KartDok veröffentlichten beschreibenden bibliographischen Metadaten – mit Ausnahme der Abstracts – stehen unter der <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0 Universell-Lizenz</a> zur freien Weiterverwendung zur Verfügung.</p>
+
+<p>Bitte geben Sie bei Nutzung die vollständige Quellenangabe an (siehe unten). Bitte schicken Sie uns bei der Verwendung auf Webseiten zur Information den Link auf die entsprechende Stelle per E-Mail: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>. Wir würden uns freuen, wenn Sie uns bei der Verwendung in wissenschaftlichen Publikationen ein Belegexemplar der Publikation zusenden könnten.</p>
+
+<p><strong>Quellenangabe:</strong></p>
+
+<p>KartDok - Repositorium Kartographie, Persistent-Identifier (DOI, URN) des digitalen Objects</p>
+
+<p>Beispiele:</p>
+
+<ul>
+	<li><em>KartDok - Repositorium Kartographie, </em><a href="https://doi.org/10.24355/dbbs.084-201802231113"><em>https://doi.org/10.24355/dbbs.084-201802231113</em></a><em> (DOI)</em></li>
+	<li><em>KartDok - Repositorium Kartographie, <a href="https://nbn-resolving.org/urn:nbn:de:0307-20210328-000-2">https://nbn-resolving.org/urn:nbn:de:0307-20210328-000-2</a></em><em> (URN)</em></li>
+</ul>
+
+<p><strong>OAI-Schnittstelle zum Metadata Harvesting unter:</strong></p>
+
+<p><a href="https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider">https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider</a></p>
+</div>
+</div>
+</section><section xml:lang="en" title="Terms of use"><h1>Terms of use for KartDok</h1>
+
+<p>The English version for this page is currently in progress.</p>
+
+<p> </p>
+
+<p>Die elektronischen Dokumente werden in KartDok, sofern möglich, unter einer <a href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples" title="CC-Lizenz">CC-Lizenz</a> veröffentlicht. Alle auf KartDok veröffentlichten beschreibenden bibliographischen Metadaten – mit Ausnahme der Abstracts – stehen unter der <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0 Universell-Lizenz</a> zur freien Weiterverwendung zur Verfügung.</p>
+
+<p>Bitte geben Sie bei Nutzung die vollständige Quellenangabe an (siehe unten). Bitte schicken Sie uns bei der Verwendung auf Webseiten zur Information den Link auf die entsprechende Stelle per E-Mail: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>. Wir würden uns freuen, wenn Sie uns bei der Verwendung in wissenschaftlichen Publikationen ein Belegexemplar der Publikation zusenden könnten.</p>
+
+<p><strong>Quellenangabe:</strong></p>
+
+<p>KartDok - Repositorium Kartographie, Persistent-Identifier (DOI, URN) des digitalen Objects</p>
+
+<p>Beispiele:</p>
+
+<ul>
+	<li><em>KartDok - Repositorium Kartographie, </em><a href="https://doi.org/10.24355/dbbs.084-201802231113"><em>https://doi.org/10.24355/dbbs.084-201802231113</em></a><em> (DOI)</em></li>
+	<li><em>KartDok - Repositorium Kartographie, <a href="https://nbn-resolving.org/urn:nbn:de:0307-20210328-000-2">https://nbn-resolving.org/urn:nbn:de:0307-20210328-000-2</a></em><em> (URN)</em></li>
+</ul>
+
+<p><strong>OAI-Schnittstelle zum Metadata Harvesting unter:</strong></p>
+
+<p><a href="https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider">https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider</a></p>
+
+<p> </p>
+</section><meta><log lastEditor="admin-ro" date="2021-08-25" time="15:31" /></meta></MyCoReWebPage>
