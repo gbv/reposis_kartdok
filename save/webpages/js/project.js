@@ -48,12 +48,12 @@ $(document).ready(function() {
 
   // replace placeholder USERNAME with username
   var userID = $("#currentUser strong").html();
-  var newHref = 'http://localhost:18041/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='http://localhost:18041/kartdok/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
-//  var newHref = 'https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-//  $("a[href='https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
-//  var newHref = 'https://kartdok.staatsbibliothek-berlin.de/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-//  $("a[href='https://kartdok.staatsbibliothek-berlin.de/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
+  var localHref = 'http://localhost:18041/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='http://localhost:18041/kartdok/servlets/solr/select?q=createdby:USERNAME']").attr('href', localHref);
+  var testHref = 'https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:USERNAME']").attr('href', testHref);
+  var prodHref = 'https://kartdok.staatsbibliothek-berlin.de/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='https://kartdok.staatsbibliothek-berlin.de/servlets/solr/select?q=createdby:USERNAME']").attr('href', prodHref);
 
 
 
