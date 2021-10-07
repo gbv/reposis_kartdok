@@ -868,7 +868,6 @@
       <legend class="mir-fieldset-legend">
           <xed:output i18n="mir.abstract.text" />
       </legend>
-      <div class="d-none">
         <xed:repeat xpath="mods:abstract" min="1" max="3">
           <div class="mir-fieldset-content">
             <div class="form-group row">
@@ -886,7 +885,6 @@
             <mir:htmlArea xpath="." label="mir.abstract.ortext" help-text="{i18n:mir.help.abstract.ortext}" rows="5" />
           </div>
         </xed:repeat>
-      </div>
     </fieldset>
   </xed:template>
 
