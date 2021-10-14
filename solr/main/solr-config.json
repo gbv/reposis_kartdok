@@ -14,14 +14,14 @@
         "sort": "score desc, mods.dateIssued desc"
       },
       "appends": {
-        "qf1": "id^100 mods.gnd^100 mods.identifier^100 isbn^100 mods.title^80 mods.author^40 mods.publisher^30 mods.name^30 mods.abstract^10 mods.place^5 allMeta^0.002"
-      },
-      "invariants": {
-        "q": "_query_:\"{!edismax qf=$qf1 v=$condQuery}\" OR _query_:\"{!join from=returnId to=id}{!edismax qf=content v=$condQuery}\"",
+        "qf1": "id^100 mods.gnd^100 mods.identifier^100 isbn^100 mods.title^80 mods.author^40 mods.publisher^30 mods.name^30 mods.abstract^10 mods.place^5 allMeta^0.002",
         "fq": [
           "objectType:mods",
           "state:published"
-        ],
+        ]
+      },
+      "invariants": {
+        "q": "_query_:\"{!edismax qf=$qf1 v=$condQuery}\" OR _query_:\"{!join from=returnId to=id}{!edismax qf=content v=$condQuery}\"",
         "facet": "true",
         "facet.field": [
           "mods.genre",
@@ -43,16 +43,18 @@
         "wt": "xml",
         "sort": "score desc, mods.dateIssued desc"
       },
+      "appends": {
+        "fq": [
+          "state:published OR !state"
+        ]
+      },
       "invariants": {
         "facet": "true",
         "facet.field": [
           "mods.genre",
           "worldReadableComplete"
         ],
-        "facet.mincount": "1",
-        "fq": [
-          "state:published OR !state"
-        ]
+        "facet.mincount": "1"
       }
     }
   }
