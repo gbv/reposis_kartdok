@@ -30,7 +30,9 @@
     <xsl:choose>
       
       <!-- Submitted -->
-      <xsl:when test="not(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and mcrxsl:isCurrentUserInRole('submitter') and ($action='update') and service/servstates/servstate[@classid='state']/@categid='submitted'">
+      <!-- xsl:when test="not(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and mcrxsl:isCurrentUserInRole('submitter') and ($action='update') and service/servstates/servstate[@classid='state']/@categid='submitted'"> -->
+      <xsl:when test="not(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='submitted'">
+
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
@@ -212,7 +214,7 @@
       <!-- In Review -->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='review'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiverEditor" />
+        <!-- xsl:apply-templates select="." mode="mailReceiverEditor" /> -->
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
