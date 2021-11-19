@@ -1,70 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Kontakt">
-        <div class="row">
-            <div class="col-md-10" lang="de">
-                <h2>Kontakt</h2>
-                <p>
-                    <strong>Abteilungsleitung FID Karten</strong>
-                    <br/>
-                    Wolfgang Crom
-                    <br/>
-                    E-Mail:
-                    <span class="madress">wolfgang.crom [at] sbb.spk-berlin.de</span>
-                    <br/>
-                    Telefon: +49 30 266 435400
-                </p>
-                <p>
-                    <strong>Vertretung</strong>
-                    <br/>
-                    Dr. Markus Heinz
-                    <br/>
-                    E-Mail:
-                    <span class="madress">markus.heinz [at] sbb.spk-berlin.de</span>
-                    <br/>
-                    Telefon: +49 30 266 435500
-                </p>
-                <p>
-                    <strong>Sekretariat</strong>
-                    <br/>
-                    Kartenabteilung
-                    <br/>
-                    E-Mail:
-                    <span class="madress">kartenabt [at] sbb.spk-berlin.de</span>
-                    <br/>
-                    Telefon: +49 30 266 435401
-                    <br/>
-                    Fax: +49 30 266 335401
-                </p>
+<MyCoReWebPage><section xml:lang="de" title="Kontakt"><div class="row">
+<div class="col-md-10" lang="de">
+<h1>Kontakt</h1>
 
-                <p>Fragen zum Repositoryframework MyCoRe und dem Datenbankserver beantwortet Ihnen die</p>
+<p> </p>
 
-                <p>Verbundzentrale des GBV (VZG)
-                    <br/>
-                    Platz der Göttinger Sieben 1
-                    <br/>
-                    37073 Göttingen
-                    <br/>
-                    Tel.: 0551 39 5207
-                    <br/>
-                    Fax: 0551 39 13980
-                    <br/>
-                    <b>Digitale Bibliothek, VZG-Reposis</b>
-                    <br/>
-                    Internet:
-                    <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
-                        https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
-                    </a>
-                    <br/>
-                    E-Mail:
-                    <span class="madress">dms-list [at] lists.gbv.de</span>
-                </p>
-            </div>
-        </div>
+<h2>Kontaktformular</h2>
 
-    </section>
-    <meta>
-        <log date="2020-04-24" time="16:26" labelPath=" » Admin" lastEditor="Kathleen Neumann"/>
-    </meta>
-</MyCoReWebPage>
+<p>Für Fragen, Hinweise, Anregungen etc. steht Ihnen unser Kontaktformular zur Verfügung:</p>
+
+<p><strong><a href=".//contact.xed">Kontaktformular</a></strong></p>
+
+<p> </p>
+
+<h2>Kontaktdaten</h2>
+
+<h3>Abteilungsleitung der Kartenabteilung</h3>
+
+<div>Wolfgang Crom<br />
+E-Mail: <a href="mailto:wolfgang.crom@sbb.spk-berlin.de">wolfgang.crom@sbb.spk-berlin.de</a><br />
+Telefon: +49 30 266 435400</div>
+
+<h3> </h3>
+
+<h3>Vertretung</h3>
+
+<div>Dr. Markus Heinz<br />
+E-Mail: <a href="mailto:markus.heinz@sbb.spk-berlin.de">markus.heinz@sbb.spk-berlin.de</a><br />
+Telefon: +49 30 266 435500</div>
+
+<h3> </h3>
+
+<h3>Sekretariat</h3>
+
+<div>Kartenabteilung<br />
+E-Mail: <a href="mailto:kartenabt@sbb.spk-berlin.de">kartenabt@sbb.spk-berlin.de</a><br />
+Telefon: +49 30 266 435401<br />
+Fax: +49 30 266 335401</div>
+
+<p> </p>
+
+<h3>Technischer Betrieb</h3>
+
+<p>Fragen zum Repositoryframework <em>MyCoRe</em> und dem Datenbankserver beantwortet Ihnen die</p>
+
+<div>Verbundzentrale des GBV (VZG)<br />
+Platz der Göttinger Sieben 1<br />
+D-37073 Göttingen<br />
+Tel.: + 49 551 39 5207<br />
+Fax: + 49 551 39 13980<br />
+Digitale Bibliothek, VZG-Reposis<br />
+Internet: <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service </a><br />
+E-Mail: <a href="mailto:dms-list@lists.gbv.de">dms-list@lists.gbv.de</a></div>
+</div>
+</div>
+</section><section xml:lang="en" title="Contact"><h1>Contact</h1>
+
+<p> </p>
+
+<h2>Contact form</h2>
+
+<p>Please use our contact form for questions, comments, suggestions, etc.:</p>
+
+<p><strong><a href=".//contact.xed">Contact form</a></strong></p>
+
+<p> </p>
+
+<h2>Contact details</h2>
+
+<h3>Head of the Map Department</h3>
+
+<div>Wolfgang Crom<br />
+Email: <a href="mailto:wolfgang.crom@sbb.spk-berlin.de">wolfgang.crom@sbb.spk-berlin.de</a><br />
+Phone: +49 30 266 435400</div>
+
+<div> </div>
+
+<h3>Deputy head</h3>
+
+<div>Dr. Markus Heinz<br />
+Email: <a href="mailto:markus.heinz@sbb.spk-berlin.de">markus.heinz@sbb.spk-berlin.de</a><br />
+Phone: +49 30 266 435500</div>
+
+<div> </div>
+
+<h3>Office</h3>
+
+<div>Map Department<br />
+Email: <a href="mailto:kartenabt@sbb.spk-berlin.de">kartenabt@sbb.spk-berlin.de</a><br />
+Phone: +49 30 266 435401<br />
+Fax: +49 30 266 335401</div>
+
+<p> </p>
+
+<h3>Technical operator</h3>
+
+<p>Questions about the repository framework <em>MyCoRe</em> and the database server can be answered by the</p>
+
+<div>Verbundzentrale des GBV (VZG)<br />
+Platz der Göttinger Sieben 1<br />
+D-37073 Göttingen<br />
+Phone: +49 551 39 5207<br />
+Fax: +49 551 39 13980<br />
+Digitale Bibliothek, VZG-Reposis<br />
+Web: <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service </a><br />
+Email: <a href="mailto:dms-list@lists.gbv.de">dms-list@lists.gbv.de</a></div>
+
+<p> </p>
+</section><meta><log lastEditor="admin-ro" date="2021-10-21" time="15:14" /></meta></MyCoReWebPage>
