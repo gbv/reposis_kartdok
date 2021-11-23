@@ -75,7 +75,7 @@
       </xsl:when>
       
       <!-- Created-->
-      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='new'">
+      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='new.inactive'">
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiverAuthor" />
         <subject>
@@ -244,7 +244,7 @@
       <!-- Published-->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='published'">
         <!-- SEND EMAIL -->
-        <xsl:apply-templates select="." mode="mailReceiverEditorAuthor" />
+        <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
