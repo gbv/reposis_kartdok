@@ -125,7 +125,8 @@
       </xsl:when>
       
       <!-- Marked For Publication -->
-      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='publishable'">
+      <!-- <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='publishable'"> -->
+      <xsl:when test="($action='update') and service/servstates/servstate[@classid='state']/@categid='publishable'">
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
