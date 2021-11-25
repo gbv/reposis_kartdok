@@ -152,6 +152,36 @@
       </xsl:when>
       
       <!-- Deleted -->
+      <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='delete') and service/servstates/servstate[@classid='state']/@categid='deleted'">
+        <!-- SEND EMAIL -->
+        <xsl:apply-templates select="." mode="mailReceiverEditor" />
+        <subject>
+          <xsl:variable name="objectType">
+            <xsl:choose>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="'Objekt'" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="concat($objectType,' wurde entgültig gelöscht: ',@ID)" />
+        </subject>
+        <body>
+          <xsl:value-of select="'Folgende Publikation wurde auf dem Publikationsserver entgültig gelöscht:'" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="." mode="output" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="document('user:current')/user" mode="output" />
+          <xsl:value-of select="$newline" />
+        </body>
+      </xsl:when>
+      
+      <!-- Marked as deleted -->
       <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='deleted'">
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiverEditor" />
@@ -169,10 +199,10 @@
               </xsl:otherwise>
             </xsl:choose>
           </xsl:variable>
-          <xsl:value-of select="concat($objectType,' wurde gelöscht: ',@ID)" />
+          <xsl:value-of select="concat($objectType,' wurde gelöscht markiert: ',@ID)" />
         </subject>
         <body>
-          <xsl:value-of select="'Folgende Publikation wurde auf dem Publikationsserver gelöscht:'" />
+          <xsl:value-of select="'Folgende Publikation wurde auf dem Publikationsserver als gelöscht markiert:'" />
           <xsl:value-of select="$newline" />
           <xsl:apply-templates select="." mode="output" />
           <xsl:value-of select="$newline" />
