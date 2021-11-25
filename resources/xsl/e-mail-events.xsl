@@ -33,7 +33,7 @@
       <!-- xsl:when test="not(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and mcrxsl:isCurrentUserInRole('submitter') and ($action='update') and service/servstates/servstate[@classid='state']/@categid='submitted'"> -->
       <!-- xsl:when test="not(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='submitted'"> -->
       <xsl:when test="($action='update') and service/servstates/servstate[@classid='state']/@categid='submitted'">
-
+        
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
@@ -75,7 +75,7 @@
         </body>
       </xsl:when>
       
-      <!-- Created-->
+      <!-- Back to Submitter (Created) -->
       <!-- <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='new'">-->
       <xsl:when test="($action='update') and service/servstates/servstate[@classid='state']/@categid='new'">
         <!-- SEND EMAIL -->
@@ -99,6 +99,54 @@
         </subject>
         <body>
           <xsl:value-of select="'Es sind Korrekturen nötig, genauere Informationen folgen:'" /> <!-- ToDo -->
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="." mode="output" />
+          <xsl:value-of select="$newline" />
+          <xsl:apply-templates select="document(concat('user:',service/servflags[@class='MCRMetaLangText']/servflag[@type='createdby']))/user" mode="output" />
+          <xsl:variable name="version" select="document(concat('versioninfo:', @ID))/versions/version[1]/@r" />
+          <xsl:variable name="objectURL">
+            <xsl:value-of select="$WebApplicationBaseURL" />
+            <xsl:text>receive/</xsl:text>
+            <xsl:value-of select="@ID" />
+            <xsl:text>?r=</xsl:text>
+            <xsl:value-of select="$version" />
+            <xsl:text></xsl:text>
+          </xsl:variable>
+          <xsl:value-of select="$newline" />
+          <xsl:text>Diese Nachricht bezieht sich auf folgende Version des Dokuments: </xsl:text>
+          <xsl:value-of select="$objectURL" />
+          <xsl:if test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='editor2author']">
+            <xsl:value-of select="$newline" />
+            <xsl:value-of select="'KartDok macht dazu folgende Anmerkung:'" />
+            <xsl:value-of select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='editor2author']" />
+            <xsl:value-of select="$newline" />
+          </xsl:if>
+        </body>
+      </xsl:when>
+      
+      <!-- Created -->
+      <xsl:when test="service/servstates/servstate[@classid='state']/@categid='new'">
+        <!-- SEND EMAIL -->
+        <!-- <xsl:apply-templates select="." mode="mailReceiverAuthor" />-->
+        <xsl:apply-templates select="." mode="mailReceiverEditor" />
+        <subject>
+          <xsl:variable name="objectType">
+            <xsl:choose>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='kindof']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:when test="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']">
+                <xsl:apply-templates select="./metadata/def.modsContainer/modsContainer/mods:mods/mods:genre[@type='intern']" mode="printModsClassInfo" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="'Objekt'" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="concat($objectType,' wurde angelegt: ',@ID)" />
+        </subject>
+        <body>
+          <xsl:value-of select="'Es sind wurde folgendes Dokument angelegt:'" /> <!-- ToDo -->
           <xsl:value-of select="$newline" />
           <xsl:apply-templates select="." mode="output" />
           <xsl:value-of select="$newline" />
@@ -188,7 +236,7 @@
       
       <!-- Marked as deleted -->
       <xsl:when test="($action='update') and service/servstates/servstate[@classid='state']/@categid='deleted'">
-      <!-- <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='deleted'"> -->
+        <!-- <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='deleted'"> -->
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
@@ -219,7 +267,7 @@
       
       <!-- Blocked -->
       <xsl:when test="($action='update') and service/servstates/servstate[@classid='state']/@categid='blocked'">
-      <!-- <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='blocked'"> -->
+        <!-- <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='blocked'"> -->
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
@@ -252,7 +300,7 @@
       <!-- <xsl:when test="(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and ($action='update') and service/servstates/servstate[@classid='state']/@categid='review'">-->
       <xsl:when test="($action='update') and service/servstates/servstate[@classid='state']/@categid='review'">
         <!-- SEND EMAIL -->
-        <!-- xsl:apply-templates select="." mode="mailReceiverEditor" /> -->
+        <xsl:apply-templates select="." mode="mailReceiverEditor" />
         <subject>
           <xsl:variable name="objectType">
             <xsl:choose>
@@ -421,8 +469,7 @@
       </to>
     </xsl:if>
   </xsl:template>
-
-
+  
   <!-- Classification support -->
   <xsl:template name="selectDefaultLang">
     <xsl:param name="nodes" />
