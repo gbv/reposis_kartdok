@@ -36,7 +36,7 @@
             url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
             dataType: "jsonp",
             success: function (data) {
-            $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + '
+            $('#project-searchInput.deactivated').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + '
             Dokumenten');
             },
             });
@@ -47,7 +47,7 @@
     <section xml:lang="en" title="KartDok - Cartography repository">
         <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
             <div class="row">
-                <div class="col-md-9 offset-md-2" lang="de">
+                <div class="col-md-9 offset-md-2" lang="en">
                     <h1>
                         KartDok
                         <br/>
@@ -62,7 +62,7 @@
                                     id="project-searchInput"
                                     type="text"/>
                             <div class="input-group-append">
-                                <button type="submit" class="btn btn-primary-inverted">
+                                <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-search"></i>
                                 </button>
                             </div>
@@ -79,7 +79,7 @@
             url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
             dataType: "jsonp",
             success: function (data) {
-            $('#project-searchInput').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') +
+            $('#project-searchInput.deactivated').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') +
             ' documents');
             },
             });
