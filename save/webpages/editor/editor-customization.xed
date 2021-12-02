@@ -638,7 +638,7 @@
   <xed:template id="thesis.advisor.reviewer.reduced.repeated">
     <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
     <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
-    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor}">
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
       <xed:include uri="xslStyle:items2options:classification:editor:-1:children:marcrelator" />
     </mir:person.repeated>
   </xed:template>
