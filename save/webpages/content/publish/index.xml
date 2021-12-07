@@ -30,8 +30,8 @@
             Zur Veröffentlichung Ihres Beitrags auf KartDok ist zunächst die Erfassung seiner bibliographischen Daten erforderlich. Bitte              beachten Sie, dass alle mit einem Asterisk * gekennzeichneten Felder der jeweils gewählten Erfassungsmaske verpflichtend zu befüllen sind (Pflichtfelder).
           </p>
           <p>
-            Für jede angemeldete Veröffentlichung übersenden Sie uns bitte ergänzend den vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift versehenen
-            <a href="../rights/vertrag.pdf">Publikationsvertrag (PDF)</a> an: <span class="madress">kartdok [at] sbb.spk-berlin.de</span>
+            Für jede angemeldete Veröffentlichung übersenden Sie uns bitte ergänzend den vollständig ausgefüllten und mit Ihrer (digitalen) Unterschrift versehenen
+            <a href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrag (PDF)</a> an: <span class="madress">kartdok [at] sbb.spk-berlin.de</span>
           </p>
         </div>
       </div>
@@ -142,7 +142,7 @@
       <div class="row form-group mt-5">
         <div class="col-sm-3 col-md-2"></div>
         <div class="col-sm-5 col-md-4">
-          <a href="../rights/vertrag.pdf" class="btn btn-dark btn-md">Publikationsvertrag (PDF)</a>
+          <a href="../rights/kartdok_publikationsvertrag.pdf" class="btn btn-dark btn-md">Publikationsvertrag (PDF)</a>
           <button type="submit" class="btn btn-primary">Weiter</button>
         </div>
       </div>
@@ -164,7 +164,7 @@
             Please note that all fields marked with an Asterisk * are mandatory (mandatory fields).
           </p>
           <p>
-            For each registered publication, please send us the <a href="../rights/vertrag.pdf">Publication Agreement (PDF)</a>
+            For each registered publication, please send us the <a href="../rights/kartdok_publikationsvertrag.pdf">Publication Agreement (PDF)</a>
             fully completed and filled with your electronic signature to: <span class="madress">kartdok [at] sbb.spk-berlin.de</span>
           </p>
         </div>
@@ -274,7 +274,7 @@
       <div class="row form-group mt-5">
         <div class="col-sm-3 col-md-2"></div>
         <div class="col-sm-5 col-md-4">
-          <a href="../rights/vertrag.pdf" class="btn btn-dark btn-md">Publication Agreement (PDF)</a>
+          <a href="../rights/kartdok_publikationsvertrag.pdf" class="btn btn-dark btn-md">Publication Agreement (PDF)</a>
           <button type="submit" class="btn btn-primary">Next</button>
         </div>
       </div>
