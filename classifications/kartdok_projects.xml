@@ -32,5 +32,9 @@
       <label xml:lang="de" text="Regionalsprache.de" />
       <label xml:lang="en" text="Regionalsprache.de" />
     </category>
+    <category ID="volunteered_geographic_information">
+      <label xml:lang="de" text="Volunteered Geographic Information: Interpretation, Visualisation and Social Computing" />
+      <label xml:lang="en" text="Volunteered Geographic Information: Interpretation, Visualisation and Social Computing" />
+    </category>
   </categories>
 </mycoreclass>
