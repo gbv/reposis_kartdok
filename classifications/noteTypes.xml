@@ -5,19 +5,19 @@
   <label xml:lang="x-uri" text="http://www.mycore.org/classifications/noteTypes" />
   <categories>
     <category ID="admin">
+      <label xml:lang="x-access" text="submitter editor admin specialist" />
       <label xml:lang="en" text="Intern comment" />
       <label xml:lang="de" text="Interner Kommentar" />
-      <label xml:lang="x-access" text="submitter editor admin specialist" />
     </category>
     <category ID="statement_of_responsibility">
-      <label xml:lang="en" text="Statement of responsibility" />
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Verantwortlichkeitsangabe" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="en" text="Statement of responsibility" />
     </category>
     <category ID="bibliography">
       <label xml:lang="en" text="Bibliographic notes" />
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Bibliografische Angaben" />
+      <label xml:lang="x-access" text="guest" />
     </category>
     <category ID="content">
       <label xml:lang="en" text="Type of content" />
@@ -30,9 +30,9 @@
       <label xml:lang="de" text="Angaben zur Sprache" />
     </category>
     <category ID="biographical/historical">
-      <label xml:lang="en" text="Biographical/historical information" />
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Biografische / Historische Informationen" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="en" text="Biographical/historical information" />
     </category>
     <category ID="creation/production_credits">
       <label xml:lang="x-access" text="guest" />
@@ -40,24 +40,24 @@
       <label xml:lang="de" text="Erstellungs- / Produktionserwähnung" />
     </category>
     <category ID="version_identification">
-      <label xml:lang="en" text="Version identification" />
       <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Versionskennzeichen" />
+      <label xml:lang="en" text="Version identification" />
     </category>
     <category ID="thesis">
-      <label xml:lang="en" text="Thesis statement" />
       <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Hochschulvermerk" />
+      <label xml:lang="en" text="Thesis statement" />
     </category>
     <category ID="venue">
-      <label xml:lang="en" text="Venue" />
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Veranstaltungsort" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="en" text="Venue" />
     </category>
     <category ID="date">
-      <label xml:lang="en" text="Date" />
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Datum" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="en" text="Date" />
     </category>
     <category ID="date/sequential_designation">
       <label xml:lang="en" text="Date/sequential designation" />
@@ -65,19 +65,19 @@
       <label xml:lang="de" text="Datierte / Nummerierte Veröffentlichungen" />
     </category>
     <category ID="exhibitions">
-      <label xml:lang="en" text="Exhibitions" />
       <label xml:lang="x-access" text="guest" />
+      <label xml:lang="en" text="Exhibitions" />
       <label xml:lang="de" text="Ausstellungen" />
     </category>
     <category ID="system_details">
-      <label xml:lang="en" text="System details" />
       <label xml:lang="x-access" text="guest" />
+      <label xml:lang="en" text="System details" />
       <label xml:lang="de" text="System-Angaben" />
     </category>
     <category ID="publications">
-      <label xml:lang="en" text="Publications" />
-      <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Veröffentlichungen" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="en" text="Publications" />
     </category>
     <category ID="additional_physical_form">
       <label xml:lang="en" text="Additional physical form" />
@@ -85,9 +85,9 @@
       <label xml:lang="de" text="Zusätzliche physikalische Formen" />
     </category>
     <category ID="citation/reference">
-      <label xml:lang="en" text="Citation/reference" />
       <label xml:lang="x-access" text="guest" />
       <label xml:lang="de" text="Zitierungen / Referenzen" />
+      <label xml:lang="en" text="Citation/reference" />
     </category>
     <category ID="accrual_policy">
       <label xml:lang="en" text="Accrual policy" />
