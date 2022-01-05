@@ -9,9 +9,14 @@
 
 <p>Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur Anbieterkennzeichnung, sowie wichtige rechtliche Hinweise zur Internetpräsenz der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz.</p>
 
+<div><a href="#Anbieter">Anbieter</a><br />
+<a href="#Vertreter">Vertreter</a><br />
+<a href="#Umsatzsteueridentifikationsnummer">Umsatzsteueridentifikationsnummer</a><br />
+<a href="#Redaktion">Redaktion</a></div>
+
 <p> </p>
 
-<h3>Anbieter</h3>
+<h3><a id="Anbieter" name="Anbieter">Anbieter</a></h3>
 
 <p>Anbieter dieser Internetpräsenz ist im Rechtssinne die Stiftung Preußischer Kulturbesitz: Staatsbibliothek zu Berlin.</p>
 
@@ -23,15 +28,15 @@ Telefon: +49 30 266 0</div>
 
 <div> </div>
 
-<h3>Vertreter</h3>
+<h3><a id="Vertreter" name="Vertreter">Vertreter</a></h3>
 
 <p>Die Stiftung Preußischer Kulturbesitz wird gesetzlich vertreten durch ihren Präsidenten, Herrn Prof. Dr. Dr. hc. mult. Hermann Parzinger. Dieser wird vertreten durch den Generaldirektor der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Herrn Dr. Achim Bonte.</p>
 
-<h3>Umsatzsteueridentifikationsnummer</h3>
+<h3><a id="Umsatzsteueridentifikationsnummer" name="Umsatzsteueridentifikationsnummer">Umsatzsteueridentifikationsnummer</a></h3>
 
 <p>Die Umsatzsteueridentifikationsnummer der Stiftung Preußischer Kulturbesitz lautet: DE338204900</p>
 
-<h3>Redaktion</h3>
+<h3><a id="Redaktion" name="Redaktion">Redaktion</a></h3>
 
 <div>Fachinformationsdienst Kartographie und Geobasisdaten<br />
 Staatsbibliothek zu Berlin - Preußischer Kulturbesitz<br />
@@ -84,5 +89,4 @@ Unter den Linden 8<br />
 D-10117 Berlin</div>
 
 <div>Email: <a href="mailto:kartenabt@sbb.spk-berlin.de">kartenabt@sbb.spk-berlin.de</a></div>
-</div>
-</section><meta><log lastEditor="admin-ro" date="2021-10-21" time="15:47" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="admin-ro" date="2021-12-21" time="19:18" /></meta></MyCoReWebPage>

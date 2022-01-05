@@ -1,69 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="Hinweise für Autoren"><div class="row">
 <div class="col-md-12">
-<h1>Hinweise für Autor/innen</h1>
+<h1>Hinweise für Autorinnen und Autoren</h1>
 
-<p> </p>
+<div> </div>
 
-<h2>Hinweise zur Veröffentlichung auf KartDok</h2>
+<div><a href="#1"><strong>1) Hinweise zur Veröffentlichung auf KartDok</strong></a><br />
+<a href="#1.1">1.1) Publikationsworkflow</a><br />
+<a href="#1.2">1.2) Erschließung der Publikationen</a></div>
 
-<h3>Publikationsworkflow</h3>
+<div><a href="#2"><strong>2) Wahrung der Rechte von Autorinnen und Autoren</strong></a><br />
+<a href="#2.1">2.1) Nutzungsrechte sichern</a><br />
+<a href="#2.2">2.2) Open-Access-konforme Verlagsverträge abschließen</a></div>
 
-<p>(1) Um den Publikationsservices KartDok nutzen zu können, müssen Sie sich in KartDok einmalig <a href="/kartdok/authorization/new-author.xed?action=register">registrieren</a>. Nach erfolgter Registrierung haben Sie als Inhaber/in der jeweiligen Urheberrechte die Möglichkeit, in Übereinstimmung mit dieser verbindlichen <a href="policy.xml">Publikationsleitlinie</a> beliebig viele Dokumente auf KartDok zu veröffentlichen.</p>
+<div><a href="#3"><strong>3) Anforderungen zur Barrierefreiheit</strong></a></div>
 
-<p>(2) Den Publikationsvorgang starten Sie bitte durch Ihre <a href="/kartdok/servlets//MCRLoginServlet?url=../content/index.xmll">Anmeldung</a> (Login) am Server. Danach stehen Ihnen unter dem Menüpunkt „Dokument einreichen“ unsere Web-Formulare zur Übermittlung Ihrer Dokumente an KartDok zur Verfügung.</p>
+<div><a href="#4"><strong>4) Publikations-Tantiemen über die VG Wort</strong></a></div>
 
-<p>(3) Im Web-Formular können Sie die bibliographischen Metadaten Ihres Beitrags erfassen und speichern. Für den Upload Ihres Dokuments nutzen Sie bitte ebenfalls dieses Web-Formular.</p>
+<div> </div>
 
-<p>(4) Den vollständig ausgefüllten und mit Ihrer (digitalen) Unterschrift versehenen <a href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrag (PDF)</a> im Dateiformat PDF senden Sie bitte per E-Mail an: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>.</p>
+<div> </div>
 
-<p>(5) Die Freischaltung der eingereichten Publikation dauert im Regelfall ca. eine Woche. Bitte beachten Sie, dass die von Ihnen zur Veröffentlichung vorgesehenen Beiträge erst nach formaler und inhaltlicher Prüfung auf KartDok freigeschaltet werden.</p>
+<h2><a id="1" name="1">1) Hinweise zur Veröffentlichung auf KartDok</a></h2>
 
-<p>Bitte beachten Sie zudem unsere <a href="../below/terms_of_use.xml">Nutzungsbedingungen</a> sowie die <a href="policy.xml">Publikationsleitlinie</a> für KartDok!</p>
+<h3><a id="1.1" name="1.1">1.1) Publikationsworkflow</a></h3>
 
-<h3>Erschließung der Publikationen</h3>
+<p style="margin-left: 40px;">(1) Um den Publikationsservices KartDok nutzen zu können, müssen Sie sich in KartDok einmalig <a href="/kartdok/authorization/new-author.xed?action=register">registrieren</a>. Nach erfolgter Registrierung haben Sie als Inhaber:in der jeweiligen Urheberrechte die Möglichkeit, in Übereinstimmung mit dieser verbindlichen <a href="policy.xml">Publikationsleitlinie</a> beliebig viele Dokumente auf KartDok zu veröffentlichen.</p>
 
-<p>KartDok bietet dedizierte Services zur kostenfreien öffentlichen Zugänglichkeit sowie zur elektronischen Langzeitarchivierung qualitätsgesicherter, persistent adressierbarer und damit dauerhaft zitierfähiger Erst- und Zweitveröffentlichungen aus allen Bereichen der Kartographie und Geovisualisierung.</p>
+<p style="margin-left: 40px;">(2) Den Publikationsvorgang starten Sie bitte durch Ihre <a href="/kartdok/servlets//MCRLoginServlet?url=../content/index.xmll">Anmeldung</a> (Login) am Server. Danach stehen Ihnen unter dem Menüpunkt „<em>Dokument einreichen</em>“ unsere Web-Formulare zur Übermittlung Ihrer Dokumente an KartDok zur Verfügung.</p>
 
-<p>Alle auf KartDok veröffentlichten Textbeiträge werden mit Suchmaschinentechnologie im Volltext recherchierbar gemacht, alle Beiträge auf KartDok werden mit bibliographischen Metadaten erfasst und, wenn möglich, mit Normdaten verknüpft. Zur Gewährleistung eines thematischen Zugangs aller Inhalte von KartDok werden die Antragsteller/in gebeten, Ihr Werk im Zuge des Einreichungsvorgangs auch mit beschreibenden Metadaten, sowohl mit frei zu vergebenden Schlagworten und gegebenenfalls auch mit normierten Schlagworten (Terminologie der im Hintergrund eingebundenen <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.htm">Gemeinsamen Normdatei</a>) inhaltlich zu erschließen.</p>
+<p style="margin-left: 40px;">(3) Im Web-Formular können Sie die bibliographischen Metadaten Ihres Beitrags erfassen und speichern. Für den Upload Ihres Dokuments nutzen Sie bitte ebenfalls dieses Web-Formular.</p>
 
-<p>Alle auf KartDok veröffentlichten Beiträge werden zudem auf Basis der wissenschaftlichen <a href="../content/browse/kartdok_bc.xml">Fachsystematik der Bibliographia Cartographica</a> und der <a href="https://nbn-resolving.org/urn:nbn:de:101-2014050500">Dewey-Dezimalklassifikation</a> sowie durch freie Schlagwörter inhaltlich erschlossen.</p>
+<p style="margin-left: 40px;">(4) Den vollständig ausgefüllten und mit Ihrer (digitalen) Unterschrift versehenen <a href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrag (PDF)</a> im Dateiformat PDF senden Sie bitte per E-Mail an: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>. Bitte beachten Sie hierzu auch unsere <a href="/kartdok/content/publish/../rights/hinweise_kartdok_publikationsvertrag.pdf">Hinweise zum Publikationsvertrag (PDF)</a>.</p>
 
-<p> </p>
+<p style="margin-left: 40px;">(5) Die Freischaltung der eingereichten Publikation dauert im Regelfall ca. eine Woche. Bitte beachten Sie, dass die von Ihnen zur Veröffentlichung vorgesehenen Beiträge erst nach formaler und inhaltlicher Prüfung auf KartDok freigeschaltet werden.</p>
 
-<h2>Wahrung von Autorenrechten</h2>
+<p>Bitte beachten Sie zudem unsere <a href="../below/terms_of_use.xml">Nutzungsbedingungen</a> sowie die <a href="policy.xml">Publikationsleitlinie</a> für KartDok.</p>
 
-<h3>Nutzungsrechte sichern</h3>
+<h3><a id="1.2" name="1.2">1.2) Erschließung der Publikationen</a></h3>
 
-<p>Nach Möglichkeit sollten Sie einem Verlag keine ausschließlichen Nutzungsrechte einräumen. Wenn Sie ausschließliche Nutzungsrechte übertragen, können Sie Ihr eigenes Werk nicht mehr vollumfänglich nutzen. Beispielsweise können Sie dann Ihre wissenschaftliche Arbeit nicht mehr frei online zugänglich machen. Vielmehr müssen Sie für eine Open-Access-Veröffentlichung erst eine Lizenzvereinbarung mit Ihrem Verlag treffen. Diese ist möglicherweise kostenpflichtig für Sie. Sichern Sie sich daher in Verlagsverträgen immer Ihre Rechte!</p>
-
-<h3>Open-Access-konforme Verlagsverträge abschließen</h3>
-
-<p>Bevorzugen Sie für Ihre Veröffentlichung möglichst Verlage mit einem Open-Access-Geschäftsmodell beziehungsweise eine Open-Access-Zeitschrift. Wenn Sie bei einem Verlag mit einem Bezahl-Modell veröffentlichen, streichen Sie restriktive Formulierungen wie „Übertragung ausschließlicher Rechte“ aus dem Verlagsvertrag.</p>
-
-<p>Wenn der Verlag auf der Übertragung ausschließlicher Rechte besteht, vereinbaren Sie im Verlagsvertrag wenigstens ein Nutzungsrecht zur Open-Access-Zweitveröffentlichung. <a href="https://labs.creativecommons.org/scholars/">Scholar's Copyright Addendum Engine</a> von <em>Creative Commons</em> stellt Ihnen Textbausteine zur Erstellung eines entsprechenden Vertragszusatzes zur Verfügung. Die Kartenabteilung der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz ermuntert Sie nachdrücklich dazu, sich beim Abschluss von künftigen Verlagsverträgen ein nicht ausschließliches Verwertungsrecht zur elektronischen Publikation Ihrer Forschungsergebnisse zwecks entgeltfreier Nutzung dauerhaft vorzubehalten (siehe <a href="https://open-access.net/informationen-zu-open-access/rechtsfragen/rechtsfragen-in-deutschland/verlagsvertraege">Musterformulierungen für ein entsprechendes Vertrags-Addendum</a>).</p>
-
-<p>Verwehrt Ihnen der Verlag die sofortige Open-Access-Veröffentlichung, vereinbaren Sie eine möglichst kurze Embargofrist (bis zu einem Jahr). Halten Sie die Vereinbarung unbedingt in Ihrem Verlagsvertrag fest. Bei Vertragsverhandlungen können Sie argumentieren, dass die Zweitveröffentlichung nicht in Konkurrenz zur Verlagsversion steht, sondern die Sichtbarkeit der Publikation insgesamt erhöht und damit eine zusätzliche Werbung für den Verlag darstellt, die Onlineversion auf KartDok verweist zudem auf die Erstveröffentlichung.</p>
-
-<h3>Rechteklärung für Zweitveröffentlichungen</h3>
-
-<p>Sollte eine Rechteprüfung (siehe hierzu die Hinweise zum <a href="..//rights/copyright.xml">Urheberrecht</a>) kein Ergebnis liefen oder nur unklare Informationen ergeben, ist zu empfehlen, Kontakt zum Verlag aufzunehmen – um Unklarheiten zu beseitigen und gegebenenfalls eine rechtsverbindliche Erlaubnis des Verlags für die Zweitveröffentlichung einer bestimmten Publikation zu erhalten. Diese Anfrage sollte Angaben zu folgenden Punkten enthalten:</p>
+<p>KartDok bietet dedizierte Services zur kostenfreien öffentlichen Zugänglichkeit sowie zur elektronischen Langzeitarchivierung qualitätsgesicherter, persistent adressierbarer und damit dauerhaft zitierfähiger Erst- und Zweitveröffentlichungen aus allen Bereichen der Kartographie, Geovisualisierung und Geoinformation.</p>
 
 <ul>
-	<li>Vollständige bibliografische Information</li>
-	<li>Zweck der Anfrage</li>
-	<li>Art der Verwendung (Nennung der gewünschten Version)</li>
-	<li>Ort der Zweitveröffentlichung, ggf. erläuternde Hinweise zur (nichtkommerziellen) Beschaffenheit des Repositoriums</li>
-	<li>Soll die Zweitveröffentlichung unter einer freien Lizenz erfolgen, sollte diese konkret benannt werden</li>
+	<li>Alle auf KartDok veröffentlichten Textbeiträge werden mit Suchmaschinentechnologie im Volltext recherchierbar gemacht, zudem werden alle Beiträge auf KartDok mit bibliographischen Metadaten erfasst und, wenn möglich, mit Normdaten verknüpft.</li>
+	<li>Zur Gewährleistung eines thematischen Zugangs aller Inhalte von KartDok werden die Antragsteller:innen gebeten, ihr Werk im Zuge des Einreichungsvorgangs auch mit beschreibenden Metadaten, sowohl mit frei zu vergebenden Schlagworten und gegebenenfalls auch mit normierten Schlagworten (Terminologie der im Hintergrund eingebundenen <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.htm">Gemeinsamen Normdatei</a>) inhaltlich zu erschließen.</li>
+	<li>Alle auf KartDok veröffentlichten Beiträge werden zudem auf Basis der wissenschaftlichen <a href="../browse/kartdok_bc.xml">Fachsystematik der Bibliographia Cartographica</a> und der <a href="https://nbn-resolving.org/urn:nbn:de:101-2014050500">Dewey-Dezimalklassifikation (PDF)</a> sowie durch freie Schlagwörter inhaltlich erschlossen.</li>
 </ul>
 
-<p>.</p>
+<p> </p>
 
-<h2>Anforderungen zur Barrierefreiheit</h2>
+<h2><a id="2" name="2">2) Wahrung der Rechte von Autorinnen und Autoren</a></h2>
 
-<p>Bitte beachten Sie bei Ihrer Publikation auch die Anforderungen zur Barrierefreiheit gemäß § 3 Absatz 1 bis 4 und § 4 der <a href="https://www.gesetze-im-internet.de/bitv_2_0/">Barrierefreien-Informationstechnik-Verordnung</a> (BITV 2.0), die auf Grundlage von § 12d Behindertengleichstellungsgesetz (BGG) erlassen wurden. Weiterführende Informationen hierzu finden Sie auch unter Punkt 2 (Digitale Barrierefreiheit) der <a href="policy.xml">Publikationsleitlinie</a> für KartDok.</p>
+<h3><a id="2.1" name="2.1">2.1) Nutzungsrechte sichern</a></h3>
 
-<p>Anleitungen und Programme zur Erstellung bzw. Überprüfung von barrierefreien PDF-Dokumenten (Standard PDF/UA):</p>
+<p>Nach Möglichkeit sollten Sie einem Verlag <strong>keine ausschließlichen Nutzungsrechte einräumen</strong>.</p>
+
+<ul>
+	<li>Wenn Sie ausschließliche Nutzungsrechte übertragen, können Sie Ihr eigenes Werk nicht mehr vollumfänglich nutzen.</li>
+	<li>Beispielsweise können Sie dann Ihre wissenschaftliche Arbeit nicht mehr frei online zugänglich machen. Vielmehr müssen Sie für eine Open-Access-Veröffentlichung erst eine Lizenzvereinbarung mit Ihrem Verlag treffen. Diese ist möglicherweise kostenpflichtig für Sie.</li>
+	<li>Sichern Sie sich daher in Verlagsverträgen immer Ihre Rechte.</li>
+</ul>
+
+<h3><a id="2.2" name="2.2">2.2) Open-Access-konforme Verlagsverträge abschließen</a></h3>
+
+<p>Bevorzugen Sie für Ihre Veröffentlichung möglichst <strong>Verlage mit einem Open-Access-Geschäftsmodell</strong> beziehungsweise eine <strong>Open-Access-Zeitschrift</strong>. Wenn Sie bei einem Verlag mit einem Bezahl-Modell veröffentlichen, <strong>streichen Sie restriktive Formulierungen</strong> wie „Übertragung ausschließlicher Rechte“ aus dem Verlagsvertrag.</p>
+
+<ul>
+	<li>Wenn der Verlag auf der Übertragung ausschließlicher Rechte besteht, vereinbaren Sie im Verlagsvertrag wenigstens ein <strong>Nutzungsrecht zur Open-Access-Zweitveröffentlichung</strong>. Hierfür stellt Ihnen <a href="https://labs.creativecommons.org/scholars/">Scholar's Copyright Addendum Engine</a> von <em>Creative Commons</em> Textbausteine zur Erstellung eines entsprechenden Vertragszusatzes zur Verfügung. Die Kartenabteilung der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz ermuntert Sie nachdrücklich dazu, sich beim Abschluss von künftigen Verlagsverträgen ein nicht ausschließliches Verwertungsrecht zur elektronischen Publikation Ihrer Forschungsergebnisse zwecks entgeltfreier Nutzung dauerhaft vorzubehalten (siehe hierzu die <a href="https://open-access.network/informieren/rechtsfragen/verlagsvertraege">Hinweise</a> des Projektes <em>open-access.network</em>).</li>
+	<li>Verwehrt Ihnen der Verlag die sofortige Open-Access-Veröffentlichung, vereinbaren Sie eine möglichst <strong>kurze Embargofrist</strong> (bis zu einem Jahr). Halten Sie die Vereinbarung unbedingt in Ihrem Verlagsvertrag fest. Bei Vertragsverhandlungen können Sie argumentieren, dass die Zweitveröffentlichung nicht in Konkurrenz zur Verlagsversion steht, sondern die Sichtbarkeit der Publikation insgesamt erhöht und damit eine zusätzliche Werbung für den Verlag darstellt, die Onlineversion auf KartDok verweist zudem auf die Erstveröffentlichung.</li>
+</ul>
+ 
+
+<h2><a id="3" name="3">3) Anforderungen zur Barrierefreiheit</a></h2>
+
+<p>Bitte beachten Sie bei Ihrer Publikation auch die Anforderungen zur Barrierefreiheit gemäß § 3 Absatz 1 bis 4 und § 4 der Barrierefreien-Informationstechnik-Verordnung (<a href="https://www.gesetze-im-internet.de/bitv_2_0/">BITV 2.0</a>), die auf Grundlage von § 12d Behindertengleichstellungsgesetz (<a href="https://www.gesetze-im-internet.de/bgg/">BGG</a>) erlassen wurden. Weitere Informationen zur digitalen Barrierefreiheit finden Sie in der <a href="policy.xml#2.3">Publikationsleitlinie</a> für KartDok.</p>
+
+<p>Hilfestellung hierzu bieten Ihnen u. a. diese Anleitungen und Programme zur Erstellung bzw. Überprüfung von barrierefreien PDF-Dokumenten (Standard PDF/UA):</p>
 
 <p>(1) Erstellung barrierefreier Quelldokumente für PDF-Dateien (<em>Microsoft Office</em>):</p>
 
@@ -89,11 +101,11 @@
 	</li>
 </ul>
 
-<p>Weitere Hilfestellung bei der Publikation, zum Beispiel der Aufbereitung Ihrer Dokumente im PDF-Format, erhalten Sie über unser <a href="../below/contact.xed"><u>Kontaktformular</u></a>.</p>
+<p>Weitere Hilfestellung, zum Beispiel zur Aufbereitung Ihrer Dokumente im PDF-Format, können Sie über unser <a href="../below/contact.xed"><u>Kontaktformular</u></a> erhalten.</p>
 
 <p> </p>
 
-<h2>Publikations-Tantiemen über die VG Wort</h2>
+<h2><a id="4" name="4">4) Publikations-Tantiemen über die VG Wort</a></h2>
 
 <p>Derzeit können wir für KartDok kein Meldeverfahren für die VG Wort realisieren. Die VG Wort bietet allerdings eine Sonderausschüttung an, die auch ohne Zählpixel funktioniert. Bitte informieren Sie sich auf den Webseiten der <a href="https://www.vgwort.de/verguetungen/auszahlungen/texte-im-internet.html">VG Wort</a>.</p>
 </div>
@@ -198,4 +210,4 @@
 
 <p>Derzeit können wir für KartDok kein Meldeverfahren für die VG Wort realisieren. Die VG Wort bietet allerdings eine Sonderausschüttung an, die auch ohne Zählpixel funktioniert. Bitte informieren Sie sich auf den Webseiten der <a href="https://www.vgwort.de/startseite.html">VG Wort</a>.</p>
 </div>
-</div></section><meta><log lastEditor="admin-ro" date="2021-10-11" time="13:12" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="admin-ro" date="2021-12-22" time="18:00" /></meta></MyCoReWebPage>
