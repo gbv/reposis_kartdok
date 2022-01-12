@@ -16,8 +16,8 @@
 <p>Beispiele:</p>
 
 <ul>
-	<li><em>KartDok - Repositorium Kartographie, </em><a href="https://doi.org/10.24355/dbbs.084-201802231113"><em>https://doi.org/10.24355/dbbs.084-201802231113</em></a><em> (DOI)</em></li>
-	<li><em>KartDok - Repositorium Kartographie, <a href="https://nbn-resolving.org/urn:nbn:de:0307-20210328-000-2">https://nbn-resolving.org/urn:nbn:de:0307-20210328-000-2</a></em><em> (URN)</em></li>
+	<li><em>KartDok - Repositorium Kartographie, </em><a href="https://doi.org/10.48711/20220101-000"><em>https://doi.org/10.48711/20220101-000</em></a><em> (DOI)</em></li>
+	<li><em>KartDok - Repositorium Kartographie, <a href="https://nbn-resolving.org/urn:nbn:de:0307-20220101-001-2">https://nbn-resolving.org/urn:nbn:de:0307-20220101-001-2</a></em><em> (URN)</em></li>
 </ul>
 
 <p><strong>OAI-Schnittstelle zum Metadata Harvesting unter:</strong></p>
@@ -52,5 +52,4 @@
 <p><a href="https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider">https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider</a></p>
 
 <p> </p>
-</div>
-</section><meta><log lastEditor="admin-ro" date="2021-10-21" time="17:13" /></meta></MyCoReWebPage>
+</div></section><meta><log lastEditor="admin-ro" date="2022-01-11" time="16:57" /></meta></MyCoReWebPage>

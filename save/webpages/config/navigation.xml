@@ -93,7 +93,7 @@
             <label xml:lang="en">Submit as expert</label>
         </item>
         <item href="/content/publish/author_notes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-            <label xml:lang="de">Hinweise für Autor/-innen</label>
+            <label xml:lang="de">Hinweise für Publizierende</label>
             <label xml:lang="en">Notes for authors</label>
         </item>
         <item href="/content/publish/policy.xml" type="intern" replaceMenu="false" constrainPopUp="false">
