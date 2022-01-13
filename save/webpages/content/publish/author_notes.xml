@@ -27,13 +27,13 @@
 <h3><a id="1.1" name="1.1">1.1) Publikationsworkflow</a></h3>
 
 <ul>
-	<li style="margin-left: 40px;">Um den Publikationsservice <strong>KartDok nutzen</strong> zu können, müssen Sie sich in KartDok <em><strong>einmalig <a href="/kartdok/authorization/new-author.xed?action=register">registrieren</a></strong></em>. Nach erfolgter Registrierung haben Sie als Inhaber:in der jeweiligen Urheberrechte die Möglichkeit, in Übereinstimmung mit dieser verbindlichen <a href="policy.xml">Publikationsleitlinie</a> beliebig viele Dokumente auf KartDok zu veröffentlichen.</li>
-	<li style="margin-left: 40px;">Den <strong>Publikationsvorgang starten</strong> Sie bitte durch Ihre <strong><em><a href="/kartdok/servlets//MCRLoginServlet?url=../content/index.xmll">Anmeldung</a> (Login)</em></strong> am Server. Danach stehen Ihnen unter dem Menüpunkt „<strong><em>Dokument einreichen</em></strong>“ unsere Web-Formulare zur Übermittlung Ihrer Dokumente an KartDok zur Verfügung.</li>
+	<li style="margin-left: 40px;">Um den Publikationsservice <strong>KartDok nutzen</strong> zu können, müssen Sie sich in KartDok <em><strong>einmalig <a href="/authorization/new-author.xed?action=register">registrieren</a></strong></em>. Nach erfolgter Registrierung haben Sie als Inhaber:in der jeweiligen Urheberrechte die Möglichkeit, in Übereinstimmung mit dieser verbindlichen <a href="policy.xml">Publikationsleitlinie</a> beliebig viele Dokumente auf KartDok zu veröffentlichen.</li>
+	<li style="margin-left: 40px;">Den <strong>Publikationsvorgang starten</strong> Sie bitte durch Ihre <strong><em><a href="/servlets//MCRLoginServlet?url=../content/index.xmll">Anmeldung</a> (Login)</em></strong> am Server. Danach stehen Ihnen unter dem Menüpunkt „<strong><em>Dokument einreichen</em></strong>“ unsere Web-Formulare zur Übermittlung Ihrer Dokumente an KartDok zur Verfügung.</li>
 	<li style="margin-left: 40px;">Im <strong>Web-Formular</strong> können Sie die <strong><em>bibliographischen Metadaten Ihres Beitrags erfassen und speichern</em></strong>. Für den <em><strong>Upload Ihres Dokuments</strong></em> nutzen Sie bitte ebenfalls dieses Web-Formular.</li>
 	<li style="margin-left: 40px;">Den vollständig ausgefüllten und mit Ihrer (digitalen) Unterschrift versehenen <strong>Publikationsvertrag</strong> im Dateiformat PDF senden Sie bitte<strong><em> per E-Mail an</em></strong>: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>.
 	<ul>
 		<li style="margin-left: 40px;"><a href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrag (PDF)</a></li>
-		<li style="margin-left: 40px;"><a href="/kartdok/content/publish/../rights/hinweise_kartdok_publikationsvertrag.pdf">Hinweise zum Publikationsvertrag (PDF)</a></li>
+		<li style="margin-left: 40px;"><a href="../rights/hinweise_kartdok_publikationsvertrag.pdf">Hinweise zum Publikationsvertrag (PDF)</a></li>
 	</ul>
 	</li>
 	<li style="margin-left: 40px;">Die <strong>Freischaltung der eingereichten Publikation</strong> dauert im Regelfall ca. eine Woche. Bitte beachten Sie, dass die von Ihnen zur Veröffentlichung vorgesehenen Beiträge erst nach formaler und inhaltlicher Prüfung auf KartDok freigeschaltet werden.</li>
@@ -158,13 +158,13 @@
 <h3><a id="1.1" name="1.1">1.1) Publikationsworkflow</a></h3>
 
 <ul>
-	<li style="margin-left: 40px;">Um den Publikationsservice <strong>KartDok nutzen</strong> zu können, müssen Sie sich in KartDok <em><strong>einmalig <a href="/kartdok/authorization/new-author.xed?action=register">registrieren</a></strong></em>. Nach erfolgter Registrierung haben Sie als Inhaber:in der jeweiligen Urheberrechte die Möglichkeit, in Übereinstimmung mit dieser verbindlichen <a href="policy.xml">Publikationsleitlinie</a> beliebig viele Dokumente auf KartDok zu veröffentlichen.</li>
-	<li style="margin-left: 40px;">Den <strong>Publikationsvorgang starten</strong> Sie bitte durch Ihre <strong><em><a href="/kartdok/servlets//MCRLoginServlet?url=../content/index.xmll">Anmeldung</a> (Login)</em></strong> am Server. Danach stehen Ihnen unter dem Menüpunkt „<strong><em>Dokument einreichen</em></strong>“ unsere Web-Formulare zur Übermittlung Ihrer Dokumente an KartDok zur Verfügung.</li>
+	<li style="margin-left: 40px;">Um den Publikationsservice <strong>KartDok nutzen</strong> zu können, müssen Sie sich in KartDok <em><strong>einmalig <a href="/authorization/new-author.xed?action=register">registrieren</a></strong></em>. Nach erfolgter Registrierung haben Sie als Inhaber:in der jeweiligen Urheberrechte die Möglichkeit, in Übereinstimmung mit dieser verbindlichen <a href="policy.xml">Publikationsleitlinie</a> beliebig viele Dokumente auf KartDok zu veröffentlichen.</li>
+	<li style="margin-left: 40px;">Den <strong>Publikationsvorgang starten</strong> Sie bitte durch Ihre <strong><em><a href="/servlets//MCRLoginServlet?url=../content/index.xmll">Anmeldung</a> (Login)</em></strong> am Server. Danach stehen Ihnen unter dem Menüpunkt „<strong><em>Dokument einreichen</em></strong>“ unsere Web-Formulare zur Übermittlung Ihrer Dokumente an KartDok zur Verfügung.</li>
 	<li style="margin-left: 40px;">Im <strong>Web-Formular</strong> können Sie die <strong><em>bibliographischen Metadaten Ihres Beitrags erfassen und speichern</em></strong>. Für den <em><strong>Upload Ihres Dokuments</strong></em> nutzen Sie bitte ebenfalls dieses Web-Formular.</li>
 	<li style="margin-left: 40px;">Den vollständig ausgefüllten und mit Ihrer (digitalen) Unterschrift versehenen <strong>Publikationsvertrag</strong> im Dateiformat PDF senden Sie bitte<strong><em> per E-Mail an</em></strong>: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>.
 	<ul>
 		<li style="margin-left: 40px;"><a href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrag (PDF)</a></li>
-		<li style="margin-left: 40px;"><a href="/kartdok/content/publish/../rights/hinweise_kartdok_publikationsvertrag.pdf">Hinweise zum Publikationsvertrag (PDF)</a></li>
+		<li style="margin-left: 40px;"><a href="../rights/hinweise_kartdok_publikationsvertrag.pdf">Hinweise zum Publikationsvertrag (PDF)</a></li>
 	</ul>
 	</li>
 	<li style="margin-left: 40px;">Die <strong>Freischaltung der eingereichten Publikation</strong> dauert im Regelfall ca. eine Woche. Bitte beachten Sie, dass die von Ihnen zur Veröffentlichung vorgesehenen Beiträge erst nach formaler und inhaltlicher Prüfung auf KartDok freigeschaltet werden.</li>
