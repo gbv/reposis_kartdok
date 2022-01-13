@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="Kontakt"><div class="row">
-<div class="col-md-10" lang="de">
+<div class="col-md-12" lang="de">
 <h1>Kontakt</h1>
 
 <p> </p>
@@ -54,57 +54,19 @@ Internet: <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-r
 E-Mail: <a href="mailto:dms-list@lists.gbv.de">dms-list@lists.gbv.de</a></div>
 </div>
 </div>
-</section><section xml:lang="en" title="Contact"><h1>Contact</h1>
-
-<p> </p>
-
-<h2>Contact form</h2>
-
-<p>Please use our contact form for questions, comments, suggestions, etc.:</p>
-
-<p><strong><a href=".//contact.xed">Contact form</a></strong></p>
-
-<p> </p>
-
-<h2>Contact details</h2>
-
-<h3>Head of the Map Department</h3>
-
-<div>Wolfgang Crom<br />
+</section><section xml:lang="en" title="Contact"><div>
+<h1>Contact</h1><p> </p><h2>Contact form</h2><p>Please use our contact form for questions, comments, suggestions, etc.:</p><p><strong><a href=".//contact.xed">Contact form</a></strong></p><p> </p><h2>Contact details</h2><h3>Head of the Map Department</h3><div>Wolfgang Crom<br />
 Email: <a href="mailto:wolfgang.crom@sbb.spk-berlin.de">wolfgang.crom@sbb.spk-berlin.de</a><br />
-Phone: +49 30 266 435400</div>
-
-<div> </div>
-
-<h3>Deputy head</h3>
-
-<div>Dr. Markus Heinz<br />
+Phone: +49 30 266 435400</div><div> </div><h3>Deputy head</h3><div>Dr. Markus Heinz<br />
 Email: <a href="mailto:markus.heinz@sbb.spk-berlin.de">markus.heinz@sbb.spk-berlin.de</a><br />
-Phone: +49 30 266 435500</div>
-
-<div> </div>
-
-<h3>Office</h3>
-
-<div>Map Department<br />
+Phone: +49 30 266 435500</div><div> </div><h3>Office</h3><div>Map Department<br />
 Email: <a href="mailto:kartenabt@sbb.spk-berlin.de">kartenabt@sbb.spk-berlin.de</a><br />
 Phone: +49 30 266 435401<br />
-Fax: +49 30 266 335401</div>
-
-<p> </p>
-
-<h3>Technical operator</h3>
-
-<p>Questions about the repository framework <em>MyCoRe</em> and the database server can be answered by the</p>
-
-<div>Verbundzentrale des GBV (VZG)<br />
+Fax: +49 30 266 335401</div><p> </p><h3>Technical operator</h3><p>Questions about the repository framework <em>MyCoRe</em> and the database server can be answered by the</p><div>Verbundzentrale des GBV (VZG)<br />
 Platz der Göttinger Sieben 1<br />
 D-37073 Göttingen<br />
 Phone: +49 551 39 5207<br />
 Fax: +49 551 39 13980<br />
 Digitale Bibliothek, VZG-Reposis<br />
 Web: <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service </a><br />
-Email: <a href="mailto:dms-list@lists.gbv.de">dms-list@lists.gbv.de</a></div>
-
-<p> </p>
-</section><meta><log lastEditor="admin-ro" date="2021-10-21" time="15:14" /></meta></MyCoReWebPage>
+Email: <a href="mailto:dms-list@lists.gbv.de">dms-list@lists.gbv.de</a></div><p> </p></div></section><meta><log lastEditor="admin-ro" date="2022-01-12" time="17:41" /></meta></MyCoReWebPage>

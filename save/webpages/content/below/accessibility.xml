@@ -31,4 +31,37 @@ Abteilung IDM 3</div>
 <div>D-10785 Berlin</div>
 </div>
 </div>
-</section><section xml:lang="en" title=" Declaration on accessibility"><div><h1>Declaration on Accessibility</h1><p>The English version for this page is currently in progress.</p><p> </p><p>Um eine weitestgehende Barrierefreiheit zu ermöglichen, ist die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das <a href="https://www.gesetze-im-internet.de/bgg/">Behindertengleichstellungsgesetz</a> (BGG) sowie die <a href="https://www.gesetze-im-internet.de/bitv_2_0/index.html">Barrierefreie-Informationstechnik-Verordnung</a> (BITV 2.0).</p><p>Bereits in der Vergangenheit haben wir, für unterschiedliche Bereiche dieser Website, ein entsprechendes Prüfverfahren durchführen lassen. Vor diesem Hintergrund wird für die Website der Staatsbibliothek zu Berlin baldmöglichst ein aktualisierter (manueller), von der W3C Web Accessibility Initiative (WAI) entwickelter, <a class="extern" href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test </a> durchgeführt werden.</p><h2>Stand der Vereinbarkeit mit den Anforderungen</h2><p>Diese Website befindet sich im Aufbau. Beim einen vorläufige BITV-Test über die funktionale Teile und das Design sind unterschiedlichste technischen Defizite und Mängel identifiziert worden, die eine barrierefreie Nutzung der Webseite erschweren. Diese sind in dem <a href="accessibility_test_mir.xml">Protokoll</a> vom Test aufgelistet und werden sukzessive behoben.</p><p>Diese Erklärung wurde am 08.07.2021 erstellt.</p><h2>Möglichkeiten der Kontaktaufnahme</h2><p>Falls Sie der Meinung sind, dass die Barrierefreiheit in unserem Webangebot nicht ausreichend umgesetzt wurde, bitten wir Sie um Kontaktaufnahme. Wir versuchen, den Mangel schnellstmöglich zu beheben.</p><p>Bitte wenden Sie sich dazu per E-Mail an: <a href="mailto:bitv@sbb.spk-berlin.de">bitv@sbb.spk-berlin.de</a></p><p>oder per Post an:</p><div>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</div><div>Abteilung IDM 3</div><div>Potsdamer Str. 33</div><div>D-10785 Berlin</div></div></section><meta><log lastEditor="admin-ro" date="2021-10-01" time="13:21" /></meta></MyCoReWebPage>
+</section><section xml:lang="en" title=" Declaration on accessibility"><div>
+<h1>Declaration on Accessibility</h1>
+
+<p>The English version for this page is currently in progress.</p>
+
+<p> </p>
+
+<p>Um eine weitestgehende Barrierefreiheit zu ermöglichen, ist die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das <a href="https://www.gesetze-im-internet.de/bgg/">Behindertengleichstellungsgesetz</a> (BGG) sowie die <a href="https://www.gesetze-im-internet.de/bitv_2_0/index.html">Barrierefreie-Informationstechnik-Verordnung</a> (BITV 2.0).</p>
+
+<p>Bereits in der Vergangenheit haben wir, für unterschiedliche Bereiche dieser Website, ein entsprechendes Prüfverfahren durchführen lassen. Vor diesem Hintergrund wird für die Website der Staatsbibliothek zu Berlin baldmöglichst ein aktualisierter (manueller), von der W3C Web Accessibility Initiative (WAI) entwickelter, <a class="extern" href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test </a> durchgeführt werden.</p>
+
+<h2>Stand der Vereinbarkeit mit den Anforderungen</h2>
+
+<p>Diese Website befindet sich im Aufbau. Beim einen vorläufige BITV-Test über die funktionale Teile und das Design sind unterschiedlichste technischen Defizite und Mängel identifiziert worden, die eine barrierefreie Nutzung der Webseite erschweren. Diese sind in dem <a href="accessibility_test_mir.xml">Protokoll</a> vom Test aufgelistet und werden sukzessive behoben.</p>
+
+<p>Diese Erklärung wurde am 08.07.2021 erstellt.</p>
+
+<h2>Möglichkeiten der Kontaktaufnahme</h2>
+
+<p>Falls Sie der Meinung sind, dass die Barrierefreiheit in unserem Webangebot nicht ausreichend umgesetzt wurde, bitten wir Sie um Kontaktaufnahme. Wir versuchen, den Mangel schnellstmöglich zu beheben.</p>
+
+<p>Bitte wenden Sie sich dazu per E-Mail an: <a href="mailto:bitv@sbb.spk-berlin.de">bitv@sbb.spk-berlin.de</a></p>
+
+<p>oder per Post an:</p>
+
+<div>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</div>
+
+<div>Abteilung IDM 3</div>
+
+<div>Potsdamer Str. 33</div>
+
+<div>D-10785 Berlin</div>
+</div>
+</section><meta><log lastEditor="admin-ro" date="2022-01-12" time="17:43" /></meta></MyCoReWebPage>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="Impressum"><div class="row">
-<div class="col-md-10" lang="de">
+<div class="col-md-12" lang="de">
 <h1>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</h1>
 
 <p> </p>
@@ -89,4 +89,5 @@ Unter den Linden 8<br />
 D-10117 Berlin</div>
 
 <div>Email: <a href="mailto:kartenabt@sbb.spk-berlin.de">kartenabt@sbb.spk-berlin.de</a></div>
-</div></section><meta><log lastEditor="admin-ro" date="2021-12-21" time="19:18" /></meta></MyCoReWebPage>
+</div>
+</section><meta><log lastEditor="admin-ro" date="2022-01-12" time="17:41" /></meta></MyCoReWebPage>

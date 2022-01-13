@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="Nutzungsbedingungen"><div class="row">
-<div class="col-md-10">
+<div class="col-md-12" lang="de">
 <h1>Nutzungsbedingungen für KartDok</h1>
 
 <p> </p>
@@ -52,4 +52,5 @@
 <p><a href="https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider">https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider</a></p>
 
 <p> </p>
-</div></section><meta><log lastEditor="admin-ro" date="2022-01-11" time="16:57" /></meta></MyCoReWebPage>
+</div>
+</section><meta><log lastEditor="admin-ro" date="2022-01-12" time="17:42" /></meta></MyCoReWebPage>
