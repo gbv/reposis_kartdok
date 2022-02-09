@@ -11,6 +11,7 @@
   <xsl:param name="layout" select="'$'"/>
   <xsl:param name="MIR.Workflow.Box" select="'false'"/>
   <xsl:param name="MIR.Workflow.ReviewDerivateRequired" select="'true'"/>
+  <xsl:param name="MIR.Sherpa.API.Key" select="''"/>
   <xsl:param name="CurrentUser"/>
 
   <xsl:param name="MIR.Workflow.Debug" select="'false'"/>
@@ -88,7 +89,7 @@
       <xsl:variable name="message">
         <p>
           <xsl:if test="metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='editor2author']">
-            <xsl:value-of select="'Ihre Einreichung wurde von der Leopoldina-Bibliothek mit folgender Anmerkung zurückgewiesen:'" /><br />
+            <xsl:value-of select="'Ihre Einreichung wurde vom FID Karten mit folgender Anmerkung zurückgewiesen:'" /><br />
             <span class="pl-4">
               <xsl:value-of select="metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='editor2author']"/>
             </span>
@@ -118,6 +119,15 @@
                 </xsl:call-template>
               </xsl:otherwise>
             </xsl:choose>
+            <xsl:if test="string-length($MIR.Sherpa.API.Key)&gt;0">
+              <xsl:variable name="issn"
+                            select="/mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:relatedItem/mods:identifier[@type='issn']/text()"/>
+              <xsl:if test="string-length($issn)&gt;0">
+                <li data-sherpainfo-issn="{$issn}">
+                  <xsl:value-of select="i18n:translate('mir.workflow.sherpa.loading')" /><span class="spinner-grow spinner-grow-sm" role="status"></span>
+                </li>
+              </xsl:if>
+            </xsl:if>
           </ul>
         </p>
       </xsl:variable>
