@@ -83,14 +83,9 @@
                 id="searchInput"
                 type="text"
                 aria-label="Search" />
-              <xsl:choose>
-                <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-                  <input name="owner" type="hidden" value="createdby:*" />
-                </xsl:when>
-                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-                </xsl:when>
-              </xsl:choose>
+              <xsl:if test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                <input name="owner" type="hidden" value="createdby:*" />
+              </xsl:if>
               <button type="submit" class="btn btn-primary-inverted my-2 my-sm-0">
                 <i class="fas fa-search"></i>
               </button>
