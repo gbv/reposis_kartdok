@@ -55,7 +55,7 @@
         <li class="nav-item dropdown">
           <xsl:if test="$loaded_navigation_xml/menu[@id='user']//item[@href = $browserAddress ]">
             <xsl:attribute name="class">
-              <xsl:value-of select="'active'" />
+              <xsl:value-of select="'nav-item dropdown active'" />
             </xsl:attribute>
           </xsl:if>
           <a id="currentUser" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
@@ -276,6 +276,7 @@
       }
     </script>
     <script src="{$WebApplicationBaseURL}js/mir/session-polling.js"></script>
+    <script src="{$WebApplicationBaseURL}js/mir/sherpa.js"></script>
     <script src="{$WebApplicationBaseURL}modules/webtools/upload/js/upload-api.js"></script>
     <script src="{$WebApplicationBaseURL}modules/webtools/upload/js/upload-gui.js"></script>
     <script src='https://www.google.com/recaptcha/api.js?hl={$CurrentLang}'></script>
