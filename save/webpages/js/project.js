@@ -46,6 +46,19 @@ $(document).ready(function() {
     return true;
   });
 
+  $.cookieBar({
+    fixed: true,
+    message: 'Auf den Seiten von KartDok werden zur Erhöhung des Bedienungskomforts Cookies verwendet. Mit der Nutzung dieser Seiten erklären Sie, dass Sie die rechtlichen Hinweise gelesen haben und akzeptieren.',
+    acceptText: 'Akzeptieren',
+    policyButton: true,
+    policyText: 'Hinweise zum Datenschutz',
+    policyURL: '/content/below/rights.xml',
+    expireDays: 1,
+    zindex: '356',
+    domain: 'kartdok.staatsbibliothek-berlin.de',
+    referrer: 'kartdok.staatsbibliothek-berlin.de'
+  });
+
   // replace placeholder USERNAME with username
   var userID = $("#currentUser strong").html();
   var localHref = 'http://localhost:18041/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';

@@ -164,6 +164,8 @@
       </a>
     </div>
 
+    <script type="text/javascript" src="{$WebApplicationBaseURL}js/jquery.cookiebar.js"></script>
+
     <!-- Matomo -->
     <xsl:if test="$piwikID &gt; 0">
       <script>
