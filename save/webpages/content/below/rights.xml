@@ -5,26 +5,82 @@
 
 <p> </p>
 
+<div><strong><a href="#1">1) Allgemeine Datenschutzaspekte der Staatsbibliothek zu Berlin sowie der Nutzung von KartDok</a><br />
+<a href="#2">2) Spezifische Datenschutzaspekte der Nutzung von KartDok</a></strong></div>
+
+<div> </div>
+
 <p>Als Trägerin des von der <a href="https://www.dfg.de/">Deutschen Forschungsgemeinschaft</a> (DFG) geförderten <a href="https://kartographie.staatsbibliothek-berlin.de/">Fachinformationsdienstes Kartographie und Geobasisdaten</a> (FID Karten) ist es der <a href="https://staatsbibliothek-berlin.de/">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</a> ein vordringliches Anliegen, verantwortungsvoll mit Ihren persönlichen Daten umzugehen und bei allen Datenverarbeitungsprozessen die Prinzipien insbesondere von Integrität, Vertraulichkeit, Zweckbindung und Datensparsamkeit zu beachten. Im Folgenden möchten wir Ihnen daher die wichtigsten datenschutzrechtlich relevanten Aspekte der Nutzung von <em>KartDok - Repositorium Kartographie</em> (nachfolgend <em>KartDok</em> genannt) sowie der dort verfügbaren Serviceangebote erläutern.</p>
 
 <p> </p>
 
-<h2>Allgemeine Datenschutzaspekte der Staatsbibliothek zu Berlin sowie der Nutzung von KartDok</h2>
+<h2><a id="1" name="1">1) Allgemeine Datenschutzaspekte der Staatsbibliothek zu Berlin sowie der Nutzung von KartDok</a></h2>
 Diese Informationen finden Sie in der <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy">Datenschutzerklärung der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</a>.
 
 <p> </p>
 
-<h2>Spezifische Datenschutzaspekte der Nutzung von KartDok</h2>
+<h2><a id="2" name="2">2) Spezifische Datenschutzaspekte der Nutzung von KartDok</a></h2>
 
-<p>Zwar ist für Ansicht und Download der auf KartDok publizierten Inhalte keine Registrierung erforderlich, dennoch werden auch dabei personenbezogene Daten in der Absicht gespeichert, statistische Informationen über die Häufigkeit des Zugriffs auf einzelne Beiträge zu gewinnen. Zu diesem Zweck nutzt KartDok das von der <a href="https://www.gbv.de/Verbundzentrale">Verbundzentrale des Gemeinsamen Bibliotheksverbundes</a> (VZG, Platz der Göttinger Sieben 1, D-37073 Göttingen, <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>) betriebene Instrument <a href="https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2020/pdf/Borchert_20201111_ePusta_Einfuehrung.pdf">ePuSta (PDF)</a> (electronic Publications Statistics).</p>
+<div style="margin-left: 40px;"><a href="#2.1">2.1) Nutzung von <em>ePuSta</em></a></div>
 
-<p>Für die Nutzung von KartDok als Publikationsplattform für die Open Access-Veröffentlichung ausschließlich von Texten, Forschungsdaten, Videoaufzeichnungen und Tondokumenten für den Bereich der Kartographie und Geovisualisierung ist eine persönliche Registrierung verpflichtend, die gemäß Art. 4 Nr. 11 der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">EU-Datenschutzgrundverordnung</a> (DSGVO) von der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz als Einwilligung in die Verarbeitung der angegebenen personenbezogen Daten betrachtet wird. Für die Registrierung bei KartDok sind Angaben zu Vor- und Nachname der Autorin bzw. des Autors oder einer anderen Person, die mit der Veröffentlichung eines Beitrags betraut wurde (z.B. Sekretariat), sowie die Nennung einer E-Mail-Adresse obligatorisch. Zusätzlich werden serverseitig Datum und Uhrzeit des letzten Logins des jeweiligen Kontos protokolliert. Auf die personenbezogenen Daten in den serverbasierten Nutzungskonten haben neben den Verantwortlichen auf Seiten des Auftragsdatenverarbeiters auch ein mit Administratorrechten ausgestatteter Mitarbeiter von KartDok Zugriff. Die im Zuge der Erstregistrierung sowie im Zuge der Veröffentlichung der eingereichten Dokumente versandten E-Mails sind dagegen von allen Angehörigen des KartDok-Teams einsehbar. Da aus der Speicherung dieser personenbezogenen Daten mit größter Wahrscheinlichkeit kein hohes Risiko für Rechte und Freiheiten der betroffenen Person zu erwarten ist, kann eine Datenschutz-Folgenabschätzung hier unterbleiben.</p>
+<div style="margin-left: 40px;"><a href="#2.2">2.2) Nutzung von <em>Google reCAPTCHA</em></a></div>
+
+<div style="margin-left: 40px;"><a href="#2.3">2.3) Datenerhebung bei Registrierung, Anmeldung und Metadatenerfassung</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.4">2.4) Verarbeitung der Anmeldedaten</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.5">2.5) Datenübertragung und Speicherung personenbezogener Daten</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.6">2.6) Widerruf der Einwilligung und Löschung personenbezogener Daten</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.7">2.7) Verantwortliche und Kontaktmöglichkeiten</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.8">2.8) Ansprüche und Rechte</a></div>
+
+<p> </p>
+
+<h3><a id="2.1" name="2.1">2.1) Nutzung von <em>ePuSta</em></a></h3>
+
+<p>Zwar ist für Ansicht und Download der auf KartDok publizierten Inhalte keine Registrierung erforderlich, dennoch werden auch dabei personenbezogene Daten in der Absicht gespeichert, statistische Informationen über die Häufigkeit des Zugriffs auf einzelne Beiträge zu gewinnen. Zu diesem Zweck nutzt KartDok das von der <a href="https://www.gbv.de/Verbundzentrale">Verbundzentrale des Gemeinsamen Bibliotheksverbundes</a> (VZG, Platz der Göttinger Sieben 1, D-37073 Göttingen, <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>) betriebene Instrument <a href="https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2020/pdf/Borchert_20201111_ePusta_Einfuehrung.pdf"><em>ePuSta</em> (PDF, 647 KB)</a> (electronic Publications Statistics).</p>
+
+<p> </p>
+
+<h3><a id="2.2" name="2.2">2.2) Nutzung von <em>Google reCAPTCHA</em></a></h3>
+
+<p>Wir nutzen „Google reCAPTCHA“ (im Folgenden „reCAPTCHA“) auf dieser Website. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland. Mit <em>reCAPTCHA</em> soll überprüft werden, ob die Dateneingabe auf dieser Website (z. B. in einem Kontaktformular) durch einen Menschen oder durch ein automatisiertes Programm erfolgt. Hierzu analysiert <em>reCAPTCHA</em> das Verhalten des Websitebesuchers anhand verschiedener Merkmale. Diese Analyse beginnt automatisch, sobald der Websitebesucher die Website betritt. Zur Analyse wertet <em>reCAPTCHA</em> verschiedene Informationen aus (z. B. IP-Adresse, Verweildauer des Websitebesuchers auf der Website oder vom Nutzer getätigte Mausbewegungen). Die bei der Analyse erfassten Daten werden an Google weitergeleitet.</p>
+
+<p>Die <em>reCAPTCHA</em>-Analysen laufen vollständig im Hintergrund. Websitebesucher werden nicht darauf hingewiesen, dass eine Analyse stattfindet.</p>
+
+<p>Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">DSGVO</a>. Der Websitebetreiber hat ein berechtigtes Interesse daran, seine Webangebote vor missbräuchlicher automatisierter Ausspähung und vor Spam zu schützen. Weitere Informationen zu Google <em>reCAPTCHA</em> entnehmen Sie den Google-Datenschutzbestimmungen und den Google Nutzungsbedingungen unter folgenden Links:</p>
+
+<ul>
+	<li><a href="https://policies.google.com/privacy?hl=de">https://policies.google.com/privacy?hl=de</a> und</li>
+	<li><a href="https://policies.google.com/terms?hl=de">https://policies.google.com/terms?hl=de</a>.</li>
+</ul>
+
+<p> </p>
+
+<h3><a id="2.3" name="2.3">2.3) Datenerhebung bei Registrierung, Anmeldung und Metadatenerfassung</a></h3>
+
+<p>Für die Nutzung von KartDok als Publikationsplattform für die Open Access-Veröffentlichung ausschließlich von Texten, Forschungsdaten, Videoaufzeichnungen und Tondokumenten für den Bereich der Kartographie und Geovisualisierung ist eine persönliche Registrierung verpflichtend, die gemäß Art. 4 Nr. 11 der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">EU-Datenschutzgrundverordnung</a> (DSGVO) von der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz als Einwilligung in die Verarbeitung der angegebenen personenbezogen Daten betrachtet wird. Für die Registrierung bei KartDok sind Angaben zu Vor- und Nachname der Autorin bzw. des Autors oder einer anderen Person, die mit der Veröffentlichung eines Beitrags betraut wurde (z. B. Sekretariat), sowie die Nennung einer E-Mail-Adresse obligatorisch. Zusätzlich werden serverseitig Datum und Uhrzeit des letzten Logins des jeweiligen Kontos protokolliert. Auf die personenbezogenen Daten in den serverbasierten Nutzungskonten haben neben den Verantwortlichen auf Seiten des Auftragsdatenverarbeiters auch ein mit Administratorrechten ausgestatteter Mitarbeiter von KartDok Zugriff. Die im Zuge der Erstregistrierung sowie im Zuge der Veröffentlichung der eingereichten Dokumente versandten E-Mails sind dagegen von allen Angehörigen des KartDok-Teams einsehbar. Da aus der Speicherung dieser personenbezogenen Daten mit größter Wahrscheinlichkeit kein hohes Risiko für Rechte und Freiheiten der betroffenen Person zu erwarten ist, kann eine Datenschutz-Folgenabschätzung hier unterbleiben.</p>
 
 <p>Daneben werden zum Zwecke der Open Access-Publikation von Beiträgen für den Bereich der Kartographie und Geovisualisierung diese Beiträge formal wie inhaltlich beschreibende Metadaten abgefragt und gegebenenfalls mit der von der Deutschen Nationalbibliothek (DNB) betriebenen allgemein zugänglichen <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">Gemeinsamen Normdatei</a> (GND), mit dem allgemein zugänglichen <a href="https://orcid.org/">ORCID-iD-Verzeichnis</a> der Non-Profit-Organisation ORCID oder mit der als Gemeinschaftsprojekt von mehrerer Nationalbibliotheken und Bibliotheksverbünde durch das Online Computer Library Center (OCLC) betriebenen allgemein zugänglichen internationalen Normdatei <a href="https://viaf.org/">Virtual International Authority File (VIAF)</a> verknüpft. Sämtliche in diesem Zusammenhang zu machenden Angaben sind freiwillig und stehen mit der sich aus der Nutzung von KartDok ergebenden Absicht, eigene Forschungsergebnisse der Öffentlichkeit bekannt zu machen, in Übereinstimmung. Die Erhebung sonstiger personenbezogener Daten im Rahmen des Anmeldevorgangs (IP-Adresse, Datum und Uhrzeit der Registrierung) dient dazu, Missbrauch der Dienste zu verhindern.</p>
 
+<p> </p>
+
+<h3><a id="2.4" name="2.4">2.4) Verarbeitung der Anmeldedaten</a></h3>
+
 <p>Rechtsgrundlage für die Verarbeitung der Anmeldedaten ist Art. 6 Abs. 1 lit. e <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">DSGVO</a> i.V.m. § 3 <a href="https://www.gesetze-im-internet.de/bdsg_2018/index.html">BDSG</a>. Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Website an den Rechner des Nutzers zu ermöglichen. Hierfür muss die IP-Adresse des Nutzers für die Dauer der Sitzung gespeichert bleiben. Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Website sicherzustellen. Zudem dienen uns die Daten zur Optimierung der Website und zur Sicherstellung der Sicherheit unserer informationstechnischen Systeme. Eine Auswertung der Daten zu Marketingzwecken findet in diesem Zusammenhang nicht statt. In diesen Zwecken liegt auch das berechtigte Interesse von KartDok an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">DSGVO</a>.</p>
 
+<p> </p>
+
+<h3><a id="2.5" name="2.5">2.5) Datenübertragung und Speicherung personenbezogener Daten</a></h3>
+
 <p>Alle erhobenen personenbezogenen Daten werden auf Serverinfrastrukturen der <a href="https://www.gbv.de/Verbundzentrale">Verbundzentrale des Gemeinsamen Bibliotheksverbundes</a> (VZG, Platz der Göttinger Sieben 1, D-37073 Göttingen, <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>) gespeichert. Die gesamte Datenübertragung erfolgt abhörsicher verschlüsselt über den Internet-Kommunikationsstandard <em>Hypertext Transfer Protocol Secure</em> (HTTPS). Eine darüberhinausgehende Weitergabe personenbezogener Daten erfolgt nicht. Sämtliche personenbezogenen Daten werden auf unbestimmte Zeit, höchstens jedoch bis zum Widerruf der Einwilligung zu deren Nutzung – in der Regel in Form der Löschung des betreffenden Nutzungskontos – gespeichert.</p>
+
+<p> </p>
+
+<h3><a id="2.6" name="2.6">2.6) Widerruf der Einwilligung und Löschung personenbezogener Daten</a></h3>
 
 <p>Die dauerhafte Löschung des eigenen Nutzungskontos bei KartDok kann jederzeit durch formlose Nachricht beauftragt werden:</p>
 
@@ -34,6 +90,10 @@ Diese Informationen finden Sie in der <a href="https://staatsbibliothek-berlin.
 </ul>
 
 <p>Hierdurch wird ebenfalls ein Widerruf der Einwilligung der Speicherung der während des Registrierungsvorgangs erhobenen personenbezogenen Daten ermöglicht. Die sonstigen im Rahmen des Anmeldevorgangs erhobenen personenbezogenen Daten (IP-Adresse, Datum und Uhrzeit der Registrierung) werden in der Regel nach einer Frist von sieben Tagen nach der Anmeldung gelöscht.</p>
+
+<p> </p>
+
+<h3><a id="2.7" name="2.7">2.7) Verantwortliche und Kontaktmöglichkeiten</a></h3>
 
 <p>Für die Datenerhebung im Rahmen der Nutzung von KartDok als Publikationsplattform ist verantwortlich im Sinne der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">EU-Datenschutzgrundverordnung</a> (DSGVO) und sonstiger datenschutzrechtlicher Bestimmungen:</p>
 
@@ -83,6 +143,8 @@ Diese Informationen finden Sie in der <a href="https://staatsbibliothek-berlin.
 
 <p> </p>
 
+<h3><a id="2.8" name="2.8">2.8) Ansprüche und Rechte</a></h3>
+
 <p>Sie haben Anspruch auf Auskunft über die Sie betreffenden personenbezogenen Daten sowie auf Berichtigung oder Löschung oder auf Einschränkung der Verarbeitung oder – im Falle der Datenverarbeitung aufgrund Ihrer Einwilligung – ein Widerspruchsrecht gegen die Verarbeitung sowie gegebenenfalls ein Recht auf Datenübertragbarkeit.</p>
 
 <p>Außerdem haben Sie das Recht zur Beschwerde bei unserer Datenschutz-Aufsichtsbehörde:</p>
@@ -97,7 +159,7 @@ Diese Informationen finden Sie in der <a href="https://staatsbibliothek-berlin.
 
 <p> </p>
 
-<p><b>Stand: November 2021</b></p>
+<p><b>Stand: 29.04.2022</b></p>
 </div>
 </div>
 </section><section xml:lang="en" title="Privacy Policy"><div>
@@ -107,26 +169,82 @@ Diese Informationen finden Sie in der <a href="https://staatsbibliothek-berlin.
 
 <p> </p>
 
+<div><strong><a href="#1">1) Allgemeine Datenschutzaspekte der Staatsbibliothek zu Berlin sowie der Nutzung von KartDok</a><br />
+<a href="#2">2) Spezifische Datenschutzaspekte der Nutzung von KartDok</a></strong></div>
+
+<div> </div>
+
 <p>Als Trägerin des von der <a href="https://www.dfg.de/">Deutschen Forschungsgemeinschaft</a> (DFG) geförderten <a href="https://kartographie.staatsbibliothek-berlin.de/">Fachinformationsdienstes Kartographie und Geobasisdaten</a> (FID Karten) ist es der <a href="https://staatsbibliothek-berlin.de/">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</a> ein vordringliches Anliegen, verantwortungsvoll mit Ihren persönlichen Daten umzugehen und bei allen Datenverarbeitungsprozessen die Prinzipien insbesondere von Integrität, Vertraulichkeit, Zweckbindung und Datensparsamkeit zu beachten. Im Folgenden möchten wir Ihnen daher die wichtigsten datenschutzrechtlich relevanten Aspekte der Nutzung von <em>KartDok - Repositorium Kartographie</em> (nachfolgend <em>KartDok</em> genannt) sowie der dort verfügbaren Serviceangebote erläutern.</p>
 
 <p> </p>
 
-<h2>Allgemeine Datenschutzaspekte der Staatsbibliothek zu Berlin sowie der Nutzung von KartDok</h2>
+<h2><a id="1" name="1">1) Allgemeine Datenschutzaspekte der Staatsbibliothek zu Berlin sowie der Nutzung von KartDok</a></h2>
 Diese Informationen finden Sie in der <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy">Datenschutzerklärung der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</a>.
 
 <p> </p>
 
-<h2>Spezifische Datenschutzaspekte der Nutzung von KartDok</h2>
+<h2><a id="2" name="2">2) Spezifische Datenschutzaspekte der Nutzung von KartDok</a></h2>
 
-<p>Zwar ist für Ansicht und Download der auf KartDok publizierten Inhalte keine Registrierung erforderlich, dennoch werden auch dabei personenbezogene Daten in der Absicht gespeichert, statistische Informationen über die Häufigkeit des Zugriffs auf einzelne Beiträge zu gewinnen. Zu diesem Zweck nutzt KartDok das von der <a href="https://www.gbv.de/Verbundzentrale">Verbundzentrale des Gemeinsamen Bibliotheksverbundes</a> (VZG, Platz der Göttinger Sieben 1, D-37073 Göttingen, <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>) betriebene Instrument <a href="https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2020/pdf/Borchert_20201111_ePusta_Einfuehrung.pdf">ePuSta (PDF)</a> (electronic Publications Statistics).</p>
+<div style="margin-left: 40px;"><a href="#2.1">2.1) Nutzung von <em>ePuSta</em></a></div>
 
-<p>Für die Nutzung von KartDok als Publikationsplattform für die Open Access-Veröffentlichung ausschließlich von Texten, Forschungsdaten, Videoaufzeichnungen und Tondokumenten für den Bereich der Kartographie und Geovisualisierung ist eine persönliche Registrierung verpflichtend, die gemäß Art. 4 Nr. 11 der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">EU-Datenschutzgrundverordnung</a> (DSGVO) von der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz als Einwilligung in die Verarbeitung der angegebenen personenbezogen Daten betrachtet wird. Für die Registrierung bei KartDok sind Angaben zu Vor- und Nachname der Autorin bzw. des Autors oder einer anderen Person, die mit der Veröffentlichung eines Beitrags betraut wurde (z.B. Sekretariat), sowie die Nennung einer E-Mail-Adresse obligatorisch. Zusätzlich werden serverseitig Datum und Uhrzeit des letzten Logins des jeweiligen Kontos protokolliert. Auf die personenbezogenen Daten in den serverbasierten Nutzungskonten haben neben den Verantwortlichen auf Seiten des Auftragsdatenverarbeiters auch ein mit Administratorrechten ausgestatteter Mitarbeiter von KartDok Zugriff. Die im Zuge der Erstregistrierung sowie im Zuge der Veröffentlichung der eingereichten Dokumente versandten E-Mails sind dagegen von allen Angehörigen des KartDok-Teams einsehbar. Da aus der Speicherung dieser personenbezogenen Daten mit größter Wahrscheinlichkeit kein hohes Risiko für Rechte und Freiheiten der betroffenen Person zu erwarten ist, kann eine Datenschutz-Folgenabschätzung hier unterbleiben.</p>
+<div style="margin-left: 40px;"><a href="#2.2">2.2) Nutzung von <em>Google reCAPTCHA</em></a></div>
+
+<div style="margin-left: 40px;"><a href="#2.3">2.3) Datenerhebung bei Registrierung, Anmeldung und Metadatenerfassung</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.4">2.4) Verarbeitung der Anmeldedaten</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.5">2.5) Datenübertragung und Speicherung personenbezogener Daten</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.6">2.6) Widerruf der Einwilligung und Löschung personenbezogener Daten</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.7">2.7) Verantwortliche und Kontaktmöglichkeiten</a></div>
+
+<div style="margin-left: 40px;"><a href="#2.8">2.8) Ansprüche und Rechte</a></div>
+
+<p> </p>
+
+<h3><a id="2.1" name="2.1">2.1) Nutzung von <em>ePuSta</em></a></h3>
+
+<p>Zwar ist für Ansicht und Download der auf KartDok publizierten Inhalte keine Registrierung erforderlich, dennoch werden auch dabei personenbezogene Daten in der Absicht gespeichert, statistische Informationen über die Häufigkeit des Zugriffs auf einzelne Beiträge zu gewinnen. Zu diesem Zweck nutzt KartDok das von der <a href="https://www.gbv.de/Verbundzentrale">Verbundzentrale des Gemeinsamen Bibliotheksverbundes</a> (VZG, Platz der Göttinger Sieben 1, D-37073 Göttingen, <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>) betriebene Instrument <a href="https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2020/pdf/Borchert_20201111_ePusta_Einfuehrung.pdf"><em>ePuSta</em> (PDF, 647 KB)</a> (electronic Publications Statistics).</p>
+
+<p> </p>
+
+<h3><a id="2.2" name="2.2">2.2) Nutzung von <em>Google reCAPTCHA</em></a></h3>
+
+<p>Wir nutzen „Google reCAPTCHA“ (im Folgenden „reCAPTCHA“) auf dieser Website. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland. Mit <em>reCAPTCHA</em> soll überprüft werden, ob die Dateneingabe auf dieser Website (z. B. in einem Kontaktformular) durch einen Menschen oder durch ein automatisiertes Programm erfolgt. Hierzu analysiert <em>reCAPTCHA</em> das Verhalten des Websitebesuchers anhand verschiedener Merkmale. Diese Analyse beginnt automatisch, sobald der Websitebesucher die Website betritt. Zur Analyse wertet <em>reCAPTCHA</em> verschiedene Informationen aus (z. B. IP-Adresse, Verweildauer des Websitebesuchers auf der Website oder vom Nutzer getätigte Mausbewegungen). Die bei der Analyse erfassten Daten werden an Google weitergeleitet.</p>
+
+<p>Die <em>reCAPTCHA</em>-Analysen laufen vollständig im Hintergrund. Websitebesucher werden nicht darauf hingewiesen, dass eine Analyse stattfindet.</p>
+
+<p>Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">DSGVO</a>. Der Websitebetreiber hat ein berechtigtes Interesse daran, seine Webangebote vor missbräuchlicher automatisierter Ausspähung und vor Spam zu schützen. Weitere Informationen zu Google <em>reCAPTCHA</em> entnehmen Sie den Google-Datenschutzbestimmungen und den Google Nutzungsbedingungen unter folgenden Links:</p>
+
+<ul>
+	<li><a href="https://policies.google.com/privacy?hl=de">https://policies.google.com/privacy?hl=de</a> und</li>
+	<li><a href="https://policies.google.com/terms?hl=de">https://policies.google.com/terms?hl=de</a>.</li>
+</ul>
+
+<p> </p>
+
+<h3><a id="2.3" name="2.3">2.3) Datenerhebung bei Registrierung, Anmeldung und Metadatenerfassung</a></h3>
+
+<p>Für die Nutzung von KartDok als Publikationsplattform für die Open Access-Veröffentlichung ausschließlich von Texten, Forschungsdaten, Videoaufzeichnungen und Tondokumenten für den Bereich der Kartographie und Geovisualisierung ist eine persönliche Registrierung verpflichtend, die gemäß Art. 4 Nr. 11 der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">EU-Datenschutzgrundverordnung</a> (DSGVO) von der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz als Einwilligung in die Verarbeitung der angegebenen personenbezogen Daten betrachtet wird. Für die Registrierung bei KartDok sind Angaben zu Vor- und Nachname der Autorin bzw. des Autors oder einer anderen Person, die mit der Veröffentlichung eines Beitrags betraut wurde (z. B. Sekretariat), sowie die Nennung einer E-Mail-Adresse obligatorisch. Zusätzlich werden serverseitig Datum und Uhrzeit des letzten Logins des jeweiligen Kontos protokolliert. Auf die personenbezogenen Daten in den serverbasierten Nutzungskonten haben neben den Verantwortlichen auf Seiten des Auftragsdatenverarbeiters auch ein mit Administratorrechten ausgestatteter Mitarbeiter von KartDok Zugriff. Die im Zuge der Erstregistrierung sowie im Zuge der Veröffentlichung der eingereichten Dokumente versandten E-Mails sind dagegen von allen Angehörigen des KartDok-Teams einsehbar. Da aus der Speicherung dieser personenbezogenen Daten mit größter Wahrscheinlichkeit kein hohes Risiko für Rechte und Freiheiten der betroffenen Person zu erwarten ist, kann eine Datenschutz-Folgenabschätzung hier unterbleiben.</p>
 
 <p>Daneben werden zum Zwecke der Open Access-Publikation von Beiträgen für den Bereich der Kartographie und Geovisualisierung diese Beiträge formal wie inhaltlich beschreibende Metadaten abgefragt und gegebenenfalls mit der von der Deutschen Nationalbibliothek (DNB) betriebenen allgemein zugänglichen <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">Gemeinsamen Normdatei</a> (GND), mit dem allgemein zugänglichen <a href="https://orcid.org/">ORCID-iD-Verzeichnis</a> der Non-Profit-Organisation ORCID oder mit der als Gemeinschaftsprojekt von mehrerer Nationalbibliotheken und Bibliotheksverbünde durch das Online Computer Library Center (OCLC) betriebenen allgemein zugänglichen internationalen Normdatei <a href="https://viaf.org/">Virtual International Authority File (VIAF)</a> verknüpft. Sämtliche in diesem Zusammenhang zu machenden Angaben sind freiwillig und stehen mit der sich aus der Nutzung von KartDok ergebenden Absicht, eigene Forschungsergebnisse der Öffentlichkeit bekannt zu machen, in Übereinstimmung. Die Erhebung sonstiger personenbezogener Daten im Rahmen des Anmeldevorgangs (IP-Adresse, Datum und Uhrzeit der Registrierung) dient dazu, Missbrauch der Dienste zu verhindern.</p>
 
+<p> </p>
+
+<h3><a id="2.4" name="2.4">2.4) Verarbeitung der Anmeldedaten</a></h3>
+
 <p>Rechtsgrundlage für die Verarbeitung der Anmeldedaten ist Art. 6 Abs. 1 lit. e <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">DSGVO</a> i.V.m. § 3 <a href="https://www.gesetze-im-internet.de/bdsg_2018/index.html">BDSG</a>. Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Website an den Rechner des Nutzers zu ermöglichen. Hierfür muss die IP-Adresse des Nutzers für die Dauer der Sitzung gespeichert bleiben. Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Website sicherzustellen. Zudem dienen uns die Daten zur Optimierung der Website und zur Sicherstellung der Sicherheit unserer informationstechnischen Systeme. Eine Auswertung der Daten zu Marketingzwecken findet in diesem Zusammenhang nicht statt. In diesen Zwecken liegt auch das berechtigte Interesse von KartDok an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">DSGVO</a>.</p>
 
+<p> </p>
+
+<h3><a id="2.5" name="2.5">2.5) Datenübertragung und Speicherung personenbezogener Daten</a></h3>
+
 <p>Alle erhobenen personenbezogenen Daten werden auf Serverinfrastrukturen der <a href="https://www.gbv.de/Verbundzentrale">Verbundzentrale des Gemeinsamen Bibliotheksverbundes</a> (VZG, Platz der Göttinger Sieben 1, D-37073 Göttingen, <a href="mailto:gbv@gbv.de">gbv@gbv.de</a>) gespeichert. Die gesamte Datenübertragung erfolgt abhörsicher verschlüsselt über den Internet-Kommunikationsstandard <em>Hypertext Transfer Protocol Secure</em> (HTTPS). Eine darüberhinausgehende Weitergabe personenbezogener Daten erfolgt nicht. Sämtliche personenbezogenen Daten werden auf unbestimmte Zeit, höchstens jedoch bis zum Widerruf der Einwilligung zu deren Nutzung – in der Regel in Form der Löschung des betreffenden Nutzungskontos – gespeichert.</p>
+
+<p> </p>
+
+<h3><a id="2.6" name="2.6">2.6) Widerruf der Einwilligung und Löschung personenbezogener Daten</a></h3>
 
 <p>Die dauerhafte Löschung des eigenen Nutzungskontos bei KartDok kann jederzeit durch formlose Nachricht beauftragt werden:</p>
 
@@ -136,6 +254,10 @@ Diese Informationen finden Sie in der <a href="https://staatsbibliothek-berlin.
 </ul>
 
 <p>Hierdurch wird ebenfalls ein Widerruf der Einwilligung der Speicherung der während des Registrierungsvorgangs erhobenen personenbezogenen Daten ermöglicht. Die sonstigen im Rahmen des Anmeldevorgangs erhobenen personenbezogenen Daten (IP-Adresse, Datum und Uhrzeit der Registrierung) werden in der Regel nach einer Frist von sieben Tagen nach der Anmeldung gelöscht.</p>
+
+<p> </p>
+
+<h3><a id="2.7" name="2.7">2.7) Verantwortliche und Kontaktmöglichkeiten</a></h3>
 
 <p>Für die Datenerhebung im Rahmen der Nutzung von KartDok als Publikationsplattform ist verantwortlich im Sinne der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504">EU-Datenschutzgrundverordnung</a> (DSGVO) und sonstiger datenschutzrechtlicher Bestimmungen:</p>
 
@@ -185,6 +307,8 @@ Diese Informationen finden Sie in der <a href="https://staatsbibliothek-berlin.
 
 <p> </p>
 
+<h3><a id="2.8" name="2.8">2.8) Ansprüche und Rechte</a></h3>
+
 <p>Sie haben Anspruch auf Auskunft über die Sie betreffenden personenbezogenen Daten sowie auf Berichtigung oder Löschung oder auf Einschränkung der Verarbeitung oder – im Falle der Datenverarbeitung aufgrund Ihrer Einwilligung – ein Widerspruchsrecht gegen die Verarbeitung sowie gegebenenfalls ein Recht auf Datenübertragbarkeit.</p>
 
 <p>Außerdem haben Sie das Recht zur Beschwerde bei unserer Datenschutz-Aufsichtsbehörde:</p>
@@ -199,5 +323,6 @@ Diese Informationen finden Sie in der <a href="https://staatsbibliothek-berlin.
 
 <p> </p>
 
-<p><b>Stand: November 2021</b></p>
-</div></section><meta><log lastEditor="admin-ro" date="2022-01-12" time="17:42" /></meta></MyCoReWebPage>
+<p><b>Stand: 29.04.2022</b></p>
+</div>
+</section><meta><log lastEditor="admin-ro" date="2022-07-25" time="14:54" /></meta></MyCoReWebPage>
