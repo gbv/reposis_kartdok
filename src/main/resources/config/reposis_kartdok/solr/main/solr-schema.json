@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "replace-field": {
+        "name": "createdby",
+        "type": "string",
+        "stored": false,
+        "docValues": false
+    }
+  },
+  {
+    "replace-field": {
+      "name": "modifiedby",
+      "type": "string",
+      "multiValued": false,
+      "stored": false,
+      "docValues": false
+    }
+  }
+]
