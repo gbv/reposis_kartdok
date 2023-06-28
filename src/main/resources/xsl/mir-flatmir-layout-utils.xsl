@@ -7,7 +7,7 @@
     exclude-result-prefixes="i18n mcrver mcrxsl">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
-  <xsl:param name="piwikID" select="'0'" />
+  <xsl:param name="MIR.Matomo" select="false" />
 
   <xsl:template name="mir.navigation">
 
@@ -167,28 +167,22 @@
     <script type="text/javascript" src="{$WebApplicationBaseURL}js/jquery.cookiebar.js"></script>
 
     <!-- Matomo -->
-    <xsl:if test="$piwikID &gt; 0">
+    <!-- #KARTDOK-184 -->
+    <xsl:if test="contains($MIR.Matomo, 'true')">
       <script>
-        var _paq = _paq || [];
-        _paq.push(['setDoNotTrack', true]);
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['disableCookies']);
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
         (function() {
-        var u="https://matomo.gbv.de/";
-        var objectID = '<xsl:value-of select="//site/@ID" />';
-        if(objectID != "") {
-        _paq.push(["setCustomVariable",1, "object", objectID, "page"]);
-        }
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', '<xsl:value-of select="$piwikID" />']);
-        _paq.push(['setDownloadExtensions', '7z|aac|arc|arj|asf|asx|avi|bin|bz|bz2|csv|deb|dmg|doc|exe|flv|gif|gz|gzip|hqx|jar|jpg|jpeg|js|mp2|mp3|mp4|mpg|mpeg|mov|movie|msi|msp|odb|odf|odg|odp|ods|odt|ogg|ogv|pdf|phps|png|ppt|qt|qtm|ra|ram|rar|rpm|sea|sit|tar|tbz|tbz2|tgz|torrent|txt|wav|wma|wmv|wpd|z|zip']);
+        var u="https://webstats.sbb.berlin/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '76']);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
         })();
       </script>
-      <noscript><p><img src="https://matomo.gbv.de/piwik.php?idsite={$piwikID}" style="border:0;" alt="" /></p></noscript>
     </xsl:if>
-    <!-- End Piwik Code -->
   </xsl:template>
 
   <xsl:template name="getLayoutSearchSolrCore">
