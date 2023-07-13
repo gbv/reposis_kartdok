@@ -34,7 +34,6 @@ messages_fr.resolved.properties
 messages_it.resolved.properties
 deprecated.active.properties
 mycore.active.properties
-mycore.properties
 mycore.resolved.properties
 resources/META-INF/persistence.xml
 data/
