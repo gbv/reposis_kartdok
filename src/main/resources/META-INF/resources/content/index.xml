@@ -2,6 +2,10 @@
 <MyCoReWebPage>
 
     <section xml:lang="de" title="KartDok - Repositorium Kartographie">
+        <head>
+            <meta name="title" content="KartDok - Repositorium Kartographie"/>
+            <meta name='description' content="KartDok - der Dokumentenserver des Fachinformationsdienstes Kartographie und Geobasisdaten an der Staatsbibliothek zu Berlin" />
+        </head>
         <div class="jumbotwo" id="project-index-search" style="margin-top:50px;">
             <div class="row">
                 <div class="col-12 col-md-9 offset-md-2" lang="de">

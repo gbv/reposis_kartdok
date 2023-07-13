@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Kontakt"><div class="row">
+<MyCoReWebPage><section xml:lang="de" title="KartDok – unsere Kontaktdaten">
+	<head>
+		<meta name="title" content="KartDok – unsere Kontaktdaten"/>
+		<meta name='description' content="KartDok – Kontaktdaten von uns und dem technischen Betreiber" />
+	</head>
+<div class="row">
 <div class="col-md-12" lang="de">
 <h1>Kontakt</h1>
 
@@ -56,7 +61,12 @@ Internet: <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-r
 E-Mail: <a href="mailto:dms-list@lists.gbv.de">dms-list@lists.gbv.de</a></div>
 </div>
 </div>
-</section><section xml:lang="en" title="Contact"><div>
+</section><section xml:lang="en" title="KartDok – Our contact details">
+	<head>
+		<meta name="title" content="KartDok – Our contact details"/>
+		<meta name='description' content="KartDok – Contact details from us and the technical operator" />
+	</head>
+<div>
 <h1>Contact</h1>
 
 <p> </p>

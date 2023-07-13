@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Impressum"><div class="row">
+<MyCoReWebPage><section xml:lang="de" title="KartDok – Impressum und Pflichtangaben">
+	<head>
+		<meta name="title" content="KartDok – Impressum und Pflichtangaben"/>
+		<meta name='description' content="KartDok – Impressum und Pflichtangaben zur Anbieterkennzeichnung" />
+	</head>
+<div class="row">
 <div class="col-md-12" lang="de">
 <h1>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</h1>
 
@@ -48,7 +53,13 @@ Unter den Linden 8</div>
 <div>E-Mail: <a href="mailto:kartenabt@sbb.spk-berlin.de">kartenabt@sbb.spk-berlin.de</a></div>
 </div>
 </div>
-</section><section xml:lang="en" title="Imprint"><div>
+</section>
+<section xml:lang="en" title="KartDok – Imprint and mandatory information">
+	<head>
+		<meta name="title" content="KartDok – Imprint and mandatory information"/>
+		<meta name='description' content="KartDok – Imprint and mandatory information for provider identification" />
+	</head>
+<div>
 <h1>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</h1>
 
 <p> </p>

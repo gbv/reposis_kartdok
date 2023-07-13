@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-  <section xml:lang="de" i18n="component.user2.admin.create.title">
+  <section xml:lang="de" title="KartDok – Registrierung">
+    <head>
+      <meta name="title" content="KartDok – Registrierung"/>
+      <meta name='description' content="KartDok – bitte registrieren Sie sich als Nutzer" />
+    </head>
     <h3>Registrierung</h3>
     <p>
      Vor der Publikation Ihres Beitrags auf KartDok ist eine einmalige Registrierung erforderlich. 
@@ -18,7 +22,11 @@
     </p>
   </section>
 
-  <section xml:lang="en" i18n="component.user2.admin.create.title">
+  <section xml:lang="en" i18n="KartDok – Registration">
+    <head>
+      <meta name="title" content="KartDok – Registration"/>
+      <meta name='description' content="KartDok – please register as a user" />
+    </head>
     <h3>Registration</h3>
     <p>
       Before publishing your contribution on KartDok, a one-time registration is required. For this purpose, 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+
+<MyCoReWebPage>
+
+  <section xml:lang="de">
+    <head>
+      <meta name="title" content="KartDok - Suche nach Dokumenttyp"/>
+      <meta name="description" content="KartDok - Suche nach Dokumenttyp im Dokumentenserver"/>
+    </head>
+  </section>
+  <section xml:lang="en">
+    <head>
+      <meta name="title" content="KartDok - Search for document type"/>
+      <meta name="description" content="KartDok - Search for document type in the document server"/>
+    </head>
+  </section>
+
+  <section i18n="browse.genre" xml:lang="all">
+
+    <div class="row">
+      <div class="col-md-8" lang="de">
+        <h3><i18n key="browse.genre" /></h3>
+        <classificationbrowser classification="mir_genres"
+                                   objecttype="mods"
+                                  restriction="+category.top:&quot;state:published&quot;"
+                                        field="category.top"
+                                 countresults="true"
+                                   addclassid="true"
+                                  emptyleaves="true"
+                                        style="bootstrap"
+                                   parameters="sort=mods.dateIssued+desc"
+                                 addParameter="XSL.template=template_mir"
+        />
+      </div>
+    </div>
+
+  </section>
+
+</MyCoReWebPage>

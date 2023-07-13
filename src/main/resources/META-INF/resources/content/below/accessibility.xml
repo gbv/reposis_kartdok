@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Barrierefreiheitserklärung"><div class="row">
+<MyCoReWebPage><section xml:lang="de" title="KartDok – Erklärung zur Barrierefreiheit">
+	<head>
+		<meta name="title" content="KartDok – Erklärung zur Barrierefreiheit"/>
+		<meta name='description' content="KartDok – Erklärung zur Barrierefreiheit" />
+	</head>
+<div class="row">
 <div class="col-md-12" lang="de">
 <h1>Erklärung zur Barrierefreiheit</h1>
 
@@ -31,7 +36,13 @@ Abteilung IDM 3</div>
 <div>D-10785 Berlin</div>
 </div>
 </div>
-</section><section xml:lang="en" title=" Declaration on accessibility"><div>
+</section>
+<section xml:lang="en" title="KartDok – Declaration on accessibility">
+	<head>
+		<meta name="title" content="KartDok – Declaration on accessibility"/>
+		<meta name='description' content="KartDok – Declaration on accessibility" />
+	</head>
+<div>
 <h1>Declaration on Accessibility</h1>
 
 <p>The English version for this page is currently in progress.</p>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-  <section xml:lang="de" title="BITV-Test">
+  <section xml:lang="de" title="KartDok – Prüfprotokoll zur Barrierefreiheit">
+    <head>
+      <meta name="title" content="KartDok – Prüfprotokoll zur Barrierefreiheit"/>
+      <meta name='description' content="KartDok – Protokoll über die Prüfung zur Barrierefreiheit: Design der Webseite, Menü und Eingabeformulare" />
+    </head>
     <div class="row">
       <div class="col-md-10" lang="de">
         <h1>Protokoll über die Prüfung Design der Webseite, Menü, Eingabeformulare</h1>

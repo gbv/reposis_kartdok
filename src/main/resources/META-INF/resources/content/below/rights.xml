@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Datenschutz (Privacy Policy)"><div class="row">
+<MyCoReWebPage><section xml:lang="de" title="KartDok – Datenschutz">
+	<head>
+		<meta name="title" content="KartDok – Datenschutz"/>
+		<meta name='description' content="KartDok – unsere Datenschutzerklärung" />
+	</head>
+<div class="row">
 <div class="col-md-12" lang="de">
 <h1>Datenschutz (Privacy Policy)</h1>
 

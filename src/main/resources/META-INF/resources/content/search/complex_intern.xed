@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
+
+  <section xml:lang="de">
+    <head>
+      <meta name="title" content="KartDok - erweiterte Suche" />
+      <meta name="description" content="KartDok - erweiterte Suche im Dokumentenserver" />
+    </head>
+  </section>
+  <section xml:lang="en">
+    <head>
+      <meta name="title" content="KartDok - Advanced Search" />
+      <meta name="description" content="KartDok - Advanced search in the document server" />
+    </head>
+  </section>
   
   <section xml:lang="all" xmlns:xed="http://www.mycore.de/xeditor"
            xmlns:mir="http://www.mycore.de/mir"

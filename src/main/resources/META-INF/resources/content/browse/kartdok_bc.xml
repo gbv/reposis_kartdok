@@ -3,6 +3,19 @@
 
 <MyCoReWebPage>
 
+    <section xml:lang="de">
+        <head>
+            <meta name="title" content="KartDok - Suche nach BC-Systematik"/>
+            <meta name="description" content="KartDok - Suche nach BC-Systematik im Dokumentenserver"/>
+        </head>
+    </section>
+    <section xml:lang="en">
+        <head>
+            <meta name="title" content="KartDok - Search for BC Systematic"/>
+            <meta name="description" content="KartDok - Search for BC Systematic in the document server"/>
+        </head>
+    </section>
+
     <section i18n="browse.kartdok_bc.title" xml:lang="all">
         <div class="row">
             <div class="col-md-8" lang="de">

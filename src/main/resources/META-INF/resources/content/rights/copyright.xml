@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Urheberrecht"><div class="row">
+<MyCoReWebPage><section xml:lang="de" title="KartDok – Hinweise zum Urheberrecht und zur Lizenzwahl">
+	<head>
+		<meta name="title" content="KartDok – Hinweise zum Urheberrecht und zur Lizenzwahl"/>
+		<meta name='description' content="KartDok – unsere Hinweise zu den urheberrechtlichen Rahmenbedingungen des Open Access-Publizierens auf KartDok" />
+	</head>
+<div class="row">
 <div class="col-md-12" lang="de">
 <h1>Urheberrechtliche Rahmenbedingungen des Open Access-Publizierens auf KartDok</h1>
 
@@ -203,7 +208,13 @@
 <p><strong>Bitte beachten Sie, dass die hier aufgelisteten Informationen keine rechtsverbindlichen Auskünfte darstellen und die dargestellten Inhalte vor allem Informationen zur ersten Orientierung bereitstellen. Das KartDok-Team hat die Angaben auf diesen Seiten sorgfältig geprüft, kann aber keine rechtsverbindlichen Auskünfte erteilen.</strong></p>
 </div>
 </div>
-</section><section xml:lang="en" title="Copyright"><div>
+</section>
+<section xml:lang="en" title="Copyright">
+	<head>
+		<meta name="title" content="KartDok – Notes on copyright and license selection"/>
+		<meta name='description' content="KartDok – our information on the copyright framework for Open Access publishing on KartDok" />
+	</head>
+<div>
 <h1>Copyright framework of open access publishing on KartDok</h1>
 
 <p>The English version for this page is currently in progress.</p>

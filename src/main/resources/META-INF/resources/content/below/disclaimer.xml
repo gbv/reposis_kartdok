@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Haftungshinweise"><div class="row">
+<MyCoReWebPage><section xml:lang="de" title="KartDok – Haftungshinweise">
+	<head>
+		<meta name="title" content="KartDok – Haftungshinweise"/>
+		<meta name='description' content="KartDok – Haftungshinweise und Haftungsausschluss" />
+	</head>
+<div class="row">
 <div class="col-md-12" lang="de">
 <h1>Haftungshinweise</h1>
 
@@ -19,7 +24,13 @@ Rechtswirksamkeit dieses Haftungsausschlusses</h2>
 <p>Der im Vorstehenden formulierte Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Insofern Teile oder einzelne Formulierungen dieses Textes der aktuell geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in Hinblick sowohl auf ihren Inhalt als auch und vor allem auf ihre Gültigkeit davon unberührt.</p>
 </div>
 </div>
-</section><section xml:lang="en" title="Disclaimer"><div>
+</section>
+<section xml:lang="en" title="KartDok – Disclaimer">
+	<head>
+		<meta name="title" content="KartDok – Disclaimer"/>
+		<meta name='description' content="KartDok – our Disclaimer" />
+	</head>
+<div>
 <h1>Disclaimer</h1>
 
 <p>The English version for this page is currently in progress.</p>

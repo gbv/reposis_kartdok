@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Leitlinie"><div class="row">
+<MyCoReWebPage><section xml:lang="de" title="KartDok – Leitlinie zum Publizieren">
+	<head>
+		<meta name="title" content="KartDok – Leitlinie zum Publizieren"/>
+		<meta name='description' content="KartDok – Informationen über Rechte und Pflichten unsererseits und der auf KartDok publizierenden Autor:innen und Herausgeber:innen, rechtliche Rahmenbedingungen, Art der zu publizierenden Dokumente sowie Anforderungen an deren inhaltliche und technische Qualität, Archivierungszeiträume und Langzeitarchivierung der Dokumente, Informationen zum technischen Betrieb und zur Löschpolitik sowie Erklärung zu Open Access" />
+	</head>
+<div class="row">
 <div class="col-md-12" lang="de">
 <h1>Leitlinie zum Publizieren in KartDok</h1>
 
@@ -172,7 +177,13 @@
 </ul>
 </div>
 </div>
-</section><section xml:lang="en" title="Guidelines for publishing"><div>
+</section>
+<section xml:lang="en" title="KartDok – Guidelines for publishing">
+	<head>
+		<meta name="title" content="KartDok – Guidelines for publishing"/>
+		<meta name='description' content="KartDok - Information about rights and obligations on our part and the authors and publishers publishing on KartDok, legal framework, type of documents to be published and requirements for their content and technical quality, archiving periods and long-term archiving of the documents, information on technical operation and Deletion policy and declaration on Open Access" />
+	</head>
+<div>
 <h1>Guidelines for publishing in KartDok</h1>
 
 <p> </p>
