@@ -45,7 +45,7 @@
       },
       "appends": {
         "fq": [
-          "state:published OR !state"
+          "state:published OR (*:* AND !state:*)"
         ]
       },
       "invariants": {
