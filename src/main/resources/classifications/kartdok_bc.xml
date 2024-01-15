@@ -1994,12 +1994,12 @@
             <label xml:lang="de" text="O.2.g Deutschland" />
             <label xml:lang="x-coord" text="E 010°30'00'' / N 051°30'00'', E010.500000 / N051.500000" />
           </category>
-          <category ID="o_2_g_deutschland^_bundesrepublik">
+          <category ID="o_2_g_deutschland_bundesrepublik">
             <label xml:lang="de" text="O.2.g Deutschland, Bundesrepublik" />
             <label xml:lang="x-gnd-1" text="4011889-7" description="Deutschland (Bundesrepublik)" />
             <label xml:lang="en" text="O.2.g Germany, Federal Republic of" />
           </category>
-          <category ID="o_2_g_deutschland^_deutsche_demokratische_republik">
+          <category ID="o_2_g_deutschland_deutsche_demokratische_republik">
             <label xml:lang="x-gnd-1" text="4011890-3" description="Deutschland (DDR)" />
             <label xml:lang="en" text="O.2.g German Democratic Republic" />
             <label xml:lang="de" text="O.2.g Deutschland, Deutsche Demokratische Republik" />
