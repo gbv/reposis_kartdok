@@ -114,8 +114,8 @@
                         <or>
                             <status>new</status>
                             <status>submitted</status>
-			    <status>review</status>
-		        </or>
+                            <status>review</status>
+                        </or>
                         <or>
                             <createdby/>
                             <role>editor</role>
@@ -161,8 +161,8 @@
                         <or>
                             <status>blocked</status>
                             <status>deleted</status>
-			    <status>submitted</status>
-			    <status>review</status>
+                            <status>submitted</status>
+                            <status>review</status>
                             <status>published</status>
                         </or>
                         <or>
@@ -173,6 +173,7 @@
                 </or>
             </and>
             <and>
+            <!-- deleting -->
                 <action>delete</action>
                 <or>
                     <and>
@@ -184,9 +185,11 @@
                         </or>
                     </and>
                     <and>
-                        <status>submitted</status>
-			<status>review</status>
-			<or>
+                        <or>
+                          <status>submitted</status>
+                          <status>review</status>
+                        </or>
+                        <or>
                             <role>admin</role>
                             <role>editor</role>
                         </or>
