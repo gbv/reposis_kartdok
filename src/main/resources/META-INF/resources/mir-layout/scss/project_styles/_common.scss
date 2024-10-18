@@ -41,12 +41,37 @@
     margin-bottom: 0;
   }
 
+  // collapse lib
+  .collapsed-items {
+    &__toggle {
+      cursor: pointer;
+      margin: 2rem 0 2rem 0;
+    }
+    &__title {
+      display: flex;
+      &::before {
+        content: "\f139"; // up
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        margin-right: 1rem;
+      }
+    }
+    .collapsed {
+      .collapsed-items__title::before {
+        content: "\f13a"; // down
+      }
+    }
+    .collapsed-items__item {
+      margin: 0 2.5rem 3rem 2.5rem;
+    }
+  }
+
   // Resize the popover info box on the publish page,
-  // because otherwise the content fit not very well  
+  // because otherwise the content fit not very well
   .publish-import-popover-box .popover {
     max-width: 460px;
   }
-  
+
   // change background color of workflow box
   .workflow-box {
     background-color: #cbeef1;
