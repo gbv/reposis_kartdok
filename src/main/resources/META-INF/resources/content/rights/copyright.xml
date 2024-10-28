@@ -1,421 +1,1259 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="KartDok – Hinweise zum Urheberrecht und zur Lizenzwahl">
-	<head>
-		<meta name="title" content="KartDok – Hinweise zum Urheberrecht und zur Lizenzwahl"/>
-		<meta name='description' content="KartDok – unsere Hinweise zu den urheberrechtlichen Rahmenbedingungen des Open Access-Publizierens auf KartDok" />
-	</head>
-<div class="row">
-<div class="col-md-12" lang="de">
-<h1>Urheberrechtliche Rahmenbedingungen des Open Access-Publizierens auf KartDok</h1>
-
-<p> </p>
-
-<div><a href="#1"><strong>1) Erstveröffentlichung von Originalbeiträgen</strong></a></div>
-
-<div><a href="#2"><strong>2) Zweitveröffentlichungen</strong></a></div>
-<a href="#3"><strong>3) Lizenzwahl: KartDok-Lizenz oder Open Content-Lizenz?</strong></a>
-
-<div><a href="#4"><strong>4) Unterstützung und Kontakt</strong></a></div>
-
-<p> </p>
-
-<h2><a id="1" name="1">1) Erstveröffentlichung von Originalbeiträgen</a></h2>
-
-<p>Während die <strong>Erstveröffentlichung von Originalbeiträgen</strong> auf KartDok unter urheberrechtlichem Aspekt in aller Regel unproblematisch ist, ergeben sich bei der <strong>Zweitveröffentlichung</strong> zuvor bereits in gedruckter oder elektronischer Form in monographischen Sammelwerken – darunter Festschriften, Lexika, Kongressbände und Handbücher – oder abonnementpflichtigen Zeitschriften, Jahrbüchern und Zeitungen erschienener Aufsätze regelmäßig Fragen nach der Zulässigkeit.</p>
-
-<p> </p>
-
-<h2><a id="2" name="2">2) Zweitveröffentlichungen</a></h2>
-
-<div style="margin-left: 40px;"><a href="#2.1">2.1) Vorprüfung auf bereits vorhandene Veröffentlichung unter freier Lizenz</a><br />
-<a href="#2.2">2.2) Verlagsverträge</a><br />
-<a href="#2.3">2.3) Verlagspolicies</a><br />
-<a href="#2.4">2.4) Gesetzliches Zweitveröffentlichungsrecht im Urheberrecht</a><br />
-<a href="#2.5">2.5) Open Access-Rechte in Allianz-, National- und FID-Lizenzen</a><br />
-<a href="#2.6">2.6) Rechteklärung für Zweitveröffentlichungen</a></div>
-
-<p> </p>
-
-<p>Um zu prüfen, ob Ihre <strong>Publikation zweitveröffentlicht werden darf</strong>, sind in erster Linie <strong>folgenden Punkte zu klären</strong>:</p>
-
-<ul>
-	<li>Welche <em><strong>Rechtsgrundlagen</strong></em> können <strong><em>im konkreten Fall</em></strong> herangezogen werden?</li>
-	<li>Welche <strong><em>Version</em></strong> (z. B. Preprint, Postprint oder Verlagsversion) darf <strong><em>wann</em></strong> (z. B. nach sogenannter Embargofrist) <strong><em>zweitveröffentlicht</em></strong> werden?</li>
-	<li>In welcher <strong><em>Art von Repositorium</em></strong> (z. B. institutionelles Repositorium oder Fachrepositorium wie beispielsweise KartDok) darf die Zweitveröffentlichung erfolgen?</li>
-	<li>Welche <strong><em>Auflagen</em></strong> sind <strong><em>darüber hinaus</em></strong> zu beachten?</li>
-</ul>
-
-<p>Grundlegende <strong>Rechtsgrundlagen und Hilfsmittel</strong>, um diese Fragen zu beantworten, werden nachfolgend kurz vorgestellt.</p>
-
-<h3><a id="2.1" name="2.1">2.1) Vorprüfung auf bereits vorhandene Veröffentlichung unter freier Lizenz</a></h3>
-
-<p>Falls die Erstveröffentlichung oder eine Zweitveröffentlichung <strong>bereits unter einer freien Lizenz erfolgt</strong> ist, <strong>steht einer Zweitveröffentlichung auf KartDok in der Regel nichts entgegen</strong>. Hierfür sollten zunächst diese Fragen geklärt werden:</p>
-
-<ul>
-	<li>Erfolgte die <strong><em>Erstveröffentlichung unter einer offenen Lizenz</em></strong>, z. B. einer <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY-Lizenz</a>?</li>
-	<li>Haben Sie <strong><em>als Autor:in </em></strong>einer Closed-Access-Publikation für diese <strong><em>bereits eine Zweitveröffentlichung vorgenommen</em></strong> und ist diese <strong><em>unter einer freien Lizenz</em></strong> (z. B. einer CC-BY-Lizenz) erfolgt?</li>
-	<li>Haben <strong><em>Koautorinnen bzw. Koautoren</em></strong> dieser Closed-Access-Publikation <strong><em>bereits eine Zweitveröffentlichung vorgenommen</em></strong> (beispielsweise müssen Angehörige einiger Forschungseinrichtungen die akzeptierte Manuskriptfassung von Zeitschriftenartikeln direkt nach Erscheinen zweitveröffentlichen - mitunter unter einer freien Lizenz, z. B. einer <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.de">CC BY-NC-Lizenz</a>)?</li>
-</ul>
-
-<p>Für die <strong>Beantwortung dieser Fragen</strong> können Open Access Publikationen in Repositorien unter anderem <strong>mittels dieser Suchmaschinen</strong> gefunden werden:</p>
-
-<ul>
-	<li><a href="https://www.base-search.net/">BASE</a> (großer Index, ausschließlich nachhaltige Datenquellen, Suche einfach &amp; erweitert, Filtern der Suchergebnisse; keine Deduplizierung verschiedener Versionen)</li>
-	<li><a href="https://dissem.in/">Dissemin</a> (großer BASE-Index, Suche einfach &amp; erweitert, Filtern der Suchergebnisse)</li>
-	<li><a href="https://core.ac.uk/">CORE</a> (großer Index, Suche einfach &amp; erweitert, Filtern der Suchergebnisse; auf Startseite zunächst nur Suche einfach – dort keine Suche nach Titel oder DOI)</li>
-	<li><a href="https://openaccessbutton.org/">Open Access Button</a> (großer Index, Suche einfach)</li>
-	<li><a href="https://scholar.google.de/">Google Scholar</a> (großer Index, Deduplizierung verschiedener Versionen; keine erweiterte Suche, limitierte Optionen zum Filtern der Ergebnisse, proprietärer Service: Rankingalgorithmen und Gründe für Nicht-/Indexierung intransparent)</li>
-</ul>
-
-<h3><a id="2.2" name="2.2">2.2) Verlagsverträge</a></h3>
-
-<p>Im Verlagsvertrag ist gegebenenfalls vereinbart, welche Nutzungsrechte Sie als Autor:in dem Verlag eingeräumt haben und ob bzw. zu welchen Bedingungen eine Zweitveröffentlichung möglich ist. <strong>Maßgeblich ist der Verlagsvertrag, der bei der Erstveröffentlichung mit Ihnen geschlossen wurde</strong>.</p>
-
-<ul>
-	<li>Der Verlagsvertrag (bzw. <em>Copyright Transfer Agreement</em>) wird <strong><em>zumeist elektronisch übermittelt</em></strong> und <strong><em>ist nicht notwendigerweise von Ihnen unterzeichnet</em></strong>.</li>
-	<li>Liegt ein Vertrag schriftlich vor, gilt es zunächst, diesen <strong><em>hinsichtlich der <em>e</em>rfolgten Rechteeinräumung und etwaiger expliziter Bestimmungen bezüglich der Zweitveröffentlichungsrechte</em></strong> (auch „<em>sharing rights</em>“, <em>„deposit rights</em>“, „<em>self-archiving rights</em>“) <strong><em>der Autorinnen und Autoren zu überprüfen</em></strong>.</li>
-</ul>
-
-<p>Ist ein zutreffender Passus identifiziert, sollten Sie die <strong>Rechteprüfung an diesem Punkt noch nicht abschließen</strong> – selbst dann nicht, wenn der Vertrag eine Zweitveröffentlichung erlaubt. Denn womöglich ist diese aufgrund übergreifender Regelungen und Vereinbarungen gegebenfalls auch zu anderen und gegebenenfalls sogar besseren Konditionen möglich (vor allem hinsichtlich der Version oder der Embargofrist).</p>
-
-<h3><a id="2.3" name="2.3">2.3) Verlagspolicies</a></h3>
-
-<p>Sollten Ihnen die <strong>Vertragsbedingungen nicht mehr bekannt</strong> sein, können Sie diese, wie nachfolgend skizziert, <strong>auf Basis von Verlagspolicies</strong> recherchieren. <strong>Bitte beachten Sie hierbei, dass etwaige abweichende Vereinbarungen Ihres jeweiligen Verlagsvertrags von den Angaben der betreffenden Vertragspolicy in jedem Fall unberührt bleiben</strong>.</p>
-
-<ul>
-	<li>Vor allem für <strong>Zeitschriften</strong> bietet die Online-Datenbank <a href="https://v2.sherpa.ac.uk/romeo/" target="_blank" title="Externen Link im neuen Fenster öffnen">SHERPA/RoMEO</a> einen schnellen Überblick darüber, welche Verlage und Zeitschriften nicht-kommerzielle Zweitveröffentlichungen unter welchen Verlagsbedingungen erlauben:
-
-	<ul>
-		<li>Darf überhaupt zweitveröffentlicht werden?</li>
-		<li>Welche Version des Artikels darf zweitpubliziert werden (Preprint, Postprint, Verlagsversion)?</li>
-		<li>Zu welchem Zeitpunkt nach Erstpublikation darf die Zweitpublikation veröffentlicht werden (sogenannte Embargofrist)?</li>
-		<li>Zudem werden im Bereich „General Conditions“ die zu beachtenden Bedingungen und Links zur Verlagspolicy bzw. zum Standardvertrag aufgeführt.</li>
-		<li>Die Angaben in SHERPA/RoMEO sind <strong><em>rechtlich unverbindlich </em></strong>und<strong><em> nicht immer auf dem aktuellsten Stand</em></strong> - die Angaben <em><strong>bieten jedoch eine erste Orientierung, was die jeweiligen Verlage üblicherweise erlauben (Verlagspolicies)</strong></em>.</li>
-	</ul>
-	</li>
-	<li>Für diese Rechteprüfung auf Basis von Verlagspolicies kann für Beiträge in <strong>Sammelwerken</strong> auch die <a href="https://osc.cam.ac.uk/monographs/open-access-and-monographs/making-book-chapters-available-repositories">Kurzübersicht</a> der University of Cambridge herangezogen werden.</li>
-	<li>Zudem haben <strong>Internationale Großverlage</strong> oft ihre Policies für Zweitveröffentlichungen jeweils auf einer zentralen Webseite veröffentlicht; diese Webseiten von vielen Großverlagen können gegebenenfalls über die Webseite <a href="https://www.howcanishareit.com/">howcanishareit.com</a> gefunden werden (unter: "Publisher Sharing Policies").</li>
-</ul>
-
-<p>Die urheberrechtlichen Bestimmungen in Bezug auf <strong>Monografien </strong>sind hingegen oft restriktiver: Diese können in der Regel <strong><em>nur dann in einem Repositorium </em></strong>wie z. B. KartDok <strong><em>zweitveröffentlicht werden, wenn dafür die Erlaubnis des Verlags bzw. sonstiger Dritter, denen Rechte am Werk eingeräumt wurden, vorliegt</em></strong>.</p>
-
-<ul>
-	<li>Hierfür sollten Sie Ihren entsprechenden Vertrag konsultieren und/oder Kontakt zum Verlag bzw. sonstigen Dritten, denen Rechte an dem Werk eingeräumt wurden, aufnehmen.</li>
-	<li>Sollten Sie sämtliche Verwertungsrechte abgetreten haben, müssten Sie für Ihre Unterlagen eine <strong><em>schriftliche Zustimmung</em></strong> des Verlages bzw. der sonstigen Dritten, denen Rechte eingeräumt wurden, einholen, in der auch die Lizenz festgehalten ist, mit der Sie Ihr Werk versehen möchten bzw. die vom Verlag eingeräumt wird (siehe hierzu auch Pkt. <a href="#2.6">2.6</a>).</li>
-</ul>
-
-<h3><a id="2.4" name="2.4">2.4) Gesetzliches Zweitveröffentlichungsrecht im Urheberrecht</a></h3>
-
-<p><strong>(a) Abdingbares Zweitveröffentlichungsrecht</strong></p>
-
-<p>Wurde <strong>kein expliziter Verlagsvertrag geschlossen</strong>, so sind in diesem Zusammenhang vorrangig die Bestimmungen der Abätze eins und zwei des mit Wirkung zum 1. Januar 2014 novellierten <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 Urheberrechtsgesetz</a> (UrhG) zu berücksichtigen, die <strong>bei Veröffentlichungen in Zeitschriften und Jahrbüchern </strong>(§ 38 Abs. 1 UrhG) <strong>sowie bei nicht finanziell honorierten Publikationen in monographischen, nicht periodisch erscheinenden Sammlungen</strong> (§ 38 Abs. 2 UrhG) – etwa Handbüchern, Lexika, Festschriften oder Kongressbänden – zur Anwendung kommen.</p>
-
-<ul>
-	<li>Gemäß dieser Norm erwirbt der Verlag für die Vervielfältigung, Verbreitung und öffentliche Verfügbarkeit eines entsprechenden Werks im Zweifel zwar ein ausschließliches Nutzungsrecht, dennoch aber dürfen Sie Ihren Beitrag <strong>nach Ablauf einer Embargofrist von zwölf Monaten</strong> anderweitig und damit also auch auf KartDok zweitverwerten (Zweitveröffentlichung) – unter dem Vorbehalt, dass <strong>mit dem betreffenden Verlag </strong><strong>oder sonstigen Dritten nichts anderes vereinbart wurde</strong>.</li>
-	<li>Für eine Zweitveröffentlichung auf Grundlage der Abätze eins und zwei des § 38 Urheberrechtsgesetz (UrhG) darf die <strong>Verlagsversion</strong> genutzt und an einem beliebigen Ort für beliebige Zwecke und wenn gewünscht <strong>auch unter Vergabe einer freien Lizenz</strong> vorgenommen werden.</li>
-</ul>
-
-<p>Wurde hingegen in Bezug auf die Nutzungsrechte eine andere Vereinbarung getroffen, oder eine Vereinbarung, die im Wortlaut nicht bekannt ist oder ist nicht mehr bekannt, ob die Vereinbarung getroffen wurde, kann auf die Abätze eins und zwei des § 38 Urheberrechtsgesetz (UrhG) <strong>nicht</strong> zurückgegriffen werden.</p>
-
-<p><strong>(b) Unabdingbares Zweitveröffentlichungsrecht</strong></p>
-
-<p>Für <strong>wissenschaftliche Aufsätze</strong> können gegebenenfalls auch die Bestimmungen des Abatzes 4 des <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 Urheberrechtsgesetz</a> (UrhG) geltend gemacht werden - <strong>unabhängig davon, was im Verlagsvertrag vereinbart wurde</strong>.</p>
-
-<ul>
-	<li>Sollte Ihr<strong> wissenschaftlicher Aufsatz im Rahmen einer mindestens zur Hälfte mit öffentlichen Mitteln geförderten Forschungstätigkeit entstanden und in einer periodisch mindestens zweimal jährlich erscheinenden Sammlung veröffentlicht</strong> worden sein, so können Sie von den seit 1. Januar 2014 novellierten Schrankenregelungen in § 38 Abs. 4 Urheberrechtsgesetz (UrhG) profitieren.</li>
-	<li>Selbst wenn Sie einem Verlag ein ausschließliches Nutzungsrecht an einem solchen Beitrag eingeräumt und anderweitige Vereinbarungen zu Ihrem Nachteil getroffen haben, sind Sie auf der Grundlage dieser Norm nämlich frei, das Werk <strong>nach Ablauf von zwölf Monaten seit der Erstveröffentlichung in der akzeptierten Manuskriptversion</strong> – also nicht im Verlagslayout – öffentlich zugänglich zu machen, soweit dies keinem gewerblichen Zweck dient und die Quelle der Erstveröffentlichung genannt ist.</li>
-	<li>Bitte beachten Sie in diesem Zusammenhang auch die von der Allianz der deutschen Wissenschaftsorganisationen erarbeiteten <a href="https://doi.org/10.2312/ALLIANZOA.022">FAQ zum unabdingbaren Zweitveröffentlichungsrecht</a> sowie die entsprechenden <a href="https://irights.info/wp-content/uploads/2017/09/zweitveroeffentlichungsrecht-20150425.pdf">Handlungsempfehlungen des iRights.Lab (PDF, 251 KB)</a>, die einen guten Überblick über Detailfragen zur Anwendbarkeit dieser Schrankenregelungen (§ 38 Abs. 4 UrhG) geben.</li>
-</ul>
-
-<p>Bitte beachten Sie zudem, dass die Bestimmungen dieser Schrankenregelungen (§ 38 Abs. 4 UrhG) in Bezug auf Version und Embargofrist für <strong>Zeitschriftenartikel</strong> mitunter restriktiver sind als etwa die allgemeine Verlagspolicy (siehe Pkt. <a href="#2.3">2.3</a>) oder die im Rahmen eines Lizenzvertrags verhandelten Sonderrechte (siehe Pkt. <a href="#2.5">2.5</a>).</p>
-
-<h3><a id="2.5" name="2.5">2.5) Open Access-Rechte in Allianz-, National- und FID-Lizenzen</a></h3>
-
-<p>Unabhängig von den skizzierten Handlungsspielräumen des deutschen Urheberrechtsgesetzes können Sie gegebenenfalls auch diejenigen Open Access-Rechte an Ihrem Werk verbindlich in Anspruch nehmen, die im Rahmen der sogenannten Allianz-, National- und FID-Lizenzen vereinbart wurden. Diese <a href="https://www.nationallizenzen.de/open-access/open-access-allianz-lizenzen.pdf/view">Open Access-Rechte</a> bieten vergleichsweise günstige Bedingungen für die Zweitveröffentlichung und betreffen zumeist verschiedene <strong>internationale Zeitschriftenpakete inklusive der darin enthaltenen Inhalte</strong>.</p>
-
-<ul>
-	<li>Verfügbare Allianz-, National- und FID-Lizenzen können Open-Access-Rechte beinhalten, die für alle <strong>Lizenzteilnehmer –  Einrichtungen und ihre Autorinnen und Autoren</strong> –  vertraglich festgelegt sind. Diese Open-Access-Komponenten räumen diesen - hierdurch autorisierten - Autorinnen und Autoren bestimmte Open-Access-Rechte für eine Zweitveröffentlichung ein. Somit können <strong>Autorinnen und Autoren an wissenschaftlichen Einrichtungen</strong>, die Lizenzteilnehmer der Allianz-, National- bzw. FID-Lizenzen sind, im Fall der vorliegenden Lizenzen <strong>ohne weitere Verhandlung mit den Verlagen</strong> eine Zweitveröffentlichung – gegebenenfalls auf KartDok – realisieren.</li>
-	<li>Für die <strong>Zeitschrift</strong>, in der Sie Ihrer Publikation erstveröffentlicht haben, sollten Sie folgende Punkte hinsichtlich der Open-Access-Rechte kurz überprüfen. Hierfür können Sie diese vollständige, alle Disziplinen umfassende <a href="https://www.nationallizenzen.de/open-access/open-access-rechte.xls/view">Übersicht der mit Open Access-Rechten ausgestatteten Allianz- und Nationallizenzpakete</a> verwenden:
-	<ul>
-		<li><strong>Zeitschrift</strong>: Ist diese Zeitschrift in den Allianz- und Nationallizenzen enthalten (Spalte „Zeitschrift“ oder Spalte „Produkt“)?</li>
-		<li><strong>Jahrgang dieser Zeitschrift</strong>: Wurde der betreffende Jahrgang dieser Zeitschrift mit Open-Access-Rechten lizensiert (Spalte „Jahrgänge mit OA-Rechten“)?</li>
-		<li><strong>Embargofrist</strong>: Lässt eine gegebenenfalls vorhandene Embargofrist für die Open-Access-Komponente dieser Zeitschrift (Spalte „Embargo“) eine Zweitveröffentlichung zum jetzigen Zeitpunkt zu?</li>
-		<li><strong>Zweitveröffentlichung im Fachrepositorium </strong>(z. B. KartDok): Gestatten die Open-Access-Rechte für diese Zeitschrift eine Zweitveröffentlichung in einem Fachrepositorium (Spalte „Repositorium“ – hierfür zutreffende Einträge sind: „Repositorium nach Wahl“, „Fachspezifisches Repositorium“ oder „Nicht-kommerzielles fachspezifisches Repositorium“)?</li>
-	</ul>
-	</li>
-</ul>
-
-<h3><a id="2.6" name="2.6">2.6) Rechteklärung für Zweitveröffentlichungen</a></h3>
-
-<p>Sollte eine Rechteprüfung kein Ergebnis liefern oder nur unklare Informationen ergeben, ist zu empfehlen, <strong>Kontakt zum Verlag</strong> aufzunehmen – um Unklarheiten zu beseitigen und gegebenenfalls eine rechtsverbindliche Erlaubnis des Verlags für die Zweitveröffentlichung einer bestimmten Publikation zu erhalten. Diese Anfrage sollte Angaben zu folgenden Punkten enthalten:</p>
-
-<ul>
-	<li>Vollständige bibliografische Information</li>
-	<li>Zweck der Anfrage</li>
-	<li>Art der Verwendung (Nennung der gewünschten Version)</li>
-	<li>Ort der Zweitveröffentlichung, ggf. erläuternde Hinweise zur (nichtkommerziellen) Beschaffenheit des Repositoriums</li>
-	<li>Soll die Zweitveröffentlichung unter einer freien Lizenz erfolgen, sollte diese konkret benannt werden</li>
-</ul>
-
-<p>Zur Unterstützung Ihrer Anfrage beim Verlag (bzw. bei der Rechteinhaberin bzw. beim Rechteinhaber) zwecks Zweitveröffentlich(en) auf KartDok bieten wir dieses <strong>Empfehlungsschreiben</strong>, das Sie Ihrer Anfrage gegebenenfalls beifügen können: <a href="../rights/KartDok-Empfehlungsschreiben.pdf">KartDok-Empfehlungsschreiben (PDF, 121 KB)</a>.</p>
-
-<p> </p>
-
-<h2><a id="3" name="3">3) Lizenzwahl: KartDok-Lizenz oder Open Content-Lizenz?</a></h2>
-
-<div style="margin-left: 40px;"><a href="#3.1">3.1) KartDok-Lizenz bzw. Open-Access im Zuge einer Allianz- bzw. Nationallizenz</a><br />
-<a href="#3.2">3.2) Open Content-Lizenzen</a></div>
-
-<p> </p>
-
-<h3><a id="3.1" name="3.1">3.1) KartDok-Lizenz bzw. Open-Access im Zuge einer Allianz- bzw. Nationallizenz</a></h3>
-
-<p>Mit Upload des Dokuments auf unseren Server sowie auf Grundlage des schriftlichen <a href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrags (PDF, 945 KB)</a> räumen Sie KartDok ein einfaches Nutzungsrecht zur Vervielfältigung, Verbreitung und öffentlichen Zugänglichmachung Ihres Werks im Internet ein sowie ergänzend das Recht, insbesondere für Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen.</p>
-
-<p>Im Rahmen dieser öffentlichen Verfügbarkeit ist die <strong>Nutzung und Vervielfältigung Ihres auf KartDok veröffentlichten Beitrags durch Dritte</strong> allerdings <strong>nur im Rahmen der im deutschen Urheberrecht vorgesehenen Schranken möglich</strong> – vor allem in Hinblick auf eine Vervielfältigung zum wissenschaftlichen, privaten und sonstigen eigenen Gebrauch (§§ <a href="https://www.gesetze-im-internet.de/urhg/__53.html">53</a>, <a href="https://www.gesetze-im-internet.de/urhg/__60c.html">60c</a>, <a href="https://www.gesetze-im-internet.de/urhg/__60d.html">60d</a> UrhG).</p>
-
-<p>KartDok bietet hierfür die Auswahl dieser Lizenzen an:</p>
-
-<ul>
-	<li><strong>KartDok-Lizenz (Alle Rechte vorbehalten)</strong></li>
-	<li><strong>Open-Access im Zuge einer Allianz- bzw. Nationallizenz </strong>(siehe <a href="#2.5">2.5</a>)</li>
-</ul>
-
-<h3><a id="3.2" name="3.2">3.2) Open Content-Lizenzen</a></h3>
-
-<p>Sollten Sie darüber hinaus an einer weitergehenden Nutzung Ihres Werks interessiert sein, so empfiehlt Ihnen KartDok – in Übereinstimmung mit der Allianz der deutschen Wissenschaftsorganisationen („<a href="https://gfzpublic.gfz-potsdam.de/pubman/item/item_2875895"><em>Appell zur Nutzung offener Lizenzen in der Wissenschaft</em></a>“) – die <strong>Vergabe einer <a href="https://creativecommons.org/about/cclicenses/">Creative Commons-Lizenz</a></strong>, mit der Sie Ihre Beiträge auf KartDok z. B. für die Bearbeitung und Weiterverbreitung durch Dritte freigeben können.</p>
-
-<p>KartDok bietet die Auswahl folgender Open-Content-Lizenzen an:</p>
-
-<ul>
-	<li><strong>Creative Commons 4.0 International Lizenzen</strong>: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> | <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.de">CC BY-NC 4.0</a> | <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">CC BY-NC-SA 4.0</a> | <a href="https://creativecommons.org/licenses/by-nd/4.0/deed.de">CC BY-ND 4.0</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> (siehe hierzu auch das Tool zur <a href="https://creativecommons.org/choose/?lang=de">Auswahl der CC-Lizenzeigenschaften</a>)</li>
-	<li><strong>Open Data Commons Lizenzen</strong>: <a href="https://opendatacommons.org/licenses/by/">ODC-By – Attribution License</a> | <a href="https://opendatacommons.org/licenses/odbl/">ODC-ODbL – Open Database License</a> | <a href="https://opendatacommons.org/licenses/pddl/">PDDL - Public Domain Dedication and License</a></li>
-	<li><strong>Public Domain</strong>: <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0 Universell</a> | <a href="https://creativecommons.org/publicdomain/mark/1.0/deed.de">Public Domain Mark 1.0</a></li>
-</ul>
-
-<p>Bitte beachten Sie, dass die <strong>Vergabe von Creative Commons- oder anderen Open Content-Lizenzen</strong> in der Regel <strong>nur für Erstveröffentlichungen</strong> auf KartDok möglich ist <strong>sowie für diejenigen Werke, an denen Sie ein ausschließliches Nutzungsrecht besitzen</strong>.</p>
-
-<p>In allen anderen Fällen ist <strong>vor einer freien Lizenzierung </strong>die <strong>Zustimmung des jeweils betroffenen Verlags einzuholen</strong> (siehe <a href="#2.6">2.6</a>).</p>
-
-<p> </p>
-
-<h2><a id="4" name="4">4) Unterstützung und Kontakt</a></h2>
-
-<p>Auf Wunsch steht Ihnen das Team von KartDok für Fragen zum Open Access-Publizieren gerne zur Verfügung. Bitte nutzen Sie hierfür unser <a href="../below/contact.xed">Kontaktformular</a>.</p>
-
-<p>Unabhängig von der Inanspruchnahme dieses Beratungsangebots sind Sie vor einer Veröffentlichung auf KartDok in jedem Fall dazu verpflichtet, sich sorgfältig zu vergewissern, dass die der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz einzuräumenden Nutzungsrechte insbesondere zur öffentlichen Verfügbarkeit Ihres Werks auch tatsächlich bei Ihnen liegen. KartDok behält sich unter anderem in strafrechtlich relevanten Fällen das Recht vor, den Zugriff auf bereits veröffentliche Dokumente zu sperren.</p>
-
-<p><strong>Bitte beachten Sie, dass die hier aufgelisteten Informationen keine rechtsverbindlichen Auskünfte darstellen und die dargestellten Inhalte vor allem Informationen zur ersten Orientierung bereitstellen. Das KartDok-Team hat die Angaben auf diesen Seiten sorgfältig geprüft, kann aber keine rechtsverbindlichen Auskünfte erteilen.</strong></p>
-</div>
-</div>
-</section>
-<section xml:lang="en" title="Copyright">
-	<head>
-		<meta name="title" content="KartDok – Notes on copyright and license selection"/>
-		<meta name='description' content="KartDok – our information on the copyright framework for Open Access publishing on KartDok" />
-	</head>
-<div>
-<h1>Copyright framework of open access publishing on KartDok</h1>
-
-<p>The English version for this page is currently in progress.</p>
-
-<p> </p>
-
-<div><a href="#1"><strong>1) Erstveröffentlichung von Originalbeiträgen</strong></a></div>
-
-<div><a href="#2"><strong>2) Zweitveröffentlichungen</strong></a></div>
-<a href="#3"><strong>3) Lizenzwahl: KartDok-Lizenz oder Open Content-Lizenz?</strong></a>
-
-<div><a href="#4"><strong>4) Unterstützung und Kontakt</strong></a></div>
-
-<p> </p>
-
-<h2><a id="1" name="1">1) Erstveröffentlichung von Originalbeiträgen</a></h2>
-
-<p>Während die <strong>Erstveröffentlichung von Originalbeiträgen</strong> auf KartDok unter urheberrechtlichem Aspekt in aller Regel unproblematisch ist, ergeben sich bei der <strong>Zweitveröffentlichung</strong> zuvor bereits in gedruckter oder elektronischer Form in monographischen Sammelwerken – darunter Festschriften, Lexika, Kongressbände und Handbücher – oder abonnementpflichtigen Zeitschriften, Jahrbüchern und Zeitungen erschienener Aufsätze regelmäßig Fragen nach der Zulässigkeit.</p>
-
-<p> </p>
-
-<h2><a id="2" name="2">2) Zweitveröffentlichungen</a></h2>
-
-<div style="margin-left: 40px;"><a href="#2.1">2.1) Vorprüfung auf bereits vorhandene Veröffentlichung unter freier Lizenz</a><br />
-<a href="#2.2">2.2) Verlagsverträge</a><br />
-<a href="#2.3">2.3) Verlagspolicies</a><br />
-<a href="#2.4">2.4) Gesetzliches Zweitveröffentlichungsrecht im Urheberrecht</a><br />
-<a href="#2.5">2.5) Open Access-Rechte in Allianz-, National- und FID-Lizenzen</a><br />
-<a href="#2.6">2.6) Rechteklärung für Zweitveröffentlichungen</a></div>
-
-<p> </p>
-
-<p>Um zu prüfen, ob Ihre <strong>Publikation zweitveröffentlicht werden darf</strong>, sind in erster Linie <strong>folgenden Punkte zu klären</strong>:</p>
-
-<ul>
-	<li>Welche <em><strong>Rechtsgrundlagen</strong></em> können <strong><em>im konkreten Fall</em></strong> herangezogen werden?</li>
-	<li>Welche <strong><em>Version</em></strong> (z. B. Preprint, Postprint oder Verlagsversion) darf <strong><em>wann</em></strong> (z. B. nach sogenannter Embargofrist) <strong><em>zweitveröffentlicht</em></strong> werden?</li>
-	<li>In welcher <strong><em>Art von Repositorium</em></strong> (z. B. institutionelles Repositorium oder Fachrepositorium wie beispielsweise KartDok) darf die Zweitveröffentlichung erfolgen?</li>
-	<li>Welche <strong><em>Auflagen</em></strong> sind <strong><em>darüber hinaus</em></strong> zu beachten?</li>
-</ul>
-
-<p>Grundlegende <strong>Rechtsgrundlagen und Hilfsmittel</strong>, um diese Fragen zu beantworten, werden nachfolgend kurz vorgestellt.</p>
-
-<h3><a id="2.1" name="2.1">2.1) Vorprüfung auf bereits vorhandene Veröffentlichung unter freier Lizenz</a></h3>
-
-<p>Falls die Erstveröffentlichung oder eine Zweitveröffentlichung <strong>bereits unter einer freien Lizenz erfolgt</strong> ist, <strong>steht einer Zweitveröffentlichung auf KartDok in der Regel nichts entgegen</strong>. Hierfür sollten zunächst diese Fragen geklärt werden:</p>
-
-<ul>
-	<li>Erfolgte die <strong><em>Erstveröffentlichung unter einer offenen Lizenz</em></strong>, z. B. einer <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY-Lizenz</a>?</li>
-	<li>Haben Sie <strong><em>als Autor:in </em></strong>einer Closed-Access-Publikation für diese <strong><em>bereits eine Zweitveröffentlichung vorgenommen</em></strong> und ist diese <strong><em>unter einer freien Lizenz</em></strong> (z. B. einer CC-BY-Lizenz) erfolgt?</li>
-	<li>Haben <strong><em>Koautorinnen bzw. Koautoren</em></strong> dieser Closed-Access-Publikation <strong><em>bereits eine Zweitveröffentlichung vorgenommen</em></strong> (beispielsweise müssen Angehörige einiger Forschungseinrichtungen die akzeptierte Manuskriptfassung von Zeitschriftenartikeln direkt nach Erscheinen zweitveröffentlichen - mitunter unter einer freien Lizenz, z. B. einer <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.de">CC BY-NC-Lizenz</a>)?</li>
-</ul>
-
-<p>Für die <strong>Beantwortung dieser Fragen</strong> können Open Access Publikationen in Repositorien unter anderem <strong>mittels dieser Suchmaschinen</strong> gefunden werden:</p>
-
-<ul>
-	<li><a href="https://www.base-search.net/">BASE</a> (großer Index, ausschließlich nachhaltige Datenquellen, Suche einfach &amp; erweitert, Filtern der Suchergebnisse; keine Deduplizierung verschiedener Versionen)</li>
-	<li><a href="https://dissem.in/">Dissemin</a> (großer BASE-Index, Suche einfach &amp; erweitert, Filtern der Suchergebnisse)</li>
-	<li><a href="https://core.ac.uk/">CORE</a> (großer Index, Suche einfach &amp; erweitert, Filtern der Suchergebnisse; auf Startseite zunächst nur Suche einfach – dort keine Suche nach Titel oder DOI)</li>
-	<li><a href="https://openaccessbutton.org/">Open Access Button</a> (großer Index, Suche einfach)</li>
-	<li><a href="https://scholar.google.de/">Google Scholar</a> (großer Index, Deduplizierung verschiedener Versionen; keine erweiterte Suche, limitierte Optionen zum Filtern der Ergebnisse, proprietärer Service: Rankingalgorithmen und Gründe für Nicht-/Indexierung intransparent)</li>
-</ul>
-
-<h3><a id="2.2" name="2.2">2.2) Verlagsverträge</a></h3>
-
-<p>Im Verlagsvertrag ist gegebenenfalls vereinbart, welche Nutzungsrechte Sie als Autor:in dem Verlag eingeräumt haben und ob bzw. zu welchen Bedingungen eine Zweitveröffentlichung möglich ist. <strong>Maßgeblich ist der Verlagsvertrag, der bei der Erstveröffentlichung mit Ihnen geschlossen wurde</strong>.</p>
-
-<ul>
-	<li>Der Verlagsvertrag (bzw. <em>Copyright Transfer Agreement</em>) wird <strong><em>zumeist elektronisch übermittelt</em></strong> und <strong><em>ist nicht notwendigerweise von Ihnen unterzeichnet</em></strong>.</li>
-	<li>Liegt ein Vertrag schriftlich vor, gilt es zunächst, diesen <strong><em>hinsichtlich der <em>e</em>rfolgten Rechteeinräumung und etwaiger expliziter Bestimmungen bezüglich der Zweitveröffentlichungsrechte</em></strong> (auch „<em>sharing rights</em>“, <em>„deposit rights</em>“, „<em>self-archiving rights</em>“) <strong><em>der Autorinnen und Autoren zu überprüfen</em></strong>.</li>
-</ul>
-
-<p>Ist ein zutreffender Passus identifiziert, sollten Sie die <strong>Rechteprüfung an diesem Punkt noch nicht abschließen</strong> – selbst dann nicht, wenn der Vertrag eine Zweitveröffentlichung erlaubt. Denn womöglich ist diese aufgrund übergreifender Regelungen und Vereinbarungen gegebenfalls auch zu anderen und gegebenenfalls sogar besseren Konditionen möglich (vor allem hinsichtlich der Version oder der Embargofrist).</p>
-
-<h3><a id="2.3" name="2.3">2.3) Verlagspolicies</a></h3>
-
-<p>Sollten Ihnen die <strong>Vertragsbedingungen nicht mehr bekannt</strong> sein, können Sie diese, wie nachfolgend skizziert, <strong>auf Basis von Verlagspolicies</strong> recherchieren. <strong>Bitte beachten Sie hierbei, dass etwaige abweichende Vereinbarungen Ihres jeweiligen Verlagsvertrags von den Angaben der betreffenden Vertragspolicy in jedem Fall unberührt bleiben</strong>.</p>
-
-<ul>
-	<li>Vor allem für <strong>Zeitschriften</strong> bietet die Online-Datenbank <a href="https://v2.sherpa.ac.uk/romeo/" target="_blank" title="Externen Link im neuen Fenster öffnen">SHERPA/RoMEO</a> einen schnellen Überblick darüber, welche Verlage und Zeitschriften nicht-kommerzielle Zweitveröffentlichungen unter welchen Verlagsbedingungen erlauben:
-
-	<ul>
-		<li>Darf überhaupt zweitveröffentlicht werden?</li>
-		<li>Welche Version des Artikels darf zweitpubliziert werden (Preprint, Postprint, Verlagsversion)?</li>
-		<li>Zu welchem Zeitpunkt nach Erstpublikation darf die Zweitpublikation veröffentlicht werden (sogenannte Embargofrist)?</li>
-		<li>Zudem werden im Bereich „General Conditions“ die zu beachtenden Bedingungen und Links zur Verlagspolicy bzw. zum Standardvertrag aufgeführt.</li>
-		<li>Die Angaben in SHERPA/RoMEO sind <strong><em>rechtlich unverbindlich </em></strong>und<strong><em> nicht immer auf dem aktuellsten Stand</em></strong> - die Angaben <em><strong>bieten jedoch eine erste Orientierung, was die jeweiligen Verlage üblicherweise erlauben (Verlagspolicies)</strong></em>.</li>
-	</ul>
-	</li>
-	<li>Für diese Rechteprüfung auf Basis von Verlagspolicies kann für Beiträge in <strong>Sammelwerken</strong> auch die <a href="https://osc.cam.ac.uk/monographs/open-access-and-monographs/making-book-chapters-available-repositories">Kurzübersicht</a> der University of Cambridge herangezogen werden.</li>
-	<li>Zudem haben <strong>Internationale Großverlage</strong> oft ihre Policies für Zweitveröffentlichungen jeweils auf einer zentralen Webseite veröffentlicht; diese Webseiten von vielen Großverlagen können gegebenenfalls über die Webseite <a href="https://www.howcanishareit.com/">howcanishareit.com</a> gefunden werden (unter: "Publisher Sharing Policies").</li>
-</ul>
-
-<p>Die urheberrechtlichen Bestimmungen in Bezug auf <strong>Monografien </strong>sind hingegen oft restriktiver: Diese können in der Regel <strong><em>nur dann in einem Repositorium </em></strong>wie z. B. KartDok <strong><em>zweitveröffentlicht werden, wenn dafür die Erlaubnis des Verlags bzw. sonstiger Dritter, denen Rechte am Werk eingeräumt wurden, vorliegt</em></strong>.</p>
-
-<ul>
-	<li>Hierfür sollten Sie Ihren entsprechenden Vertrag konsultieren und/oder Kontakt zum Verlag bzw. sonstigen Dritten, denen Rechte an dem Werk eingeräumt wurden, aufnehmen.</li>
-	<li>Sollten Sie sämtliche Verwertungsrechte abgetreten haben, müssten Sie für Ihre Unterlagen eine <strong><em>schriftliche Zustimmung</em></strong> des Verlages bzw. der sonstigen Dritten, denen Rechte eingeräumt wurden, einholen, in der auch die Lizenz festgehalten ist, mit der Sie Ihr Werk versehen möchten bzw. die vom Verlag eingeräumt wird (siehe hierzu auch Pkt. <a href="#2.6">2.6</a>).</li>
-</ul>
-
-<h3><a id="2.4" name="2.4">2.4) Gesetzliches Zweitveröffentlichungsrecht im Urheberrecht</a></h3>
-
-<p><strong>(a) Abdingbares Zweitveröffentlichungsrecht</strong></p>
-
-<p>Wurde <strong>kein expliziter Verlagsvertrag geschlossen</strong>, so sind in diesem Zusammenhang vorrangig die Bestimmungen der Abätze eins und zwei des mit Wirkung zum 1. Januar 2014 novellierten <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 Urheberrechtsgesetz</a> (UrhG) zu berücksichtigen, die <strong>bei Veröffentlichungen in Zeitschriften und Jahrbüchern </strong>(§ 38 Abs. 1 UrhG) <strong>sowie bei nicht finanziell honorierten Publikationen in monographischen, nicht periodisch erscheinenden Sammlungen</strong> (§ 38 Abs. 2 UrhG) – etwa Handbüchern, Lexika, Festschriften oder Kongressbänden – zur Anwendung kommen.</p>
-
-<ul>
-	<li>Gemäß dieser Norm erwirbt der Verlag für die Vervielfältigung, Verbreitung und öffentliche Verfügbarkeit eines entsprechenden Werks im Zweifel zwar ein ausschließliches Nutzungsrecht, dennoch aber dürfen Sie Ihren Beitrag <strong>nach Ablauf einer Embargofrist von zwölf Monaten</strong> anderweitig und damit also auch auf KartDok zweitverwerten (Zweitveröffentlichung) – unter dem Vorbehalt, dass <strong>mit dem betreffenden Verlag </strong><strong>oder sonstigen Dritten nichts anderes vereinbart wurde</strong>.</li>
-	<li>Für eine Zweitveröffentlichung auf Grundlage der Abätze eins und zwei des § 38 Urheberrechtsgesetz (UrhG) darf die <strong>Verlagsversion</strong> genutzt und an einem beliebigen Ort für beliebige Zwecke und wenn gewünscht <strong>auch unter Vergabe einer freien Lizenz</strong> vorgenommen werden.</li>
-</ul>
-
-<p>Wurde hingegen in Bezug auf die Nutzungsrechte eine andere Vereinbarung getroffen, oder eine Vereinbarung, die im Wortlaut nicht bekannt ist oder ist nicht mehr bekannt, ob die Vereinbarung getroffen wurde, kann auf die Abätze eins und zwei des § 38 Urheberrechtsgesetz (UrhG) <strong>nicht</strong> zurückgegriffen werden.</p>
-
-<p><strong>(b) Unabdingbares Zweitveröffentlichungsrecht</strong></p>
-
-<p>Für <strong>wissenschaftliche Aufsätze</strong> können gegebenenfalls auch die Bestimmungen des Abatzes 4 des <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 Urheberrechtsgesetz</a> (UrhG) geltend gemacht werden - <strong>unabhängig davon, was im Verlagsvertrag vereinbart wurde</strong>.</p>
-
-<ul>
-	<li>Sollte Ihr<strong> wissenschaftlicher Aufsatz im Rahmen einer mindestens zur Hälfte mit öffentlichen Mitteln geförderten Forschungstätigkeit entstanden und in einer periodisch mindestens zweimal jährlich erscheinenden Sammlung veröffentlicht</strong> worden sein, so können Sie von den seit 1. Januar 2014 novellierten Schrankenregelungen in § 38 Abs. 4 Urheberrechtsgesetz (UrhG) profitieren.</li>
-	<li>Selbst wenn Sie einem Verlag ein ausschließliches Nutzungsrecht an einem solchen Beitrag eingeräumt und anderweitige Vereinbarungen zu Ihrem Nachteil getroffen haben, sind Sie auf der Grundlage dieser Norm nämlich frei, das Werk <strong>nach Ablauf von zwölf Monaten seit der Erstveröffentlichung in der akzeptierten Manuskriptversion</strong> – also nicht im Verlagslayout – öffentlich zugänglich zu machen, soweit dies keinem gewerblichen Zweck dient und die Quelle der Erstveröffentlichung genannt ist.</li>
-	<li>Bitte beachten Sie in diesem Zusammenhang auch die von der Allianz der deutschen Wissenschaftsorganisationen erarbeiteten <a href="https://doi.org/10.2312/ALLIANZOA.022">FAQ zum unabdingbaren Zweitveröffentlichungsrecht</a> sowie die entsprechenden <a href="https://irights.info/wp-content/uploads/2017/09/zweitveroeffentlichungsrecht-20150425.pdf">Handlungsempfehlungen des iRights.Lab (PDF, 251 KB)</a>, die einen guten Überblick über Detailfragen zur Anwendbarkeit dieser Schrankenregelungen (§ 38 Abs. 4 UrhG) geben.</li>
-</ul>
-
-<p>Bitte beachten Sie zudem, dass die Bestimmungen dieser Schrankenregelungen (§ 38 Abs. 4 UrhG) in Bezug auf Version und Embargofrist für <strong>Zeitschriftenartikel</strong> mitunter restriktiver sind als etwa die allgemeine Verlagspolicy (siehe Pkt. <a href="#2.3">2.3</a>) oder die im Rahmen eines Lizenzvertrags verhandelten Sonderrechte (siehe Pkt. <a href="#2.5">2.5</a>).</p>
-
-<h3><a id="2.5" name="2.5">2.5) Open Access-Rechte in Allianz-, National- und FID-Lizenzen</a></h3>
-
-<p>Unabhängig von den skizzierten Handlungsspielräumen des deutschen Urheberrechtsgesetzes können Sie gegebenenfalls auch diejenigen Open Access-Rechte an Ihrem Werk verbindlich in Anspruch nehmen, die im Rahmen der sogenannten Allianz-, National- und FID-Lizenzen vereinbart wurden. Diese <a href="https://www.nationallizenzen.de/open-access/open-access-allianz-lizenzen.pdf/view">Open Access-Rechte</a> bieten vergleichsweise günstige Bedingungen für die Zweitveröffentlichung und betreffen zumeist verschiedene <strong>internationale Zeitschriftenpakete inklusive der darin enthaltenen Inhalte</strong>.</p>
-
-<ul>
-	<li>Verfügbare Allianz-, National- und FID-Lizenzen können Open-Access-Rechte beinhalten, die für alle <strong>Lizenzteilnehmer –  Einrichtungen und ihre Autorinnen und Autoren</strong> –  vertraglich festgelegt sind. Diese Open-Access-Komponenten räumen diesen - hierdurch autorisierten - Autorinnen und Autoren bestimmte Open-Access-Rechte für eine Zweitveröffentlichung ein. Somit können <strong>Autorinnen und Autoren an wissenschaftlichen Einrichtungen</strong>, die Lizenzteilnehmer der Allianz-, National- bzw. FID-Lizenzen sind, im Fall der vorliegenden Lizenzen <strong>ohne weitere Verhandlung mit den Verlagen</strong> eine Zweitveröffentlichung – gegebenenfalls auf KartDok – realisieren.</li>
-	<li>Für die <strong>Zeitschrift</strong>, in der Sie Ihrer Publikation erstveröffentlicht haben, sollten Sie folgende Punkte hinsichtlich der Open-Access-Rechte kurz überprüfen. Hierfür können Sie diese vollständige, alle Disziplinen umfassende <a href="https://www.nationallizenzen.de/open-access/open-access-rechte.xls/view">Übersicht der mit Open Access-Rechten ausgestatteten Allianz- und Nationallizenzpakete</a> verwenden:
-	<ul>
-		<li><strong>Zeitschrift</strong>: Ist diese Zeitschrift in den Allianz- und Nationallizenzen enthalten (Spalte „Zeitschrift“ oder Spalte „Produkt“)?</li>
-		<li><strong>Jahrgang dieser Zeitschrift</strong>: Wurde der betreffende Jahrgang dieser Zeitschrift mit Open-Access-Rechten lizensiert (Spalte „Jahrgänge mit OA-Rechten“)?</li>
-		<li><strong>Embargofrist</strong>: Lässt eine gegebenenfalls vorhandene Embargofrist für die Open-Access-Komponente dieser Zeitschrift (Spalte „Embargo“) eine Zweitveröffentlichung zum jetzigen Zeitpunkt zu?</li>
-		<li><strong>Zweitveröffentlichung im Fachrepositorium </strong>(z. B. KartDok): Gestatten die Open-Access-Rechte für diese Zeitschrift eine Zweitveröffentlichung in einem Fachrepositorium (Spalte „Repositorium“ – hierfür zutreffende Einträge sind: „Repositorium nach Wahl“, „Fachspezifisches Repositorium“ oder „Nicht-kommerzielles fachspezifisches Repositorium“)?</li>
-	</ul>
-	</li>
-</ul>
-
-<h3><a id="2.6" name="2.6">2.6) Rechteklärung für Zweitveröffentlichungen</a></h3>
-
-<p>Sollte eine Rechteprüfung kein Ergebnis liefern oder nur unklare Informationen ergeben, ist zu empfehlen, <strong>Kontakt zum Verlag</strong> aufzunehmen – um Unklarheiten zu beseitigen und gegebenenfalls eine rechtsverbindliche Erlaubnis des Verlags für die Zweitveröffentlichung einer bestimmten Publikation zu erhalten. Diese Anfrage sollte Angaben zu folgenden Punkten enthalten:</p>
-
-<ul>
-	<li>Vollständige bibliografische Information</li>
-	<li>Zweck der Anfrage</li>
-	<li>Art der Verwendung (Nennung der gewünschten Version)</li>
-	<li>Ort der Zweitveröffentlichung, ggf. erläuternde Hinweise zur (nichtkommerziellen) Beschaffenheit des Repositoriums</li>
-	<li>Soll die Zweitveröffentlichung unter einer freien Lizenz erfolgen, sollte diese konkret benannt werden</li>
-</ul>
-
-<p>Zur Unterstützung Ihrer Anfrage beim Verlag (bzw. bei der Rechteinhaberin bzw. beim Rechteinhaber) zwecks Zweitveröffentlich(en) auf KartDok bieten wir dieses <strong>Empfehlungsschreiben</strong>, das Sie Ihrer Anfrage gegebenenfalls beifügen können: <a href="../rights/KartDok-Empfehlungsschreiben.pdf">KartDok-Empfehlungsschreiben (PDF, 121 KB)</a>.</p>
-
-<p> </p>
-
-<h2><a id="3" name="3">3) Lizenzwahl: KartDok-Lizenz oder Open Content-Lizenz?</a></h2>
-
-<div style="margin-left: 40px;"><a href="#3.1">3.1) KartDok-Lizenz bzw. Open-Access im Zuge einer Allianz- bzw. Nationallizenz</a><br />
-<a href="#3.2">3.2) Open Content-Lizenzen</a></div>
-
-<p> </p>
-
-<h3><a id="3.1" name="3.1">3.1) KartDok-Lizenz bzw. Open-Access im Zuge einer Allianz- bzw. Nationallizenz</a></h3>
-
-<p>Mit Upload des Dokuments auf unseren Server sowie auf Grundlage des schriftlichen <a href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrags (PDF, 945 KB)</a> räumen Sie KartDok ein einfaches Nutzungsrecht zur Vervielfältigung, Verbreitung und öffentlichen Zugänglichmachung Ihres Werks im Internet ein sowie ergänzend das Recht, insbesondere für Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen.</p>
-
-<p>Im Rahmen dieser öffentlichen Verfügbarkeit ist die <strong>Nutzung und Vervielfältigung Ihres auf KartDok veröffentlichten Beitrags durch Dritte</strong> allerdings <strong>nur im Rahmen der im deutschen Urheberrecht vorgesehenen Schranken möglich</strong> – vor allem in Hinblick auf eine Vervielfältigung zum wissenschaftlichen, privaten und sonstigen eigenen Gebrauch (§§ <a href="https://www.gesetze-im-internet.de/urhg/__53.html">53</a>, <a href="https://www.gesetze-im-internet.de/urhg/__60c.html">60c</a>, <a href="https://www.gesetze-im-internet.de/urhg/__60d.html">60d</a> UrhG).</p>
-
-<p>KartDok bietet hierfür die Auswahl dieser Lizenzen an:</p>
-
-<ul>
-	<li><strong>KartDok-Lizenz (Alle Rechte vorbehalten)</strong></li>
-	<li><strong>Open-Access im Zuge einer Allianz- bzw. Nationallizenz </strong>(siehe <a href="#2.5">2.5</a>)</li>
-</ul>
-
-<h3><a id="3.2" name="3.2">3.2) Open Content-Lizenzen</a></h3>
-
-<p>Sollten Sie darüber hinaus an einer weitergehenden Nutzung Ihres Werks interessiert sein, so empfiehlt Ihnen KartDok – in Übereinstimmung mit der Allianz der deutschen Wissenschaftsorganisationen („<a href="https://gfzpublic.gfz-potsdam.de/pubman/item/item_2875895"><em>Appell zur Nutzung offener Lizenzen in der Wissenschaft</em></a>“) – die <strong>Vergabe einer <a href="https://creativecommons.org/about/cclicenses/">Creative Commons-Lizenz</a></strong>, mit der Sie Ihre Beiträge auf KartDok z. B. für die Bearbeitung und Weiterverbreitung durch Dritte freigeben können.</p>
-
-<p>KartDok bietet die Auswahl folgender Open-Content-Lizenzen an:</p>
-
-<ul>
-	<li><strong>Creative Commons 4.0 International Lizenzen</strong>: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> | <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.de">CC BY-NC 4.0</a> | <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">CC BY-NC-SA 4.0</a> | <a href="https://creativecommons.org/licenses/by-nd/4.0/deed.de">CC BY-ND 4.0</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> (siehe hierzu auch das Tool zur <a href="https://creativecommons.org/choose/?lang=de">Auswahl der CC-Lizenzeigenschaften</a>)</li>
-	<li><strong>Open Data Commons Lizenzen</strong>: <a href="https://opendatacommons.org/licenses/by/">ODC-By – Attribution License</a> | <a href="https://opendatacommons.org/licenses/odbl/">ODC-ODbL – Open Database License</a> | <a href="https://opendatacommons.org/licenses/pddl/">PDDL - Public Domain Dedication and License</a></li>
-	<li><strong>Public Domain</strong>: <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0 Universell</a> | <a href="https://creativecommons.org/publicdomain/mark/1.0/deed.de">Public Domain Mark 1.0</a></li>
-</ul>
-
-<p>Bitte beachten Sie, dass die <strong>Vergabe von Creative Commons- oder anderen Open Content-Lizenzen</strong> in der Regel <strong>nur für Erstveröffentlichungen</strong> auf KartDok möglich ist <strong>sowie für diejenigen Werke, an denen Sie ein ausschließliches Nutzungsrecht besitzen</strong>.</p>
-
-<p>In allen anderen Fällen ist <strong>vor einer freien Lizenzierung </strong>die <strong>Zustimmung des jeweils betroffenen Verlags einzuholen</strong> (siehe <a href="#2.6">2.6</a>).</p>
-
-<p> </p>
-
-<h2><a id="4" name="4">4) Unterstützung und Kontakt</a></h2>
-
-<p>Auf Wunsch steht Ihnen das Team von KartDok für Fragen zum Open Access-Publizieren gerne zur Verfügung. Bitte nutzen Sie hierfür unser <a href="../below/contact.xed">Kontaktformular</a>.</p>
-
-<p>Unabhängig von der Inanspruchnahme dieses Beratungsangebots sind Sie vor einer Veröffentlichung auf KartDok in jedem Fall dazu verpflichtet, sich sorgfältig zu vergewissern, dass die der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz einzuräumenden Nutzungsrechte insbesondere zur öffentlichen Verfügbarkeit Ihres Werks auch tatsächlich bei Ihnen liegen. KartDok behält sich unter anderem in strafrechtlich relevanten Fällen das Recht vor, den Zugriff auf bereits veröffentliche Dokumente zu sperren.</p>
-
-<p><strong>Bitte beachten Sie, dass die hier aufgelisteten Informationen keine rechtsverbindlichen Auskünfte darstellen und die dargestellten Inhalte vor allem Informationen zur ersten Orientierung bereitstellen. Das KartDok-Team hat die Angaben auf diesen Seiten sorgfältig geprüft, kann aber keine rechtsverbindlichen Auskünfte erteilen.</strong></p>
-</div>
-</section><meta><log lastEditor="admin-ro" date="2022-07-25" time="12:29" /></meta></MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de" title="KartDok – Hinweise zum Urheberrecht und zur Lizenzwahl">
+    <head>
+      <meta name="title" content="KartDok – Hinweise zum Urheberrecht und zur Lizenzwahl" />
+      <meta name='description'
+        content="KartDok – unsere Hinweise zu den urheberrechtlichen Rahmenbedingungen des Open Access-Publizierens auf KartDok" />
+    </head>
+    <div class="row">
+      <div class="col-md-12 collapsed-items">
+        <h1>Urheberrechtliche Rahmenbedingungen des Open Access-Publizierens auf KartDok</h1>
+
+        <!-- ===================================================================
+          Erstveröffentlichung
+        ==================================================================== -->
+
+        <div
+          id="erstveroeffentlichung-von-originalbeitraegen"
+          data-toggle="collapse"
+          data-target="#copyright-1"
+          class="collapsed collapsed-items__toggle">
+          <h2>
+            <span class="collapsed-items__title">1) Erstveröffentlichung von Originalbeiträgen</span>
+          </h2>
+        </div>
+        <div
+          id="copyright-1"
+          class="collapse collapsed-items__item">
+          <p>Während die <strong>Erstveröffentlichung von Originalbeiträgen</strong> auf KartDok
+            unter urheberrechtlichem Aspekt in aller Regel unproblematisch ist, ergeben sich bei der <strong>
+            Zweitveröffentlichung</strong> zuvor bereits in gedruckter oder elektronischer Form in
+            monographischen Sammelwerken – darunter Festschriften, Lexika, Kongressbände und
+            Handbücher – oder abonnementpflichtigen Zeitschriften, Jahrbüchern und Zeitungen
+            erschienener Aufsätze regelmäßig Fragen nach der Zulässigkeit.</p>
+        </div>
+
+        <!-- ===================================================================
+          Zweitveröffentlichungen
+        ==================================================================== -->
+
+        <div
+          id="zweitveroeffentlichungen"
+          data-toggle="collapse"
+          data-target="#copyright-2"
+          class="collapsed collapsed-items__toggle">
+          <h2>
+            <span class="collapsed-items__title">2) Zweitveröffentlichungen</span>
+          </h2>
+        </div>
+        <div
+          id="copyright-2"
+          class="collapse collapsed-items__item">
+          <p>Um zu prüfen, ob Ihre <strong>Publikation zweitveröffentlicht werden darf</strong>,
+            sind in erster Linie <strong>folgenden Punkte zu klären</strong>:</p>
+
+          <ul>
+            <li>Welche <em>
+                <strong>Rechtsgrundlagen</strong>
+              </em> können <strong>
+                <em>im konkreten Fall</em>
+              </strong> herangezogen werden?</li>
+            <li>Welche <strong>
+                <em>Version</em>
+              </strong> (z. B. Preprint, Postprint oder
+              Verlagsversion) darf <strong>
+                <em>wann</em>
+              </strong> (z. B. nach sogenannter Embargofrist) <strong>
+                <em>zweitveröffentlicht</em>
+              </strong> werden?</li>
+            <li>In welcher <strong>
+                <em>Art von Repositorium</em>
+              </strong> (z. B. institutionelles
+              Repositorium oder Fachrepositorium wie beispielsweise KartDok) darf die
+              Zweitveröffentlichung erfolgen?</li>
+            <li>Welche <strong>
+                <em>Auflagen</em>
+              </strong> sind <strong>
+                <em>darüber hinaus</em>
+              </strong> zu beachten?</li>
+          </ul>
+
+          <p>Grundlegende <strong>Rechtsgrundlagen und Hilfsmittel</strong>, um diese Fragen zu
+            beantworten, werden nachfolgend kurz vorgestellt.</p>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-1"
+            class="collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.1) Vorprüfung auf bereits vorhandene Veröffentlichung unter freier Lizenz</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-1">
+            <p>Falls die Erstveröffentlichung oder eine Zweitveröffentlichung <strong>bereits unter
+              einer freien Lizenz erfolgt</strong> ist, <strong>steht einer Zweitveröffentlichung
+                auf
+                KartDok in der Regel nichts entgegen</strong>. Hierfür sollten zunächst diese Fragen
+              geklärt werden:</p>
+
+            <ul>
+              <li>Erfolgte die <strong>
+                  <em>Erstveröffentlichung unter einer offenen Lizenz</em>
+                </strong>,
+                z. B. einer <a href="https://creativecommons.org/licenses/by/4.0/deed.de">
+                CC-BY-Lizenz</a> ?</li>
+              <li>Haben Sie <strong>
+                  <em>als Autor:in </em>
+                </strong>einer Closed-Access-Publikation für
+                diese <strong>
+                  <em>bereits eine Zweitveröffentlichung vorgenommen</em>
+                </strong>
+                und ist diese <strong>
+                  <em>unter einer freien Lizenz</em>
+                </strong> (z. B. einer
+                CC-BY-Lizenz) erfolgt?</li>
+              <li>Haben <strong>
+                  <em>Koautorinnen bzw. Koautoren</em>
+                </strong> dieser
+                Closed-Access-Publikation <strong>
+                  <em>bereits eine Zweitveröffentlichung vorgenommen</em>
+                </strong>
+                (beispielsweise müssen Angehörige einiger Forschungseinrichtungen die akzeptierte
+                Manuskriptfassung von Zeitschriftenartikeln direkt nach Erscheinen
+                zweitveröffentlichen - mitunter unter einer freien Lizenz, z. B. einer <a
+                  href="https://creativecommons.org/licenses/by-nc/4.0/deed.de">CC BY-NC-Lizenz</a>
+                )?</li>
+            </ul>
+
+            <p>Für die <strong>Beantwortung dieser Fragen</strong> können Open Access Publikationen
+              in Repositorien unter anderem <strong>mittels dieser Suchmaschinen</strong> gefunden
+              werden:</p>
+
+            <ul>
+              <li><a href="https://www.base-search.net/">BASE</a> (großer Index, ausschließlich
+                nachhaltige Datenquellen, Suche einfach &amp; erweitert, Filtern der Suchergebnisse;
+                keine Deduplizierung verschiedener Versionen)</li>
+              <li><a href="https://dissem.in/">Dissemin</a> (großer BASE-Index, Suche einfach &amp;
+                erweitert, Filtern der Suchergebnisse)</li>
+              <li><a href="https://core.ac.uk/">CORE</a> (großer Index, Suche einfach &amp;
+                erweitert, Filtern der Suchergebnisse; auf Startseite zunächst nur Suche einfach –
+                dort keine Suche nach Titel oder DOI)</li>
+              <li><a href="https://openaccessbutton.org/">Open Access Button</a> (großer Index,
+                Suche einfach)</li>
+              <li><a href="https://scholar.google.de/">Google Scholar</a> (großer Index,
+                Deduplizierung verschiedener Versionen; keine erweiterte Suche, limitierte Optionen
+                zum Filtern der Ergebnisse, proprietärer Service: Rankingalgorithmen und Gründe für
+                Nicht-/Indexierung intransparent)</li>
+            </ul>
+          </div>
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-2"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.2) Verlagsverträge</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-2">
+
+            <p>Im Verlagsvertrag ist gegebenenfalls vereinbart, welche Nutzungsrechte Sie als
+              Autor:in dem Verlag eingeräumt haben und ob bzw. zu welchen Bedingungen eine
+              Zweitveröffentlichung möglich ist. <strong>Maßgeblich ist der Verlagsvertrag, der bei
+              der Erstveröffentlichung
+                mit Ihnen geschlossen wurde</strong>.</p>
+
+            <ul>
+              <li>Der Verlagsvertrag (bzw. <em>Copyright Transfer Agreement</em>) wird <strong>
+                  <em>zumeist elektronisch übermittelt</em>
+                </strong> und <strong>
+                  <em>ist nicht notwendigerweise von Ihnen unterzeichnet</em>
+                </strong>
+                .</li>
+              <li>Liegt ein Vertrag schriftlich vor, gilt es zunächst, diesen <strong>
+                  <em>hinsichtlich der <em>e</em>rfolgten Rechteeinräumung und etwaiger expliziter
+                Bestimmungen bezüglich der Zweitveröffentlichungsrechte</em>
+                </strong>
+                (auch „<em>sharing rights</em>“, <em>„deposit rights</em>“, „<em>self-archiving
+                rights</em> “) <strong>
+                  <em>der Autorinnen und Autoren zu überprüfen</em>
+                </strong>.</li>
+            </ul>
+
+            <p>Ist ein zutreffender Passus identifiziert, sollten Sie die <strong>Rechteprüfung an
+              diesem Punkt noch nicht abschließen</strong> – selbst dann nicht, wenn der Vertrag
+              eine Zweitveröffentlichung erlaubt. Denn womöglich ist diese aufgrund übergreifender
+              Regelungen und Vereinbarungen gegebenfalls auch zu anderen und gegebenenfalls sogar
+              besseren Konditionen möglich (vor allem hinsichtlich der Version oder der
+              Embargofrist).</p>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-3"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.3) Verlagspolicies</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-3">
+            <p>Sollten Ihnen die <strong>Vertragsbedingungen nicht mehr bekannt</strong> sein,
+              können Sie diese, wie nachfolgend skizziert, <strong>auf Basis von Verlagspolicies</strong>
+              recherchieren. <strong>Bitte beachten Sie hierbei, dass etwaige abweichende
+              Vereinbarungen
+                Ihres jeweiligen Verlagsvertrags von den Angaben der betreffenden Vertragspolicy in
+              jedem
+                Fall unberührt bleiben</strong>.</p>
+
+            <ul>
+              <li>Vor allem für <strong>Zeitschriften</strong> bietet die Online-Datenbank <a
+                  href="https://v2.sherpa.ac.uk/romeo/" target="_blank"
+                  title="Externen Link im neuen Fenster öffnen">SHERPA/RoMEO</a> einen schnellen
+                Überblick darüber, welche Verlage und Zeitschriften nicht-kommerzielle
+                Zweitveröffentlichungen unter welchen Verlagsbedingungen erlauben: <ul>
+                  <li>Darf überhaupt zweitveröffentlicht werden?</li>
+                  <li>Welche Version des Artikels darf zweitpubliziert werden (Preprint, Postprint,
+                Verlagsversion)?</li>
+                  <li>Zu welchem Zeitpunkt nach Erstpublikation darf die Zweitpublikation
+                veröffentlicht
+                    werden (sogenannte Embargofrist)?</li>
+                  <li>Zudem werden im Bereich „General Conditions“ die zu beachtenden Bedingungen
+                    und
+                    Links zur Verlagspolicy bzw. zum Standardvertrag aufgeführt.</li>
+                  <li>Die Angaben in SHERPA/RoMEO sind <strong>
+                      <em>rechtlich unverbindlich </em>
+                    </strong>und<strong>
+                      <em> nicht immer auf dem aktuellsten Stand</em>
+                    </strong> -
+                die Angaben <em>
+                      <strong>bieten jedoch eine erste Orientierung, was die jeweiligen Verlage
+                üblicherweise erlauben (Verlagspolicies)</strong>
+                    </em>.</li>
+                </ul>
+              </li>
+              <li>Für diese Rechteprüfung auf Basis von Verlagspolicies kann für Beiträge in <strong>
+                Sammelwerken</strong> auch die <a
+                  href="https://osc.cam.ac.uk/monographs/open-access-and-monographs/making-book-chapters-available-repositories">
+                Kurzübersicht</a> der University of Cambridge herangezogen werden.</li>
+              <li>Zudem haben <strong>Internationale Großverlage</strong> oft ihre Policies für
+                Zweitveröffentlichungen jeweils auf einer zentralen Webseite veröffentlicht; diese
+                Webseiten von vielen Großverlagen können gegebenenfalls über die Webseite <a
+                  href="https://www.howcanishareit.com/">howcanishareit.com</a> gefunden werden
+                (unter: "Publisher Sharing Policies").</li>
+            </ul>
+
+            <p>Die urheberrechtlichen Bestimmungen in Bezug auf <strong>Monografien </strong>sind
+              hingegen oft restriktiver: Diese können in der Regel <strong>
+                <em>nur dann in einem Repositorium </em>
+              </strong>wie z. B. KartDok <strong>
+                <em>zweitveröffentlicht werden, wenn dafür die Erlaubnis des Verlags bzw. sonstiger
+              Dritter, denen Rechte am Werk eingeräumt wurden, vorliegt</em>
+              </strong>.</p>
+
+            <ul>
+              <li>Hierfür sollten Sie Ihren entsprechenden Vertrag konsultieren und/oder Kontakt zum
+                Verlag bzw. sonstigen Dritten, denen Rechte an dem Werk eingeräumt wurden,
+                aufnehmen.</li>
+              <li>Sollten Sie sämtliche Verwertungsrechte abgetreten haben, müssten Sie für Ihre
+                Unterlagen eine <strong>
+                  <em>schriftliche Zustimmung</em>
+                </strong> des Verlages bzw. der
+                sonstigen Dritten, denen Rechte eingeräumt wurden, einholen, in der auch die Lizenz
+                festgehalten ist, mit der Sie Ihr Werk versehen möchten bzw. die vom Verlag
+                eingeräumt wird (siehe hierzu auch Pkt. <a href="#2.6">2.6</a>).</li>
+            </ul>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-4"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.4) Gesetzliches Zweitveröffentlichungsrecht im Urheberrecht</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-4">
+            <p>
+              <strong>(a) Abdingbares Zweitveröffentlichungsrecht</strong>
+            </p>
+
+            <p>Wurde <strong>kein expliziter Verlagsvertrag geschlossen</strong>, so sind in diesem
+              Zusammenhang vorrangig die Bestimmungen der Abätze eins und zwei des mit Wirkung zum
+              1. Januar 2014 novellierten <a
+                href="https://www.gesetze-im-internet.de/urhg/__38.html">§
+                38
+                Urheberrechtsgesetz</a> (UrhG) zu berücksichtigen, die <strong>bei
+                Veröffentlichungen
+                in
+                Zeitschriften und Jahrbüchern </strong>(§ 38 Abs. 1 UrhG) <strong>sowie bei nicht
+              finanziell honorierten Publikationen in monographischen, nicht periodisch
+                erscheinenden
+                Sammlungen</strong> (§ 38 Abs. 2 UrhG) – etwa Handbüchern, Lexika, Festschriften
+              oder Kongressbänden – zur Anwendung kommen.</p>
+
+            <ul>
+              <li>Gemäß dieser Norm erwirbt der Verlag für die Vervielfältigung, Verbreitung und
+                öffentliche Verfügbarkeit eines entsprechenden Werks im Zweifel zwar ein
+                ausschließliches Nutzungsrecht, dennoch aber dürfen Sie Ihren Beitrag <strong>nach
+                Ablauf einer Embargofrist von zwölf Monaten</strong> anderweitig und damit also auch
+                auf KartDok zweitverwerten (Zweitveröffentlichung) – unter dem Vorbehalt, dass <strong>mit
+                dem betreffenden Verlag </strong><strong>oder sonstigen Dritten nichts anderes
+                vereinbart wurde</strong>.</li>
+              <li>Für eine Zweitveröffentlichung auf Grundlage der Abätze eins und zwei des § 38
+                Urheberrechtsgesetz (UrhG) darf die <strong>Verlagsversion</strong> genutzt und an
+                einem beliebigen Ort für beliebige Zwecke und wenn gewünscht <strong>auch unter
+                Vergabe einer
+                  freien Lizenz</strong> vorgenommen werden.</li>
+            </ul>
+
+            <p>Wurde hingegen in Bezug auf die Nutzungsrechte eine andere Vereinbarung getroffen,
+              oder eine Vereinbarung, die im Wortlaut nicht bekannt ist oder ist nicht mehr bekannt,
+              ob die Vereinbarung getroffen wurde, kann auf die Abätze eins und zwei des § 38
+              Urheberrechtsgesetz (UrhG) <strong>nicht</strong> zurückgegriffen werden.</p>
+
+            <p>
+              <strong>(b) Unabdingbares Zweitveröffentlichungsrecht</strong>
+            </p>
+
+            <p>Für <strong>wissenschaftliche Aufsätze</strong> können gegebenenfalls auch die
+              Bestimmungen des Abatzes 4 des <a
+                href="https://www.gesetze-im-internet.de/urhg/__38.html">§
+                38 Urheberrechtsgesetz</a> (UrhG) geltend gemacht werden - <strong>unabhängig davon,
+              was
+                im Verlagsvertrag vereinbart wurde</strong>.</p>
+
+            <ul>
+              <li>Sollte Ihr<strong> wissenschaftlicher Aufsatz im Rahmen einer mindestens zur
+                  Hälfte
+                  mit öffentlichen Mitteln geförderten Forschungstätigkeit entstanden und in einer
+                periodisch mindestens zweimal jährlich erscheinenden Sammlung veröffentlicht</strong>
+                worden sein, so können Sie von den seit 1. Januar 2014 novellierten
+                Schrankenregelungen in § 38 Abs. 4 Urheberrechtsgesetz (UrhG) profitieren.</li>
+              <li>Selbst wenn Sie einem Verlag ein ausschließliches Nutzungsrecht an einem solchen
+                Beitrag eingeräumt und anderweitige Vereinbarungen zu Ihrem Nachteil getroffen
+                haben, sind Sie auf der Grundlage dieser Norm nämlich frei, das Werk <strong>nach
+                Ablauf von
+                  zwölf Monaten seit der Erstveröffentlichung in der akzeptierten Manuskriptversion</strong>
+                – also nicht im Verlagslayout – öffentlich zugänglich zu machen, soweit dies keinem
+                gewerblichen Zweck dient und die Quelle der Erstveröffentlichung genannt ist.</li>
+              <li>Bitte beachten Sie in diesem Zusammenhang auch die von der Allianz der deutschen
+                Wissenschaftsorganisationen erarbeiteten <a
+                  href="https://doi.org/10.2312/ALLIANZOA.022">FAQ
+                  zum unabdingbaren Zweitveröffentlichungsrecht</a> sowie die entsprechenden <a
+                  href="https://irights.info/wp-content/uploads/2017/09/zweitveroeffentlichungsrecht-20150425.pdf">Handlungsempfehlungen
+                des iRights.Lab (PDF, 251 KB)</a>, die einen guten Überblick über Detailfragen zur
+                Anwendbarkeit dieser Schrankenregelungen (§ 38 Abs. 4 UrhG) geben.</li>
+            </ul>
+
+            <p>Bitte beachten Sie zudem, dass die Bestimmungen dieser Schrankenregelungen (§ 38 Abs.
+              4 UrhG) in Bezug auf Version und Embargofrist für <strong>Zeitschriftenartikel</strong>
+              mitunter restriktiver sind als etwa die allgemeine Verlagspolicy (siehe Pkt. <a
+                href="#2.3">2.3</a>) oder die im Rahmen eines Lizenzvertrags verhandelten
+              Sonderrechte (siehe Pkt. <a href="#2.5">2.5</a>).</p>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-5"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.5) Open Access-Rechte in Allianz-, National- und FID-Lizenzen</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-5">
+
+            <p>Unabhängig von den skizzierten Handlungsspielräumen des deutschen
+              Urheberrechtsgesetzes können Sie gegebenenfalls auch diejenigen Open Access-Rechte an
+              Ihrem Werk verbindlich in Anspruch nehmen, die im Rahmen der sogenannten Allianz-,
+              National- und FID-Lizenzen vereinbart wurden. Diese <a
+                href="https://www.nationallizenzen.de/open-access/open-access-allianz-lizenzen.pdf/view">Open
+              Access-Rechte</a> bieten vergleichsweise günstige Bedingungen für die
+              Zweitveröffentlichung und betreffen zumeist verschiedene <strong>internationale
+              Zeitschriftenpakete inklusive der darin enthaltenen Inhalte</strong>.</p>
+
+            <ul>
+              <li>Verfügbare Allianz-, National- und FID-Lizenzen können Open-Access-Rechte
+                beinhalten, die für alle <strong>Lizenzteilnehmer –  Einrichtungen und ihre
+                Autorinnen
+                  und Autoren</strong> –  vertraglich festgelegt sind. Diese Open-Access-Komponenten
+                räumen diesen - hierdurch autorisierten - Autorinnen und Autoren bestimmte
+                Open-Access-Rechte für eine Zweitveröffentlichung ein. Somit können <strong>Autorinnen
+                und Autoren an
+                  wissenschaftlichen Einrichtungen</strong>, die Lizenzteilnehmer der Allianz-,
+                National- bzw. FID-Lizenzen sind, im Fall der vorliegenden Lizenzen <strong>ohne
+                weitere
+                  Verhandlung mit den Verlagen</strong> eine Zweitveröffentlichung – gegebenenfalls
+                auf KartDok – realisieren.</li>
+              <li>Für die <strong>Zeitschrift</strong>, in der Sie Ihrer Publikation
+                erstveröffentlicht haben, sollten Sie folgende Punkte hinsichtlich der
+                Open-Access-Rechte kurz überprüfen. Hierfür können Sie diese vollständige, alle
+                Disziplinen umfassende <a
+                  href="https://www.nationallizenzen.de/open-access/open-access-rechte.xls/view">Übersicht
+                der mit Open Access-Rechten ausgestatteten Allianz- und Nationallizenzpakete</a>
+                verwenden: <ul>
+                  <li><strong>Zeitschrift</strong>: Ist diese Zeitschrift in den Allianz- und
+                Nationallizenzen enthalten (Spalte „Zeitschrift“ oder Spalte „Produkt“)?</li>
+                  <li><strong>Jahrgang dieser Zeitschrift</strong>: Wurde der betreffende Jahrgang
+                dieser Zeitschrift mit Open-Access-Rechten lizensiert (Spalte „Jahrgänge mit
+                OA-Rechten“)?</li>
+                  <li><strong>Embargofrist</strong>: Lässt eine gegebenenfalls vorhandene
+                Embargofrist für die Open-Access-Komponente dieser Zeitschrift (Spalte „Embargo“)
+                eine Zweitveröffentlichung zum jetzigen Zeitpunkt zu?</li>
+                  <li><strong>Zweitveröffentlichung im Fachrepositorium </strong>(z. B. KartDok):
+                Gestatten die Open-Access-Rechte für diese Zeitschrift eine Zweitveröffentlichung in
+                einem Fachrepositorium (Spalte „Repositorium“ – hierfür zutreffende Einträge sind:
+                „Repositorium nach Wahl“, „Fachspezifisches Repositorium“ oder „Nicht-kommerzielles
+                fachspezifisches Repositorium“)?</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            id="rechteklaerung-fuer-zweitveroeffentlichungen"
+            data-toggle="collapse"
+            data-target="#copyright-2-6"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.6) Rechteklärung für Zweitveröffentlichungen</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-6">
+            <p>Sollte eine Rechteprüfung kein Ergebnis liefern oder nur unklare Informationen
+              ergeben, ist zu empfehlen, <strong>Kontakt zum Verlag</strong> aufzunehmen – um
+              Unklarheiten zu beseitigen und gegebenenfalls eine rechtsverbindliche Erlaubnis des
+              Verlags für die Zweitveröffentlichung einer bestimmten Publikation zu erhalten. Diese
+              Anfrage sollte Angaben zu folgenden Punkten enthalten:</p>
+
+            <ul>
+              <li>Vollständige bibliografische Information</li>
+              <li>Zweck der Anfrage</li>
+              <li>Art der Verwendung (Nennung der gewünschten Version)</li>
+              <li>Ort der Zweitveröffentlichung, ggf. erläuternde Hinweise zur (nichtkommerziellen)
+                Beschaffenheit des Repositoriums</li>
+              <li>Soll die Zweitveröffentlichung unter einer freien Lizenz erfolgen, sollte diese
+                konkret benannt werden</li>
+            </ul>
+
+            <p>Zur Unterstützung Ihrer Anfrage beim Verlag (bzw. bei der Rechteinhaberin bzw. beim
+              Rechteinhaber) zwecks Zweitveröffentlich(en) auf KartDok bieten wir dieses <strong>
+              Empfehlungsschreiben</strong>, das Sie Ihrer Anfrage gegebenenfalls beifügen können: <a
+                href="../rights/KartDok-Empfehlungsschreiben.pdf">KartDok-Empfehlungsschreiben (PDF,
+              121
+                KB)</a>.</p>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================
+          Lizenzwahl
+        ==================================================================== -->
+
+        <div
+          id="lizenzwahl"
+          data-toggle="collapse"
+          data-target="#copyright-3"
+          class="collapsed-items__toggle">
+          <h2>
+            <span class="collapsed-items__title">3) Lizenzwahl: KartDok-Lizenz oder Open Content-Lizenz?</span>
+          </h2>
+        </div>
+        <div
+          class="collapse collapsed-items__item"
+          id="copyright-3">
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-3-1"
+            class="collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">3.1) KartDok-Lizenz bzw. Open-Access im Zuge einer Allianz- bzw. Nationallizenz</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-3-1">
+            <p>Mit Upload des Dokuments auf unseren Server sowie auf Grundlage des schriftlichen <a
+                href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrags (PDF, 945 KB)</a>
+              räumen Sie KartDok ein einfaches Nutzungsrecht zur Vervielfältigung, Verbreitung und
+              öffentlichen Zugänglichmachung Ihres Werks im Internet ein sowie ergänzend das Recht,
+              insbesondere für Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen.</p>
+
+            <p>Im Rahmen dieser öffentlichen Verfügbarkeit ist die <strong>Nutzung und
+              Vervielfältigung
+                Ihres auf KartDok veröffentlichten Beitrags durch Dritte</strong> allerdings <strong>nur
+              im Rahmen der im deutschen Urheberrecht vorgesehenen Schranken möglich</strong> – vor
+              allem in Hinblick auf eine Vervielfältigung zum wissenschaftlichen, privaten und
+              sonstigen eigenen Gebrauch (§§ <a
+                href="https://www.gesetze-im-internet.de/urhg/__53.html">53</a>, <a
+                href="https://www.gesetze-im-internet.de/urhg/__60c.html">60c</a>, <a
+                href="https://www.gesetze-im-internet.de/urhg/__60d.html">60d</a> UrhG).</p>
+
+            <p>KartDok bietet hierfür die Auswahl dieser Lizenzen an:</p>
+
+            <ul>
+              <li>
+                <strong>KartDok-Lizenz (Alle Rechte vorbehalten)</strong>
+              </li>
+              <li><strong>Open-Access im Zuge einer Allianz- bzw. Nationallizenz </strong>(siehe <a
+                  href="#2.5">2.5</a>)</li>
+            </ul>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-3-2"
+            class="collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">3.2) Open Content-Lizenzen</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-3-2">
+
+            <p>Sollten Sie darüber hinaus an einer weitergehenden Nutzung Ihres Werks interessiert
+              sein, so empfiehlt Ihnen KartDok – in Übereinstimmung mit der Allianz der deutschen
+              Wissenschaftsorganisationen („<a
+                href="https://gfzpublic.gfz-potsdam.de/pubman/item/item_2875895">
+                <em>Appell zur Nutzung offener Lizenzen in der Wissenschaft</em>
+              </a>“)
+              – die <strong>Vergabe einer <a href="https://creativecommons.org/about/cclicenses/">Creative
+              Commons-Lizenz</a></strong>, mit der Sie Ihre Beiträge auf KartDok z. B. für die
+              Bearbeitung und Weiterverbreitung durch Dritte freigeben können.</p>
+
+            <p>KartDok bietet die Auswahl folgender Open-Content-Lizenzen an:</p>
+
+            <ul>
+              <li><strong>Creative Commons 4.0 International Lizenzen</strong>: <a
+                  href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> | <a
+                  href="https://creativecommons.org/licenses/by-nc/4.0/deed.de">CC BY-NC 4.0</a> | <a
+                  href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                | <a
+                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">CC BY-NC-SA 4.0</a>
+                | <a
+                  href="https://creativecommons.org/licenses/by-nd/4.0/deed.de">CC BY-ND 4.0</a> | <a
+                  href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>
+                (siehe hierzu auch das Tool zur <a
+                  href="https://creativecommons.org/choose/?lang=de">Auswahl
+                  der CC-Lizenzeigenschaften</a>)</li>
+              <li><strong>Open Data Commons Lizenzen</strong>: <a
+                  href="https://opendatacommons.org/licenses/by/">ODC-By – Attribution License</a> | <a
+                  href="https://opendatacommons.org/licenses/odbl/">ODC-ODbL – Open Database License</a>
+                | <a href="https://opendatacommons.org/licenses/pddl/">PDDL - Public Domain
+                Dedication
+                  and License</a></li>
+              <li><strong>Public Domain</strong>: <a
+                  href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0
+                  Universell</a> | <a
+                  href="https://creativecommons.org/publicdomain/mark/1.0/deed.de">Public
+                  Domain
+                  Mark
+                  1.0</a></li>
+            </ul>
+
+            <p>Bitte beachten Sie, dass die <strong>Vergabe von Creative Commons- oder anderen Open
+              Content-Lizenzen</strong> in der Regel <strong>nur für Erstveröffentlichungen</strong>
+              auf KartDok möglich ist <strong>sowie für diejenigen Werke, an denen Sie ein
+              ausschließliches
+                Nutzungsrecht besitzen</strong>.</p>
+
+            <p>In allen anderen Fällen ist <strong>vor einer freien Lizenzierung </strong>die <strong>Zustimmung
+              des jeweils betroffenen Verlags einzuholen</strong> (siehe <a href="#2.6">2.6</a>).</p>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================
+          Kontakt
+        ==================================================================== -->
+
+        <div
+          id="unterstuetzung-und-kontakt"
+          data-toggle="collapse"
+          data-target="#copyright-4"
+          class="collapsed-items__toggle">
+          <h2>
+            <span class="collapsed-items__title">4) Unterstützung und Kontakt</span>
+          </h2>
+        </div>
+        <div
+          class="collapse collapsed-items__item"
+          id="copyright-4">
+          <p>Auf Wunsch steht Ihnen das Team von KartDok für Fragen zum Open Access-Publizieren
+            gerne zur Verfügung. Bitte nutzen Sie hierfür unser <a href="../below/contact.xed">
+            Kontaktformular</a>.</p>
+
+          <p>Unabhängig von der Inanspruchnahme dieses Beratungsangebots sind Sie vor einer
+            Veröffentlichung auf KartDok in jedem Fall dazu verpflichtet, sich sorgfältig zu
+            vergewissern, dass die der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
+            einzuräumenden Nutzungsrechte insbesondere zur öffentlichen Verfügbarkeit Ihres Werks
+            auch
+            tatsächlich bei Ihnen liegen. KartDok behält sich unter anderem in strafrechtlich
+            relevanten Fällen das Recht vor, den Zugriff auf bereits veröffentliche Dokumente zu
+            sperren.</p>
+
+          <p>
+            <strong>Bitte beachten Sie, dass die hier aufgelisteten Informationen keine
+              rechtsverbindlichen Auskünfte darstellen und die dargestellten Inhalte vor allem
+              Informationen zur ersten Orientierung bereitstellen. Das KartDok-Team hat die Angaben
+              auf diesen Seiten sorgfältig geprüft, kann aber keine rechtsverbindlichen Auskünfte
+              erteilen.</strong>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section xml:lang="en" title="Copyright">
+    <head>
+      <meta name="title" content="KartDok – Notes on copyright and license selection" />
+      <meta name='description'
+        content="KartDok – our information on the copyright framework for Open Access publishing on KartDok" />
+    </head>
+    <div class="row">
+      <div class="col-md-12 collapsed-items">
+        <h1>Copyright framework of open access publishing on KartDok</h1>
+        <p>The English version for this page is currently in progress.</p>
+
+        <!-- ===================================================================
+          Erstveröffentlichung
+        ==================================================================== -->
+
+        <div
+          id="erstveroeffentlichung-von-originalbeitraegen"
+          data-toggle="collapse"
+          data-target="#copyright-1"
+          class="collapsed collapsed-items__toggle">
+          <h2>
+            <span class="collapsed-items__title">1) Erstveröffentlichung von Originalbeiträgen</span>
+          </h2>
+        </div>
+        <div
+          id="copyright-1"
+          class="collapse collapsed-items__item">
+          <p>Während die <strong>Erstveröffentlichung von Originalbeiträgen</strong> auf KartDok
+            unter urheberrechtlichem Aspekt in aller Regel unproblematisch ist, ergeben sich bei der <strong>
+            Zweitveröffentlichung</strong> zuvor bereits in gedruckter oder elektronischer Form in
+            monographischen Sammelwerken – darunter Festschriften, Lexika, Kongressbände und
+            Handbücher – oder abonnementpflichtigen Zeitschriften, Jahrbüchern und Zeitungen
+            erschienener Aufsätze regelmäßig Fragen nach der Zulässigkeit.</p>
+        </div>
+
+        <!-- ===================================================================
+          Zweitveröffentlichungen
+        ==================================================================== -->
+
+        <div
+          id="zweitveroeffentlichungen"
+          data-toggle="collapse"
+          data-target="#copyright-2"
+          class="collapsed collapsed-items__toggle">
+          <h2>
+            <span class="collapsed-items__title">2) Zweitveröffentlichungen</span>
+          </h2>
+        </div>
+        <div
+          id="copyright-2"
+          class="collapse collapsed-items__item">
+          <p>Um zu prüfen, ob Ihre <strong>Publikation zweitveröffentlicht werden darf</strong>,
+            sind in erster Linie <strong>folgenden Punkte zu klären</strong>:</p>
+
+          <ul>
+            <li>Welche <em>
+                <strong>Rechtsgrundlagen</strong>
+              </em> können <strong>
+                <em>im konkreten Fall</em>
+              </strong> herangezogen werden?</li>
+            <li>Welche <strong>
+                <em>Version</em>
+              </strong> (z. B. Preprint, Postprint oder
+              Verlagsversion) darf <strong>
+                <em>wann</em>
+              </strong> (z. B. nach sogenannter Embargofrist) <strong>
+                <em>zweitveröffentlicht</em>
+              </strong> werden?</li>
+            <li>In welcher <strong>
+                <em>Art von Repositorium</em>
+              </strong> (z. B. institutionelles
+              Repositorium oder Fachrepositorium wie beispielsweise KartDok) darf die
+              Zweitveröffentlichung erfolgen?</li>
+            <li>Welche <strong>
+                <em>Auflagen</em>
+              </strong> sind <strong>
+                <em>darüber hinaus</em>
+              </strong> zu beachten?</li>
+          </ul>
+
+          <p>Grundlegende <strong>Rechtsgrundlagen und Hilfsmittel</strong>, um diese Fragen zu
+            beantworten, werden nachfolgend kurz vorgestellt.</p>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-1"
+            class="collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.1) Vorprüfung auf bereits vorhandene Veröffentlichung unter freier Lizenz</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-1">
+            <p>Falls die Erstveröffentlichung oder eine Zweitveröffentlichung <strong>bereits unter
+              einer freien Lizenz erfolgt</strong> ist, <strong>steht einer Zweitveröffentlichung
+                auf
+                KartDok in der Regel nichts entgegen</strong>. Hierfür sollten zunächst diese Fragen
+              geklärt werden:</p>
+
+            <ul>
+              <li>Erfolgte die <strong>
+                  <em>Erstveröffentlichung unter einer offenen Lizenz</em>
+                </strong>,
+                z. B. einer <a href="https://creativecommons.org/licenses/by/4.0/deed.de">
+                CC-BY-Lizenz</a> ?</li>
+              <li>Haben Sie <strong>
+                  <em>als Autor:in </em>
+                </strong>einer Closed-Access-Publikation für
+                diese <strong>
+                  <em>bereits eine Zweitveröffentlichung vorgenommen</em>
+                </strong>
+                und ist diese <strong>
+                  <em>unter einer freien Lizenz</em>
+                </strong> (z. B. einer
+                CC-BY-Lizenz) erfolgt?</li>
+              <li>Haben <strong>
+                  <em>Koautorinnen bzw. Koautoren</em>
+                </strong> dieser
+                Closed-Access-Publikation <strong>
+                  <em>bereits eine Zweitveröffentlichung vorgenommen</em>
+                </strong>
+                (beispielsweise müssen Angehörige einiger Forschungseinrichtungen die akzeptierte
+                Manuskriptfassung von Zeitschriftenartikeln direkt nach Erscheinen
+                zweitveröffentlichen - mitunter unter einer freien Lizenz, z. B. einer <a
+                  href="https://creativecommons.org/licenses/by-nc/4.0/deed.de">CC BY-NC-Lizenz</a>
+                )?</li>
+            </ul>
+
+            <p>Für die <strong>Beantwortung dieser Fragen</strong> können Open Access Publikationen
+              in Repositorien unter anderem <strong>mittels dieser Suchmaschinen</strong> gefunden
+              werden:</p>
+
+            <ul>
+              <li><a href="https://www.base-search.net/">BASE</a> (großer Index, ausschließlich
+                nachhaltige Datenquellen, Suche einfach &amp; erweitert, Filtern der Suchergebnisse;
+                keine Deduplizierung verschiedener Versionen)</li>
+              <li><a href="https://dissem.in/">Dissemin</a> (großer BASE-Index, Suche einfach &amp;
+                erweitert, Filtern der Suchergebnisse)</li>
+              <li><a href="https://core.ac.uk/">CORE</a> (großer Index, Suche einfach &amp;
+                erweitert, Filtern der Suchergebnisse; auf Startseite zunächst nur Suche einfach –
+                dort keine Suche nach Titel oder DOI)</li>
+              <li><a href="https://openaccessbutton.org/">Open Access Button</a> (großer Index,
+                Suche einfach)</li>
+              <li><a href="https://scholar.google.de/">Google Scholar</a> (großer Index,
+                Deduplizierung verschiedener Versionen; keine erweiterte Suche, limitierte Optionen
+                zum Filtern der Ergebnisse, proprietärer Service: Rankingalgorithmen und Gründe für
+                Nicht-/Indexierung intransparent)</li>
+            </ul>
+          </div>
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-2"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.2) Verlagsverträge</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-2">
+
+            <p>Im Verlagsvertrag ist gegebenenfalls vereinbart, welche Nutzungsrechte Sie als
+              Autor:in dem Verlag eingeräumt haben und ob bzw. zu welchen Bedingungen eine
+              Zweitveröffentlichung möglich ist. <strong>Maßgeblich ist der Verlagsvertrag, der bei
+              der Erstveröffentlichung
+                mit Ihnen geschlossen wurde</strong>.</p>
+
+            <ul>
+              <li>Der Verlagsvertrag (bzw. <em>Copyright Transfer Agreement</em>) wird <strong>
+                  <em>zumeist elektronisch übermittelt</em>
+                </strong> und <strong>
+                  <em>ist nicht notwendigerweise von Ihnen unterzeichnet</em>
+                </strong>
+                .</li>
+              <li>Liegt ein Vertrag schriftlich vor, gilt es zunächst, diesen <strong>
+                  <em>hinsichtlich der <em>e</em>rfolgten Rechteeinräumung und etwaiger expliziter
+                Bestimmungen bezüglich der Zweitveröffentlichungsrechte</em>
+                </strong>
+                (auch „<em>sharing rights</em>“, <em>„deposit rights</em>“, „<em>self-archiving
+                rights</em> “) <strong>
+                  <em>der Autorinnen und Autoren zu überprüfen</em>
+                </strong>.</li>
+            </ul>
+
+            <p>Ist ein zutreffender Passus identifiziert, sollten Sie die <strong>Rechteprüfung an
+              diesem Punkt noch nicht abschließen</strong> – selbst dann nicht, wenn der Vertrag
+              eine Zweitveröffentlichung erlaubt. Denn womöglich ist diese aufgrund übergreifender
+              Regelungen und Vereinbarungen gegebenfalls auch zu anderen und gegebenenfalls sogar
+              besseren Konditionen möglich (vor allem hinsichtlich der Version oder der
+              Embargofrist).</p>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-3"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.3) Verlagspolicies</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-3">
+            <p>Sollten Ihnen die <strong>Vertragsbedingungen nicht mehr bekannt</strong> sein,
+              können Sie diese, wie nachfolgend skizziert, <strong>auf Basis von Verlagspolicies</strong>
+              recherchieren. <strong>Bitte beachten Sie hierbei, dass etwaige abweichende
+              Vereinbarungen
+                Ihres jeweiligen Verlagsvertrags von den Angaben der betreffenden Vertragspolicy in
+              jedem
+                Fall unberührt bleiben</strong>.</p>
+
+            <ul>
+              <li>Vor allem für <strong>Zeitschriften</strong> bietet die Online-Datenbank <a
+                  href="https://v2.sherpa.ac.uk/romeo/" target="_blank"
+                  title="Externen Link im neuen Fenster öffnen">SHERPA/RoMEO</a> einen schnellen
+                Überblick darüber, welche Verlage und Zeitschriften nicht-kommerzielle
+                Zweitveröffentlichungen unter welchen Verlagsbedingungen erlauben: <ul>
+                  <li>Darf überhaupt zweitveröffentlicht werden?</li>
+                  <li>Welche Version des Artikels darf zweitpubliziert werden (Preprint, Postprint,
+                Verlagsversion)?</li>
+                  <li>Zu welchem Zeitpunkt nach Erstpublikation darf die Zweitpublikation
+                veröffentlicht
+                    werden (sogenannte Embargofrist)?</li>
+                  <li>Zudem werden im Bereich „General Conditions“ die zu beachtenden Bedingungen
+                    und
+                    Links zur Verlagspolicy bzw. zum Standardvertrag aufgeführt.</li>
+                  <li>Die Angaben in SHERPA/RoMEO sind <strong>
+                      <em>rechtlich unverbindlich </em>
+                    </strong>und<strong>
+                      <em> nicht immer auf dem aktuellsten Stand</em>
+                    </strong> -
+                die Angaben <em>
+                      <strong>bieten jedoch eine erste Orientierung, was die jeweiligen Verlage
+                üblicherweise erlauben (Verlagspolicies)</strong>
+                    </em>.</li>
+                </ul>
+              </li>
+              <li>Für diese Rechteprüfung auf Basis von Verlagspolicies kann für Beiträge in <strong>
+                Sammelwerken</strong> auch die <a
+                  href="https://osc.cam.ac.uk/monographs/open-access-and-monographs/making-book-chapters-available-repositories">
+                Kurzübersicht</a> der University of Cambridge herangezogen werden.</li>
+              <li>Zudem haben <strong>Internationale Großverlage</strong> oft ihre Policies für
+                Zweitveröffentlichungen jeweils auf einer zentralen Webseite veröffentlicht; diese
+                Webseiten von vielen Großverlagen können gegebenenfalls über die Webseite <a
+                  href="https://www.howcanishareit.com/">howcanishareit.com</a> gefunden werden
+                (unter: "Publisher Sharing Policies").</li>
+            </ul>
+
+            <p>Die urheberrechtlichen Bestimmungen in Bezug auf <strong>Monografien </strong>sind
+              hingegen oft restriktiver: Diese können in der Regel <strong>
+                <em>nur dann in einem Repositorium </em>
+              </strong>wie z. B. KartDok <strong>
+                <em>zweitveröffentlicht werden, wenn dafür die Erlaubnis des Verlags bzw. sonstiger
+              Dritter, denen Rechte am Werk eingeräumt wurden, vorliegt</em>
+              </strong>.</p>
+
+            <ul>
+              <li>Hierfür sollten Sie Ihren entsprechenden Vertrag konsultieren und/oder Kontakt zum
+                Verlag bzw. sonstigen Dritten, denen Rechte an dem Werk eingeräumt wurden,
+                aufnehmen.</li>
+              <li>Sollten Sie sämtliche Verwertungsrechte abgetreten haben, müssten Sie für Ihre
+                Unterlagen eine <strong>
+                  <em>schriftliche Zustimmung</em>
+                </strong> des Verlages bzw. der
+                sonstigen Dritten, denen Rechte eingeräumt wurden, einholen, in der auch die Lizenz
+                festgehalten ist, mit der Sie Ihr Werk versehen möchten bzw. die vom Verlag
+                eingeräumt wird (siehe hierzu auch Pkt. <a href="#2.6">2.6</a>).</li>
+            </ul>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-4"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.4) Gesetzliches Zweitveröffentlichungsrecht im Urheberrecht</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-4">
+            <p>
+              <strong>(a) Abdingbares Zweitveröffentlichungsrecht</strong>
+            </p>
+
+            <p>Wurde <strong>kein expliziter Verlagsvertrag geschlossen</strong>, so sind in diesem
+              Zusammenhang vorrangig die Bestimmungen der Abätze eins und zwei des mit Wirkung zum
+              1. Januar 2014 novellierten <a
+                href="https://www.gesetze-im-internet.de/urhg/__38.html">§
+                38
+                Urheberrechtsgesetz</a> (UrhG) zu berücksichtigen, die <strong>bei
+                Veröffentlichungen
+                in
+                Zeitschriften und Jahrbüchern </strong>(§ 38 Abs. 1 UrhG) <strong>sowie bei nicht
+              finanziell honorierten Publikationen in monographischen, nicht periodisch
+                erscheinenden
+                Sammlungen</strong> (§ 38 Abs. 2 UrhG) – etwa Handbüchern, Lexika, Festschriften
+              oder Kongressbänden – zur Anwendung kommen.</p>
+
+            <ul>
+              <li>Gemäß dieser Norm erwirbt der Verlag für die Vervielfältigung, Verbreitung und
+                öffentliche Verfügbarkeit eines entsprechenden Werks im Zweifel zwar ein
+                ausschließliches Nutzungsrecht, dennoch aber dürfen Sie Ihren Beitrag <strong>nach
+                Ablauf einer Embargofrist von zwölf Monaten</strong> anderweitig und damit also auch
+                auf KartDok zweitverwerten (Zweitveröffentlichung) – unter dem Vorbehalt, dass <strong>mit
+                dem betreffenden Verlag </strong><strong>oder sonstigen Dritten nichts anderes
+                vereinbart wurde</strong>.</li>
+              <li>Für eine Zweitveröffentlichung auf Grundlage der Abätze eins und zwei des § 38
+                Urheberrechtsgesetz (UrhG) darf die <strong>Verlagsversion</strong> genutzt und an
+                einem beliebigen Ort für beliebige Zwecke und wenn gewünscht <strong>auch unter
+                Vergabe einer
+                  freien Lizenz</strong> vorgenommen werden.</li>
+            </ul>
+
+            <p>Wurde hingegen in Bezug auf die Nutzungsrechte eine andere Vereinbarung getroffen,
+              oder eine Vereinbarung, die im Wortlaut nicht bekannt ist oder ist nicht mehr bekannt,
+              ob die Vereinbarung getroffen wurde, kann auf die Abätze eins und zwei des § 38
+              Urheberrechtsgesetz (UrhG) <strong>nicht</strong> zurückgegriffen werden.</p>
+
+            <p>
+              <strong>(b) Unabdingbares Zweitveröffentlichungsrecht</strong>
+            </p>
+
+            <p>Für <strong>wissenschaftliche Aufsätze</strong> können gegebenenfalls auch die
+              Bestimmungen des Abatzes 4 des <a
+                href="https://www.gesetze-im-internet.de/urhg/__38.html">§
+                38 Urheberrechtsgesetz</a> (UrhG) geltend gemacht werden - <strong>unabhängig davon,
+              was
+                im Verlagsvertrag vereinbart wurde</strong>.</p>
+
+            <ul>
+              <li>Sollte Ihr<strong> wissenschaftlicher Aufsatz im Rahmen einer mindestens zur
+                  Hälfte
+                  mit öffentlichen Mitteln geförderten Forschungstätigkeit entstanden und in einer
+                periodisch mindestens zweimal jährlich erscheinenden Sammlung veröffentlicht</strong>
+                worden sein, so können Sie von den seit 1. Januar 2014 novellierten
+                Schrankenregelungen in § 38 Abs. 4 Urheberrechtsgesetz (UrhG) profitieren.</li>
+              <li>Selbst wenn Sie einem Verlag ein ausschließliches Nutzungsrecht an einem solchen
+                Beitrag eingeräumt und anderweitige Vereinbarungen zu Ihrem Nachteil getroffen
+                haben, sind Sie auf der Grundlage dieser Norm nämlich frei, das Werk <strong>nach
+                Ablauf von
+                  zwölf Monaten seit der Erstveröffentlichung in der akzeptierten Manuskriptversion</strong>
+                – also nicht im Verlagslayout – öffentlich zugänglich zu machen, soweit dies keinem
+                gewerblichen Zweck dient und die Quelle der Erstveröffentlichung genannt ist.</li>
+              <li>Bitte beachten Sie in diesem Zusammenhang auch die von der Allianz der deutschen
+                Wissenschaftsorganisationen erarbeiteten <a
+                  href="https://doi.org/10.2312/ALLIANZOA.022">FAQ
+                  zum unabdingbaren Zweitveröffentlichungsrecht</a> sowie die entsprechenden <a
+                  href="https://irights.info/wp-content/uploads/2017/09/zweitveroeffentlichungsrecht-20150425.pdf">Handlungsempfehlungen
+                des iRights.Lab (PDF, 251 KB)</a>, die einen guten Überblick über Detailfragen zur
+                Anwendbarkeit dieser Schrankenregelungen (§ 38 Abs. 4 UrhG) geben.</li>
+            </ul>
+
+            <p>Bitte beachten Sie zudem, dass die Bestimmungen dieser Schrankenregelungen (§ 38 Abs.
+              4 UrhG) in Bezug auf Version und Embargofrist für <strong>Zeitschriftenartikel</strong>
+              mitunter restriktiver sind als etwa die allgemeine Verlagspolicy (siehe Pkt. <a
+                href="#2.3">2.3</a>) oder die im Rahmen eines Lizenzvertrags verhandelten
+              Sonderrechte (siehe Pkt. <a href="#2.5">2.5</a>).</p>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-2-5"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.5) Open Access-Rechte in Allianz-, National- und FID-Lizenzen</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-5">
+
+            <p>Unabhängig von den skizzierten Handlungsspielräumen des deutschen
+              Urheberrechtsgesetzes können Sie gegebenenfalls auch diejenigen Open Access-Rechte an
+              Ihrem Werk verbindlich in Anspruch nehmen, die im Rahmen der sogenannten Allianz-,
+              National- und FID-Lizenzen vereinbart wurden. Diese <a
+                href="https://www.nationallizenzen.de/open-access/open-access-allianz-lizenzen.pdf/view">Open
+              Access-Rechte</a> bieten vergleichsweise günstige Bedingungen für die
+              Zweitveröffentlichung und betreffen zumeist verschiedene <strong>internationale
+              Zeitschriftenpakete inklusive der darin enthaltenen Inhalte</strong>.</p>
+
+            <ul>
+              <li>Verfügbare Allianz-, National- und FID-Lizenzen können Open-Access-Rechte
+                beinhalten, die für alle <strong>Lizenzteilnehmer –  Einrichtungen und ihre
+                Autorinnen
+                  und Autoren</strong> –  vertraglich festgelegt sind. Diese Open-Access-Komponenten
+                räumen diesen - hierdurch autorisierten - Autorinnen und Autoren bestimmte
+                Open-Access-Rechte für eine Zweitveröffentlichung ein. Somit können <strong>Autorinnen
+                und Autoren an
+                  wissenschaftlichen Einrichtungen</strong>, die Lizenzteilnehmer der Allianz-,
+                National- bzw. FID-Lizenzen sind, im Fall der vorliegenden Lizenzen <strong>ohne
+                weitere
+                  Verhandlung mit den Verlagen</strong> eine Zweitveröffentlichung – gegebenenfalls
+                auf KartDok – realisieren.</li>
+              <li>Für die <strong>Zeitschrift</strong>, in der Sie Ihrer Publikation
+                erstveröffentlicht haben, sollten Sie folgende Punkte hinsichtlich der
+                Open-Access-Rechte kurz überprüfen. Hierfür können Sie diese vollständige, alle
+                Disziplinen umfassende <a
+                  href="https://www.nationallizenzen.de/open-access/open-access-rechte.xls/view">Übersicht
+                der mit Open Access-Rechten ausgestatteten Allianz- und Nationallizenzpakete</a>
+                verwenden: <ul>
+                  <li><strong>Zeitschrift</strong>: Ist diese Zeitschrift in den Allianz- und
+                Nationallizenzen enthalten (Spalte „Zeitschrift“ oder Spalte „Produkt“)?</li>
+                  <li><strong>Jahrgang dieser Zeitschrift</strong>: Wurde der betreffende Jahrgang
+                dieser Zeitschrift mit Open-Access-Rechten lizensiert (Spalte „Jahrgänge mit
+                OA-Rechten“)?</li>
+                  <li><strong>Embargofrist</strong>: Lässt eine gegebenenfalls vorhandene
+                Embargofrist für die Open-Access-Komponente dieser Zeitschrift (Spalte „Embargo“)
+                eine Zweitveröffentlichung zum jetzigen Zeitpunkt zu?</li>
+                  <li><strong>Zweitveröffentlichung im Fachrepositorium </strong>(z. B. KartDok):
+                Gestatten die Open-Access-Rechte für diese Zeitschrift eine Zweitveröffentlichung in
+                einem Fachrepositorium (Spalte „Repositorium“ – hierfür zutreffende Einträge sind:
+                „Repositorium nach Wahl“, „Fachspezifisches Repositorium“ oder „Nicht-kommerzielles
+                fachspezifisches Repositorium“)?</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            id="rechteklaerung-fuer-zweitveroeffentlichungen"
+            data-toggle="collapse"
+            data-target="#copyright-2-6"
+            class="collapsed collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">2.6) Rechteklärung für Zweitveröffentlichungen</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-2-6">
+            <p>Sollte eine Rechteprüfung kein Ergebnis liefern oder nur unklare Informationen
+              ergeben, ist zu empfehlen, <strong>Kontakt zum Verlag</strong> aufzunehmen – um
+              Unklarheiten zu beseitigen und gegebenenfalls eine rechtsverbindliche Erlaubnis des
+              Verlags für die Zweitveröffentlichung einer bestimmten Publikation zu erhalten. Diese
+              Anfrage sollte Angaben zu folgenden Punkten enthalten:</p>
+
+            <ul>
+              <li>Vollständige bibliografische Information</li>
+              <li>Zweck der Anfrage</li>
+              <li>Art der Verwendung (Nennung der gewünschten Version)</li>
+              <li>Ort der Zweitveröffentlichung, ggf. erläuternde Hinweise zur (nichtkommerziellen)
+                Beschaffenheit des Repositoriums</li>
+              <li>Soll die Zweitveröffentlichung unter einer freien Lizenz erfolgen, sollte diese
+                konkret benannt werden</li>
+            </ul>
+
+            <p>Zur Unterstützung Ihrer Anfrage beim Verlag (bzw. bei der Rechteinhaberin bzw. beim
+              Rechteinhaber) zwecks Zweitveröffentlich(en) auf KartDok bieten wir dieses <strong>
+              Empfehlungsschreiben</strong>, das Sie Ihrer Anfrage gegebenenfalls beifügen können: <a
+                href="../rights/KartDok-Empfehlungsschreiben.pdf">KartDok-Empfehlungsschreiben (PDF,
+              121
+                KB)</a>.</p>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================
+          Lizenzwahl
+        ==================================================================== -->
+
+        <div
+          id="lizenzwahl"
+          data-toggle="collapse"
+          data-target="#copyright-3"
+          class="collapsed-items__toggle">
+          <h2>
+            <span class="collapsed-items__title">3) Lizenzwahl: KartDok-Lizenz oder Open Content-Lizenz?</span>
+          </h2>
+        </div>
+        <div
+          class="collapse collapsed-items__item"
+          id="copyright-3">
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-3-1"
+            class="collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">3.1) KartDok-Lizenz bzw. Open-Access im Zuge einer Allianz- bzw. Nationallizenz</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-3-1">
+            <p>Mit Upload des Dokuments auf unseren Server sowie auf Grundlage des schriftlichen <a
+                href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrags (PDF, 945 KB)</a>
+              räumen Sie KartDok ein einfaches Nutzungsrecht zur Vervielfältigung, Verbreitung und
+              öffentlichen Zugänglichmachung Ihres Werks im Internet ein sowie ergänzend das Recht,
+              insbesondere für Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen.</p>
+
+            <p>Im Rahmen dieser öffentlichen Verfügbarkeit ist die <strong>Nutzung und
+              Vervielfältigung
+                Ihres auf KartDok veröffentlichten Beitrags durch Dritte</strong> allerdings <strong>nur
+              im Rahmen der im deutschen Urheberrecht vorgesehenen Schranken möglich</strong> – vor
+              allem in Hinblick auf eine Vervielfältigung zum wissenschaftlichen, privaten und
+              sonstigen eigenen Gebrauch (§§ <a
+                href="https://www.gesetze-im-internet.de/urhg/__53.html">53</a>, <a
+                href="https://www.gesetze-im-internet.de/urhg/__60c.html">60c</a>, <a
+                href="https://www.gesetze-im-internet.de/urhg/__60d.html">60d</a> UrhG).</p>
+
+            <p>KartDok bietet hierfür die Auswahl dieser Lizenzen an:</p>
+
+            <ul>
+              <li>
+                <strong>KartDok-Lizenz (Alle Rechte vorbehalten)</strong>
+              </li>
+              <li><strong>Open-Access im Zuge einer Allianz- bzw. Nationallizenz </strong>(siehe <a
+                  href="#2.5">2.5</a>)</li>
+            </ul>
+          </div>
+
+          <!-- ============================================================= -->
+          <div
+            data-toggle="collapse"
+            data-target="#copyright-3-2"
+            class="collapsed-items__toggle">
+            <h3>
+              <span class="collapsed-items__title">3.2) Open Content-Lizenzen</span>
+            </h3>
+          </div>
+          <div
+            class="collapse collapsed-items__item"
+            id="copyright-3-2">
+
+            <p>Sollten Sie darüber hinaus an einer weitergehenden Nutzung Ihres Werks interessiert
+              sein, so empfiehlt Ihnen KartDok – in Übereinstimmung mit der Allianz der deutschen
+              Wissenschaftsorganisationen („<a
+                href="https://gfzpublic.gfz-potsdam.de/pubman/item/item_2875895">
+                <em>Appell zur Nutzung offener Lizenzen in der Wissenschaft</em>
+              </a>“)
+              – die <strong>Vergabe einer <a href="https://creativecommons.org/about/cclicenses/">Creative
+              Commons-Lizenz</a></strong>, mit der Sie Ihre Beiträge auf KartDok z. B. für die
+              Bearbeitung und Weiterverbreitung durch Dritte freigeben können.</p>
+
+            <p>KartDok bietet die Auswahl folgender Open-Content-Lizenzen an:</p>
+
+            <ul>
+              <li><strong>Creative Commons 4.0 International Lizenzen</strong>: <a
+                  href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> | <a
+                  href="https://creativecommons.org/licenses/by-nc/4.0/deed.de">CC BY-NC 4.0</a> | <a
+                  href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                | <a
+                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">CC BY-NC-SA 4.0</a>
+                | <a
+                  href="https://creativecommons.org/licenses/by-nd/4.0/deed.de">CC BY-ND 4.0</a> | <a
+                  href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>
+                (siehe hierzu auch das Tool zur <a
+                  href="https://creativecommons.org/choose/?lang=de">Auswahl
+                  der CC-Lizenzeigenschaften</a>)</li>
+              <li><strong>Open Data Commons Lizenzen</strong>: <a
+                  href="https://opendatacommons.org/licenses/by/">ODC-By – Attribution License</a> | <a
+                  href="https://opendatacommons.org/licenses/odbl/">ODC-ODbL – Open Database License</a>
+                | <a href="https://opendatacommons.org/licenses/pddl/">PDDL - Public Domain
+                Dedication
+                  and License</a></li>
+              <li><strong>Public Domain</strong>: <a
+                  href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0
+                  Universell</a> | <a
+                  href="https://creativecommons.org/publicdomain/mark/1.0/deed.de">Public
+                  Domain
+                  Mark
+                  1.0</a></li>
+            </ul>
+
+            <p>Bitte beachten Sie, dass die <strong>Vergabe von Creative Commons- oder anderen Open
+              Content-Lizenzen</strong> in der Regel <strong>nur für Erstveröffentlichungen</strong>
+              auf KartDok möglich ist <strong>sowie für diejenigen Werke, an denen Sie ein
+              ausschließliches
+                Nutzungsrecht besitzen</strong>.</p>
+
+            <p>In allen anderen Fällen ist <strong>vor einer freien Lizenzierung </strong>die <strong>Zustimmung
+              des jeweils betroffenen Verlags einzuholen</strong> (siehe <a href="#2.6">2.6</a>).</p>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================
+          Kontakt
+        ==================================================================== -->
+
+        <div
+          id="unterstuetzung-und-kontakt"
+          data-toggle="collapse"
+          data-target="#copyright-4"
+          class="collapsed-items__toggle">
+          <h2>
+            <span class="collapsed-items__title">4) Unterstützung und Kontakt</span>
+          </h2>
+        </div>
+        <div
+          class="collapse collapsed-items__item"
+          id="copyright-4">
+          <p>Auf Wunsch steht Ihnen das Team von KartDok für Fragen zum Open Access-Publizieren
+            gerne zur Verfügung. Bitte nutzen Sie hierfür unser <a href="../below/contact.xed">
+            Kontaktformular</a>.</p>
+
+          <p>Unabhängig von der Inanspruchnahme dieses Beratungsangebots sind Sie vor einer
+            Veröffentlichung auf KartDok in jedem Fall dazu verpflichtet, sich sorgfältig zu
+            vergewissern, dass die der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
+            einzuräumenden Nutzungsrechte insbesondere zur öffentlichen Verfügbarkeit Ihres Werks
+            auch
+            tatsächlich bei Ihnen liegen. KartDok behält sich unter anderem in strafrechtlich
+            relevanten Fällen das Recht vor, den Zugriff auf bereits veröffentliche Dokumente zu
+            sperren.</p>
+
+          <p>
+            <strong>Bitte beachten Sie, dass die hier aufgelisteten Informationen keine
+              rechtsverbindlichen Auskünfte darstellen und die dargestellten Inhalte vor allem
+              Informationen zur ersten Orientierung bereitstellen. Das KartDok-Team hat die Angaben
+              auf diesen Seiten sorgfältig geprüft, kann aber keine rechtsverbindlichen Auskünfte
+              erteilen.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <meta>
+    <log lastEditor="admin-ro" date="2022-07-25" time="12:29" />
+  </meta>
+</MyCoReWebPage>
