@@ -154,7 +154,7 @@
     <xsl:variable name="bc_categ" select="substring-after(@valueURI, '#')" />
     <xsl:copy>
       <xsl:copy-of select="@*" />
-      <xsl:value-of select="concat($kartdok_bc//category[@ID=$bc_categ]/label[lang('de')]/@text, ':')" />
+      <xsl:value-of select="$kartdok_bc//category[@ID=$bc_categ]/label[lang('x-k10plus')]/@text" />
     </xsl:copy>
   </xsl:template>
 
