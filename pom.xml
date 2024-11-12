@@ -27,7 +27,6 @@
     <version>2023.06-SNAPSHOT</version>
   </parent>
 
-  <groupId>de.gbv.kartdok</groupId>
   <artifactId>reposis_kartdok</artifactId>
   <version>2023.06-SNAPSHOT</version>
   <properties>
