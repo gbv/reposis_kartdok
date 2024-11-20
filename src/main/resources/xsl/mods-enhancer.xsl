@@ -153,8 +153,12 @@
     <xsl:variable name="kartdok_bc" select="document('classification:metadata:-1:children:kartdok_bc')" />
     <xsl:variable name="bc_categ" select="substring-after(@valueURI, '#')" />
     <xsl:copy>
-      <xsl:copy-of select="@*" />
-      <xsl:value-of select="$kartdok_bc//category[@ID=$bc_categ]/label[lang('x-k10plus')]/@text" />
+      <xsl:copy-of select="@authorityURI" />
+      <xsl:copy-of select="@valueURI" />
+      <xsl:attribute name="displayLabel">
+        <xsl:value-of select="$kartdok_bc//category[@ID=$bc_categ]/label[lang('x-k10plus-6800')]/@text" />
+    </xsl:attribute>
+      <xsl:value-of select="$kartdok_bc//category[@ID=$bc_categ]/label[lang('x-k10plus-6700')]/@text" />
     </xsl:copy>
   </xsl:template>
 
