@@ -372,7 +372,7 @@
   </xed:template>
 
   <xed:template id="kartdok_bc">
-    <xed:bind xpath="mods:classification[@authorityURI='https://karten.sbb-berlin.de/classifications/kartdok_bc'][@displayLabel='kartdok_bc']/@valueURIxEditor">
+    <xed:bind xpath="mods:classification[@authorityURI='https://kartdok.staatsbibliothek-berlin.de/api/v2/classifications/kartdok_bc'][@displayLabel='kartdok_bc']/@valueURIxEditor">
       <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="kartdok.form.label.bc_systematik" />
@@ -396,7 +396,7 @@
           <xed:output i18n="kartdok.form.label.bc_systematik" />
         </label>
         <div class="col-md-6">
-          <xed:bind xpath="mods:classification[@authorityURI='https://karten.sbb-berlin.de/classifications/kartdok_bc'][@displayLabel='kartdok_bc']/@valueURIxEditor">
+          <xed:bind xpath="mods:classification[@authorityURI='https://kartdok.staatsbibliothek-berlin.de/api/v2/classifications/kartdok_bc'][@displayLabel='kartdok_bc']/@valueURIxEditor">
             <div class="controls">
               <xed:include ref="kartdok_bc.list" />
             </div>
@@ -407,7 +407,7 @@
   </xed:template>
   
   <xed:template id="kartdok_bc.repeat">
-    <xed:repeat xpath="mods:classification[@authorityURI='https://karten.sbb-berlin.de/classifications/kartdok_bc'][@displayLabel='kartdok_bc']" min="1" max="20" method="build">
+    <xed:repeat xpath="mods:classification[@authorityURI='https://kartdok.staatsbibliothek-berlin.de/api/v2/classifications/kartdok_bc'][@displayLabel='kartdok_bc']" min="1" max="20" method="build">
       <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="kartdok.form.label.bc_systematik" />
@@ -443,7 +443,7 @@
   </xed:template>
 
   <xed:template id="kartdok_projects">
-    <xed:bind xpath="mods:classification[@authorityURI='https://karten.sbb-berlin.de/classifications/kartdok_projects'][@displayLabel='kartdok_projects']/@valueURIxEditor">
+    <xed:bind xpath="mods:classification[@authorityURI='https://kartdok.staatsbibliothek-berlin.de/api/v2/classifications/kartdok_projects'][@displayLabel='kartdok_projects']/@valueURIxEditor">
       <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="kartdok.form.label.kartdok_projects" />
