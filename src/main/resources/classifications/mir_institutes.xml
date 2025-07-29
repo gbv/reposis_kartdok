@@ -1,189 +1,714 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
   <label xml:lang="de" text="Forschungseinrichtung" description="Liste der Einrichtungen" />
-  <label xml:lang="x-uri" text="https://kartdok.sbb-berlin.de/classifications/mir_institutes" />
+  <label xml:lang="x-uri"
+    text="https://kartdok.staatsbibliothek-berlin.de/api/v2/classifications/mir_institutes" />
   <label xml:lang="en" text="Institutions" description="A list of institutions" />
   <categories>
+    <category ID="adam_mickiewicz_university">
+      <label xml:lang="en" text="Adam Mickiewicz University (AMU) [PL]"
+        description="Adam Mickiewicz University (AMU) [PL]" />
+      <label xml:lang="de" text="Adam Mickiewicz University (AMU) [PL]"
+        description="Adam Mickiewicz University (AMU) [PL]" />
+      <url xlink:href="https://amu.edu.pl/" xlink:type="locator" />
+    </category>
     <category ID="albert-ludwigs-universitaet_freiburg">
-      <label xml:lang="de" text="Albert-Ludwigs-Universität Freiburg" description="Albert-Ludwigs-Universität Freiburg" />
+      <label xml:lang="en" text="University of Freiburg [DE]"
+        description="University of Freiburg [DE]" />
+      <label xml:lang="de" text="Albert-Ludwigs-Universität Freiburg  [DE]"
+        description="Albert-Ludwigs-Universität Freiburg [DE]" />
+      <url xlink:href="https://uni-freiburg.de/" xlink:type="locator" />
     </category>
-    <category ID="bergische_universitaet_wuppertal">
-      <label xml:lang="de" text="Bergische Universität Wuppertal" description="Bergische Universität Wuppertal" />
+    <category ID="alfred_wegener_institut">
+      <label xml:lang="de" text="Alfred-Wegener-Institut (AWI) [DE]"
+        description="Alfred-Wegener-Institut (AWI) [DE]" />
+      <label xml:lang="en" text="Alfred Wegener Institute (AWI) [DE]"
+        description="Alfred Wegener Institute (AWI) [DE]" />
+      <url xlink:href="https://www.awi.de/" xlink:type="locator" />
     </category>
-    <category ID="beuth_hochschule_fuer_technik_berlin">
-      <label xml:lang="de" text="Beuth Hochschule für Technik Berlin" description="Beuth Hochschule für Technik Berlin" />
+    <category ID="bauhaus-universitaet_weimar">
+      <label xml:lang="en" text="Bauhaus-University Weimar [DE]"
+        description="Bauhaus-University Weimar [DE]" />
+      <label xml:lang="de" text="Bauhaus-Universität Weimar [DE]"
+        description="Bauhaus-Universität Weimar [DE]" />
+      <url xlink:href="https://www.uni-weimar.de/" xlink:type="locator" />
+    </category>
+    <category ID="berliner_hochschule_fuer_technik">
+      <label xml:lang="de" text="Berliner Hochschule für Technik (BHT) [DE]"
+        description="Berliner Hochschule für Technik (BHT) [DE]" />
+      <label xml:lang="en" text="Berlin University of Applied Sciences and Technology (BHT) [DE]"
+        description="Berlin University of Applied Sciences and Technology (BHT) [DE]" />
+      <url xlink:href="https://www.bht-berlin.de/" xlink:type="locator" />
     </category>
     <category ID="bundesamt_fuer_kartographie_und_geodaesie_bkg">
-      <label xml:lang="de" text="Bundesamt für Kartographie und Geodäsie (BKG)" description="Bundesamt für Kartographie und Geodäsie (BKG)" />
+      <label xml:lang="en" text="Federal Agency for Cartography and Geodesy (BKG) [DE]"
+        description="Federal Agency for Cartography and Geodesy (BKG) [DE]" />
+      <label xml:lang="de" text="Bundesamt für Kartographie und Geodäsie (BKG) [DE]"
+        description="Bundesamt für Kartographie und Geodäsie (BKG) [DE]" />
+      <url xlink:href="https://www.bkg.bund.de/" xlink:type="locator" />
+    </category>
+    <category ID="ba_fuer_landestopografie_swisstopo">
+      <label xml:lang="en" text="Federal Office of Topography swisstopo [CH]"
+        description="Federal Office of Topography swisstopo [CH]" />
+      <label xml:lang="de" text="Bundesamt für Landestopografie swisstopo [CH]"
+        description="Bundesamt für Landestopografie swisstopo [CH]" />
+      <url xlink:href="https://www.swisstopo.admin.ch/" xlink:type="locator" />
     </category>
     <category ID="bundesamt_fuer_seeschifffahrt_und_hydrographie_bsh">
-      <label xml:lang="de" text="Bundesamt für Seeschifffahrt und Hydrographie (BSH)" description="Bundesamt für Seeschifffahrt und Hydrographie (BSH)" />
+      <label xml:lang="de" text="Bundesamt für Seeschifffahrt und Hydrographie (BSH) [DE]"
+        description="Bundesamt für Seeschifffahrt und Hydrographie (BSH) [DE]" />
+      <label xml:lang="en" text="Federal Maritime and Hydrographic Agency (BSH) [DE]"
+        description="Federal Maritime and Hydrographic Agency (BSH) [DE]" />
+      <url xlink:href="https://www.bsh.de/" xlink:type="locator" />
     </category>
-    <category ID="bundesanstalt_fuer_geowissenschaften_und_rohstoffe">
-      <label xml:lang="de" text="Bundesanstalt für Geowissenschaften und Rohstoffe" description="Bundesanstalt für Geowissenschaften und Rohstoffe" />
+    <category ID="bundesamt_fuer_strahlenschutz_bfs">
+      <label xml:lang="de" text="Bundesamt für Strahlenschutz (BfS) [DE]"
+        description="Bundesamt für Strahlenschutz (BfS) [DE]" />
+      <label xml:lang="en" text="Federal Office for Radiation Protection (BfS) [DE]"
+        description="Federal Office for Radiation Protection (BfS) [DE]" />
+      <url xlink:href="https://www.bfs.de/" xlink:type="locator" />
     </category>
-    <category ID="christian-albrechts-universitaet_zu_kiel">
-      <label xml:lang="de" text="Christian-Albrechts-Universität zu Kiel" description="Christian-Albrechts-Universität zu Kiel" />
+    <category ID="carl_von_ossietzky_universitaet_oldenburg">
+      <label xml:lang="en" text="Carl von Ossietzky University of Oldenburg [DE]"
+        description="Carl von Ossietzky University of Oldenburg [DE]" />
+      <label xml:lang="de" text="Carl von Ossietzky Universität Oldenburg [DE]"
+        description="Carl von Ossietzky Universität Oldenburg [DE]" />
+      <url xlink:href="https://uol.de/" xlink:type="locator" />
     </category>
-    <category ID="collegium_carolinum">
-      <label xml:lang="de" text="Collegium Carolinum" description="Collegium Carolinum" />
+    <category ID="collegium_da_vinci">
+      <label xml:lang="de" text="Collegium Da Vinci (CDV) [PL]"
+        description="Collegium Da Vinci (CDV) [PL]" />
+      <label xml:lang="en" text="Collegium Da Vinci (CDV) [PL]"
+        description="Collegium Da Vinci (CDV) [PL]" />
+      <url xlink:href="https://cdv.pl/" xlink:type="locator" />
+    </category>
+    <category ID="deutsches_zentrum-fuer_luft-und-raumfahrt">
+      <label xml:lang="de" text="Deutsches Zentrum für Luft- und Raumfahrt (DLR) [DE]"
+        description="Deutsches Zentrum für Luft- und Raumfahrt (DLR) [DE]" />
+      <label xml:lang="en" text="German Aerospace Center (DLR) [DE]"
+        description="German Aerospace Center (DLR) [DE]" />
+      <url xlink:href="https://www.dlr.de/" xlink:type="locator" />
     </category>
     <category ID="eberhard_karls_universitaet_tuebingen">
-      <label xml:lang="de" text="Eberhard Karls Universität Tübingen" description="Eberhard Karls Universität Tübingen" />
+      <label xml:lang="en" text="University of Tübingen [DE]"
+        description="University of Tübingen [DE]" />
+      <label xml:lang="de" text="Eberhard Karls Universität Tübingen [DE]"
+        description="Eberhard Karls Universität Tübingen [DE]" />
+      <url xlink:href="https://uni-tuebingen.de/" xlink:type="locator" />
     </category>
-    <category ID="europa-universitaet_flensburg">
-      <label xml:lang="de" text="Europa-Universität Flensburg" description="Europa-Universität Flensburg" />
+    <category ID="eth_zuerich">
+      <label xml:lang="en" text="Federal Institute of Technology Zurich (ETHZ) [CH]"
+        description="Federal Institute of Technology Zurich (ETHZ) [CH]" />
+      <label xml:lang="de" text="Eidgenössische Technische Hochschule Zürich (ETHZ) [CH]"
+        description="Eidgenössische Technische Hochschule Zürich (ETHZ) [CH]" />
+      <url xlink:href="https://ethz.ch/" xlink:type="locator" />
+    </category>
+    <category ID="elte_university_budapest">
+      <label xml:lang="en" text="Eötvös Loránd University (ELTE) [HU]"
+        description="Eötvös Loránd University (ELTE) [HU]" />
+      <label xml:lang="de" text="Eötvös Loránd University (ELTE) [HU]"
+        description="Eötvös Loránd University (ELTE) [HU]" />
+      <url xlink:href="https://www.elte.hu/" xlink:type="locator" />
+    </category>
+    <category ID="ezs_abruzzo_molise_izsam">
+      <label xml:lang="en"
+        text="Experimental Zooprophylactic Institute of Abruzzo and Molise (IZSAM) [IT]"
+        description="Experimental Zooprophylactic Institute of Abruzzo and Molise (IZSAM) [IT]" />
+      <label xml:lang="de"
+        text="Experimental Zooprophylactic Institute of Abruzzo and Molise (IZSAM) [IT]"
+        description="Experimental Zooprophylactic Institute of Abruzzo and Molise (IZSAM) [IT]" />
+      <url xlink:href="https://www.izs.it/" xlink:type="locator" />
+    </category>
+    <category ID="fachhochschule_dortmund">
+      <label xml:lang="en" text="Dortmund University of Applied Sciences and Arts [DE]"
+        description="Dortmund University of Applied Sciences and Arts [DE]" />
+      <label xml:lang="de" text="Fachhochschule Dortmund [DE]"
+        description="Fachhochschule Dortmund [DE]" />
+      <url xlink:href="https://www.fh-dortmund.de/" xlink:type="locator" />
+    </category>
+    <category ID="fachhochschule_erfurt">
+      <label xml:lang="de" text="Fachhochschule Erfurt (FHE) [DE]"
+        description="Fachhochschule Erfurt (FHE) [DE]" />
+      <label xml:lang="en" text="University of Applied Sciences Erfurt (FHE) [DE]"
+        description="University of Applied Sciences Erfurt (FHE) [DE]" />
+      <url xlink:href="https://www.fh-erfurt.de/" xlink:type="locator" />
+    </category>
+    <category ID="fachhochschule_potsdam">
+      <label xml:lang="en" text="University of Applied Sciences Potsdam (FHP) [DE]"
+        description="University of Applied Sciences Potsdam (FHP) [DE]" />
+      <label xml:lang="de" text="Fachhochschule Potsdam (FHP) [DE]"
+        description="Fachhochschule Potsdam (FHP) [DE]" />
+      <url xlink:href="https://www.fh-potsdam.de/" xlink:type="locator" />
+    </category>
+    <category ID="federal_university_parana_ufpr">
+      <label xml:lang="de" text="Federal University of Paraná (UFPR] [BR]"
+        description="Federal University of Paraná (UFPR] [BR]" />
+      <label xml:lang="en" text="Federal University of Paraná (UFPR] [BR]"
+        description="Federal University of Paraná (UFPR] [BR]" />
+      <url xlink:href="https://ufpr.br/" xlink:type="locator" />
+    </category>
+    <category ID="fh_aachen">
+      <label xml:lang="de" text="FH Aachen [DE]" description="FH Aachen [DE]" />
+      <label xml:lang="en" text="FH Aachen - University of Applied Sciences [DE]"
+        description="FH Aachen - University of Applied Sciences [DE]" />
+      <url xlink:href="https://www.fh-aachen.de/" xlink:type="locator" />
+    </category>
+    <category ID="fraunhofer-institut-fokus">
+      <label xml:lang="en" text="Fraunhofer Institute for Open Communication Systems FOKUS [DE]"
+        description="Fraunhofer Institute for Open Communication Systems FOKUS [DE]" />
+      <label xml:lang="de" text="Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS [DE]"
+        description="Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS [DE]" />
+      <url xlink:href="https://www.fokus.fraunhofer.de/" xlink:type="locator" />
     </category>
     <category ID="freie_universitaet_berlin">
-      <label xml:lang="de" text="Freie Universität Berlin" description="Freie Universität Berlin" />
+      <label xml:lang="de" text="Freie Universität Berlin (FUB) [DE]"
+        description="Freie Universität Berlin (FUB) [DE]" />
+      <label xml:lang="en" text="Free University of Berlin (FUB) [DE]"
+        description="Free University of Berlin (FUB) [DE]" />
+      <url xlink:href="https://www.fu-berlin.de/" xlink:type="locator" />
+    </category>
+    <category ID="freie_universitaet_bozen">
+      <label xml:lang="de" text="Freie Universität Bozen (unibz) [IT]"
+        description="Freie Universität Bozen (unibz) [IT]" />
+      <label xml:lang="en" text="Free University of Bozen-Bolzano (unibz) [IT]"
+        description="Free University of Bozen-Bolzano (unibz) [IT]" />
+      <url xlink:href="https://www.unibz.it/" xlink:type="locator" />
     </category>
     <category ID="friedrich-alexander-universitaet_erlangen-nuernberg">
-      <label xml:lang="de" text="Friedrich-Alexander-Universität Erlangen-Nürnberg" description="Friedrich-Alexander-Universität Erlangen-Nürnberg" />
-    </category>
-    <category ID="friedrich-loeffler-institut">
-      <label xml:lang="de" text="Friedrich-Loeffler-Institut" description="Friedrich-Loeffler-Institut" />
-    </category>
-    <category ID="friedrich-schiller-universitaet_jena">
-      <label xml:lang="de" text="Friedrich-Schiller-Universität Jena" description="Friedrich-Schiller-Universität Jena" />
+      <label xml:lang="de" text="Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) [DE]"
+        description="Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) [DE]" />
+      <label xml:lang="en" text="Friedrich Alexander University Erlangen-Nuremberg (FAU) [DE]"
+        description="Friedrich Alexander University Erlangen-Nuremberg (FAU) [DE]" />
+      <url xlink:href="https://www.fau.de/" xlink:type="locator" />
     </category>
     <category ID="geheimes_staatsarchiv_preussischer_kulturbesitz_gsta_pk">
-      <label xml:lang="de" text="Geheimes Staatsarchiv Preußischer Kulturbesitz (GStA PK)" description="Geheimes Staatsarchiv Preußischer Kulturbesitz (GStA PK)" />
+      <label xml:lang="de" text="Geheimes Staatsarchiv Preußischer Kulturbesitz (GStA)"
+        description="Geheimes Staatsarchiv Preußischer Kulturbesitz (GStA)" />
+    </category>
+    <category ID="helmholtz_zentrum_fuer_ozeanforschung_kiel">
+      <label xml:lang="de" text="GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel [DE]"
+        description="GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel [DE]" />
+      <label xml:lang="en" text="GEOMAR Helmholtz Centre for Ocean Research Kiel [DE]"
+        description="GEOMAR Helmholtz Centre for Ocean Research Kiel [DE]" />
+      <url xlink:href="https://www.geomar.de/" xlink:type="locator" />
     </category>
     <category ID="georg-august-universitaet_goettingen">
-      <label xml:lang="de" text="Georg-August-Universität Göttingen" description="Georg-August-Universität Göttingen" />
-    </category>
-    <category ID="goethe-universitaet_frankfurt_am_main">
-      <label xml:lang="de" text="Goethe-Universität Frankfurt am Main" description="Goethe-Universität Frankfurt am Main" />
-    </category>
-    <category ID="gottfried_wilhelm_leibniz_universitaet_hannover">
-      <label xml:lang="de" text="Gottfried Wilhelm Leibniz Universität Hannover" description="Gottfried Wilhelm Leibniz Universität Hannover" />
-    </category>
-    <category ID="hafencity_universitaet_hamburg">
-      <label xml:lang="de" text="HafenCity Universität Hamburg" description="HafenCity Universität Hamburg" />
+      <label xml:lang="en" text="Georg-August-University of Göttingen [DE]"
+        description="Georg-August-University of Göttingen [DE]" />
+      <label xml:lang="de" text="Georg-August-Universität Göttingen [DE]"
+        description="Georg-August-Universität Göttingen [DE]" />
+      <url xlink:href="https://www.uni-goettingen.de/" xlink:type="locator" />
     </category>
     <category ID="helmholtz-zentrum_potsdam_deutsches_geoforschungszentrum_gfz">
-      <label xml:lang="de" text="Helmholtz-Zentrum Potsdam Deutsches GeoForschungsZentrum GFZ" description="Helmholtz-Zentrum Potsdam Deutsches GeoForschungsZentrum GFZ" />
+      <label xml:lang="en" text="GFZ Helmholtz Centre for Geosciences [DE]"
+        description="GFZ Helmholtz Centre for Geosciences [DE]" />
+      <label xml:lang="de" text="GFZ Helmholtz-Zentrum für Geoforschung [DE]"
+        description="GFZ Helmholtz-Zentrum für Geoforschung [DE]" />
+      <url xlink:href="https://www.gfz.de/" xlink:type="locator" />
+    </category>
+    <category ID="goethe-universitaet_frankfurt_am_main">
+      <label xml:lang="de" text="Goethe-Universität Frankfurt am Main [DE]"
+        description="Goethe-Universität Frankfurt am Main [DE]" />
+      <label xml:lang="en" text="Goethe University Frankfurt [DE]"
+        description="Goethe University Frankfurt [DE]" />
+      <url xlink:href="https://www.uni-frankfurt.de/" xlink:type="locator" />
+    </category>
+    <category ID="gottfried_wilhelm_leibniz_universitaet_hannover">
+      <label xml:lang="en" text="Leibniz University Hannover (LUH) [DE]"
+        description="Leibniz University Hannover (LUH) [DE]" />
+      <label xml:lang="de" text="Gottfried Wilhelm Leibniz Universität Hannover (LUH) [DE]"
+        description="Gottfried Wilhelm Leibniz Universität Hannover (LUH) [DE]" />
+      <url xlink:href="https://www.uni-hannover.de/" xlink:type="locator" />
+    </category>
+    <category ID="hafencity_universitaet_hamburg">
+      <label xml:lang="en" text="HafenCity University Hamburg (HCU) [DE]"
+        description="HafenCity University Hamburg (HCU) [DE]" />
+      <label xml:lang="de" text="HafenCity Universität Hamburg (HCU) [DE]"
+        description="HafenCity Universität Hamburg (HCU) [DE]" />
+      <url xlink:href="https://www.hcu-hamburg.de/" xlink:type="locator" />
+    </category>
+    <category ID="heidelberg_institute_for_geoinformation_technology">
+      <label xml:lang="de" text="HeiGIT (Heidelberg Institute for Geoinformation Technology) [DE]"
+        description="HeiGIT (Heidelberg Institute for Geoinformation Technology) [DE]" />
+      <label xml:lang="en" text="HeiGIT (Heidelberg Institute for Geoinformation Technology) [DE]"
+        description="HeiGIT (Heidelberg Institute for Geoinformation Technology) [DE]" />
+      <url xlink:href="https://heigit.org/" xlink:type="locator" />
+    </category>
+    <category ID="helmholtz-zentrum-fuer-umweltforschung_ufz">
+      <label xml:lang="en" text="Helmholtz Centre for Environmental Research (UFZ) [DE]"
+        description="Helmholtz Centre for Environmental Research (UFZ) [DE]" />
+      <label xml:lang="de" text="Helmholtz-Zentrum für Umweltforschung (UFZ) [DE]"
+        description="Helmholtz-Zentrum für Umweltforschung (UFZ) [DE]" />
+      <url xlink:href="https://www.ufz.de/" xlink:type="locator" />
     </category>
     <category ID="herder-institut_fuer_historische_ostmitteleuropaforschung">
-      <label xml:lang="de" text="Herder-Institut für historische Ostmitteleuropaforschung" description="Herder-Institut für historische Ostmitteleuropaforschung" />
+      <label xml:lang="de" text="Herder-Institut für historische Ostmitteleuropaforschung"
+        description="Herder-Institut für historische Ostmitteleuropaforschung" />
+    </category>
+    <category ID="hessisches_institut_fuer_landesgeschichte">
+      <label xml:lang="en" text="Hessian Institute for Regional History (HIL) [DE]"
+        description="Hessian Institute for Regional History (HIL) [DE]" />
+      <label xml:lang="de" text="Hessisches Institut für Landesgeschichte (HIL) [DE]"
+        description="Hessisches Institut für Landesgeschichte (HIL) [DE]" />
+      <url xlink:href="https://hil.hessen.de/" xlink:type="locator" />
+    </category>
+    <category ID="esad_grenoble-valence">
+      <label xml:lang="de" text="Higher School of Art and Design Grenoble-Valence (ÉSAD-GV) [FR]"
+        description="Higher School of Art and Design Grenoble-Valence (ÉSAD-GV) [FR]" />
+      <label xml:lang="en" text="Higher School of Art and Design Grenoble-Valence (ÉSAD-GV) [FR]"
+        description="Higher School of Art and Design Grenoble-Valence (ÉSAD-GV) [FR]" />
+      <url xlink:href="https://esad-gv.fr/" xlink:type="locator" />
+    </category>
+    <category ID="hochschule_bochum">
+      <label xml:lang="de" text="Hochschule Bochum (BO) [DE]"
+        description="Hochschule Bochum (BO) [DE]" />
+      <label xml:lang="en" text="Bochum University of Applied Sciences (BO) [DE]"
+        description="Bochum University of Applied Sciences (BO) [DE]" />
+      <url xlink:href="https://www.hochschule-bochum.de/" xlink:type="locator" />
+    </category>
+    <category ID="hochschule_darmstadt">
+      <label xml:lang="de" text="Hochschule Darmstadt (h_da) [DE]"
+        description="Hochschule Darmstadt (h_da) [DE]" />
+      <label xml:lang="en" text="Darmstadt University of Applied Sciences (h_da) [DE]"
+        description="Darmstadt University of Applied Sciences (h_da) [DE]" />
+      <url xlink:href="https://h-da.de/" xlink:type="locator" />
+    </category>
+    <category ID="hochschule_fuer_angewandte_wissenschaften_hof">
+      <label xml:lang="de" text="Hochschule für Angewandte Wissenschaften Hof [DE]"
+        description="Hochschule für Angewandte Wissenschaften Hof [DE]" />
+      <label xml:lang="en" text="Hof University of Applied Sciences [DE]"
+        description="Hof University of Applied Sciences [DE]" />
+      <url xlink:href="https://www.hof-university.de/" xlink:type="locator" />
     </category>
     <category ID="hochschule_fuer_angewandte_wissenschaften_muenchen">
-      <label xml:lang="de" text="Hochschule für angewandte Wissenschaften München" description="Hochschule für angewandte Wissenschaften München" />
+      <label xml:lang="de" text="Hochschule für Angewandte Wissenschaften München (HM) [DE]"
+        description="Hochschule für Angewandte Wissenschaften München (HM) [DE]" />
+      <label xml:lang="en" text="HM Hochschule München University of Applied Sciences [DE]"
+        description="HM Hochschule München University of Applied Sciences [DE]" />
+      <url xlink:href="https://hm.edu/" xlink:type="locator" />
     </category>
     <category ID="hochschule_fuer_nachhaltige_entwicklung_eberswalde">
-      <label xml:lang="de" text="Hochschule für nachhaltige Entwicklung Eberswalde" description="Hochschule für nachhaltige Entwicklung Eberswalde" />
+      <label xml:lang="de" text="Hochschule für Nachhaltige Entwicklung Eberswalde"
+        description="Hochschule für Nachhaltige Entwicklung Eberswalde" />
+    </category>
+    <category ID="hochschule_fuer_technik_stuttgart">
+      <label xml:lang="de" text="Hochschule für Technik Stuttgart (HFT) [DE]"
+        description="Hochschule für Technik Stuttgart (HFT) [DE]" />
+      <label xml:lang="en" text="Stuttgart University of Applied Sciences (HFT) [DE]"
+        description="Stuttgart University of Applied Sciences (HFT) [DE]" />
+      <url xlink:href="https://www.hft-stuttgart.de/" xlink:type="locator" />
+    </category>
+    <category ID="hochschule_fuer-technik-und-wirtschaft-berlin">
+      <label xml:lang="en"
+        text="University of Applied Sciences for Engineering and Economics Berlin (HTW) [DE]"
+        description="University of Applied Sciences for Engineering and Economics Berlin (HTW) [DE]" />
+      <label xml:lang="de" text="Hochschule für Technik und Wirtschaft Berlin (HTW) [DE]"
+        description="Hochschule für Technik und Wirtschaft Berlin (HTW) [DE]" />
+      <url xlink:href="https://www.htw-berlin.de/" xlink:type="locator" />
     </category>
     <category ID="hochschule_fuer_technik_und_wirtschaft_dresden">
-      <label xml:lang="de" text="Hochschule für Technik und Wirtschaft Dresden" description="Hochschule für Technik und Wirtschaft Dresden" />
+      <label xml:lang="de" text="Hochschule für Technik und Wirtschaft Dresden (HTWD) [DE]"
+        description="Hochschule für Technik und Wirtschaft Dresden (HTWD) [DE]" />
+      <label xml:lang="en" text="HTWD - University of Applied Sciences Dresden [DE]"
+        description="HTWD - University of Applied Sciences Dresden [DE]" />
+      <url xlink:href="https://www.htw-dresden.de/" xlink:type="locator" />
     </category>
     <category ID="hochschule_karlsruhe_-_technik_und_wirtschaft">
-      <label xml:lang="de" text="Hochschule Karlsruhe - Technik und Wirtschaft" description="Hochschule Karlsruhe - Technik und Wirtschaft" />
+      <label xml:lang="en" text="Karlsruhe University of Applied Sciences (HKA) [DE]"
+        description="Karlsruhe University of Applied Sciences (HKA) [DE]" />
+      <label xml:lang="de" text="Hochschule Karlsruhe (HKA) [DE]"
+        description="Hochschule Karlsruhe (HKA) [DE]" />
+      <url xlink:href="https://www.h-ka.de/" xlink:type="locator" />
     </category>
     <category ID="hochschule_mainz">
-      <label xml:lang="de" text="Hochschule Mainz" description="Hochschule Mainz" />
+      <label xml:lang="en" text="Mainz University of Applied Sciences [DE]"
+        description="Mainz University of Applied Sciences [DE]" />
+      <label xml:lang="de" text="Hochschule Mainz [DE]" description="Hochschule Mainz [DE]" />
+      <url xlink:href="https://www.hs-mainz.de/" xlink:type="locator" />
     </category>
     <category ID="humboldt-universitaet_zu_berlin">
-      <label xml:lang="de" text="Humboldt-Universität zu Berlin" description="Humboldt-Universität zu Berlin" />
+      <label xml:lang="en" text="Humboldt University of Berlin [DE]"
+        description="Humboldt University of Berlin [DE]" />
+      <label xml:lang="de" text="Humboldt-Universität zu Berlin [DE]"
+        description="Humboldt-Universität zu Berlin [DE]" />
+      <url xlink:href="https://www.hu-berlin.de/" xlink:type="locator" />
+    </category>
+    <category ID="ibero-amerikanisches_institut_berlin">
+      <label xml:lang="en" text="Ibero-American Institute (IAI) [DE]"
+        description="Ibero-American Institute (IAI) [DE]" />
+      <label xml:lang="de" text="Ibero-Amerikanisches Institut Berlin (IAI) [DE]"
+        description="Ibero-Amerikanisches Institut Berlin (IAI) [DE]" />
+      <url xlink:href="https://www.iai.spk-berlin.de/" xlink:type="locator" />
+    </category>
+    <category ID="iu_bloomington">
+      <label xml:lang="de" text="Indiana University Bloomington (IUB) [US]"
+        description="Indiana University Bloomington (IUB) [US]" />
+      <label xml:lang="en" text="Indiana University Bloomington (IUB) [US]"
+        description="Indiana University Bloomington (IUB) [US]" />
+      <url xlink:href="https://bloomington.iu.edu/" xlink:type="locator" />
     </category>
     <category ID="institut_fuer_donauschwaebische_geschichte_und_landeskunde">
-      <label xml:lang="de" text="Institut für donauschwäbische Geschichte und Landeskunde" description="Institut für donauschwäbische Geschichte und Landeskunde" />
+      <label xml:lang="de" text="Institut für donauschwäbische Geschichte und Landeskunde"
+        description="Institut für donauschwäbische Geschichte und Landeskunde" />
     </category>
     <category ID="international_psychoanalytic_university">
-      <label xml:lang="de" text="International Psychoanalytic University (IPU)" description="International Psychoanalytic University (IPU)" />
-      <url xlink:href="http://d-nb.info/gnd/1072022796" xlink:type="locator" />
+      <label xml:lang="en" text="International Psychoanalytic University Berlin (IPU) [DE]"
+        description="International Psychoanalytic University Berlin (IPU) [DE]" />
+      <label xml:lang="de" text="International Psychoanalytic University Berlin (IPU) [DE]"
+        description="International Psychoanalytic University Berlin (IPU) [DE]" />
+      <url xlink:href="https://www.ipu-berlin.de/" xlink:type="locator" />
+    </category>
+    <category ID="jade_hochschule">
+      <label xml:lang="en" text="Jade University of Applied Sciences [DE]"
+        description="Jade University of Applied Sciences [DE]" />
+      <label xml:lang="de" text="Jade Hochschule [DE]" description="Jade Hochschule [DE]" />
+      <url xlink:href="https://www.jade-hs.de/" xlink:type="locator" />
     </category>
     <category ID="johann_heinrich_von_thuenen-institut">
-      <label xml:lang="de" text="Johann Heinrich von Thünen-Institut" description="Johann Heinrich von Thünen-Institut" />
+      <label xml:lang="de" text="Johann Heinrich von Thünen-Institut (vTI) [DE]"
+        description="Johann Heinrich von Thünen-Institut (vTI) [DE]" />
+      <label xml:lang="en" text="Johann Heinrich von Thünen Institute (vTI) [DE]"
+        description="Johann Heinrich von Thünen Institute (vTI) [DE]" />
+      <url xlink:href="https://www.thuenen.de/" xlink:type="locator" />
     </category>
     <category ID="johannes_gutenberg-universitaet_mainz">
-      <label xml:lang="de" text="Johannes Gutenberg-Universität Mainz" description="Johannes Gutenberg-Universität Mainz" />
+      <label xml:lang="de" text="Johannes Gutenberg-Universität Mainz (JGU) [DE]"
+        description="Johannes Gutenberg-Universität Mainz (JGU) [DE]" />
+      <label xml:lang="en" text="Johannes Gutenberg University Mainz (JGU) [DE]"
+        description="Johannes Gutenberg University Mainz (JGU) [DE]" />
+      <url xlink:href="https://www.uni-mainz.de/" xlink:type="locator" />
     </category>
     <category ID="julius-maximilians-universitaet_wuerzburg">
-      <label xml:lang="de" text="Julius-Maximilians-Universität Würzburg" description="Julius-Maximilians-Universität Würzburg" />
+      <label xml:lang="de" text="Julius-Maximilians-Universität Würzburg"
+        description="Julius-Maximilians-Universität Würzburg" />
     </category>
     <category ID="justus-liebig_universitaet_giessen">
-      <label xml:lang="de" text="Justus-Liebig Universität Gießen" description="Justus-Liebig Universität Gießen" />
+      <label xml:lang="de" text="Justus-Liebig Universität Gießen"
+        description="Justus-Liebig Universität Gießen" />
     </category>
     <category ID="karlsruher_institut_fuer_technologie">
-      <label xml:lang="de" text="Karlsruher Institut für Technologie" description="Karlsruher Institut für Technologie" />
+      <label xml:lang="de" text="Karlsruher Institut für Technologie (KIT) [DE]"
+        description="Karlsruher Institut für Technologie (KIT) [DE]" />
+      <label xml:lang="en" text="Karlsruhe Institute of Technology (KIT) [DE]"
+        description="Karlsruhe Institute of Technology (KIT) [DE]" />
+      <url xlink:href="https://www.kit.edu/" xlink:type="locator" />
     </category>
     <category ID="katholische_universitaet_eichstaett-ingolstadt">
-      <label xml:lang="de" text="Katholische Universität Eichstätt-Ingolstadt" description="Katholische Universität Eichstätt-Ingolstadt" />
+      <label xml:lang="de" text="Katholische Universität Eichstätt-Ingolstadt"
+        description="Katholische Universität Eichstätt-Ingolstadt" />
+    </category>
+    <category ID="landesarchiv_baden_wuerttemberg">
+      <label xml:lang="en" text="State Archives of Baden-Württemberg (LABW) [DE]"
+        description="State Archives of Baden-Württemberg (LABW) [DE]" />
+      <label xml:lang="de" text="Landesarchiv Baden-Württemberg (LABW) [DE]"
+        description="Landesarchiv Baden-Württemberg (LABW) [DE]" />
+      <url xlink:href="https://www.landesarchiv-bw.de/" xlink:type="locator" />
+    </category>
+    <category ID="landesmuseum_fuer_natur_und_mensch_oldenburg">
+      <label xml:lang="en" text="State Museum for Nature and Mankind Oldenburg (LMNM) [DE]"
+        description="State Museum for Nature and Mankind Oldenburg (LMNM) [DE]" />
+      <label xml:lang="de" text="Landesmuseum Natur und Mensch Oldenburg (LMNM) [DE]"
+        description="Landesmuseum Natur und Mensch Oldenburg (LMNM) [DE]" />
+      <url xlink:href="https://www.naturundmensch.de/" xlink:type="locator" />
     </category>
     <category ID="landschaftsverband_westfalen-lippe_lwl">
-      <label xml:lang="de" text="Landschaftsverband Westfalen-Lippe (LWL)" description="Landschaftsverband Westfalen-Lippe (LWL)" />
+      <label xml:lang="de" text="Landschaftsverband Westfalen-Lippe (LWL) [DE]"
+        description="Landschaftsverband Westfalen-Lippe (LWL) [DE]" />
+      <label xml:lang="en" text="Regional Association of Westphalia-Lippe (LWL) [DE]"
+        description="Regional Association of Westphalia-Lippe (LWL) [DE]" />
+      <url xlink:href="https://www.lwl.org/" xlink:type="locator" />
     </category>
     <category ID="leibniz-gemeinschaft">
       <label xml:lang="de" text="Leibniz-Gemeinschaft" description="Leibniz-Gemeinschaft" />
     </category>
     <category ID="leibniz-institut_fuer_laenderkunde">
-      <label xml:lang="de" text="Leibniz-Institut für Länderkunde (IfL)" description="Leibniz-Institut für Länderkunde (IfL)" />
+      <label xml:lang="de" text="Leibniz-Institut für Länderkunde (IfL) [DE]"
+        description="Leibniz-Institut für Länderkunde (IfL) [DE]" />
+      <label xml:lang="en" text="Leibniz Institute for Regional Geography (IfL) [DE]"
+        description="Leibniz Institute for Regional Geography (IfL) [DE]" />
+      <url xlink:href="https://leibniz-ifl.de/" xlink:type="locator" />
+    </category>
+    <category ID="leibniz-institut_fuer_oekologische_raumentwicklung">
+      <label xml:lang="de" text="Leibniz-Institut für Ökologische Raumentwicklung (IÖR) [DE]"
+        description="Leibniz-Institut für Ökologische Raumentwicklung (IÖR) [DE]" />
+      <label xml:lang="en"
+        text="Leibniz Institute of Ecological Urban and Regional Development (IÖR) [DE]"
+        description="Leibniz Institute of Ecological Urban and Regional Development (IÖR) [DE]" />
+      <url xlink:href="https://www.ioer.de/" xlink:type="locator" />
+    </category>
+    <category ID="leibniz-institut_fuer_ost_und_suedosteuropaforschung">
+      <label xml:lang="de" text="Leibniz-Institut für Ost- und Südosteuropaforschung (IOS) [DE]"
+        description="Leibniz-Institut für Ost- und Südosteuropaforschung (IOS) [DE]" />
+      <label xml:lang="en"
+        text="Leibniz Institute for East and Southeast European Studies (IOS) [DE]"
+        description="Leibniz Institute for East and Southeast European Studies (IOS) [DE]" />
+      <url xlink:href="https://leibniz-ios.de/" xlink:type="locator" />
+    </category>
+    <category ID="leibniz-zentrum_fuer-agrarlandschaftsforschung">
+      <label xml:lang="de" text="Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) [DE]"
+        description="Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) [DE]" />
+      <label xml:lang="en" text="Leibniz Centre for Agricultural Landscape Research (ZALF) [DE]"
+        description="Leibniz Centre for Agricultural Landscape Research (ZALF) [DE]" />
+      <url xlink:href="https://www.zalf.de/" xlink:type="locator" />
+    </category>
+    <category ID="leibniz-zentrum_fuer_archaeologie">
+      <label xml:lang="de" text="Leibniz-Zentrum für Archäologie (LEIZA) [DE]"
+        description="Leibniz-Zentrum für Archäologie (LEIZA) [DE]" />
+      <label xml:lang="en" text="Leibniz Center for Archaeology (LEIZA) [DE]"
+        description="Leibniz Center for Archaeology (LEIZA) [DE]" />
+      <url xlink:href="https://www.leiza.de/" xlink:type="locator" />
     </category>
     <category ID="leuphana_universitaet_lueneburg">
-      <label xml:lang="de" text="Leuphana Universität Lüneburg" description="Leuphana Universität Lüneburg" />
+      <label xml:lang="de" text="Leuphana Universität Lüneburg"
+        description="Leuphana Universität Lüneburg" />
     </category>
     <category ID="ludwig-maximilians-universitaet_muenchen">
-      <label xml:lang="de" text="Ludwig-Maximilians-Universität München" description="Ludwig-Maximilians-Universität München" />
+      <label xml:lang="de" text="Ludwig-Maximilians-Universität München (LMU) [DE]"
+        description="Ludwig-Maximilians-Universität München (LMU) [DE]" />
+      <label xml:lang="en" text="Ludwig-Maximilian University Munich (LMU) [DE]"
+        description="Ludwig-Maximilian University Munich (LMU) [DE]" />
+      <url xlink:href="https://www.lmu.de/" xlink:type="locator" />
+    </category>
+    <category ID="marciana_national_libary">
+      <label xml:lang="en" text="Marciana National Library [IT]"
+        description="Marciana National Library [IT]" />
+      <label xml:lang="de" text="Marciana National Library [IT]"
+        description="Marciana National Library [IT]" />
+      <url xlink:href="https://bibliotecanazionalemarciana.cultura.gov.it/" xlink:type="locator" />
     </category>
     <category ID="martin-luther-universitaet_halle-wittenberg">
-      <label xml:lang="de" text="Martin-Luther-Universität Halle-Wittenberg" description="Martin-Luther-Universität Halle-Wittenberg" />
+      <label xml:lang="de" text="Martin-Luther-Universität Halle-Wittenberg"
+        description="Martin-Luther-Universität Halle-Wittenberg" />
+    </category>
+    <category ID="military-university-of-technology_wat">
+      <label xml:lang="de" text="Military University of Technology (WAT) [PL]"
+        description="Military University of Technology (WAT) [PL]" />
+      <label xml:lang="en" text="Military University of Technology (WAT) [PL]"
+        description="Military University of Technology (WAT) [PL]" />
+      <url xlink:href="https://www.wojsko-polskie.pl/" xlink:type="locator" />
+    </category>
+    <category ID="national_university_mexico_umam">
+      <label xml:lang="en" text="National Autonomous University of Mexico (UNAM) [MX]"
+        description="National Autonomous University of Mexico (UNAM) [MX]" />
+      <label xml:lang="de" text="National Autonomous University of Mexico (UNAM) [MX]"
+        description="National Autonomous University of Mexico (UNAM) [MX]" />
+      <url xlink:href="https://www.unam.mx/" xlink:type="locator" />
+    </category>
+    <category ID="ign">
+      <label xml:lang="en" text="National Institute of Geographic and Forest Information (IGN) [FR]"
+        description="National Institute of Geographic and Forest Information (IGN) [FR]" />
+      <label xml:lang="de" text="National Institute of Geographic and Forest Information (IGN) [FR]"
+        description="National Institute of Geographic and Forest Information (IGN) [FR]" />
+      <url xlink:href="https://www.ign.fr/" xlink:type="locator" />
+    </category>
+    <category ID="national_taiwan_university_ntu">
+      <label xml:lang="en" text="National Taiwan University (NTU) [TW]"
+        description="National Taiwan University (NTU) [TW]" />
+      <label xml:lang="de" text="National Taiwan University (NTU) [TW]"
+        description="National Taiwan University (NTU) [TW]" />
+      <url xlink:href="https://www.ntu.edu.tw/" xlink:type="locator" />
     </category>
     <category ID="niedersaechsisches_institut_fuer_historische_kuestenforschung">
-      <label xml:lang="de" text="Niedersächsisches Institut für historische Küstenforschung" description="Niedersächsisches Institut für historische Küstenforschung" />
+      <label xml:lang="de" text="Niedersächsisches Institut für historische Küstenforschung"
+        description="Niedersächsisches Institut für historische Küstenforschung" />
+    </category>
+    <category ID="oesterreichische_nationalbibliothek">
+      <label xml:lang="en" text="Austrian National Library (ÖNB) [AT]"
+        description="Austrian National Library (ÖNB) [AT]" />
+      <label xml:lang="de" text="Österreichische Nationalbibliothek (ÖNB) [AT]"
+        description="Österreichische Nationalbibliothek (ÖNB) [AT]" />
+      <url xlink:href="https://www.onb.ac.at/" xlink:type="locator" />
+    </category>
+    <category ID="ost_ostschweizer_fh">
+      <label xml:lang="en" text="Eastern Switzerland University of Applied Sciences (OST)"
+        description="Eastern Switzerland University of Applied Sciences (OST)" />
+      <label xml:lang="de" text="OST - Ostschweizer Fachhochschule [CH]"
+        description="OST - Ostschweizer Fachhochschule [CH]" />
+      <url xlink:href="https://www.ost.ch/" xlink:type="locator" />
     </category>
     <category ID="otto-friedrich-universitaet_bamberg">
-      <label xml:lang="de" text="Otto-Friedrich-Universität Bamberg" description="Otto-Friedrich-Universität Bamberg" />
+      <label xml:lang="en" text="University of Bamberg [DE]"
+        description="University of Bamberg [DE]" />
+      <label xml:lang="de" text="Otto-Friedrich-Universität Bamberg [DE]"
+        description="Otto-Friedrich-Universität Bamberg [DE]" />
+      <url xlink:href="https://www.uni-bamberg.de/" xlink:type="locator" />
     </category>
     <category ID="paedagogische_hochschule_ludwigsburg">
-      <label xml:lang="de" text="Pädagogische Hochschule Ludwigsburg" description="Pädagogische Hochschule Ludwigsburg" />
+      <label xml:lang="de" text="Pädagogische Hochschule Ludwigsburg (PHL) [DE]"
+        description="Pädagogische Hochschule Ludwigsburg (PHL) [DE]" />
+      <label xml:lang="en" text="Ludwigsburg University of Education (PHL) [DE]"
+        description="Ludwigsburg University of Education (PHL) [DE]" />
+      <url xlink:href="https://www.ph-ludwigsburg.de/" xlink:type="locator" />
     </category>
     <category ID="philipps-universitaet_marburg">
-      <label xml:lang="de" text="Philipps-Universität Marburg" description="Philipps-Universität Marburg" />
+      <label xml:lang="de" text="Philipps-Universität Marburg [DE]"
+        description="Philipps-Universität Marburg [DE]" />
+      <label xml:lang="en" text="Marburg University [DE]" description="Marburg University [DE]" />
+      <url xlink:href="https://www.uni-marburg.de/" xlink:type="locator" />
+    </category>
+    <category ID="purdue_university">
+      <label xml:lang="en" text="Purdue University [US]" description="Purdue University [US]" />
+      <label xml:lang="de" text="Purdue University [US]" description="Purdue University [US]" />
+      <url xlink:href="https://www.purdue.edu/" xlink:type="locator" />
     </category>
     <category ID="rheinische_friedrich-wilhelms-universitaet_bonn">
-      <label xml:lang="de" text="Rheinische Friedrich-Wilhelms-Universität Bonn" description="Rheinische Friedrich-Wilhelms-Universität Bonn" />
+      <label xml:lang="en" text="University of Bonn [DE]" description="University of Bonn [DE]" />
+      <label xml:lang="de" text="Rheinische Friedrich-Wilhelms-Universität Bonn [DE]"
+        description="Rheinische Friedrich-Wilhelms-Universität Bonn [DE]" />
+      <url xlink:href="https://www.uni-bonn.de/de" xlink:type="locator" />
     </category>
     <category ID="rheinisch-westfaelische_technische_hochschule_aachen">
-      <label xml:lang="de" text="Rheinisch-Westfälische Technische Hochschule Aachen" description="Rheinisch-Westfälische Technische Hochschule Aachen" />
+      <label xml:lang="de" text="Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen [DE]"
+        description="Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen [DE]" />
+      <label xml:lang="en" text="RWTH Aachen University [DE]"
+        description="RWTH Aachen University [DE]" />
+      <url xlink:href="https://www.rwth-aachen.de/" xlink:type="locator" />
+    </category>
+    <category ID="royal_institute_of_technology_kth">
+      <label xml:lang="en" text="Royal Institute of Technology (KTH) [SE]"
+        description="Royal Institute of Technology (KTH) [SE]" />
+      <label xml:lang="de" text="Royal Institute of Technology (KTH) [SE]"
+        description="Royal Institute of Technology (KTH) [SE]" />
+      <url xlink:href="https://www.kth.se/" xlink:type="locator" />
     </category>
     <category ID="ruhr-universitaet_bochum">
-      <label xml:lang="de" text="Ruhr-Universität Bochum" description="Ruhr-Universität Bochum" />
+      <label xml:lang="de" text="Ruhr-Universität Bochum (RUB) [DE]"
+        description="Ruhr-Universität Bochum (RUB) [DE]" />
+      <label xml:lang="en" text="Ruhr University Bochum (RUB) [DE]"
+        description="Ruhr University Bochum (RUB) [DE]" />
+      <url xlink:href="https://www.ruhr-uni-bochum.de/" xlink:type="locator" />
+    </category>
+    <category ID="simon_fraser_university_sfu">
+      <label xml:lang="de" text="Simon Fraser University (SFU) [CA]"
+        description="Simon Fraser University (SFU) [CA]" />
+      <label xml:lang="en" text="Simon Fraser University (SFU) [CA]"
+        description="Simon Fraser University (SFU) [CA]" />
+      <url xlink:href="https://www.sfu.ca/" xlink:type="locator" />
+    </category>
+    <category ID="staatliche_museen_zu_berlin">
+      <label xml:lang="de" text="Staatliche Museen zu Berlin (SMB) [DE]"
+        description="Staatliche Museen zu Berlin (SMB) [DE]" />
+      <label xml:lang="en" text="National Museums in Berlin (SMB) [DE]"
+        description="National Museums in Berlin (SMB) [DE]" />
+      <url xlink:href="https://www.smb.museum/" xlink:type="locator" />
     </category>
     <category ID="staatsbibliothek_zu_berlin_-_preussischer_kulturbesitz">
-      <label xml:lang="de" text="Staatsbibliothek zu Berlin - Preußischer Kulturbesitz" description="Staatsbibliothek zu Berlin - Preußischer Kulturbesitz" />
+      <label xml:lang="en" text="Berlin State Library (Stabi) [DE]"
+        description="Berlin State Library (Stabi) [DE]" />
+      <label xml:lang="de" text="Staatsbibliothek zu Berlin (Stabi) [DE]"
+        description="Staatsbibliothek zu Berlin (Stabi) [DE]" />
+      <url xlink:href="https://staatsbibliothek-berlin.de/" xlink:type="locator" />
     </category>
     <category ID="stiftung_preussischer_kulturbesitz">
-      <label xml:lang="de" text="Stiftung Preußischer Kulturbesitz" description="Stiftung Preußischer Kulturbesitz" />
+      <label xml:lang="de" text="Stiftung Preußischer Kulturbesitz"
+        description="Stiftung Preußischer Kulturbesitz" />
+    </category>
+    <category ID="technische_hochschule_wildau">
+      <label xml:lang="de" text="Technische Hochschule Wildau [DE]"
+        description="Technische Hochschule Wildau [DE]" />
+      <label xml:lang="en" text="Technical University of Applied Sciences Wildau [DE]"
+        description="Technical University of Applied Sciences Wildau [DE]" />
+      <url xlink:href="https://www.th-wildau.de/" xlink:type="locator" />
+    </category>
+    <category ID="hochschule_angewandte_wissenschaften_wuerzburg_schweinfurt">
+      <label xml:lang="de" text="Technische Hochschule Würzburg-Schweinfurt (THWS) [DE]"
+        description="Technische Hochschule Würzburg-Schweinfurt (THWS) [DE]" />
+      <label xml:lang="en"
+        text="Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)"
+        description="Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)" />
+      <url xlink:href="https://www.thws.de/" xlink:type="locator" />
+    </category>
+    <category ID="technische_universitaet_bergakademie_freiberg">
+      <label xml:lang="de" text="Technische Universität Bergakademie Freiberg (TUBAF) [DE]"
+        description="Technische Universität Bergakademie Freiberg (TUBAF) [DE]" />
+      <label xml:lang="en" text="Technical University Bergakademie Freiberg (TUBAF) [DE]"
+        description="Technical University Bergakademie Freiberg (TUBAF) [DE]" />
+      <url xlink:href="https://tu-freiberg.de/" xlink:type="locator" />
     </category>
     <category ID="technische_universitaet_berlin">
-      <label xml:lang="de" text="Technische Universität Berlin" description="Technische Universität Berlin" />
+      <label xml:lang="de" text="Technische Universität Berlin [DE]"
+        description="Technische Universität Berlin [DE]" />
+      <label xml:lang="en" text="Technische Universität Berlin [DE]"
+        description="Technische Universität Berlin [DE]" />
+      <url xlink:href="https://www.tu.berlin/" xlink:type="locator" />
     </category>
     <category ID="technische_universitaet_braunschweig">
-      <label xml:lang="de" text="Technische Universität Braunschweig" description="Technische Universität Braunschweig" />
+      <label xml:lang="de" text="Technische Universität Braunschweig"
+        description="Technische Universität Braunschweig" />
     </category>
     <category ID="technische_universitaet_chemnitz">
-      <label xml:lang="de" text="Technische Universität Chemnitz" description="Technische Universität Chemnitz" />
+      <label xml:lang="de" text="Technische Universität Chemnitz (TUC) [DE]"
+        description="Technische Universität Chemnitz (TUC) [DE]" />
+      <label xml:lang="en" text="Chemnitz University of Technology (TUC) [DE]"
+        description="Chemnitz University of Technology (TUC) [DE]" />
+      <url xlink:href="https://www.tu-chemnitz.de/" xlink:type="locator" />
     </category>
     <category ID="technische_universitaet_darmstadt">
-      <label xml:lang="de" text="Technische Universität Darmstadt" description="Technische Universität Darmstadt" />
+      <label xml:lang="en" text="Technical University of Darmstadt (TUDa) [DE]"
+        description="Technical University of Darmstadt (TUDa) [DE]" />
+      <label xml:lang="de" text="Technische Universität Darmstadt (TUDa) [DE]"
+        description="Technische Universität Darmstadt (TUDa) [DE]" />
+      <url xlink:href="https://www.tu-darmstadt.de/" xlink:type="locator" />
     </category>
     <category ID="technische_universitaet_dortmund">
-      <label xml:lang="de" text="Technische Universität Dortmund" description="Technische Universität Dortmund" />
+      <label xml:lang="de" text="Technische Universität Dortmund"
+        description="Technische Universität Dortmund" />
     </category>
     <category ID="technische_universitaet_dresden">
-      <label xml:lang="de" text="Technische Universität Dresden" description="Technische Universität Dresden" />
+      <label xml:lang="de" text="Technische Universität Dresden (TUD) [DE]"
+        description="Technische Universität Dresden (TUD) [DE]" />
+      <label xml:lang="en" text="TUD Dresden University of Technology [DE]"
+        description="TUD Dresden University of Technology [DE]" />
+      <url xlink:href="https://tu-dresden.de/" xlink:type="locator" />
+    </category>
+    <category ID="technische-universitaet_hamburg">
+      <label xml:lang="de" text="Technische Universität Hamburg (TUHH) [DE]"
+        description="Technische Universität Hamburg (TUHH) [DE]" />
+      <label xml:lang="en" text="Hamburg University of Technology (TUHH) [DE]"
+        description="Hamburg University of Technology (TUHH) [DE]" />
+      <url xlink:href="https://www.tuhh.de/" xlink:type="locator" />
     </category>
     <category ID="technische_universitaet_muenchen">
-      <label xml:lang="de" text="Technische Universität München" description="Technische Universität München" />
+      <label xml:lang="en" text="Technical University of Munich (TUM) [DE]"
+        description="Technical University of Munich (TUM) [DE]" />
+      <label xml:lang="de" text="Technische Universität München (TUM) [DE]"
+        description="Technische Universität München (TUM) [DE]" />
+      <url xlink:href="https://www.tum.de/" xlink:type="locator" />
+    </category>
+    <category ID="technische_universitaet_wien">
+      <label xml:lang="de" text="Technische Universität Wien (TUW) [AT]"
+        description="Technische Universität Wien (TUW) [AT]" />
+      <label xml:lang="en" text="Vienna University of Technology (TUW) [AT]"
+        description="Vienna University of Technology (TUW) [AT]" />
+      <url xlink:href="https://www.tuwien.at/" xlink:type="locator" />
+    </category>
+    <category ID="tfo_meran">
+      <label xml:lang="de" text="Technologische Fachoberschule Meran [IT]"
+        description="Technologische Fachoberschule Meran [IT]" />
+      <label xml:lang="en" text="Technical College Meran [IT]"
+        description="Technical College Meran [IT]" />
+      <url xlink:href="https://www.tfo-meran.it/" xlink:type="locator" />
     </category>
     <category ID="union_der_deutschen_akademien_der_wissenschaften">
-      <label xml:lang="de" text="Union der deutschen Akademien der Wissenschaften" description="Union der deutschen Akademien der Wissenschaften" />
+      <label xml:lang="de" text="Union der deutschen Akademien der Wissenschaften"
+        description="Union der deutschen Akademien der Wissenschaften" />
     </category>
     <category ID="universitaet_augsburg">
       <label xml:lang="de" text="Universität Augsburg" description="Universität Augsburg" />
     </category>
+    <category ID="universitaet_basel">
+      <label xml:lang="en" text="University of Basel [CH]" description="University of Basel [CH]" />
+      <label xml:lang="de" text="Universität Basel [CH]" description="Universität Basel [CH]" />
+      <url xlink:href="https://www.unibas.ch/" xlink:type="locator" />
+    </category>
     <category ID="universitaet_bayreuth">
-      <label xml:lang="de" text="Universität Bayreuth" description="Universität Bayreuth" />
+      <label xml:lang="de" text="Universität Bayreuth (UBT) [DE]"
+        description="Universität Bayreuth (UBT) [DE]" />
+      <label xml:lang="en" text="University of Bayreuth (UBT) [DE]"
+        description="University of Bayreuth (UBT) [DE]" />
+      <url xlink:href="https://www.uni-bayreuth.de/" xlink:type="locator" />
     </category>
     <category ID="universitaet_bielefeld">
       <label xml:lang="de" text="Universität Bielefeld" description="Universität Bielefeld" />
@@ -191,32 +716,75 @@
     <category ID="universitaet_bremen">
       <label xml:lang="de" text="Universität Bremen" description="Universität Bremen" />
     </category>
+    <category ID="universitaet_der_bundeswehr_muenchen">
+      <label xml:lang="de" text="Universität der Bundeswehr München (UniBw M) [DE]"
+        description="Universität der Bundeswehr München (UniBw M) [DE]" />
+      <label xml:lang="en" text="University of the Bundeswehr Munich (UniBw M) [DE]"
+        description="University of the Bundeswehr Munich (UniBw M) [DE]" />
+      <url xlink:href="https://www.unibw.de/" xlink:type="locator" />
+    </category>
     <category ID="universitaet_des_saarlandes">
-      <label xml:lang="de" text="Universität des Saarlandes" description="Universität des Saarlandes" />
+      <label xml:lang="de" text="Universität des Saarlandes"
+        description="Universität des Saarlandes" />
     </category>
     <category ID="universitaet_duisburg-essen">
-      <label xml:lang="de" text="Universität Duisburg-Essen" description="Universität Duisburg-Essen" />
+      <label xml:lang="en" text="University of Duisburg-Essen (UDE) [DE]"
+        description="University of Duisburg-Essen (UDE) [DE]" />
+      <label xml:lang="de" text="Universität Duisburg-Essen (UDE) [DE]"
+        description="Universität Duisburg-Essen (UDE) [DE]" />
+      <url xlink:href="https://www.uni-due.de/" xlink:type="locator" />
+    </category>
+    <category ID="universitaet_erfurt">
+      <label xml:lang="de" text="Universität Erfurt [DE]" description="Universität Erfurt [DE]" />
+      <label xml:lang="en" text="University of Erfurt [DE]" description="University of Erfurt [DE]" />
+      <url xlink:href="https://www.uni-erfurt.de/" xlink:type="locator" />
     </category>
     <category ID="universitaet_greifswald">
       <label xml:lang="de" text="Universität Greifswald" description="Universität Greifswald" />
     </category>
     <category ID="universitaet_hamburg">
-      <label xml:lang="de" text="Universität Hamburg" description="Universität Hamburg" />
+      <label xml:lang="de" text="Universität Hamburg (UHH) [DE]"
+        description="Universität Hamburg (UHH) [DE]" />
+      <label xml:lang="en" text="University of Hamburg (UHH) [DE]"
+        description="University of Hamburg (UHH) [DE]" />
+      <url xlink:href="https://www.uni-hamburg.de/" xlink:type="locator" />
     </category>
     <category ID="universitaet_heidelberg">
-      <label xml:lang="de" text="Universität Heidelberg" description="Universität Heidelberg" />
+      <label xml:lang="en" text="Heidelberg University [DE]"
+        description="Heidelberg University [DE]" />
+      <label xml:lang="de" text="Universität Heidelberg [DE]"
+        description="Universität Heidelberg [DE]" />
+      <url xlink:href="https://www.uni-heidelberg.de/" xlink:type="locator" />
+    </category>
+    <category ID="universitaet_kassel">
+      <label xml:lang="en" text="University of Kassel [DE]" description="University of Kassel [DE]" />
+      <label xml:lang="de" text="Universität Kassel [DE]" description="Universität Kassel [DE]" />
+      <url xlink:href="https://www.uni-kassel.de/" xlink:type="locator" />
     </category>
     <category ID="universitaet_koblenz_landau">
-      <label xml:lang="de" text="Universität Koblenz · Landau" description="Universität Koblenz-Landau" />
+      <label xml:lang="de" text="Universität Koblenz · Landau"
+        description="Universität Koblenz-Landau" />
     </category>
     <category ID="universitaet_leipzig">
-      <label xml:lang="de" text="Universität Leipzig" description="Universität Leipzig" />
+      <label xml:lang="de" text="Universität Leipzig [DE]" description="Universität Leipzig [DE]" />
+      <label xml:lang="en" text="Leipzig University [DE]" description="Leipzig University [DE]" />
+      <url xlink:href="https://www.uni-leipzig.de/" xlink:type="locator" />
     </category>
     <category ID="universitaet_mannheim">
       <label xml:lang="de" text="Universität Mannheim" description="Universität Mannheim" />
     </category>
+    <category ID="universitaet_muenster">
+      <label xml:lang="de" text="Universität Münster [DE]" description="Universität Münster [DE]" />
+      <label xml:lang="en" text="University of Münster [DE]"
+        description="University of Münster [DE]" />
+      <url xlink:href="https://www.uni-muenster.de/" xlink:type="locator" />
+    </category>
     <category ID="universitaet_osnabrueck">
-      <label xml:lang="de" text="Universität Osnabrück" description="Universität Osnabrück" />
+      <label xml:lang="de" text="Universität Osnabrück (UOS) [DE]"
+        description="Universität Osnabrück (UOS) [DE]" />
+      <label xml:lang="en" text="Osnabrück University (UOS) [DE]"
+        description="Osnabrück University (UOS) [DE]" />
+      <url xlink:href="https://www.uni-osnabrueck.de/" xlink:type="locator" />
     </category>
     <category ID="universitaet_paderborn">
       <label xml:lang="de" text="Universität Paderborn" description="Universität Paderborn" />
@@ -230,32 +798,143 @@
     <category ID="universitaet_regensburg">
       <label xml:lang="de" text="Universität Regensburg" description="Universität Regensburg" />
     </category>
+    <category ID="universitaet_rostock">
+      <label xml:lang="de" text="Universität Rostock [DE]" description="Universität Rostock [DE]" />
+      <label xml:lang="en" text="University of Rostock [DE]"
+        description="University of Rostock [DE]" />
+      <url xlink:href="https://www.uni-rostock.de/" xlink:type="locator" />
+    </category>
+    <category ID="universitaet_salzburg">
+      <label xml:lang="en" text="University of Salzburg (PLUS) [AT]"
+        description="University of Salzburg (PLUS) [AT]" />
+      <label xml:lang="de" text="Universität Salzburg (PLUS) [AT]"
+        description="Universität Salzburg (PLUS) [AT]" />
+      <url xlink:href="https://www.plus.ac.at/" xlink:type="locator" />
+    </category>
     <category ID="universitaet_siegen">
-      <label xml:lang="de" text="Universität Siegen" description="Universität Siegen" />
+      <label xml:lang="de" text="Universität Siegen [DE]" description="Universität Siegen [DE]" />
+      <label xml:lang="en" text="University of Siegen [DE]" description="University of Siegen [DE]" />
+      <url xlink:href="https://www.uni-siegen.de/" xlink:type="locator" />
     </category>
     <category ID="universitaet_stuttgart">
-      <label xml:lang="de" text="Universität Stuttgart" description="Universität Stuttgart" />
+      <label xml:lang="en" text="University of Stuttgart [DE]"
+        description="University of Stuttgart [DE]" />
+      <label xml:lang="de" text="Universität Stuttgart [DE]"
+        description="Universität Stuttgart [DE]" />
+      <url xlink:href="https://www.uni-stuttgart.de/" xlink:type="locator" />
     </category>
     <category ID="universitaet_trier">
-      <label xml:lang="de" text="Universität Trier" description="Universität Trier" />
+      <label xml:lang="de" text="Universität Trier [DE]" description="Universität Trier [DE]" />
+      <label xml:lang="en" text="Trier University [DE]" description="Trier University [DE]" />
+      <url xlink:href="https://www.uni-trier.de/" xlink:type="locator" />
     </category>
     <category ID="universitaet_vechta">
       <label xml:lang="de" text="Universität Vechta" description="Universität Vechta" />
     </category>
     <category ID="universitaet_wien">
-      <label xml:lang="de" text="Universität Wien" description="Universität Wien" />
+      <label xml:lang="en" text="University of Vienna [AT]" description="University of Vienna [AT]" />
+      <label xml:lang="de" text="Universität Wien [AT]" description="Universität Wien [AT]" />
+      <url xlink:href="https://www.univie.ac.at/" xlink:type="locator" />
+    </category>
+    <category ID="universitaet_zuerich">
+      <label xml:lang="en" text="University of Zurich (UZH) [CH]"
+        description="University of Zurich (UZH) [CH]" />
+      <label xml:lang="de" text="Universität Zürich (UZH) [CH]"
+        description="Universität Zürich (UZH) [CH]" />
+      <url xlink:href="https://www.uzh.ch/" xlink:type="locator" />
     </category>
     <category ID="universitaet_zu_koeln">
-      <label xml:lang="de" text="Universität zu Köln" description="Universität zu Köln" />
+      <label xml:lang="de" text="Universität zu Köln [DE]" description="Universität zu Köln [DE]" />
+      <label xml:lang="en" text="University of Cologne [DE]"
+        description="University of Cologne [DE]" />
+      <url xlink:href="https://www.uni-koeln.de/" xlink:type="locator" />
     </category>
-    <category ID="westfaelische_wilhelms-universitaet_muenster">
-      <label xml:lang="de" text="Westfälische Wilhelms-Universität Münster" description="Westfälische Wilhelms-Universität Münster" />
+    <category ID="university_cape_town">
+      <label xml:lang="de" text="University of Cape Town (UCT) [ZA]"
+        description="University of Cape Town (UCT) [ZA]" />
+      <label xml:lang="en" text="University of Cape Town (UCT) [ZA]"
+        description="University of Cape Town (UCT) [ZA]" />
+      <url xlink:href="https://www.uct.ac.za/" xlink:type="locator" />
+    </category>
+    <category ID="university_geneva_unige">
+      <label xml:lang="de" text="University of Geneva (UNIGE) [CH]"
+        description="University of Geneva (UNIGE) [CH]" />
+      <label xml:lang="en" text="University of Geneva (UNIGE) [CH]"
+        description="University of Geneva (UNIGE) [CH]" />
+      <url xlink:href="https://www.unige.ch/" xlink:type="locator" />
+    </category>
+    <category ID="university_glasgow">
+      <label xml:lang="en" text="University of Glasgow [GB]"
+        description="University of Glasgow [GB]" />
+      <label xml:lang="de" text="University of Glasgow [GB]"
+        description="University of Glasgow [GB]" />
+      <url xlink:href="https://www.gla.ac.uk/" xlink:type="locator" />
+    </category>
+    <category ID="university_new_south_wales_unsw">
+      <label xml:lang="en" text="University of New South Wales (UNSW) [AU]"
+        description="University of New South Wales (UNSW) [AU]" />
+      <label xml:lang="de" text="University of New South Wales (UNSW) [AU]"
+        description="University of New South Wales (UNSW) [AU]" />
+      <url xlink:href="https://www.unsw.edu.au/" xlink:type="locator" />
+    </category>
+    <category ID="university_sassari">
+      <label xml:lang="en" text="University of Sassari (UNISS) [IT]"
+        description="University of Sassari (UNISS) [IT]" />
+      <label xml:lang="de" text="University of Sassari (UNISS) [IT]"
+        description="University of Sassari (UNISS) [IT]" />
+      <url xlink:href="https://www.uniss.it/" xlink:type="locator" />
+    </category>
+    <category ID="university_sevilla">
+      <label xml:lang="en" text="University of Sevilla [ES]"
+        description="University of Sevilla [ES]" />
+      <label xml:lang="de" text="University of Sevilla [ES]"
+        description="University of Sevilla [ES]" />
+      <url xlink:href="https://www.us.es/" xlink:type="locator" />
+    </category>
+    <category ID="university_texas_arlington_uta">
+      <label xml:lang="en" text="University of Texas at Arlington (UTA) [US]"
+        description="University of Texas at Arlington (UTA) [US]" />
+      <label xml:lang="de" text="University of Texas at Arlington (UTA) [US]"
+        description="University of Texas at Arlington (UTA) [US]" />
+      <url xlink:href="https://www.uta.edu/" xlink:type="locator" />
+    </category>
+    <category ID="university_armed_forces_espe">
+      <label xml:lang="de" text="University of the Armed Forces (ESPE) [EC]"
+        description="University of the Armed Forces (ESPE) [EC]" />
+      <label xml:lang="en" text="University of the Armed Forces (ESPE) [EC]"
+        description="University of the Armed Forces (ESPE) [EC]" />
+      <url xlink:href="https://www.espe.edu.ec/" xlink:type="locator" />
+    </category>
+    <category ID="university_azores_uac">
+      <label xml:lang="en" text="University of the Azores (UAc) [PT]"
+        description="University of the Azores (UAc) [PT]" />
+      <label xml:lang="de" text="University of the Azores (UAc) [PT]"
+        description="University of the Azores (UAc) [PT]" />
+      <url xlink:href="https://www.uac.pt/" xlink:type="locator" />
+    </category>
+    <category ID="utrecht_university_uu">
+      <label xml:lang="en" text="Utrecht University (UU) [NL]"
+        description="Utrecht University (UU) [NL]" />
+      <label xml:lang="de" text="Utrecht University (UU) [NL]"
+        description="Utrecht University (UU) [NL]" />
+      <url xlink:href="https://www.uu.nl/" xlink:type="locator" />
+    </category>
+    <category ID="wissenschaftliches-institut-fuer-infrastruktur-und-kommunikationsdienste">
+      <label xml:lang="de"
+        text="Wissenschaftliches Institut für Infrastruktur und Kommunikationsdienste (WIK) [DE]"
+        description="Wissenschaftliches Institut für Infrastruktur und Kommunikationsdienste (WIK) [DE]" />
+      <label xml:lang="en"
+        text="Wissenschaftliches Institut für Infrastruktur und Kommunikationsdienste (WIK) [DE]"
+        description="Wissenschaftliches Institut für Infrastruktur und Kommunikationsdienste (WIK) [DE]" />
     </category>
     <category ID="zentrum_fuer_militaergeschichte_und_sozialwissenschaften_der_bundeswehr">
-      <label xml:lang="de" text="Zentrum für Militärgeschichte und Sozialwissenschaften der Bundeswehr" description="Zentrum für Militärgeschichte und Sozialwissenschaften der Bundeswehr" />
+      <label xml:lang="de"
+        text="Zentrum für Militärgeschichte und Sozialwissenschaften der Bundeswehr"
+        description="Zentrum für Militärgeschichte und Sozialwissenschaften der Bundeswehr" />
     </category>
     <category ID="internationale_forschungseinrichtungen">
-      <label xml:lang="de" text="Internationale Forschungseinrichtungen" description="Internationale Forschungseinrichtungen" />
+      <label xml:lang="de" text="Internationale Forschungseinrichtungen"
+        description="Internationale Forschungseinrichtungen" />
     </category>
   </categories>
 </mycoreclass>

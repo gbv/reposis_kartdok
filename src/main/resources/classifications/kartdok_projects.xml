@@ -1,40 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="kartdok_projects">
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="kartdok_projects">
   <label xml:lang="de" text="KartDok Projekte" description="Liste der Projekte" />
   <label xml:lang="en" text="KartDok Projects" description="List of projects" />
-  <label xml:lang="x-uri" text="https://karten.sbb-berlin.de/classifications/kartdok_projects" />
+  <label xml:lang="x-uri"
+    text="https://kartdok.staatsbibliothek-berlin.de/api/v2/classifications/kartdok_projects" />
   <categories>
     <category ID="alpenvereinskarte">
-      <label xml:lang="en" text="Alpenvereinskarte Ushba und Mestia" />
-      <label xml:lang="de" text="Alpenvereinskarte Ushba und Mestia" />
+      <label xml:lang="de" text="Alpenvereinskarte Ushba und Mestia"
+        description="Alpenvereinskarte Ushba und Mestia" />
+      <label xml:lang="en" text="Alpenvereinskarte Ushba und Mestia"
+        description="Alpenvereinskarte Ushba und Mestia" />
     </category>
     <category ID="homann">
-      <label xml:lang="en" text="Bibliographie des Verlages Homann, Homanns Erben und Fembo (Nürnberg 1702-1852)" />
-      <label xml:lang="de" text="Bibliographie des Verlages Homann, Homanns Erben und Fembo (Nürnberg 1702-1852)" />
+      <label xml:lang="de"
+        text="Bibliographie des Verlages Homann, Homanns Erben und Fembo (Nürnberg 1702-1852)"
+        description="Bibliographie des Verlages Homann, Homanns Erben und Fembo (Nürnberg 1702-1852)" />
+      <label xml:lang="en"
+        text="Bibliographie des Verlages Homann, Homanns Erben und Fembo (Nürnberg 1702-1852)"
+        description="Bibliographie des Verlages Homann, Homanns Erben und Fembo (Nürnberg 1702-1852)" />
+    </category>
+    <category ID="curriculum_nrw_curriculare_integration">
+      <label xml:lang="de"
+        text="Curriculum 4.0 NRW - Curriculare Integration von Geodaten-Kompetenzen"
+        description="Curriculum 4.0 NRW - Curriculare Integration von Geodaten-Kompetenzen" />
+      <label xml:lang="en"
+        text="Curriculum 4.0 NRW - Curriculare Integration von Geodaten-Kompetenzen"
+        description="Curriculum 4.0 NRW - Curriculare Integration von Geodaten-Kompetenzen" />
+    </category>
+    <category ID="digikar">
+      <label xml:lang="de" text="Digitale Kartenwerkstatt Altes Reich (DigiKAR)"
+        description="Digitale Kartenwerkstatt Altes Reich (DigiKAR)" />
+      <label xml:lang="en" text="Digital Map Lab Holy Roman Empire (DigiKAR)"
+        description="Digital Map Lab Holy Roman Empire (DigiKAR)" />
     </category>
     <category ID="wenkeratlas">
-      <label xml:lang="de" text="Digitaler Wenkeratlas" />
-      <label xml:lang="en" text="Digitaler Wenkeratlas" />
+      <label xml:lang="en" text="Digitaler Wenkeratlas" description="Digitaler Wenkeratlas" />
+      <label xml:lang="de" text="Digitaler Wenkeratlas" description="Digitaler Wenkeratlas" />
     </category>
     <category ID="topoi">
-      <label xml:lang="de" text="Exzellenzcluster TOPOI" />
-      <label xml:lang="en" text="Exzellenzcluster TOPOI" />
+      <label xml:lang="en" text="Exzellenzcluster TOPOI" description="Exzellenzcluster TOPOI" />
+      <label xml:lang="de" text="Exzellenzcluster TOPOI" description="Exzellenzcluster TOPOI" />
+    </category>
+    <category ID="fid_karten">
+      <label xml:lang="de" text="Fachinformationsdienst Kartographie und Geobasisdaten (FID Karten)"
+        description="Fachinformationsdienst Kartographie und Geobasisdaten (FID Karten)" />
+      <label xml:lang="en" text="Specialised Information Service Cartography and Geodata (SIS Maps)"
+        description="Specialised Information Service Cartography and Geodata (SIS Maps)" />
+    </category>
+    <category ID="project_fair">
+      <label xml:lang="en"
+        text="FAIR - Anwenderfreundliche Bereitstellung von Klima- und Wetterdaten"
+        description="FAIR - Anwenderfreundliche Bereitstellung von Klima- und Wetterdaten" />
+      <label xml:lang="de"
+        text="FAIR - Anwenderfreundliche Bereitstellung von Klima- und Wetterdaten"
+        description="FAIR - Anwenderfreundliche Bereitstellung von Klima- und Wetterdaten" />
     </category>
     <category ID="urbanonyme">
-      <label xml:lang="en" text="Kolonialzeitliche und kolonialzeitbezogene Urbanonyme" />
-      <label xml:lang="de" text="Kolonialzeitliche und kolonialzeitbezogene Urbanonyme" />
+      <label xml:lang="en" text="Kolonialzeitliche und kolonialzeitbezogene Urbanonyme"
+        description="Kolonialzeitliche und kolonialzeitbezogene Urbanonyme" />
+      <label xml:lang="de" text="Kolonialzeitliche und kolonialzeitbezogene Urbanonyme"
+        description="Kolonialzeitliche und kolonialzeitbezogene Urbanonyme" />
     </category>
     <category ID="industriegebiet">
-      <label xml:lang="en" text="Kulturlandschaftswandel Oberschlesisches Industriegebiet – Ruhrgebiet" />
-      <label xml:lang="de" text="Kulturlandschaftswandel Oberschlesisches Industriegebiet – Ruhrgebiet" />
+      <label xml:lang="de"
+        text="Kulturlandschaftswandel Oberschlesisches Industriegebiet – Ruhrgebiet"
+        description="Kulturlandschaftswandel Oberschlesisches Industriegebiet – Ruhrgebiet" />
+      <label xml:lang="en"
+        text="Kulturlandschaftswandel Oberschlesisches Industriegebiet – Ruhrgebiet"
+        description="Kulturlandschaftswandel Oberschlesisches Industriegebiet – Ruhrgebiet" />
+    </category>
+    <category ID="mapire">
+      <label xml:lang="en" text="MAPIRE - Historical maps of the Habsburg empire"
+        description="MAPIRE - Historical maps of the Habsburg empire" />
+      <label xml:lang="de" text="MAPIRE - Historische Karten der Habsburger Monarchie"
+        description="MAPIRE - Historische Karten der Habsburger Monarchie" />
+    </category>
+    <category ID="projekt_deal">
+      <label xml:lang="en" text="Projekt  DEAL" description="Projekt  DEAL" />
+      <label xml:lang="de" text="Projekt  DEAL" description="Projekt  DEAL" />
     </category>
     <category ID="regionalsprache">
-      <label xml:lang="de" text="Regionalsprache.de" />
-      <label xml:lang="en" text="Regionalsprache.de" />
+      <label xml:lang="en" text="Regionalsprache.de" description="Regionalsprache.de" />
+      <label xml:lang="de" text="Regionalsprache.de" description="Regionalsprache.de" />
+    </category>
+    <category ID="sfb_1199">
+      <label xml:lang="de"
+        text="SFB 1199: Karten und Atlanten als Vermittler und Produzenten von Raum(Wissen) unter Globalisierungsbedingungen"
+        description="SFB 1199: Karten und Atlanten als Vermittler und Produzenten von Raum(Wissen) unter Globalisierungsbedingungen" />
+      <label xml:lang="en"
+        text="SFB 1199: Maps and atlases as mediators and producers of space (knowledge) under the global condition"
+        description="SFB 1199: Maps and atlases as mediators and producers of space (knowledge) under the global condition" />
     </category>
     <category ID="volunteered_geographic_information">
-      <label xml:lang="de" text="Volunteered Geographic Information: Interpretation, Visualisation and Social Computing" />
-      <label xml:lang="en" text="Volunteered Geographic Information: Interpretation, Visualisation and Social Computing" />
+      <label xml:lang="en"
+        text="Volunteered Geographic Information: Interpretation, Visualisation and Social Computing"
+        description="Volunteered Geographic Information: Interpretation, Visualisation and Social Computing" />
+      <label xml:lang="de"
+        text="Volunteered Geographic Information: Interpretation, Visualisation and Social Computing"
+        description="Volunteered Geographic Information: Interpretation, Visualisation and Social Computing" />
     </category>
   </categories>
 </mycoreclass>
