@@ -2,19 +2,11 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
 
-  <section xml:lang="de" title="KartDok – der Kontakt zu uns">
-    <head>
-      <meta name="title" content="KartDok – der Kontakt zu uns"/>
-      <meta name='description' content="KartDok – Kontakt zum KartDok-Team" />
-    </head>
+  <section xml:lang="de" title="Kontakt">
     <h1>Kontakt</h1>
     <p>Hier können Sie Kontakt zum KartDok-Team aufnehmen. Bitte beachten Sie, dass wir keine Rechtsberatung anbieten.</p>
   </section>
-  <section xml:lang="en" title="KartDok – the contact to us">
-    <head>
-      <meta name="title" content="KartDok – the contact to us"/>
-      <meta name='description' content="KartDok – Contact the KartDok team" />
-    </head>
+  <section xml:lang="en" title="Contact">
     <h1>Contact</h1>
     <p>Here you can contact the KartDok team. Please note that we do not provide legal advice.</p>
   </section>

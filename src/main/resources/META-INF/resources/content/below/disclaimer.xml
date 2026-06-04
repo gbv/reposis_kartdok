@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="KartDok – Haftungshinweise">
-	<head>
-		<meta name="title" content="KartDok – Haftungshinweise"/>
-		<meta name='description' content="KartDok – Haftungshinweise und Haftungsausschluss" />
-	</head>
-<div class="row">
+<MyCoReWebPage><section xml:lang="de" title="Haftungshinweise"><div class="row">
 <div class="col-md-12" lang="de">
 <h1>Haftungshinweise</h1>
 
 <p> </p>
 
-<p>Als Trägerin des Fachinformationsdiensts Kartographie und Geobasisdaten ist die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz um Richtigkeit und Aktualität der auf dieser Internetpräsenz bereitgestellten Informationen bemüht. Trotzdem können Fehler und Unklarheiten nicht vollständig ausgeschlossen werden. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz übernimmt daher keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des Nutzers bzw. der Nutzerin. Gleiches gilt für kostenlos zum Download bereitgehaltene Inhalte. Alle Angebote sind freibleibend und unverbindlich. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz behält es sich explizit vor, Teile des Internetangebotes oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern oder zu ergänzen.</p>
+<p>Als Trägerin des Fachinformationsdiensts Kartographie und Geobasisdaten (FID Karten) ist die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz um Richtigkeit und Aktualität der auf dieser Internetpräsenz bereitgestellten Informationen bemüht. Trotzdem können Fehler und Unklarheiten nicht vollständig ausgeschlossen werden. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz übernimmt daher keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des Nutzers bzw. der Nutzerin. Gleiches gilt für kostenlos zum Download bereitgehaltene Inhalte. Alle Angebote sind freibleibend und unverbindlich. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz behält es sich explizit vor, Teile des Internetangebotes oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern oder zu ergänzen.</p>
 
-<p>Das Angebot des Fachinformationsdiensts Kartographie und Geobasisdaten enthält Links zu externen Webseiten Dritter, auf deren Inhalte es keinen Einfluss hat. Deshalb kann der Fachinformationsdienst für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten sind stets die jeweiligen Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend entfernt.</p>
+<p>Das Angebot des Fachinformationsdiensts Kartographie und Geobasisdaten (FID Karten) enthält Links zu externen Webseiten Dritter, auf deren Inhalte es keinen Einfluss hat. Deshalb kann der Fachinformationsdienst für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten sind stets die jeweiligen Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend entfernt.</p>
 
 <p>Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet.</p>
 
-<p>Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bittet der Fachinformationsdienst für Kartographie und Geobasisdaten um einen entsprechenden Hinweis. Nutzen Sie hierfür bitte unser <a href="../below/contact.xed"><u>Kontaktformular</u></a>. Bei Kenntnis von Rechtsverletzungen werden derartige Inhalte umgehend entfernt.</p>
+<p>Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bittet der Fachinformationsdienst für Kartographie und Geobasisdaten (FID Karten) um einen entsprechenden Hinweis. Nutzen Sie hierfür bitte unser <a href="../below/contact.xed"><u>Kontaktformular</u></a>. Bei Kenntnis von Rechtsverletzungen werden derartige Inhalte umgehend entfernt.</p>
 
 <h2><br />
 Rechtswirksamkeit dieses Haftungsausschlusses</h2>
@@ -24,32 +19,22 @@ Rechtswirksamkeit dieses Haftungsausschlusses</h2>
 <p>Der im Vorstehenden formulierte Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Insofern Teile oder einzelne Formulierungen dieses Textes der aktuell geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in Hinblick sowohl auf ihren Inhalt als auch und vor allem auf ihre Gültigkeit davon unberührt.</p>
 </div>
 </div>
-</section>
-<section xml:lang="en" title="KartDok – Disclaimer">
-	<head>
-		<meta name="title" content="KartDok – Disclaimer"/>
-		<meta name='description' content="KartDok – our Disclaimer" />
-	</head>
-<div>
-<h1>Disclaimer</h1>
-
-<p>The English version for this page is currently in progress.</p>
+</section><section xml:lang="en" title="Disclaimer"><div>
+<h1>Liability Notice</h1>
 
 <p> </p>
 
-<p>Als Trägerin des Fachinformationsdiensts Kartographie und Geobasisdaten ist die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz um Richtigkeit und Aktualität der auf dieser Internetpräsenz bereitgestellten Informationen bemüht. Trotzdem können Fehler und Unklarheiten nicht vollständig ausgeschlossen werden. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz übernimmt daher keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des Nutzers bzw. der Nutzerin. Gleiches gilt für kostenlos zum Download bereitgehaltene Inhalte. Alle Angebote sind freibleibend und unverbindlich. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz behält es sich explizit vor, Teile des Internetangebotes oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern oder zu ergänzen.</p>
+<p>As the provider of the Special Information Service Cartography and Geodata (SIS Maps), the Staatsbibliothek zu Berlin - Preußischer Kulturbesitz endeavors to ensure that the information provided on this website is correct and up to date. Nevertheless faults and unclear points cannot be excluded completely. Therefore, the Staatsbibliothek zu Berlin – Preußischer Kulturbesitz does not assume any responsibility for the up-to-date status, the correctness and the quality of the information provided. Using the contents of this website is at the user’s own risk. The same is true for contents provided free for download. All offers are subject to alteration and are non-binding. The Staatsbibliothek zu Berlin – Preußischer Kulturbesitz explicitly reserves the right to modify or complement parts or the entire Internet offer without special announcement.</p>
 
-<p>Das Angebot des Fachinformationsdiensts Kartographie und Geobasisdaten enthält Links zu externen Webseiten Dritter, auf deren Inhalte es keinen Einfluss hat. Deshalb kann der Fachinformationsdienst für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten sind stets die jeweiligen Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend entfernt.</p>
+<p>The offer of the Special Information Service Cartography and Geodata (SIS Maps) contains links to external third-party websites, and has no influence on their contents. For this reason, the Special Information Service cannot assume liability for their contents. The respective providers or hosts of the web pages are responsible for the contents. The linked pages have been checked regarding possible legal violations at the time of linking. Illegal contents were not identifiable at the time of linking. A permanent control of the linked webpage without any specific indication of a legal violation is not reasonable. If legal violations become known, such links will immediately be deleted.</p>
 
-<p>Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet.</p>
+<p>The use by third parties of contact data, published in connection with the imprint obligation, with the aim to send not explicitly requested advertising and and information is expressly objected to. The providers of the web pages reserve to take legal in case of unsolicited advertising, such as spam mails. As far as the contents on this webpage has not been produced by the provider, the copyrights of third parties are respected. In particlular, contents provided by third parties are indicated as such.</p>
 
-<p>Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bittet der Fachinformationsdienst für Kartographie und Geobasisdaten um einen entsprechenden Hinweis. Nutzen Sie hierfür bitte unser <a href="../below/contact.xed"><u>Kontaktformular</u></a>. Bei Kenntnis von Rechtsverletzungen werden derartige Inhalte umgehend entfernt.</p>
+<p>However, should you become aware of such a copyright violation, the Special Information Service Cartography and Geodata (SIS Maps) kindly asks you to inform us. For this, please use our <a href="../below/contact.xed">contact form</a>. When such legal violations are known, the respective contents will immediately de deleted.</p>
 
 <h2><br />
-Rechtswirksamkeit dieses Haftungsausschlusses</h2>
+Legal effect of the disclaimer</h2>
 
-<p>Der im Vorstehenden formulierte Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Insofern Teile oder einzelne Formulierungen dieses Textes der aktuell geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in Hinblick sowohl auf ihren Inhalt als auch und vor allem auf ihre Gültigkeit davon unberührt.</p>
-
-<p> </p>
+<p>The disclaimer formulated above is to be regarded as part of the Internet resource that links to this page. Should parts or single formulations not, no longer or not completely be compatible with the current legal situation, the other parts of the document remain unaffected with regard to both their contents and, in particular, with regard to their validity.</p>
 </div>
-</section><meta><log lastEditor="admin-ro" date="2022-01-12" time="17:43" /></meta></MyCoReWebPage>
+</section><meta><log lastEditor="admin-ro" date="2023-02-14" time="17:38" /></meta></MyCoReWebPage>

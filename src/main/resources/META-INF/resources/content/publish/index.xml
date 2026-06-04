@@ -18,11 +18,7 @@
       });
     </script>
   </section>
-  <section title="KartDok - Veröffentlichen" xml:lang="de">
-    <head>
-      <meta name="title" content="KartDok - Veröffentlichen"/>
-      <meta name="description" content="KartDok - Dokumente einreichen"/>
-    </head>
+  <section title="Publizieren" xml:lang="de">
     <form id="submit_publication" class="form-horizontal" role="form" method="get" action="../../editor/editor-dynamic.xed">
 
       <h2>Veröffentlichen</h2>
@@ -155,10 +151,6 @@
   </section>
 
   <section title="Publish" xml:lang="en">
-    <head>
-      <meta name="title" content="KartDok - Publish"/>
-      <meta name="description" content="KartDok - Submit documents"/>
-    </head>
     <form id="submit_publication" class="form-horizontal" role="form" method="get" action="../../editor/editor-dynamic.xed">
 
       <h2>Publish</h2>

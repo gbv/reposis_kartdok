@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="KartDok – Nutzungsbedingungen">
-	<head>
-		<meta name="title" content="KartDok – Nutzungsbedingungen"/>
-		<meta name='description' content="KartDok – unsere Nutzungsbedingungen" />
-	</head>
-<div class="row">
+<MyCoReWebPage><section xml:lang="de" title="Nutzungsbedingungen"><div class="row">
 <div class="col-md-12" lang="de">
 <h1>Nutzungsbedingungen für KartDok</h1>
 
@@ -33,29 +28,27 @@
 </section><section xml:lang="en" title="Terms of use"><div>
 <h1>Terms of use for KartDok</h1>
 
-<p>The English version for this page is currently in progress.</p>
-
 <p> </p>
 
-<p>Die elektronischen Dokumente werden in KartDok, sofern möglich, unter einer <a href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples" title="CC-Lizenz">CC-Lizenz</a> veröffentlicht. Alle auf KartDok veröffentlichten beschreibenden bibliographischen Metadaten – mit Ausnahme der Abstracts – stehen unter der <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0 Universell-Lizenz</a> zur freien Weiterverwendung zur Verfügung.</p>
+<p>If possible, electronic documents are published in KartDok under a <a href="https://creativecommons.org/share-your-work/licensing-types-examples/licensing-examples">CC-licence</a>. All describing bibliographiy metadata published in KartDok - abstracts excluded - are free to be reused under the <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universell-licence</a>.</p>
 
-<p>Bitte geben Sie bei Nutzung die vollständige Quellenangabe an (siehe unten). Bitte schicken Sie uns bei der Verwendung auf Webseiten zur Information den Link auf die entsprechende Stelle per E-Mail: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>. Wir würden uns freuen, wenn Sie uns bei der Verwendung in wissenschaftlichen Publikationen ein Belegexemplar der Publikation zusenden könnten.</p>
+<p>If you use it, please indicate the complete source data (see below). If used on websites, please send a link to the respective point via e-mail to: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>. We would be happy if you could send an author’s copy when used in scientific publications.</p>
 
-<p><strong>Quellenangabe:</strong></p>
+<p><strong>Source specification:</strong></p>
 
-<p>KartDok - Repositorium Kartographie, Persistent-Identifier des digitalen Objects (DOI, URN)</p>
+<p>KartDok - Repositorium Kartographie, persistent identifier of the digital object (DOI, URN)</p>
 
-<p>Beispiele:</p>
+<p>Examples:</p>
 
 <ul>
 	<li><em>KartDok - Repositorium Kartographie, <a href="https://doi.org/10.48711/20220128-002">https://doi.org/10.48711/20220128-002</a> (DOI)</em></li>
 	<li><em>KartDok - Repositorium Kartographie, <a href="https://nbn-resolving.org/urn:nbn:de:0307-20220128-002-7">https://nbn-resolving.org/urn:nbn:de:0307-20220128-002-7</a></em><em> (URN)</em></li>
 </ul>
 
-<p><strong>OAI-Schnittstelle zum Metadata Harvesting unter:</strong></p>
+<p><strong>OAI Interface for Metadata Harvesting under:</strong></p>
 
 <p><a href="https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider">https://kartdok.staatsbibliothek-berlin.de/servlets/OAIDataProvider</a></p>
 
 <p> </p>
 </div>
-</section><meta><log lastEditor="admin-ro" date="2022-03-28" time="15:32" /></meta></MyCoReWebPage>
+</section><meta><log lastEditor="admin-ro" date="2023-02-14" time="16:18" /></meta></MyCoReWebPage>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="KartDok – Impressum und Pflichtangaben">
-	<head>
-		<meta name="title" content="KartDok – Impressum und Pflichtangaben"/>
-		<meta name='description' content="KartDok – Impressum und Pflichtangaben zur Anbieterkennzeichnung" />
-	</head>
-<div class="row">
+<MyCoReWebPage><section xml:lang="de" title="Impressum"><div class="row">
 <div class="col-md-12" lang="de">
 <h1>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</h1>
 
@@ -35,7 +30,7 @@ Telefon: +49 30 266 0</div>
 
 <h3><a id="Vertreter" name="Vertreter">Vertreter</a></h3>
 
-<p>Die Stiftung Preußischer Kulturbesitz wird gesetzlich vertreten durch ihren Präsidenten, Herrn Prof. Dr. Dr. hc. mult. Hermann Parzinger. Dieser wird vertreten durch den Generaldirektor der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Herrn Dr. Achim Bonte.</p>
+<p>Die Stiftung Preußischer Kulturbesitz wird gesetzlich vertreten durch ihre Präsidentin, Frau Prof. Dr. Marion Ackermann. Diese wird vertreten durch den Generaldirektor der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Herrn Dr. Achim Bonte.</p>
 
 <h3><a id="Umsatzsteueridentifikationsnummer" name="Umsatzsteueridentifikationsnummer">Umsatzsteueridentifikationsnummer</a></h3>
 
@@ -53,13 +48,7 @@ Unter den Linden 8</div>
 <div>E-Mail: <a href="mailto:kartenabt@sbb.spk-berlin.de">kartenabt@sbb.spk-berlin.de</a></div>
 </div>
 </div>
-</section>
-<section xml:lang="en" title="KartDok – Imprint and mandatory information">
-	<head>
-		<meta name="title" content="KartDok – Imprint and mandatory information"/>
-		<meta name='description' content="KartDok – Imprint and mandatory information for provider identification" />
-	</head>
-<div>
+</section><section xml:lang="en" title="Imprint"><div>
 <h1>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</h1>
 
 <p> </p>
@@ -68,9 +57,14 @@ Unter den Linden 8</div>
 
 <p>The following information contains the legal requirements on provider identification as well as important legal notices concerning the internet presence of Staatsbibliothek zu Berlin – Preußischer Kulturbesitz.</p>
 
+<p><a href="#Provider">Provider</a><br />
+<a href="#Representative">Representative</a><br />
+<a href="#VAT identification number">VAT identification number</a><br />
+<a href="#Editorial office">Editorial office</a></p>
+
 <p> </p>
 
-<h3>Provider</h3>
+<h3><a id="Provider" name="Provider">Provider</a></h3>
 
 <p>Provider of the internet presence in the legal sense is: Stiftung Preußischer Kulturbesitz: Staatsbibliothek zu Berlin.</p>
 
@@ -83,15 +77,15 @@ D-10117 Berlin</div>
 
 <div> </div>
 
-<h3>Representative</h3>
+<h3><a id="Representative" name="Representative">Representative</a></h3>
 
-<p>Stiftung Preußischer Kulturbesitz is legally presented by its President, Prof. Dr. Dr. hc. mult. Hermann Parzinger. He in turn is represented by Dr. Achim Bonte, Director General of the Berlin State Library – Prussian Cultural Heritage.</p>
+<p>Stiftung Preußischer Kulturbesitz is legally presented by its President, Prof. Dr. Marion Ackermann. She in turn is represented by Dr. Achim Bonte, Director General of the Berlin State Library – Prussian Cultural Heritage.</p>
 
-<h3>VAT identification number</h3>
+<h3><a id="VAT identification number" name="VAT identification number">VAT identification number</a></h3>
 
 <p>The VAT identification number of the Stiftung Preußischer Kulturbesitz is: DE338204900</p>
 
-<h3>Editorial office</h3>
+<h3><a id="Editorial office" name="Editorial office">Editorial office</a></h3>
 
 <div>Specialised Information Service Cartography and Geodata<br />
 Staatsbibliothek zu Berlin - Preußischer Kulturbesitz<br />
@@ -100,4 +94,5 @@ Unter den Linden 8<br />
 D-10117 Berlin</div>
 
 <div>Email: <a href="mailto:kartenabt@sbb.spk-berlin.de">kartenabt@sbb.spk-berlin.de</a></div>
-</div></section><meta><log lastEditor="admin-ro" date="2022-01-13" time="16:23" /></meta></MyCoReWebPage>
+</div>
+</section><meta><log lastEditor="admin-ro" date="2025-07-14" time="17:13" /></meta></MyCoReWebPage>

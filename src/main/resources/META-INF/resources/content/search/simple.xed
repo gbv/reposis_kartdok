@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
 
-  <section xml:lang="de">
-    <head>
-      <meta name="title" content="KartDok - einfache Suche" />
-      <meta name="description" content="KartDok - einfache Suche im Dokumentenserver" />
-    </head>
-  </section>
-  <section xml:lang="en">
-    <head>
-      <meta name="title" content="KartDok - Simple Search" />
-      <meta name="description" content="KartDok - Simple search in the document server" />
-    </head>
-  </section>
-
   <section xml:lang="all" xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir"
       i18n="component.mods.editor.search.simple.pagetitle">
     <xed:form class="form-horizontal" role="form">

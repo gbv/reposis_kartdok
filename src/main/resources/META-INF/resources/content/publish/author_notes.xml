@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="KartDok – Hinweise für Publizierende">
-	<head>
-		<meta name="title" content="KartDok – Hinweise für Publizierende"/>
-		<meta name='description' content="KartDok – Informationen zur Veröffentlichung auf KartDok, zur Wahrung der Rechte von Autorinnen und Autoren, zur Barrierefreiheit und zu Publikations-Tantiemen über die VG Wort" />
-	</head>
-<div class="row">
+<MyCoReWebPage><section xml:lang="de" title="Hinweise für Publizierende"><div class="row">
 <div class="col-md-12" lang="de">
 <h1>Hinweise für Publizierende</h1>
 
@@ -38,7 +33,7 @@
 	<li style="margin-left: 40px;">Den vollständig ausgefüllten und mit Ihrer (digitalen) Unterschrift versehenen <strong>Publikationsvertrag</strong> im Dateiformat PDF senden Sie bitte<strong><em> per E-Mail an</em></strong>: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>.
 	<ul>
 		<li style="margin-left: 40px;"><a href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrag (PDF, 945 KB)</a></li>
-		<li style="margin-left: 40px;"><a href="../rights/hinweise_kartdok_publikationsvertrag.pdf">Hinweise zum Publikationsvertrag (PDF, 1 MB)</a></li>
+		<li style="margin-left: 40px;"><a href="../rights/hinweise_kartdok_publikationsvertrag.pdf?cache=false">Hinweise zum Publikationsvertrag (PDF, 1 MB)</a></li>
 	</ul>
 	</li>
 	<li style="margin-left: 40px;">Die <strong>Freischaltung der eingereichten Publikation</strong> dauert im Regelfall ca. eine Woche. Bitte beachten Sie, dass die von Ihnen zur Veröffentlichung vorgesehenen Beiträge erst nach formaler und inhaltlicher Prüfung auf KartDok freigeschaltet werden.</li>
@@ -55,7 +50,7 @@
 	<li>und gegebenenfalls auch <strong><em>mit normierten Schlagworten</em></strong> (Terminologie der im Hintergrund eingebundenen <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.htm">Gemeinsamen Normdatei</a>).</li>
 </ul>
 
-<p>Alle auf KartDok veröffentlichten Beiträge werden zudem auf Basis der wissenschaftlichen <strong><em><a href="../browse/kartdok_bc.xml">Fachsystematik der Bibliographia Cartographica</a></em></strong> und der <a href="https://nbn-resolving.org/urn:nbn:de:101-2014050500"><strong><em>Dewey-Dezimalklassifikation</em></strong> (PDF, 709 KB)</a> sowie durch <strong><em>freie Schlagwörter</em></strong> inhaltlich erschlossen. Alle auf KartDok veröffentlichten Textbeiträge werden mit Suchmaschinentechnologie <strong><em>im Volltext recherchierbar gemacht</em></strong>.</p>
+<p>Alle auf KartDok veröffentlichten Beiträge werden zudem auf Basis der wissenschaftlichen <strong><em><a href="../browse/kartdok_bc.xml">Fachsystematik der Bibliographia Cartographica</a></em></strong> und der <a href="https://www.dnb.de/DE/Professionell/DDC-Deutsch/DDCinDNB/ddcindnb_node.html"><strong><em>Dewey-Dezimalklassifikation</em></strong></a> sowie durch <strong><em>freie Schlagwörter</em></strong> inhaltlich erschlossen. Alle auf KartDok veröffentlichten Textbeiträge werden mit Suchmaschinentechnologie <strong><em>im Volltext recherchierbar gemacht</em></strong>.</p>
 
 <p> </p>
 
@@ -81,7 +76,7 @@
 <p>Bevorzugen Sie für Ihre Veröffentlichung möglichst <strong>Verlage mit einem Open-Access-Geschäftsmodell</strong> beziehungsweise eine <strong>Open-Access-Zeitschrift</strong>.</p>
 
 <ul>
-	<li>Wenn Sie bei einem Verlag mit einem Bezahl-Modell veröffentlichen, <strong>streichen Sie restriktive Formulierungen</strong> wie „Übertragung ausschließlicher Rechte“ aus dem Verlagsvertrag.</li>
+	<li>Wenn Sie bei einem Verlag mit einem Bezahl-Modell veröffentlichen, <strong>streichen Sie restriktive Formulierungen</strong> wie „<em>Übertragung ausschließlicher Rechte</em>“ aus dem Verlagsvertrag.</li>
 	<li>Wenn der Verlag auf der Übertragung ausschließlicher Rechte besteht, vereinbaren Sie im Verlagsvertrag wenigstens ein <strong>Nutzungsrecht zur Open-Access-Zweitveröffentlichung</strong>. Hierfür stellt Ihnen <a href="https://labs.creativecommons.org/scholars/">Scholar's Copyright Addendum Engine</a> von <em>Creative Commons</em> Textbausteine zur Erstellung eines entsprechenden Vertragszusatzes zur Verfügung (siehe hierzu auch die <a href="https://open-access.network/informieren/rechtsfragen/verlagsvertraege">Hinweise</a> des Projektes <em>open-access.network</em>).</li>
 	<li>Verwehrt Ihnen der Verlag die sofortige Open-Access-Veröffentlichung, vereinbaren Sie eine möglichst <strong>kurze Embargofrist</strong> (bis zu einem Jahr).</li>
 </ul>
@@ -104,25 +99,14 @@
 <h3><a id="3.1" name="3.1">3.1) Erstellung barrierefreier Quelldokumente für PDF-Dateien (Microsoft Office)</a></h3>
 
 <ul>
-	<li>Microsoft Office: <a href="https://support.microsoft.com/de-de/office/verbessern-der-barrierefreiheit-mit-der-barrierefreiheitspr%c3%bcfung-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=de-de&amp;rs=de-de&amp;ad=de">Verbessern der Barrierefreiheit mit der Barrierefreiheitsprüfung</a> (DE)</li>
-	<li>Ausführliche <a href="https://tu-dresden.de/tu-dresden/universitaetskultur/diversitaet-inklusion/agsbs/dokumente">Informationsmaterialien der Technischen Universität Dresden</a>:
-	<ul style="list-style-type:circle;">
-		<li><a href="https://tu-dresden.de/tu-dresden/ressourcen/dateien/arbeitsgruppe-studium-fuer-blinde-und-sehbehinderte/anleitungen-word-powerpoint/Word_DE_20210201.pdf">Anleitung zur Erstellung barrierefreier PDF Dokumente mit Word (PDF, 8,26 MB</a><a href="https://tu-dresden.de/tu-dresden/ressourcen/dateien/arbeitsgruppe-studium-fuer-blinde-und-sehbehinderte/anleitungen-word-powerpoint/Word_DE_20210201.pdf">)</a> (DE)</li>
-		<li><a href="https://tu-dresden.de/tu-dresden/ressourcen/dateien/arbeitsgruppe-studium-fuer-blinde-und-sehbehinderte/anleitungen-word-powerpoint/Word_EN_20210201.pdf">How to create accessible PDF documents with Word (PDF, 8,20 MB)</a> (EN)</li>
-	</ul>
-	</li>
+	<li>Microsoft Office: <a href="https://support.microsoft.com/de-de/office/verbessern-der-barrierefreiheit-mit-der-barrierefreiheitspr%c3%bcfung-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=de-de&amp;rs=de-de&amp;ad=de">Verbessern der Barrierefreiheit mit der Barrierefreiheitsprüfung</a></li>
+	<li>Ausführliche <a href="https://tu-dresden.de/tu-dresden/universitaetskultur/diversitaet-inklusion/agsbs/dokumente?set_language=de">Informationsmaterialien der Technischen Universität Dresden</a>: <a href="https://tu-dresden.de/tu-dresden/ressourcen/dateien/arbeitsgruppe-studium-fuer-blinde-und-sehbehinderte/anleitungen-word-powerpoint/Word_DE_20210201.pdf">Anleitung zur Erstellung barrierefreier PDF Dokumente mit Word (PDF, 8,26 MB</a><a href="https://tu-dresden.de/tu-dresden/ressourcen/dateien/arbeitsgruppe-studium-fuer-blinde-und-sehbehinderte/anleitungen-word-powerpoint/Word_DE_20210201.pdf">)</a></li>
 </ul>
 
 <h3><a id="3.2" name="3.2">3.2) Überprüfung der Barrierefreiheit von PDF-Dokumenten (Standard PDF/UA)</a></h3>
 
 <ul>
-	<li>PAC 3: <a href="https://www.access-for-all.ch/ch/pdf-werkstatt/pdf-accessibility-checker-pac.html">Free PDF Accessibility Checker (PAC 3)</a> (DE + EN)</li>
-	<li>Adobe Acrobat (<em>Acrobat Pro</em>, <em>Adobe Acrobat DC</em>, <em>Adobe Acrobat 2020</em>, <em>Adobe Acrobat 2017</em>):
-	<ul style="list-style-type:circle;">
-		<li><a href="https://helpx.adobe.com/de/acrobat/using/create-verify-pdf-accessibility.html">PDF erstellen und Barrierefreiheit prüfen</a> (DE)</li>
-		<li><a href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html">Create and verify PDF accessibility</a> (EN)</li>
-	</ul>
-	</li>
+	<li>Adobe Acrobat (<em>Acrobat Pro</em>, <em>Adobe Acrobat DC</em>, <em>Adobe Acrobat 2020</em>, <em>Adobe Acrobat 2017</em>): <a href="https://helpx.adobe.com/de/acrobat/using/create-verify-pdf-accessibility.html">PDF erstellen und Barrierefreiheit prüfen</a></li>
 </ul>
 
 <p>Weitere Hilfestellung, zum Beispiel zur Aufbereitung Ihrer Dokumente im PDF-Format, können Sie über unser <a href="../below/contact.xed"><u>Kontaktformular</u></a> erhalten.</p>
@@ -135,133 +119,116 @@
 </div>
 </div>
 </section><section xml:lang="en" title="Notes for authors"><div>
-<h1>Notes for authors</h1>
+<h1>Information for publishing authors</h1>
 
-<p>The English version for this page is currently in progress.</p>
+<div> </div>
 
-<p> </p>
+<div><u><strong><a href="#1">1) Publishing in KartDok</a></strong></u></div>
 
-<div><a href="#1"><strong>1) Hinweise zur Veröffentlichung auf KartDok</strong></a></div>
+<div><u><strong><a href="#2">2) Maintaining the rights of authors</a></strong></u></div>
 
-<div><a href="#2"><strong>2) Wahrung der Rechte von Autorinnen und Autoren</strong></a></div>
+<div><u><strong><a href="#3">3) Requirements regarding barrier-free accessibility</a></strong></u></div>
 
-<div><a href="#3"><strong>3) Anforderungen zur Barrierefreiheit</strong></a></div>
-
-<div><a href="#4"><strong>4) Publikations-Tantiemen über die VG Wort</strong></a></div>
+<div><u><strong><a href="#4">4) Publication royalties via VG Wort</a></strong></u></div>
 
 <div> </div>
 
 <div> </div>
 
-<h2><a id="1" name="1">1) Hinweise zur Veröffentlichung auf KartDok</a></h2>
+<h2><a id="1" name="1">1) Guidance on how to publish in KartDok</a></h2>
 
-<div style="margin-left: 40px;"><a href="#1.1">1.1) Publikationsworkflow</a><br />
-<a href="#1.2">1.2) Erschließung der Publikationen</a></div>
+<div style="margin-left: 40px;"><u><a href="#1.1">1.1) Publication workflow</a></u><br />
+<u><a href="#1.2">1.2) Cataloguing of the publications</a></u></div>
 
 <p> </p>
 
-<h3><a id="1.1" name="1.1">1.1) Publikationsworkflow</a></h3>
+<h3><a id="1.1" name="1.1">1.1) Publication workflow</a></h3>
 
 <ul>
-	<li style="margin-left: 40px;">Um den Publikationsservice <strong>KartDok nutzen</strong> zu können, müssen Sie sich in KartDok <em><strong>einmalig <a href="../../authorization/new-author.xed?action=register">registrieren</a></strong></em>. Nach erfolgter Registrierung haben Sie als Inhaber:in der jeweiligen Urheberrechte die Möglichkeit, in Übereinstimmung mit dieser verbindlichen <a href="policy.xml">Publikationsleitlinie</a> beliebig viele Dokumente auf KartDok zu veröffentlichen.</li>
-	<li style="margin-left: 40px;">Den <strong>Publikationsvorgang starten</strong> Sie bitte durch Ihre <strong><em><a href="../../servlets//MCRLoginServlet?url=../content/index.xmll">Anmeldung</a> (Login)</em></strong> am Server. Danach stehen Ihnen unter dem Menüpunkt „<strong><em>Dokument einreichen</em></strong>“ unsere Web-Formulare zur Übermittlung Ihrer Dokumente an KartDok zur Verfügung.</li>
-	<li style="margin-left: 40px;">Im <strong>Web-Formular</strong> können Sie die <strong><em>bibliographischen Metadaten Ihres Beitrags erfassen und speichern</em></strong>. Für den <em><strong>Upload Ihres Dokuments</strong></em> nutzen Sie bitte ebenfalls dieses Web-Formular.</li>
-	<li style="margin-left: 40px;">Den vollständig ausgefüllten und mit Ihrer (digitalen) Unterschrift versehenen <strong>Publikationsvertrag</strong> im Dateiformat PDF senden Sie bitte<strong><em> per E-Mail an</em></strong>: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>.
+	<li>For being able to <strong>use</strong> the publication service <strong>KartDok</strong>, you first have to <em><strong><a href="../../authorization/new-author.xed?action=register">register</a></strong></em> only once at KartDok. After the registration, you, as the copyright holder, have the possibility, in accordance with this binding <a href="policy.xml">publication guideline</a>, to publish an unlimited number of documents in KartDok.</li>
+	<li>You <strong>start the publication procedure</strong> by a <em><strong><a href="../../servlets//MCRLoginServlet?url=../content/index.xmll">log-in</a></strong></em> at the server. Then our web forms are available under the menu point „<strong><em>Submit document</em></strong>“ for the transfer of your documents to KartDok.</li>
+	<li>The <strong>web form</strong> allows you <em><strong>to register and save the bibliographic metadata of your contribution</strong></em>. For uploading your document please also use the same web form.</li>
+	<li>Please send the the fully completed and digitally signed publishing agreement in PDF data format via email to: <a href="mailto:kartdok@sbb.spk-berlin.de">kartdok@sbb.spk-berlin.de</a>.
 	<ul>
-		<li style="margin-left: 40px;"><a href="../rights/kartdok_publikationsvertrag.pdf">Publikationsvertrag (PDF, 945 KB)</a></li>
-		<li style="margin-left: 40px;"><a href="../rights/hinweise_kartdok_publikationsvertrag.pdf">Hinweise zum Publikationsvertrag (PDF, 1 MB)</a></li>
+		<li><a href="../rights/kartdok_publikationsvertrag.pdf">Publishing agreement (PDF, 945 KB)</a> (DE)</li>
+		<li><a href="../rights/hinweise_kartdok_publikationsvertrag.pdf?cache=false">Information on the publishing agreement (PDF, 1 MB)</a> (DE + EN)</li>
 	</ul>
 	</li>
-	<li style="margin-left: 40px;">Die <strong>Freischaltung der eingereichten Publikation</strong> dauert im Regelfall ca. eine Woche. Bitte beachten Sie, dass die von Ihnen zur Veröffentlichung vorgesehenen Beiträge erst nach formaler und inhaltlicher Prüfung auf KartDok freigeschaltet werden.</li>
+	<li>The <strong>activation of the submitted publication</strong> usually takes ca. one week. Please take note that the contributions that you plan to publish can only be activated in KartDok after a formal and content-related check.</li>
 </ul>
 
-<p>Bitte beachten Sie zudem unsere <a href="../below/terms_of_use.xml">Nutzungsbedingungen</a> sowie die <a href="policy.xml">Publikationsleitlinie</a> für KartDok.</p>
+<p>Please also observe our <a href="../below/terms_of_use.xml">terms of use</a> as well as the <a href="policy.xml">publication guideline</a> for KartDok.</p>
 
-<h3><a id="1.2" name="1.2">1.2) Erschließung der Publikationen</a></h3>
+<h3><a id="1.2" name="1.2">1.2) Cataloguing of the publications</a></h3>
 
-<p>Zur Gewährleistung eines thematischen Zugangs aller Inhalte von KartDok <strong>werden die Antragsteller:innen gebeten</strong>, ihr Werk im Zuge des Einreichungsvorgangs auch mit beschreibenden Metadaten <strong>inhaltlich zu erschließen</strong>:</p>
+<p>In order to provide a thematic access to the contents of KartDok <strong>we ask the applicants</strong> to provide for their work <strong>content-related describing metadata</strong> in the course of the submission procedure:</p>
 
 <ul>
-	<li>sowohl <strong><em>mit frei zu vergebenden Schlagworten</em></strong></li>
-	<li>und gegebenenfalls auch <strong><em>mit normierten Schlagworten</em></strong> (Terminologie der im Hintergrund eingebundenen <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.htm">Gemeinsamen Normdatei</a>).</li>
+	<li>both <strong><em>with free keywords</em></strong></li>
+	<li>and, if possible, also <strong><em>with standardized keywords</em></strong> (Terminology of the <a href="https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html">Integrated Authority File</a> which is integrated in the background)</li>
 </ul>
-
-<p>Alle auf KartDok veröffentlichten Beiträge werden zudem auf Basis der wissenschaftlichen <strong><em><a href="../browse/kartdok_bc.xml">Fachsystematik der Bibliographia Cartographica</a></em></strong> und der <a href="https://nbn-resolving.org/urn:nbn:de:101-2014050500"><strong><em>Dewey-Dezimalklassifikation</em></strong> (PDF, 709 KB)</a> sowie durch <strong><em>freie Schlagwörter</em></strong> inhaltlich erschlossen. Alle auf KartDok veröffentlichten Textbeiträge werden mit Suchmaschinentechnologie <strong><em>im Volltext recherchierbar gemacht</em></strong>.</p>
+The contents of all contributions published in KartDok are also classified on the basis of the scientific <a href="../browse/kartdok_bc.xml"><strong><em>Subject classification of the Bibliographia Cartographica</em></strong></a> and the <a href="https://www.dnb.de/EN/Professionell/DDC-Deutsch/DDCinDNB/ddcindnb_node.html"><strong><em>Dewey Decimal Classification</em></strong></a> as well as by the use of <em><strong>free keywords</strong></em>. All textual contributions published in KartDok will be <strong><em>made full-text searchable</em></strong> thanks to search engine technology.
 
 <p> </p>
 
-<h2><a id="2" name="2">2) Wahrung der Rechte von Autorinnen und Autoren</a></h2>
+<h2><a id="2" name="2">2) Maintaining the rights of authors</a></h2>
 
-<div style="margin-left: 40px;"><a href="#2.1">2.1) Nutzungsrechte sichern</a><br />
-<a href="#2.2">2.2) Open-Access-konforme Verlagsverträge abschließen</a></div>
-
-<p> </p>
-
-<h3><a id="2.1" name="2.1">2.1) Nutzungsrechte sichern</a></h3>
-
-<p>Nach Möglichkeit sollten Sie einem Verlag <strong>keine ausschließlichen Nutzungsrechte einräumen</strong>.</p>
-
-<ul>
-	<li>Wenn Sie ausschließliche Nutzungsrechte übertragen, können Sie Ihr eigenes Werk nicht mehr vollumfänglich nutzen.</li>
-	<li>Beispielsweise können Sie dann Ihre wissenschaftliche Arbeit nicht mehr frei online zugänglich machen. Vielmehr müssen Sie für eine Open-Access-Veröffentlichung erst eine Lizenzvereinbarung mit Ihrem Verlag treffen. Diese ist möglicherweise kostenpflichtig für Sie.</li>
-	<li>Sichern Sie sich daher in Verlagsverträgen immer Ihre Rechte.</li>
-</ul>
-
-<h3><a id="2.2" name="2.2">2.2) Open-Access-konforme Verlagsverträge abschließen</a></h3>
-
-<p>Bevorzugen Sie für Ihre Veröffentlichung möglichst <strong>Verlage mit einem Open-Access-Geschäftsmodell</strong> beziehungsweise eine <strong>Open-Access-Zeitschrift</strong>.</p>
-
-<ul>
-	<li>Wenn Sie bei einem Verlag mit einem Bezahl-Modell veröffentlichen, <strong>streichen Sie restriktive Formulierungen</strong> wie „Übertragung ausschließlicher Rechte“ aus dem Verlagsvertrag.</li>
-	<li>Wenn der Verlag auf der Übertragung ausschließlicher Rechte besteht, vereinbaren Sie im Verlagsvertrag wenigstens ein <strong>Nutzungsrecht zur Open-Access-Zweitveröffentlichung</strong>. Hierfür stellt Ihnen <a href="https://labs.creativecommons.org/scholars/">Scholar's Copyright Addendum Engine</a> von <em>Creative Commons</em> Textbausteine zur Erstellung eines entsprechenden Vertragszusatzes zur Verfügung (siehe hierzu auch die <a href="https://open-access.network/informieren/rechtsfragen/verlagsvertraege">Hinweise</a> des Projektes <em>open-access.network</em>).</li>
-	<li>Verwehrt Ihnen der Verlag die sofortige Open-Access-Veröffentlichung, vereinbaren Sie eine möglichst <strong>kurze Embargofrist</strong> (bis zu einem Jahr).</li>
-</ul>
-
-<p>Halten Sie <strong>die Vereinbarung unbedingt in Ihrem Verlagsvertrag</strong> fest. Bei Vertragsverhandlungen können Sie argumentieren, dass die Zweitveröffentlichung nicht in Konkurrenz zur Verlagsversion steht, sondern die Sichtbarkeit der Publikation insgesamt erhöht und damit eine zusätzliche Werbung für den Verlag darstellt, die Onlineversion auf KartDok verweist zudem auf die Erstveröffentlichung.</p>
+<div style="margin-left: 40px;"><u><a href="#2.1">2.1) Securing rights of use</a></u><br />
+<a href="#2.2">2.2) Conluding an Open Access compliant publisher contract</a></div>
 
 <p> </p>
 
-<h2><a id="3" name="3">3) Anforderungen zur Barrierefreiheit</a></h2>
+<h3><a id="2.1" name="2.1">2.1) Securing rights of use</a></h3>
+If possible you should <strong>not grant to a publisher any exclusive rights of use</strong>.
 
-<div style="margin-left: 40px;"><a href="#3.1">3.1) Erstellung barrierefreier Quelldokumente für PDF-Dateien</a><br />
-<a href="#3.2">3.2) Überprüfung der Barrierefreiheit von PDF-Dokumenten</a></div>
+<ul>
+	<li>In case you transfer exclusive rights of use, you can no longer make full use of your own work.</li>
+	<li>It is, for example, no longer possible to make your scientific work freely available online. For an Open Access publication you first have to get a licensing agreement from your publisher. The publisher may charge you for this.</li>
+	<li>Therefore, always maintain your rights in contracts with publishers.</li>
+</ul>
+
+<h3><a id="2.2" name="2.2">2.2) Conluding an Open Access compliant publisher contract</a></h3>
+If possible, for your publication you should prefer publishers with an <strong>Open Access business model</strong> or an <strong>Open Access journal</strong>.
+
+<ul>
+	<li>If you publish with a publisher using a payment model, <strong><em>delete restrictive formulations</em></strong> such as “<em>transfer of exclusive rights</em>“ in the publisher contract.</li>
+	<li>In case the publisher insists on the transfer of exclusive rights, you should in your publisher contract at least retain your <strong>right of use regarding an Open Access second publication</strong>. For this purpose <a href="https://labs.creativecommons.org/scholars/">Scholar's Copyright Addendum Engine</a> of <em>Creative Commons</em> provides text modules to create an appropriate supplement to the publisher contract (addendum) (see also the <a href="https://open-access.network/en/information/legal-issues/publishing-agreements">information</a> of the <em>open-access.network</em> project).</li>
+	<li>If the publisher refuses an immediate Open Access publication, you should agree upon a <strong>shortest possible embargo period</strong> (up to one year).</li>
+</ul>
+It is of the <strong>utmost importance</strong> that you fix the <strong>agreement in your publisher contract</strong>. When negotiating the contract you can argue that the second publication does not compete with the publisher version, but that it heightens the visibility of the publication in general and that it is an additional publicity for the publisher. Furthermore, the online version refers to the first publication.
 
 <p> </p>
 
-<p>Bitte beachten Sie bei Ihrer Publikation auch die Anforderungen zur Barrierefreiheit gemäß § 3 Absatz 1 bis 4 und § 4 der Barrierefreien-Informationstechnik-Verordnung (<a href="https://www.gesetze-im-internet.de/bitv_2_0/">BITV 2.0</a>), die auf Grundlage von § 12d Behindertengleichstellungsgesetz (<a href="https://www.gesetze-im-internet.de/bgg/">BGG</a>) erlassen wurden. Weitere Informationen zur digitalen Barrierefreiheit finden Sie in der <a href="policy.xml#2.3">Publikationsleitlinie</a> für KartDok.</p>
+<h2><a id="3" name="3">3) Requirements regarding barrier-free accessibility</a></h2>
 
-<p><strong>Hilfestellung</strong> hierzu bieten unter anderem diese <strong><em>Anleitungen und Programme</em></strong> zur Erstellung bzw. Überprüfung von barrierefreien PDF-Dokumenten.</p>
-
-<h3><a id="3.1" name="3.1">3.1) Erstellung barrierefreier Quelldokumente für PDF-Dateien (Microsoft Office)</a></h3>
-
-<ul>
-	<li>Microsoft Office: <a href="https://support.microsoft.com/de-de/office/verbessern-der-barrierefreiheit-mit-der-barrierefreiheitspr%c3%bcfung-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=de-de&amp;rs=de-de&amp;ad=de">Verbessern der Barrierefreiheit mit der Barrierefreiheitsprüfung</a> (DE)</li>
-	<li>Ausführliche <a href="https://tu-dresden.de/tu-dresden/universitaetskultur/diversitaet-inklusion/agsbs/dokumente">Informationsmaterialien der Technischen Universität Dresden</a>:
-	<ul style="list-style-type:circle;">
-		<li><a href="https://tu-dresden.de/tu-dresden/ressourcen/dateien/arbeitsgruppe-studium-fuer-blinde-und-sehbehinderte/anleitungen-word-powerpoint/Word_DE_20210201.pdf">Anleitung zur Erstellung barrierefreier PDF Dokumente mit Word (PDF, 8,26 MB</a><a href="https://tu-dresden.de/tu-dresden/ressourcen/dateien/arbeitsgruppe-studium-fuer-blinde-und-sehbehinderte/anleitungen-word-powerpoint/Word_DE_20210201.pdf">)</a> (DE)</li>
-		<li><a href="https://tu-dresden.de/tu-dresden/ressourcen/dateien/arbeitsgruppe-studium-fuer-blinde-und-sehbehinderte/anleitungen-word-powerpoint/Word_EN_20210201.pdf">How to create accessible PDF documents with Word (PDF, 8,20 MB)</a> (EN)</li>
-	</ul>
-	</li>
-</ul>
-
-<h3><a id="3.2" name="3.2">3.2) Überprüfung der Barrierefreiheit von PDF-Dokumenten (Standard PDF/UA)</a></h3>
-
-<ul>
-	<li>PAC 3: <a href="https://www.access-for-all.ch/ch/pdf-werkstatt/pdf-accessibility-checker-pac.html">Free PDF Accessibility Checker (PAC 3)</a> (DE + EN)</li>
-	<li>Adobe Acrobat (<em>Acrobat Pro</em>, <em>Adobe Acrobat DC</em>, <em>Adobe Acrobat 2020</em>, <em>Adobe Acrobat 2017</em>):
-	<ul style="list-style-type:circle;">
-		<li><a href="https://helpx.adobe.com/de/acrobat/using/create-verify-pdf-accessibility.html">PDF erstellen und Barrierefreiheit prüfen</a> (DE)</li>
-		<li><a href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html">Create and verify PDF accessibility</a> (EN)</li>
-	</ul>
-	</li>
-</ul>
-
-<p>Weitere Hilfestellung, zum Beispiel zur Aufbereitung Ihrer Dokumente im PDF-Format, können Sie über unser <a href="../below/contact.xed"><u>Kontaktformular</u></a> erhalten.</p>
+<div style="margin-left: 40px;"><u><a href="#3.1">3.1) Creating barrier-free source documents for PDF files (Microsoft Office)</a></u><br />
+<u><a href="#3.2">3.2) Checking the barrier-free accessibility of PDF documents (Standard PDF/UA)</a></u></div>
 
 <p> </p>
 
-<h2><a id="4" name="4">4) Publikations-Tantiemen über die VG Wort</a></h2>
+<p>Regarding your publication please also observe teh requirements regarding barrier-free accessibility according to § 3, sections 1 to 4 and § 4 of the barrier-free information technology act (<a href="https://www.gesetze-im-internet.de/bitv_2_0/">BITV 2.0</a>), which was passed on the basis of § 12d of the act on equal opportunities of persons with disabilities (<a href="https://www.gesetze-im-internet.de/bgg/">BGG</a>). More information on digital barrier-free accessibility can be found in the <a href="policy.xml#2.3">publication guideline</a> for KartDok.</p>
 
-<p>Derzeit können wir für KartDok <strong>kein Meldeverfahren für die VG Wort</strong> realisieren. Die VG Wort bietet allerdings eine <strong><em>Sonderausschüttung</em></strong> an, die auch ohne Zählpixel funktioniert. Bitte informieren Sie sich auf den Webseiten der <a href="https://www.vgwort.de/verguetungen/auszahlungen/texte-im-internet.html">VG Wort</a>.</p>
+<p><strong>Help</strong> is provided, among others, in these <strong><em>guides and programs</em></strong> regarding the creation and validation of barrier-free PDF documents.</p>
+
+<h3><a id="3.1" name="3.1">3.1) Creating barrier-free source documents for PDF files (Microsoft Office)</a></h3>
+
+<ul>
+	<li>Microsoft Office: <a href="https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f">Improve accessibility with the Accessibility Checker</a></li>
+	<li>Detailed <a href="https://tu-dresden.de/tu-dresden/universitaetskultur/diversitaet-inklusion/agsbs/dokumente?set_language=en">Information materials of the Technische Universität Dresden</a>: <a href="https://tu-dresden.de/tu-dresden/ressourcen/dateien/arbeitsgruppe-studium-fuer-blinde-und-sehbehinderte/anleitungen-word-powerpoint/Word_EN_20210201.pdf">How to create accessible PDF documents with Word (PDF, 8,20 MB)</a></li>
+</ul>
+
+<h3><a id="3.2" name="3.2">3.2) Checking the barrier-free accessibility of PDF documents (Standard PDF/UA)</a></h3>
+
+<ul>
+	<li>Adobe Acrobat (<em>Acrobat Pro</em>, <em>Adobe Acrobat DC</em>, <em>Adobe Acrobat 2020</em>, <em>Adobe Acrobat 2017</em>): <a href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html">Create and verify PDF accessibility</a></li>
+</ul>
+
+<p>More help, for example for editing your documents in PDF format, can be requested via our <a href="../below/contact.xed">contact form</a>.</p>
+
+<p>.</p>
+
+<h2><a id="4" name="4">4) Publication royalties via VG Wort</a></h2>
+
+<p>Currently we are not in a position to establish a reporting procedure for VG Wort regarding KartDok. However, VG Wort offers a special payout, which functions without using tracking pixels. For more information, look on the web pages of <a href="https://www.vgwort.de/verguetungen/auszahlungen/texte-im-internet.html">VG Wort</a> (DE).</p>
 </div>
-</section><meta><log lastEditor="administrator" date="2022-12-20" time="12:37" /></meta></MyCoReWebPage>
+</section><meta><log lastEditor="admin-ro" date="2023-02-14" time="09:33" /></meta></MyCoReWebPage>
