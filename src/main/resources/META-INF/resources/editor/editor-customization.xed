@@ -13,6 +13,7 @@
     <xed:remove ref="openAIRE" />
     <xed:include ref="institutes.repeat" after="institutes" />
     <xed:remove ref="institutes" />
+    <xed:remove ref="related.item.other.search.of.all.items" />
   </xed:modify>
 
   <xed:template id="genres.publication.common">
