@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-  <!--
-    XSL to transform XML output from MCRClassificationBrowser servlet to
-    HTML for client browser, which is loaded by AJAX. The browser sends
-    data of all child categories of the requested node.
-  -->
+<!--
+  XSL to transform XML output from MCRClassificationBrowser servlet to
+  HTML for client browser, which is loaded by AJAX. The browser sends
+  data of all child categories of the requested node.
+-->
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
-                xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
-  xmlns:xalan="http://xml.apache.org/xalan" exclude-result-prefixes="xalan i18n mcrxsl">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  xmlns:xalan="http://xml.apache.org/xalan" exclude-result-prefixes="xalan i18n">
   <xsl:param name="WebApplicationBaseURL" />
   <xsl:param name="ServletsBaseURL" />
   <xsl:param name="template" />
 
-  <xsl:param name="MCR.classbrowser.folder.closed" select="'fas fa-expand'" />
-  <xsl:param name="MCR.classbrowser.folder.open" select="'fas fa-compress'" />
-  <xsl:param name="MCR.classbrowser.folder.leaf" select="'fas fa-square'" />
+  <xsl:param name="MCR.classbrowser.folder.closed" />
+  <xsl:param name="MCR.classbrowser.folder.open" />
+  <xsl:param name="MCR.classbrowser.folder.leaf" />
 
   <xsl:output method="xml" omit-xml-declaration="yes" />
 
@@ -30,9 +28,11 @@
     <xsl:variable name="maxResults">
       <xsl:value-of select="category[not(@numResults &lt; following-sibling::category/@numResults)]/@numResults" />
     </xsl:variable>
+    <!-- START kartdok adjustments -->
     <xsl:variable name="core">
       <xsl:call-template name="getClassBrowserSolrCore" />
     </xsl:variable>
+    <!-- END kartdok adjustments -->
 
     <ul class="cbList">
       <xsl:for-each select="category">
@@ -52,7 +52,12 @@
           <xsl:apply-templates select="@numLinks" mode="formatCount">
             <xsl:with-param name="maxCount" select="$maxLinks" />
           </xsl:apply-templates>
+          <!-- START kartdok adjustments -->
+          <!--
+          <a onclick="return startSearch('{$ServletsBaseURL}solr/select?','{@query}','{../@webpage}','{../@parameters}');" href="{$ServletsBaseURL}solr/select?{@query}&amp;mask={../@webpage}&amp;{../@parameters}">
+          -->
           <a onclick="return startSearch('{$ServletsBaseURL}solr{$core}?','{@query}','{../@webpage}','{../@parameters}');" href="{$ServletsBaseURL}solr{$core}?{@query}&amp;mask={../@webpage}&amp;{../@parameters}">
+          <!-- END kartdok adjustments -->
             <xsl:value-of select="label" />
           </a>
           <xsl:if test="uri">
@@ -92,7 +97,7 @@
     </span>
   </xsl:template>
 
-
+  <!-- START kartdok adjustments -->
   <xsl:template name="getClassBrowserSolrCore">
     <xsl:choose>
       <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('submitter')">
@@ -103,7 +108,6 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
-
+  <!-- END kartdok adjustments -->
 
 </xsl:stylesheet>
