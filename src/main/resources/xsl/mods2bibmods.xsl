@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:include href="mods-utils.xsl"/>
-	
-	<!-- standard copy template -->
+  <xsl:include href="mods-utils.xsl"/>
+
+  <!-- standard copy template -->
   <xsl:template match="@*|node()">
     <xsl:copy>
       <xsl:apply-templates select="@*" />
       <xsl:apply-templates />
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="mods:mods">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+
+      <!-- all children except relatedItem -->
+      <xsl:apply-templates select="node()[not(self::mods:relatedItem)]"/>
+
+      <!-- relatedItem ans Ende -->
+      <xsl:apply-templates select="mods:relatedItem"/>
     </xsl:copy>
   </xsl:template>
 
@@ -21,12 +33,14 @@
       </xsl:if>
     </xsl:copy>
   </xsl:template>
-  
+
   <xsl:template match="mods:detail/mods:caption">
   </xsl:template>
 
+  <!-- START kartdok adjustments -->
   <xsl:template match="mods:relatedItem[contains(mods:genre/@valueURI, 'kartdok_collection')]">
   </xsl:template>
+  <!-- END kartdok adjustments -->
 
   <xsl:template match="mods:genre[@authority='marcgt']">
     <xsl:copy>
@@ -40,7 +54,7 @@
       </xsl:when>
     </xsl:choose>
   </xsl:template>
-  
+
   <xsl:template match="mods:url[@access='preview']">
   </xsl:template>
 
