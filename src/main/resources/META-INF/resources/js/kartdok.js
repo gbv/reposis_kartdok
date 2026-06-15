@@ -1,3 +1,63 @@
+function replaceMaskedEmails() {
+  document.querySelectorAll("span.madress").forEach(span => {
+    const address = span.textContent.replace(" [at] ", "@");
+    const link = document.createElement("a");
+    link.href = `mailto:${address}`;
+    link.textContent = address;
+    span.replaceWith(link);
+  });
+}
+
+function ignoreEmptyFieldsOnSubmit(event) {
+  const form = event.currentTarget;
+  const inputs = form.querySelectorAll('input');
+  inputs.forEach(input => {
+    if (!input.value) {
+      input.dataset.nameBackup = input.name;
+      input.removeAttribute('name');
+    }
+  });
+  // Restore field names after the form is submitted
+  // setTimeout ensures this runs after the submit event completes
+  setTimeout(() => {
+    inputs.forEach(input => {
+      if (input.dataset.nameBackup) {
+        input.name = input.dataset.nameBackup;
+        delete input.dataset.nameBackup;
+      }
+    });
+  }, 0);
+}
+
+function removeGenreOptions(values) {
+  const select = document.querySelector("select#genre");
+  if (!select) {
+    return;
+  }
+  Array.from(select.options).forEach(option => {
+    if (values.includes(option.value)) {
+      option.remove();
+    }
+  });
+}
+
+function setupGenreObserver(values) {
+  const observer = new MutationObserver(() => {
+    removeGenreOptions(values);
+  });
+  observer.observe(document.body, {childList: true, subtree: true});
+  return observer;
+}
+
+function init() {
+  document.querySelector('form.searchfield_box')?.addEventListener('submit', ignoreEmptyFieldsOnSubmit);
+  const genresToRemove = ["kartdok_collection"];
+  setupGenreObserver(genresToRemove);
+  replaceMaskedEmails();
+}
+
+document.addEventListener("DOMContentLoaded", init);
+
   // page is fully loaded, including all frames, objects and images
 $(window).load(function() {
   // check url for anchor
@@ -29,23 +89,6 @@ $(window).load(function() {
 
 // document is loaded and DOM is ready
 $(document).ready(function() {
-
-   // spam protection for mails
-  $('span.madress').each(function(i) {
-      var text = $(this).text();
-      var address = text.replace(" [at] ", "@");
-      $(this).after('<a href="mailto:'+address+'">'+ address +'</a>')
-      $(this).remove();
-  });
-
-  // activate empty search on start page
-  $("#project-searchMainPage").submit(function (evt) {
-    $(this).find(":input").filter(function () {
-          return !this.value;
-      }).attr("disabled", true);
-    return true;
-  });
-
   $.cookieBar({
     fixed: true,
     message: 'Auf den Seiten von KartDok werden zur Erhöhung des Bedienungskomforts Cookies verwendet. Mit der Nutzung dieser Seiten erklären Sie, dass Sie die rechtlichen Hinweise gelesen haben und akzeptieren.',
@@ -58,17 +101,6 @@ $(document).ready(function() {
     domain: 'kartdok.staatsbibliothek-berlin.de',
     referrer: 'kartdok.staatsbibliothek-berlin.de'
   });
-
-  // replace placeholder USERNAME with username
-  var userID = $("#currentUser strong").html();
-  var localHref = 'http://localhost:18041/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='http://localhost:18041/kartdok/servlets/solr/select?q=createdby:USERNAME']").attr('href', localHref);
-  var testHref = 'https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://reposis-test.gbv.de/kartdok/servlets/solr/select?q=createdby:USERNAME']").attr('href', testHref);
-  var prodHref = 'https://kartdok.staatsbibliothek-berlin.de/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://kartdok.staatsbibliothek-berlin.de/servlets/solr/select?q=createdby:USERNAME']").attr('href', prodHref);
-
-
 
   // prevent dropdown from leaving visible page area
   $(".language-menu").addClass('dropdown-menu-right');
@@ -133,12 +165,6 @@ $(document).ready(function() {
     return false;
   });
 
-});
-
-// TODO: Remove once we implement a better solution to hide genre types in pull down menu
-$( document ).ajaxComplete(function() {
-  // remove kartdok_collection as option from publish/index.xml
-  $("select#genre option[value='kartdok_collection']").remove();
 });
 
 // TODO: Parameterize the select function in MIR (type-ahead)
