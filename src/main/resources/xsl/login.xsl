@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xsl:stylesheet [
   <!ENTITY html-output SYSTEM "xsl/xsl-output-html.fragment">
-]>
+  ]>
 
 <!-- ============================================== -->
 <!-- $Revision: 1.4 $ $Date: 2009/03/20 10:42:33 $ -->
@@ -38,10 +38,12 @@
   <xsl:variable name="PageTitle" select="i18n:translate('component.user2.login.form.title')" />
 
   <xsl:template match="/login">
+    <!-- START kartdok adjustments -->
     <head>
       <meta name="title" content="{i18n:translate('project.login.title')}" />
       <meta name="description" content="{i18n:translate('project.login.description')}" />
     </head>
+    <!-- END kartdok adjustments -->
     <!-- +
     | There are three possible error-conditions: wrong password, unknown user and disabled
     | user. If one of these conditions occured, the corresponding information will be
@@ -83,9 +85,14 @@
             </button>
           </xsl:otherwise>
         </xsl:choose>
+        <!-- START kartdok adjustments -->
         <div class="mt-5">
           <xsl:value-of select="i18n:translate('component.user2.registration.hint')" />
-          <a href='../authorization/new-author.xed?action=register'> <xsl:value-of select="i18n:translate('component.user2.registration.linkText')" /></a>.</div>
+          <a href='../authorization/new-author.xed?action=register'>
+            <xsl:value-of select="i18n:translate('component.user2.registration.linkText')" />
+          </a>.
+        </div>
+        <!-- END kartdok adjustments -->
       </div>
     </form>
   </xsl:template>
