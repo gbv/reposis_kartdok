@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:mods="http://www.loc.gov/mods/v3"
-    xmlns:mcrmods="xalan://org.mycore.mods.classification.MCRMODSClassificationSupport"
-    xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:encoder="xalan://java.net.URLEncoder"
-    xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
-    exclude-result-prefixes=" i18n mods mcrmods mcrxsl xlink encoder">
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:mcrmods="xalan://org.mycore.mods.classification.MCRMODSClassificationSupport"
+  xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:encoder="xalan://java.net.URLEncoder"
+  xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  exclude-result-prefixes=" i18n mods mcrmods mcrxsl xlink encoder">
   <xsl:import href="xslImport:modsmeta" />
   <xsl:include href="layout/mir-layout-utils.xsl" />
   <xsl:include href="mods-utils.xsl" />
@@ -48,7 +48,7 @@
                     </xsl:for-each>
                   </xsl:if>
                   <xsl:variable name="hitsPrecending"
-                                select="document(concat('solr:q=',encoder:encode(concat('mods.relatedItem.preceding:', mycoreobject/@ID)), '&amp;rows=1000&amp;sort=mods.dateIssued desc,mods.dateIssued.host desc,mods.title.main desc&amp;group=true&amp;group.limit=100&amp;group.field=mods.yearIssued'))/response/lst[@name='grouped']/lst[@name='mods.yearIssued']" />
+                    select="document(concat('solr:q=',encoder:encode(concat('mods.relatedItem.preceding:', mycoreobject/@ID)), '&amp;rows=1000&amp;sort=mods.dateIssued%20desc,mods.dateIssued.host%20desc,mods.title.main%20desc&amp;group=true&amp;group.limit=100&amp;group.field=mods.yearIssued'))/response/lst[@name='grouped']/lst[@name='mods.yearIssued']" />
                   <xsl:if test="$hitsPrecending/int[@name='matches'] &gt; 0">
                     <xsl:call-template name="listRelatedItems">
                       <xsl:with-param name="hits" select="$hitsPrecending" />
@@ -67,8 +67,6 @@
           <div id="mir-message">
             <xsl:call-template name="mir.printNotLoggedIn">
               <xsl:with-param name="objectId" select="mycoreobject/@ID" />
-              <xsl:with-param name="hasAccessKey"
-                select="count(key('rights', mycoreobject/@ID)/@hasAccKey) &gt; 0" />
             </xsl:call-template>
           </div>
         </xsl:otherwise>
@@ -152,7 +150,7 @@
             <xsl:with-param name="class" select="$class" />
             <xsl:with-param name="title" select="$title" />
             <xsl:with-param name="linkText" select="$classText" />
-            <xsl:with-param name="query" select="concat('*&amp;fq=category.top:%22mir_genres:', @ID, '%22 AND (', $state, ' )')" />
+            <xsl:with-param name="query" select="concat('*&amp;fq=category.top:%22mir_genres:', @ID, '%22%20AND%20(', encoder:encode($state), ')')" />
           </xsl:call-template>
         </xsl:for-each>
       </xsl:when>
@@ -169,12 +167,15 @@
     <xsl:param name="title" />
     <xsl:param name="linkText" />
     <xsl:param name="query" />
-
+    <!-- START kartdok adjustments -->
+    <!--
+    <a href="{$ServletsBaseURL}solr/find?condQuery={$query}">
+    -->
     <xsl:variable name="requestHandler">
       <xsl:call-template name="getRequestHandler" />
     </xsl:variable>
-
     <a href="{$ServletsBaseURL}solr/{$requestHandler}?condQuery={$query}">
+    <!-- END kartdok adjustments -->
       <xsl:if test="$title">
         <xsl:attribute name="title">
           <xsl:value-of select="$title" />
@@ -189,6 +190,7 @@
     </a>
   </xsl:template>
 
+  <!-- START kartdok adjustments -->
   <xsl:template name="getRequestHandler">
     <xsl:choose>
       <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')">
@@ -199,5 +201,6 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  <!-- END kartdok adjustments -->
 
 </xsl:stylesheet>
