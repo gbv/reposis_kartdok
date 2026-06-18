@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
+                xmlns:mcrxml="xalan://org.mycore.common.xml.MCRXMLFunctions"
                 xmlns:exslt="http://exslt.org/common"
                 xmlns:mods="http://www.loc.gov/mods/v3"
-                version="1.0" exclude-result-prefixes="i18n exslt mods">
+                version="1.0" exclude-result-prefixes="i18n exslt mcrxml">
 
   <xsl:import href="xslImport:modsmeta:metadata/mir-workflow.xsl"/>
-  <xsl:import href="xslImport:mirworkflow:metadata/mir-workflow.xsl"/>
-
+  <xsl:import href="xslImport:mirworkflow"/>
+  <xsl:import href="mir-pdf-errorbox.xsl"/>
   <xsl:param name="layout" select="'$'"/>
   <xsl:param name="MIR.Workflow.Box" select="'false'"/>
   <xsl:param name="MIR.Workflow.ReviewDerivateRequired" select="'true'"/>
@@ -15,6 +16,7 @@
   <xsl:param name="CurrentUser"/>
 
   <xsl:param name="MIR.Workflow.Debug" select="'false'"/>
+  <xsl:param name="MIR.Workflow.PDFValidation" select="'false'"/>
   <xsl:key use="@id" name="rights" match="/mycoreobject/rights/right"/>
   <xsl:variable name="id" select="/mycoreobject/@ID"/>
 
@@ -30,31 +32,31 @@
         <xsl:variable name="creator" select="/mycoreobject/service/servflags/servflag[@type='createdby']/text()"/>
         <!-- Write -->
         <xsl:choose>
+          <!-- START kartdok adjustments -->
           <xsl:when test="$currentStatus='new'">
             <xsl:choose>
+              <xsl:when test="mcrxml:isCurrentUserInRole('editor') or mcrxml:isCurrentUserInRole('admin')">
+                <xsl:apply-templates mode="editorNew"/>
+              </xsl:when>
               <xsl:when test="$CurrentUser=$creator">
                 <xsl:apply-templates mode="creatorNew"/>
               </xsl:when>
-              <xsl:when test="key('rights', mycoreobject/@ID)/@write">
-                <xsl:apply-templates mode="editorNew"/>
-              </xsl:when>
             </xsl:choose>
           </xsl:when>
-          
+          <!-- END kartdok adjustments -->
           <xsl:when test="$currentStatus='submitted'">
             <xsl:choose>
+              <xsl:when test="mcrxml:isCurrentUserInRole('editor') or mcrxml:isCurrentUserInRole('admin')">
+                <xsl:apply-templates mode="editorSubmitted"/>
+              </xsl:when>
               <xsl:when test="$CurrentUser=$creator">
                 <xsl:apply-templates mode="creatorSubmitted"/>
               </xsl:when>
-              <xsl:when test="key('rights', mycoreobject/@ID)/@write">
-                <xsl:apply-templates mode="editorSubmitted"/>
-              </xsl:when>
             </xsl:choose>
           </xsl:when>
-          
           <xsl:when test="$currentStatus='review'">
             <xsl:choose>
-              <xsl:when test="key('rights', mycoreobject/@ID)/@write">
+              <xsl:when test="mcrxml:isCurrentUserInRole('editor') or mcrxml:isCurrentUserInRole('admin')">
                 <xsl:apply-templates mode="editorReview"/>
               </xsl:when>
               <xsl:when test="$CurrentUser=$creator">
@@ -69,6 +71,7 @@
   </xsl:template>
 
 
+  <!-- START kartdok adjustments -->
   <xsl:template match="mycoreobject" mode="creatorNew">
     <xsl:if test="normalize-space($MIR.Workflow.Debug)='true'">
       <xsl:message>
@@ -156,15 +159,72 @@
       <xsl:with-param name="heading" select="''"/>
     </xsl:call-template>
   </xsl:template>
+  <!-- END kartdok adjustments -->
 
-  <xsl:template match="mycoreobject" mode="creatorSubmitted" priority="10">
+  <xsl:template match="mycoreobject" mode="creatorSubmitted">
     <xsl:if test="normalize-space($MIR.Workflow.Debug)='true'">
       <xsl:message>
-        editorSubmitted
-        Nutzer editor
+        creatorSubmitted
+        Nutzer Ersteller
         Dokument submitted
       </xsl:message>
     </xsl:if>
+    <!-- START kartdok adjustments -->
+    <!--
+    <xsl:if test="key('rights', @ID)/@write">
+      <xsl:variable name="currentStatus"
+                    select="service/servstates/servstate[@classid='state']/@categid"/>
+      <xsl:variable name="editURL">
+        <xsl:call-template name="getEditURL">
+          <xsl:with-param name="id" select="$id" />
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:variable name="message">
+        <p>
+          <xsl:value-of select="i18n:translate('mir.workflow.creator.submitted')"/>
+          <ul>
+            <li>
+              <a href="{$editURL}">
+                <xsl:value-of select="i18n:translate('object.editObject')"/>
+              </a>
+            </li>
+            <xsl:apply-templates select="." mode="creatorSubmittedAdd" />
+            <xsl:choose>
+              <xsl:when test="normalize-space($MIR.Workflow.ReviewDerivateRequired) = 'true' and not(structure/derobjects/derobject/maindoc)">
+                <li>
+                  <a href="#">
+                    <xsl:attribute name="onclick">document.querySelector('[data-upload-object]').scrollIntoView({behavior: 'smooth', block: 'center', inline: 'nearest'}); return false;</xsl:attribute>
+                    <xsl:value-of select="i18n:translate('mir.workflow.creator.submitted.require.derivate')"/>
+                  </a>
+                </li>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:call-template name="listStatusChangeOptions">
+                  <xsl:with-param name="class" select="''"/>
+                </xsl:call-template>
+              </xsl:otherwise>
+            </xsl:choose>
+            <xsl:if test="string-length($MIR.Sherpa.API.Key)&gt;0">
+              <xsl:variable name="issn"
+                select="/mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:relatedItem/mods:identifier[@type='issn']/text()"/>
+              <xsl:if test="string-length($issn)&gt;0">
+                <li data-sherpainfo-issn="{$issn}">
+                  <xsl:value-of select="i18n:translate('mir.workflow.sherpa.loading')" /><span class="spinner-grow spinner-grow-sm" role="status"></span>
+                </li>
+              </xsl:if>
+            </xsl:if>
+          </ul>
+        </p>
+      </xsl:variable>
+      <xsl:call-template name="buildLayout">
+        <xsl:with-param name="content" select="exslt:node-set($message)"/>
+        <xsl:with-param name="heading" select="''"/>
+      </xsl:call-template>
+      <xsl:if test="normalize-space($MIR.Workflow.PDFValidation)='true'">
+        <xsl:apply-templates select="." mode="displayPdfError"/>
+      </xsl:if>
+    </xsl:if>
+    -->
     <xsl:variable name="message">
       <p>
         <xsl:value-of select="i18n:translate('mir.workflow.creator.submitted')"/>
@@ -174,7 +234,9 @@
       <xsl:with-param name="content" select="exslt:node-set($message)"/>
       <xsl:with-param name="heading" select="''"/>
     </xsl:call-template>
+    <!-- END kartdok adjustments -->
   </xsl:template>
+
 
   <xsl:template match="mycoreobject" mode="editorSubmitted" priority="10">
     <xsl:if test="normalize-space($MIR.Workflow.Debug)='true'">
@@ -184,6 +246,7 @@
         Dokument submitted
       </xsl:message>
     </xsl:if>
+    <!-- START kartdok adjustments -->
     <xsl:variable name="message">
       <p>
         <xsl:value-of select="i18n:translate('mir.workflow.editor.submitted')"/>
@@ -199,6 +262,10 @@
       <xsl:with-param name="content" select="exslt:node-set($message)"/>
       <xsl:with-param name="heading" select="''"/>
     </xsl:call-template>
+    <!-- END kartdok adjustments -->
+    <xsl:if test="normalize-space($MIR.Workflow.PDFValidation)='true'">
+      <xsl:apply-templates select="." mode="displayPdfError"/>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="mycoreobject" mode="creatorReview" priority="10">
@@ -230,7 +297,7 @@
     </xsl:if>
     <xsl:variable name="editURL">
       <xsl:call-template name="getEditURL">
-        <xsl:with-param name="id" select="$id"/>
+        <xsl:with-param name="id" select="$id" />
       </xsl:call-template>
     </xsl:variable>
     <xsl:variable name="message">
@@ -248,14 +315,19 @@
           </xsl:call-template>
         </ul>
       </p>
-      <p>
-        <xsl:if test="//metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='author2editor']">
-          <xsl:value-of select="'Der / Die Einreichende macht dazu folgende Anmerkung:'" /><br />
+      <!-- START kartdok adjustments -->
+      <xsl:if test="//metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='author2editor']">
+        <p>
+          <xsl:value-of select="'Der / Die Einreichende macht dazu folgende Anmerkung:'" />
+          <br />
           <span class="pl-4">
-            <xsl:value-of select="//metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='author2editor']"/>
+            <xsl:value-of select="
+              //metadata/def.modsContainer/modsContainer/mods:mods/mods:note[@type='author2editor']
+            "/>
           </span>
-        </xsl:if>
-      </p>
+        </p>
+      </xsl:if>
+      <!-- END kartdok adjustments -->
     </xsl:variable>
     <xsl:call-template name="buildLayout">
       <xsl:with-param name="content" select="exslt:node-set($message)"/>
@@ -263,15 +335,6 @@
     </xsl:call-template>
   </xsl:template>
 
-
-  <xsl:template match="mycoreobject" mode="creatorNewAdd" priority="10">
-  </xsl:template>
-
-  <xsl:template match="mycoreobject" mode="editorSubmittedAdd" priority="10">
-  </xsl:template>
-
-  <xsl:template match="mycoreobject" mode="editorReviewAdd" priority="10">
-  </xsl:template>
 
   <xsl:template name="getEditURL">
     <xsl:param name="id"/>
