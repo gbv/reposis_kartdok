@@ -6,11 +6,10 @@
       <!-- START kartdok adjustments -->
       <!--
       <meta name="title" content="Einfache Suche" />
-      <meta name="description" content="Einfache Suche über alle Publikationen" />
       -->
-      <meta name="title" content="KartDok - einfache Suche" />
-      <meta name="description" content="KartDok - einfache Suche im Dokumentenserver" />
+      <meta name="title" content="KartDok - Einfache Suche" />
       <!-- END kartdok adjustments -->
+      <meta name="description" content="Einfache Suche über alle Publikationen" />
     </head>
   </section>
   <section xml:lang="en">
@@ -18,11 +17,10 @@
       <!-- START kartdok adjustments -->
       <!--
       <meta name="title" content="Simple search mask" />
-      <meta name="description" content="Simple search mask for all publications" />
       -->
       <meta name="title" content="KartDok - Simple Search" />
-      <meta name="description" content="KartDok - Simple search in the document server" />
       <!-- END kartdok adjustments -->
+      <meta name="description" content="Simple search mask for all publications" />
     </head>
   </section>
 

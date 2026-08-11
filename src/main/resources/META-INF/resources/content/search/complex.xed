@@ -6,11 +6,10 @@
       <!-- START kartdok adjustments -->
       <!--
       <meta name="title" content="Komplexe Suche" />
-      <meta name="description" content="Komplexe Suche über alle Publikationen" />
       -->
-      <meta name="title" content="KartDok - komplexe Suche" />
-      <meta name="description" content="KartDok - komplexe Suche über alle Publikationen" />
+      <meta name="title" content="KartDok - Komplexe Suche" />
       <!-- END kartdok adjustments -->
+      <meta name="description" content="Komplexe Suche über alle Publikationen" />
     </head>
   </section>
   <section xml:lang="en">
@@ -18,11 +17,10 @@
       <!-- START kartdok adjustments -->
       <!--
       <meta name="title" content="Complex search mask" />
-      <meta name="description" content="Complex search mask for all publications" />
       -->
-      <meta name="title" content="KartDok - complex search mask" />
-      <meta name="description" content="KartDok - complex search mask for all publications" />
+      <meta name="title" content="KartDok - Complex search" />
       <!-- END kartdok adjustments -->
+      <meta name="description" content="Complex search mask for all publications" />
     </head>
   </section>
 
