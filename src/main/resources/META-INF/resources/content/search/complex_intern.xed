@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-  
-  <section xml:lang="all" xmlns:xed="http://www.mycore.de/xeditor"
-           xmlns:mir="http://www.mycore.de/mir"
-           i18n="component.mods.editor.search.complex.pagetitle">
+
+  <section xml:lang="de">
+    <head>
+      <!-- START kartdok adjustments -->
+      <!--
+      <meta name="title" content="Komplexe Suche" />
+      <meta name="description" content="Komplexe Suche über alle Publikationen" />
+      -->
+      <meta name="title" content="KartDok - komplexe Suche" />
+      <meta name="description" content="KartDok - komplexe Suche über alle Publikationen" />
+      <!-- END kartdok adjustments -->
+    </head>
+  </section>
+  <section xml:lang="en">
+    <head>
+      <!-- START kartdok adjustments -->
+      <!--
+      <meta name="title" content="Complex search mask" />
+      <meta name="description" content="Complex search mask for all publications" />
+      -->
+      <meta name="title" content="KartDok - complex search mask" />
+      <meta name="description" content="KartDok - complex search mask for all publications" />
+      <!-- END kartdok adjustments -->
+    </head>
+  </section>
+
+ <section xml:lang="all" xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir"
+          i18n="component.mods.editor.search.complex.pagetitle">
     <xed:form class="form-horizontal" role="form">
       <xed:cleanup-rule xpath="//condition" relevant-if="(string-length(@value) &gt; 0) or value[string-length(text()) &gt; 0 ]" />
       <xed:cleanup-rule xpath="//boolean" relevant-if="boolean|condition" />
@@ -20,7 +44,7 @@
             </h3>
           </div>
           <div class="card-body row">
-            
+
             <xed:bind xpath="conditions/boolean/boolean">
               <xed:repeat xpath="boolean[@operator='and']">
                 <div class="jumbotron col-md-10">
@@ -78,38 +102,75 @@
                   </xed:repeat>
                   <!-- Identifier -->
                   <mir:template name="textInput"
-                                xpath="condition[@field='id,isbn,mods.identifier']/@value" id="inputIdentifier1"
-                                i18n="editor.search.mir.identifier" tooltip="editor.search.mir.identifier.tooltip" />
+                    xpath="condition[@field='id,isbn,mods.identifier']/@value" id="inputIdentifier1"
+                    i18n="editor.search.mir.identifier" tooltip="editor.search.mir.identifier.tooltip" />
                   <!-- Institution -->
                   <mir:template name="selectInput"
-                                xpath="condition[@field='category.top'][1]/@value" id="inputInst1"
-                                i18n="editor.search.mir.institute" tooltip="editor.search.mir.institute.tooltip"
-                                uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
-                  <!-- BC Systematik -->
-                  <mir:template name="selectInput"
-                                xpath="condition[@field='category.top'][2]/@value" id="inputKartdok_bc1"
-                                i18n="editor.search.mir.kartdok_bc" tooltip="editor.search.mir.kartdok_bc.tooltip"
-                                uri="xslStyle:items2options:classification:editorComplete:-1:children:kartdok_bc" />
+                    xpath="condition[@field='category.top'][1]/@value" id="inputInst1"
+                    i18n="editor.search.mir.institute" tooltip="editor.search.mir.institute.tooltip"
+                    uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
+                  <!-- START kartdok adjustments -->
+                  <mir:template
+                    name="selectInput"
+                    xpath="condition[@field='category.top'][2]/@value"
+                    id="inputKartdok_bc1"
+                    i18n="editor.search.mir.kartdok_bc"
+                    tooltip="editor.search.mir.kartdok_bc.tooltip"
+                    uri="xslStyle:items2options:classification:editorComplete:-1:children:kartdok_bc" />
+                  <!-- END kartdok adjustments -->
                   <!-- DNB Sachgruppe -->
+                  <!-- START kartdok adjustments -->
+                  <!--
                   <mir:template name="selectInput"
-                                xpath="condition[@field='category.top'][3]/@value" id="inputSDNB1"
-                                i18n="editor.search.mir.sdnb" tooltip="editor.search.mir.sdnb.tooltip"
-                                uri="xslStyle:items2options:classification:editorComplete:-1:children:SDNB" />
+                    xpath="condition[@field='category.top'][2]/@value" id="inputSDNB1"
+                    i18n="editor.search.mir.sdnb" tooltip="editor.search.mir.sdnb.tooltip"
+                    uri="xslStyle:items2options:classification:editorComplete:-1:children:SDNB" />
+                  -->
+                  <mir:template
+                    name="selectInput"
+                    xpath="condition[@field='category.top'][3]/@value"
+                    id="inputSDNB1"
+                    i18n="editor.search.mir.sdnb"
+                    tooltip="editor.search.mir.sdnb.tooltip"
+                    uri="xslStyle:items2options:classification:editorComplete:-1:children:SDNB" />
+                  <!-- END kartdok adjustments -->
                   <!-- Genre -->
+                  <!-- START kartdok adjustments -->
+                  <!--
                   <mir:template name="selectInput"
-                                xpath="condition[@field='category.top'][4]/@value" id="inputGenre1"
-                                i18n="editor.search.mir.genre" tooltip="editor.search.genre.tooltip"
-                                uri="xslStyle:items2options?allSelectable=true:classification:editorComplete:-1:children:mir_genres" />
+                    xpath="condition[@field='category.top'][3]/@value" id="inputGenre1"
+                    i18n="editor.search.mir.genre" tooltip="editor.search.genre.tooltip"
+                    uri="xslStyle:items2options?allSelectable=true:classification:editorComplete:-1:children:mir_genres" />
+                  -->
+                  <mir:template
+                    name="selectInput"
+                    xpath="condition[@field='category.top'][4]/@value"
+                    id="inputGenre1"
+                    i18n="editor.search.mir.genre"
+                    tooltip="editor.search.genre.tooltip"
+                    uri="xslStyle:items2options?allSelectable=true:classification:editorComplete:-1:children:mir_genres" />
+                  <!-- END kartdok adjustments -->
                   <!-- Licenses -->
+                  <!-- START kartdok adjustments -->
+                  <!--
                   <mir:template name="selectInput"
-                                xpath="condition[@field='category.top'][5]/@value" id="inputLicense1"
-                                i18n="editor.search.mir.license" tooltip="editor.search.license.tooltip"
-                                uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_licenses" />
+                    xpath="condition[@field='category.top'][4]/@value" id="inputLicense1"
+                    i18n="editor.search.mir.license" tooltip="editor.search.license.tooltip"
+                    uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_licenses" />
+                  -->
+                  <mir:template
+                    name="selectInput"
+                    xpath="condition[@field='category.top'][5]/@value"
+                    id="inputLicense1"
+                    i18n="editor.search.mir.license"
+                    tooltip="editor.search.license.tooltip"
+                    uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_licenses" />
+                  <!-- END kartdok adjustments -->
                   <!-- Status -->
                   <mir:template name="selectInput"
-                                xpath="condition[@field='state']/@value" id="inputStatus1"
-                                i18n="editor.search.status" tooltip="editor.search.status.tooltip"
-                                uri="xslStyle:items2options:classification:editor:-1:children:state" />
+                    xpath="condition[@field='state']/@value" id="inputStatus1"
+                    i18n="editor.search.status" tooltip="editor.search.status.tooltip"
+                    uri="xslStyle:items2options:classification:editor:-1:children:state" />
                   <!-- Datum -->
                   <div class="form-group row">
                     <xed:bind xpath="condition[@field='mods.dateIssued']">
@@ -130,7 +191,7 @@
                       <div class="col-md-7">
                         <xed:bind xpath="@value">
                           <input type="text" class="form-control" id="inputDate1"
-                                 placeholder="YYYY-MM-DD" />
+                            placeholder="YYYY-MM-DD" />
                         </xed:bind>
                       </div>
                     </xed:bind>
@@ -144,7 +205,7 @@
                       <div class="input-group">
                         <xed:bind xpath="condition[@field='derCount'][@value='0'][@operator='&gt;'][@selectable='true'][@id='condFullText']" />
                         <xed:bind xpath="condition[@field='worldReadableComplete'][@value='true'][@operator='='][@selectable='true'][@id='condOpenAccess']" />
-                        <!-- selectCondition must always be after @selectable conditions for xed:cleanup-rule to work -->
+                                    <!-- selectCondition must always be after @selectable conditions for xed:cleanup-rule to work -->
                         <xed:bind xpath="selectCondition[@delete='true']/@keep">
                           <select class="form-control input-md" id="inputFulltext1">
                             <option value="">
@@ -189,11 +250,11 @@
                       </select>
                     </xed:bind>
                   </div>
-                  
+
                 </div>
               </div>
             </xed:bind>
-            
+
             <!-- sort -->
             <xed:bind xpath="sortBy/field">
               <div class="form-group row col-12">
@@ -229,16 +290,16 @@
               </div>
             </xed:bind>
           </div>
-          
+
           <!-- submit -->
           <div class="card-footer clearfix">
             <div class="float-right">
               <mir:template name="submitButton" i18n="editor.search.search"
-                            target="servlet_MCRQLSearchServlet" order="primary-button"/>
+                target="servlet_MCRQLSearchServlet" order="primary-button"/>
             </div>
           </div>
         </div>
-        
+
       </xed:bind>
     </xed:form>
   </section>
