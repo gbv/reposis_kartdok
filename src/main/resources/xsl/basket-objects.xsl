@@ -89,39 +89,39 @@
       </div>
     </div>
 
-    <!--
-        <xsl:if test="entry">
-          <div class="document_options">
-            <xsl:call-template name="options" />
-          </div>
-          <div id="basket">
-            <ol class="clearfix">
-              <xsl:apply-templates select="entry" />
-            </ol>
-          </div>
-        </xsl:if>
-    -->
+<!--
+    <xsl:if test="entry">
+      <div class="document_options">
+        <xsl:call-template name="options" />
+      </div>
+      <div id="basket">
+        <ol class="clearfix">
+          <xsl:apply-templates select="entry" />
+        </ol>
+      </div>
+    </xsl:if>
+-->
   </xsl:template>
 
   <xsl:template match="entry">
     <xsl:variable name="hitNumberOnPage" select="count(preceding-sibling::*[name()=name(.)])+1" />
 
-    <!-- hit entry -->
+<!-- hit entry -->
     <div class="hit_item">
 
-      <!-- hit head -->
+<!-- hit head -->
       <div class="row hit_item_head">
         <div class="col-12">
 
-          <!-- hit number -->
+<!-- hit number -->
           <div class="hit_counter">
             <xsl:value-of select="$hitNumberOnPage" />
           </div>
 
-          <!-- hit options -->
+<!-- hit options -->
           <div class="hit_options float-right">
-            <div class="btn-group">
-              <xsl:apply-templates select="." mode="basketButtonsUpDownDelete" />
+              <div class="btn-group">
+                <xsl:apply-templates select="." mode="basketButtonsUpDownDelete" />
             </div>
           </div>
 
@@ -129,7 +129,7 @@
       </div><!-- end row head -->
 
 
-      <!-- hit body -->
+<!-- hit body -->
       <div class="row hit_item_body">
         <div class="col-12">
 
@@ -192,47 +192,6 @@
   </xsl:template>
 
   <xsl:template name="options">
-    <!-- START kartdok adjustments -->
-    <div class="btn-group">
-      <a href="#" class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown">
-        <span class="fas fa-file-export mr-1"></span>
-        Exportieren
-        <span class="caret"></span>
-      </a>
-      <ul class="dropdown-menu">
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=mods" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','MODS')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=bibtex" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','BibTex')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=endnote" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','Endnote')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=ris" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','RIS')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=isi" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','ISI')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=mods2csv" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','CSV')" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <!-- END kartdok adjustments -->
     <a href="{$ServletsBaseURL}MCRBasketServlet{$HttpSession}?type={@type}&amp;action=clear&amp;redirect=referer" class="btn btn-danger btn-sm">
       <span class="fas fa-trash-alt mr-1"></span>
       <xsl:value-of select="i18n:translate('basket.clear')" />
