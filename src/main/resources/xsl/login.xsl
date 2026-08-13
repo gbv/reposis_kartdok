@@ -40,8 +40,8 @@
   <xsl:template match="/login">
     <!-- START kartdok adjustments -->
     <head>
-      <meta name="title" content="{i18n:translate('project.login.title')}" />
-      <meta name="description" content="{i18n:translate('project.login.description')}" />
+      <meta name="title" content="{$PageTitle}" />
+      <meta name="description" content="{i18n:translate('kartdok.login.description')}" />
     </head>
     <!-- END kartdok adjustments -->
     <!-- +

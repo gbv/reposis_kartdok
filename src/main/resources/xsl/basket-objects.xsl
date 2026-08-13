@@ -27,14 +27,14 @@
   <!--
   <xsl:variable name="PageTitle" select="i18n:translate(concat('basket.title.',/basket/@type))" />
   -->
-  <xsl:variable name="PageTitle" select="i18n:translate('project.basket.title')" />
+  <xsl:variable name="PageTitle" select="i18n:translate('kartdok.basket.title')" />
   <!-- END kartdok adjustments -->
 
   <xsl:template match="/basket">
     <!-- START kartdok adjustments -->
     <head>
-      <meta name="title" content="{i18n:translate('project.basket.title')}" />
-      <meta name="description" content="{i18n:translate('project.basket.description')}" />
+      <meta name="title" content="{$PageTitle}" />
+      <meta name="description" content="{i18n:translate('kartdok.basket.description')}" />
     </head>
     <!-- END kartdok adjustments -->
     <div id="basket">
