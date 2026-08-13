@@ -159,6 +159,15 @@
       <xsl:with-param name="heading" select="''"/>
     </xsl:call-template>
   </xsl:template>
+
+  <xsl:template match="mycoreobject" mode="editorSubmittedAdd" priority="10">
+  </xsl:template>
+
+  <xsl:template match="mycoreobject" mode="creatorNewAdd" priority="10">
+  </xsl:template>
+
+  <xsl:template match="mycoreobject" mode="editorReviewAdd" priority="10">
+  </xsl:template>
   <!-- END kartdok adjustments -->
 
   <xsl:template match="mycoreobject" mode="creatorSubmitted">
