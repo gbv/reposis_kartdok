@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
-    xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
-    xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
-    exclude-result-prefixes="i18n mcrver mcrxsl">
+  xmlns:mcracl="xalan://org.mycore.common.xml.MCRXMLFunctions"
+  xmlns:mcri18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  xmlns:mcrversion="xalan://org.mycore.common.MCRCoreVersion"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  exclude-result-prefixes="mcracl mcri18n mcrversion">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
+
   <xsl:param name="MIR.Matomo" select="false" />
 
   <xsl:template name="mir.navigation">
-
     <div id="options_nav_box" class="mir-prop-nav">
       <div class="container container-no-padding">
         <nav>
@@ -21,12 +21,13 @@
         </nav>
       </div>
     </div>
-
     <div id="header_box" class="clearfix container container-no-padding">
-
       <div class="project_logo_box">
         <div class="project_logo">
-          <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}" title="Home" class="project-logo__link">
+          <a
+            href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
+            title="Home"
+            class="project-logo__link">
             <span class="fid logo main">
               KartDok
             </span>
@@ -37,18 +38,18 @@
         </div>
         <div class="project_parent_logo">
           <a href="https://staatsbibliothek-berlin.de/">
-            <img class="sbb-logo" alt="Logo der Staatsbibliothek zu Berlin" title="zur Seite der Staatsbibliothek zu Berlin" src="{$WebApplicationBaseURL}/images/SBB_Logo_sRGB_no_border.png" />
+            <img
+              class="sbb-logo" alt="Logo der Staatsbibliothek zu Berlin"
+              title="zur Seite der Staatsbibliothek zu Berlin"
+              src="{$WebApplicationBaseURL}/images/SBB_Logo_sRGB_no_border.png" />
           </a>
         </div>
       </div>
-
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="mir-main-nav">
       <div class="container container-no-padding">
         <nav class="navbar navbar-expand-lg navbar-light">
-
           <button
             class="navbar-toggler"
             type="button"
@@ -59,7 +60,6 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div id="mir-main-nav__entries" class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
@@ -67,7 +67,6 @@
               <xsl:call-template name="mir.basketMenu" />
             </ul>
           </div>
-
           <div class="searchBox">
             <xsl:variable name="core">
               <xsl:call-template name="getLayoutSearchSolrCore" />
@@ -78,12 +77,12 @@
               role="search">
               <input
                 name="condQuery"
-                placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+                placeholder="{mcri18n:translate('mir.navsearch.placeholder')}"
                 class="form-control search-query"
                 id="searchInput"
                 type="text"
                 aria-label="Search" />
-              <xsl:if test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+              <xsl:if test="mcracl:isCurrentUserInRole('admin') or mcracl:isCurrentUserInRole('editor')">
                 <input name="owner" type="hidden" value="createdby:*" />
               </xsl:if>
               <button type="submit" class="btn btn-primary-inverted my-2 my-sm-0">
@@ -91,14 +90,12 @@
               </button>
             </form>
           </div>
-
         </nav>
       </div>
     </div>
   </xsl:template>
 
   <xsl:template name="mir.jumbotwo">
-
   </xsl:template>
 
   <xsl:template name="mir.footer">
@@ -130,42 +127,14 @@
     </div>
   </xsl:template>
 
-  <xsl:template name="kartdok.generate_single_menu_entry">
-    <xsl:param name="menuID" />
-    <li class="nav-item">
-      <xsl:variable name="activeClass">
-        <xsl:choose>
-          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item[@href = $browserAddress ]">
-          <xsl:text>active</xsl:text>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:text>not-active</xsl:text>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:variable>
-      <a id="{$menuID}" href="{$WebApplicationBaseURL}{$loaded_navigation_xml/menu[@id=$menuID]/item/@href}" class="nav-link {$activeClass}" >
-        <xsl:choose>
-          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)] != ''">
-            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)]" />
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($DefaultLang)]" />
-          </xsl:otherwise>
-        </xsl:choose>
-      </a>
-    </li>
-  </xsl:template>
-
   <xsl:template name="mir.powered_by">
-    <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
+    <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrversion:getCompleteVersion())" />
     <div id="powered_by">
       <a href="http://www.mycore.de">
         <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
       </a>
     </div>
-
     <script type="text/javascript" src="{$WebApplicationBaseURL}js/jquery.cookiebar.js"></script>
-
     <!-- Matomo -->
     <!-- #KARTDOK-184 -->
     <xsl:if test="contains($MIR.Matomo, 'true')">
@@ -187,7 +156,7 @@
 
   <xsl:template name="getLayoutSearchSolrCore">
     <xsl:choose>
-      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')">
+      <xsl:when test="mcracl:isCurrentUserInRole('editor') or mcracl:isCurrentUserInRole('admin')">
         <xsl:text>/find</xsl:text>
       </xsl:when>
       <xsl:otherwise>
