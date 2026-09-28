@@ -941,4 +941,21 @@
     <script type="text/javascript" src="{$WebApplicationBaseURL}js/mir/openaire.min.js" />
   </xed:template>
 
+  <!-- remove after MIR-1673 is merged -->
+  <xed:template id="subject.simple.required">
+    <xed:repeat xpath="mods:subjectXML" min="1" max="{$MIR.Editor.repeat.max.subject.simple.required}">
+      <div class="form-group row {$xed-validation-marker} required">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="mir.subject.topic"/>
+        </label>
+        <div class="col-md-6">
+          <input type="hidden" class="subjectXML"/>
+          <div class="editorToolsApp" data-searchable="*" data-editor="*" data-search-filter-default="Topic" data-admin="false" data-required="true"> </div>
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.subject.topic}" pmud="true"/>
+      </div>
+      <xed:validate class="org.mycore.mir.validation.MIRValidationHelper" method="validateSubjectRequired" display="global" i18n="mir.validation.subject.required" />
+    </xed:repeat>
+  </xed:template>
+
 </xed:template>
