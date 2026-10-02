@@ -174,7 +174,10 @@
     <xsl:variable name="requestHandler">
       <xsl:call-template name="getRequestHandler" />
     </xsl:variable>
-    <a href="{$ServletsBaseURL}solr/{$requestHandler}?condQuery={$query}">
+    <xsl:variable name="ownerParam">
+      <xsl:call-template name="getOwnerParam" />
+    </xsl:variable>
+    <a href="{$ServletsBaseURL}solr{$requestHandler}?condQuery={$query}{$ownerParam}">
     <!-- END kartdok adjustments -->
       <xsl:if test="$title">
         <xsl:attribute name="title">
@@ -193,12 +196,23 @@
   <!-- START kartdok adjustments -->
   <xsl:template name="getRequestHandler">
     <xsl:choose>
-      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')">
-        <xsl:text>/find</xsl:text>
+      <xsl:when test="mcrxsl:isCurrentUserGuestUser()">
+        <xsl:text>/findPublic</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>/findPublic</xsl:text>
+        <xsl:text>/find</xsl:text>
       </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template name="getOwnerParam">
+    <xsl:choose>
+      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')">
+        <xsl:text>&amp;owner=createdby:*</xsl:text>
+      </xsl:when>
+      <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+        <xsl:value-of select="concat('&amp;owner=createdby:', $CurrentUser)" />
+      </xsl:when>
     </xsl:choose>
   </xsl:template>
   <!-- END kartdok adjustments -->
