@@ -109,7 +109,7 @@
   <!-- START kartdok adjustments -->
   <xsl:template name="getClassBrowserSolrCore">
     <xsl:choose>
-      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('submitter')">
+      <xsl:when test="mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')">
         <xsl:text>/select</xsl:text>
       </xsl:when>
       <xsl:otherwise>

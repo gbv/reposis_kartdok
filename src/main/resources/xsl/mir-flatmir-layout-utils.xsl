@@ -82,9 +82,14 @@
                 id="searchInput"
                 type="text"
                 aria-label="Search" />
-              <xsl:if test="mcracl:isCurrentUserInRole('admin') or mcracl:isCurrentUserInRole('editor')">
-                <input name="owner" type="hidden" value="createdby:*" />
-              </xsl:if>
+              <xsl:choose>
+                <xsl:when test="mcracl:isCurrentUserInRole('admin') or mcracl:isCurrentUserInRole('editor')">
+                  <input name="owner" type="hidden" value="createdby:*" />
+                </xsl:when>
+                <xsl:when test="not(mcracl:isCurrentUserGuestUser())">
+                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+                </xsl:when>
+              </xsl:choose>
               <button type="submit" class="btn btn-primary-inverted my-2 my-sm-0">
                 <i class="fas fa-search"></i>
               </button>
@@ -156,11 +161,11 @@
 
   <xsl:template name="getLayoutSearchSolrCore">
     <xsl:choose>
-      <xsl:when test="mcracl:isCurrentUserInRole('editor') or mcracl:isCurrentUserInRole('admin')">
-        <xsl:text>/find</xsl:text>
+      <xsl:when test="mcracl:isCurrentUserGuestUser()">
+        <xsl:text>/findPublic</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>/findPublic</xsl:text>
+        <xsl:text>/find</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
