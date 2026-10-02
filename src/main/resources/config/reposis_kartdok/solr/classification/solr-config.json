@@ -1,0 +1,15 @@
+[
+  {
+    "add-requestHandler": {
+      "name": "/selectPublic",
+      "class": "solr.SearchHandler",
+      "defaults": {
+        "echoParams": "explicit",
+        "rows": 20,
+        "df": "allMeta",
+        "fl": "*",
+        "wt": "xml"
+      }
+    }
+  }
+]

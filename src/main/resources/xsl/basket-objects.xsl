@@ -23,13 +23,20 @@
   <xsl:include href="csl-export-gui.xsl" />
 
   <xsl:variable name="Type" select="'mods'" />
-  <xsl:variable name="PageTitle" select="i18n:translate('project.basket.title')" />
+  <!-- START kartdok adjustments -->
+  <!--
+  <xsl:variable name="PageTitle" select="i18n:translate(concat('basket.title.',/basket/@type))" />
+  -->
+  <xsl:variable name="PageTitle" select="i18n:translate('kartdok.basket.title')" />
+  <!-- END kartdok adjustments -->
 
   <xsl:template match="/basket">
+    <!-- START kartdok adjustments -->
     <head>
-      <meta name="title" content="{i18n:translate('project.basket.title')}" />
-      <meta name="description" content="{i18n:translate('project.basket.description')}" />
+      <meta name="title" content="{$PageTitle}" />
+      <meta name="description" content="{i18n:translate('kartdok.basket.description')}" />
     </head>
+    <!-- END kartdok adjustments -->
     <div id="basket">
       <div id="options" class="btn-group float-right">
         <xsl:call-template name="options" />
@@ -185,45 +192,6 @@
   </xsl:template>
 
   <xsl:template name="options">
-    <div class="btn-group">
-      <a href="#" class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown">
-        <span class="fas fa-file-export mr-1"></span>
-        Exportieren
-        <span class="caret"></span>
-      </a>
-      <ul class="dropdown-menu">
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=mods" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','MODS')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=bibtex" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','BibTex')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=endnote" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','Endnote')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=ris" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','RIS')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=isi" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','ISI')" />
-          </a>
-        </li>
-        <li>
-          <a href="{$ServletsBaseURL}MCRExportServlet{$HttpSession}?basket={@type}&amp;transformer=mods2csv" class="dropdown-item">
-            <xsl:value-of select="i18n:translate('basket.export','CSV')" />
-          </a>
-        </li>
-      </ul>
-    </div>
     <a href="{$ServletsBaseURL}MCRBasketServlet{$HttpSession}?type={@type}&amp;action=clear&amp;redirect=referer" class="btn btn-danger btn-sm">
       <span class="fas fa-trash-alt mr-1"></span>
       <xsl:value-of select="i18n:translate('basket.clear')" />

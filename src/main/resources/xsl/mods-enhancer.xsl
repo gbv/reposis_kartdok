@@ -41,9 +41,9 @@
       <xsl:if test="string-length($WebApplicationBaseURL)&gt;0 or $dernumber&gt;0">
         <mods:location>
           <xsl:if test="not(mods:location/mods:url[@access='object in context'])">
-              <mods:url access="object in context">
-                <xsl:value-of select="concat($WebApplicationBaseURL,'receive/',$mycoreobject/@ID)" />
-              </mods:url>
+            <mods:url access="object in context">
+              <xsl:value-of select="concat($WebApplicationBaseURL,'receive/',$mycoreobject/@ID)" />
+            </mods:url>
           </xsl:if>
           <xsl:if test="not(mods:location/mods:url[@access='raw object']) and $dernumber&gt;0">
             <xsl:variable name="ddbfilenumber" select="count($ifs/der/mcr_directory/children//child[@type='file'])" />
@@ -73,7 +73,7 @@
               <xsl:value-of select="concat($WebApplicationBaseURL,'rsc/thumbnail/',$mycoreobject/@ID,'.png')" />
             </mods:url>
           </xsl:if>
-        <xsl:apply-templates select="mods:location/node()" mode="mods2mods"/>
+          <xsl:apply-templates select="mods:location/node()" mode="mods2mods"/>
         </mods:location>
       </xsl:if>
       <xsl:apply-templates mode="mods2mods" />
@@ -101,27 +101,27 @@
   <xsl:template match="mods:genre[@type='intern']" mode="mods2mods">
     <xsl:choose>
       <xsl:when test="contains(@valueURI,'#journal')">
-      <!-- additional journals data -->
+        <!-- additional journals data -->
         <mods:originInfo eventType="publication">
           <mods:issuance>continuing</mods:issuance>
         </mods:originInfo>
         <mods:genre authority="marcgt">journal</mods:genre>
       </xsl:when>
       <xsl:when test="contains(@valueURI,'#article')">
-      <!-- additional journals data -->
+        <!-- additional journals data -->
         <mods:genre authority="marcgt">article</mods:genre>
       </xsl:when>
       <xsl:when test="contains(@valueURI,'#book')">
-      <!-- additional journals data -->
+        <!-- additional journals data -->
         <mods:genre authority="marcgt">book</mods:genre>
       </xsl:when>
       <xsl:when
         test="contains(@valueURI,'thesis') or contains(@valueURI,'#dissertation') or contains(@valueURI,'#habilitation') or contains(@valueURI,'#student_resarch_project')">
-      <!-- additional journals data -->
+        <!-- additional journals data -->
         <mods:genre authority="marcgt">thesis</mods:genre>
       </xsl:when>
       <xsl:when test="contains(@valueURI,'#confpub')">
-      <!-- additional journals data -->
+        <!-- additional journals data -->
         <mods:genre authority="marcgt">conference publication</mods:genre>
       </xsl:when>
     </xsl:choose>
@@ -146,6 +146,7 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- START kartdok adjustments -->
   <xsl:template match="mods:relatedItem[contains(mods:genre/@valueURI, 'kartdok_collection')]" mode="mods2mods">
   </xsl:template>
 
@@ -157,9 +158,10 @@
       <xsl:copy-of select="@valueURI" />
       <xsl:attribute name="displayLabel">
         <xsl:value-of select="$kartdok_bc//category[@ID=$bc_categ]/label[lang('x-k10plus-6800')]/@text" />
-    </xsl:attribute>
+      </xsl:attribute>
       <xsl:value-of select="$kartdok_bc//category[@ID=$bc_categ]/label[lang('x-k10plus-6700')]/@text" />
     </xsl:copy>
   </xsl:template>
+  <!-- END kartdok adjustments -->
 
 </xsl:stylesheet>
