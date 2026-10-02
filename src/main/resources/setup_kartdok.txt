@@ -1,4 +1,5 @@
 reload solr configuration main in core main
+reload solr configuration classification in core classification
 update classification from uri resource:classifications/kartdok_bc.xml
 update classification from uri resource:classifications/kartdok_projects.xml
 update classification from uri resource:classifications/mir_access.xml
