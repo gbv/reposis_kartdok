@@ -170,7 +170,7 @@ $(document).ready(function() {
 // TODO: Parameterize the select function in MIR (type-ahead)
 function setLabelForClassificationBC(parent) {
   $.ajax({
-      url: webApplicationBaseURL + 'servlets/solr/select',
+      url: webApplicationBaseURL + 'servlets/solr/selectPublic',
       data: {
               q: optionsToQuery(parent),
               fq: 'classification:kartdok_bc',
@@ -203,11 +203,11 @@ function optionsToQuery(elm) {
 function setSelect2BC(elm) {
   $(elm).select2({
       ajax: {
-          url: webApplicationBaseURL + 'servlets/solr/select',
+          url: webApplicationBaseURL + 'servlets/solr/selectPublic',
           data: function (params) {
               params.term = (params.term == null) ? "" : params.term;
               return {
-                  q: '-id:kartdok_bc OR category *' + params.term.replace(/\./g, "_") + "* OR " + 'label.en *' + params.term + "* OR " + 'label.de *' + params.term + "*",
+                  q: '-id:kartdok_bc OR category:*' + params.term.replace(/\./g, "_") + "* OR " + 'label.en *' + params.term + "* OR " + 'label.de *' + params.term + "*",
                   fq: 'classification:kartdok_bc',
                   rows: 2147483647,
                   sort: 'category ASC',
