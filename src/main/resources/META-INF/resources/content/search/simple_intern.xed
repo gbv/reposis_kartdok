@@ -3,19 +3,30 @@
 
   <section xml:lang="de">
     <head>
-      <meta name="title" content="KartDok - einfache Suche" />
-      <meta name="description" content="KartDok - einfache Suche im Dokumentenserver" />
+      <!-- START kartdok adjustments -->
+      <!--
+      <meta name="title" content="Einfache Suche" />
+      -->
+      <meta name="title" content="KartDok - Einfache Suche" />
+      <!-- END kartdok adjustments -->
+      <meta name="description" content="Einfache Suche über alle Publikationen" />
     </head>
   </section>
   <section xml:lang="en">
     <head>
+      <!-- START kartdok adjustments -->
+      <!--
+      <meta name="title" content="Simple search mask" />
+      -->
       <meta name="title" content="KartDok - Simple Search" />
-      <meta name="description" content="KartDok - Simple search in the document server" />
+      <!-- END kartdok adjustments -->
+      <meta name="description" content="Simple search mask for all publications" />
     </head>
   </section>
 
   <section xml:lang="all" xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir"
-           i18n="project.simple.title">
+      i18n="component.mods.editor.search.simple.pagetitle">
+
     <xed:form class="form-horizontal" role="form">
       <xed:cleanup-rule xpath="//condition" relevant-if="(string-length(@value) &gt; 0) or value[string-length(text()) &gt; 0 ]" />
       <xed:cleanup-rule xpath="//boolean" relevant-if="boolean|condition" />

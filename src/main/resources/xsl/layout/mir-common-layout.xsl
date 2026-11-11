@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- START kartdok adjustments -->
 <!-- TODO: Remove this file once https://mycore.atlassian.net/browse/MIR-1037 is solved -->
+<!-- END kartdok adjustments -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:basket="xalan://org.mycore.frontend.basket.MCRBasketManager" xmlns:mcr="http://www.mycore.org/" xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
   xmlns:actionmapping="xalan://org.mycore.wfc.actionmapping.MCRURLRetriever" xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
@@ -18,6 +20,9 @@
   <xsl:param name="page" />
   <xsl:param name="breadCrumb" />
   <xsl:param name="MCR.Metadata.Languages" select="'de'" />
+  <xsl:param name="mcruser" select="document('user:current')/user"/>
+  <xsl:param name="MIR.Layout.usermenu.realname.enabled" select="'false'"/>
+
   <xsl:include href="layout/mir-layout-utils.xsl" />
   <xsl:include href="resource:xsl/layout/mir-navigation.xsl" />
   <xsl:include href="resource:xsl/mir-utils.xsl" />
@@ -38,6 +43,7 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
+
 
   <xsl:template name="mir.loginMenu">
     <xsl:variable xmlns:encoder="xalan://java.net.URLEncoder" name="loginURL"
@@ -60,7 +66,24 @@
           </xsl:if>
           <a id="currentUser" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
             <strong>
-              <xsl:value-of select="$CurrentUser" />
+              <xsl:choose>
+                <xsl:when test="$MIR.Layout.usermenu.realname.enabled != 'true'">
+                  <xsl:value-of select="$mcruser/@name"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:choose>
+                    <xsl:when test="$mcruser/realName">
+                      <xsl:value-of select="$mcruser/realName"/>
+                    </xsl:when>
+                    <xsl:when test="$mcruser/eMail">
+                      <xsl:value-of select="$mcruser/eMail"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="$mcruser/@name"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:otherwise>
+              </xsl:choose>
             </strong>
             <span class="caret" />
           </a>
@@ -82,10 +105,10 @@
     <xsl:variable name="langToken" select="exslt:node-set($availableLanguages)/token" />
     <xsl:if test="count($langToken) &gt; 1">
       <xsl:variable name="curLang" select="document(concat('language:',$CurrentLang))" />
-<!--       <language termCode="deu" biblCode="ger" xmlCode="de"> -->
-<!--         <label xml:lang="de">Deutsch</label> -->
-<!--         <label xml:lang="en">German</label> -->
-<!--       </language> -->
+      <!--       <language termCode="deu" biblCode="ger" xmlCode="de"> -->
+      <!--         <label xml:lang="de">Deutsch</label> -->
+      <!--         <label xml:lang="en">German</label> -->
+      <!--       </language> -->
       <li class="nav-item dropdown mir-lang">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" title="{i18n:translate('mir.language.change')}">
           <xsl:value-of select="$curLang/language/@xmlCode" />
@@ -191,7 +214,7 @@
                     <xsl:attribute name="href">
                       <xsl:call-template name="UrlAddSession">
                         <xsl:with-param name="url"
-                      select="concat($WebApplicationBaseURL,substring-after(@href,'/'))" />
+                          select="concat($WebApplicationBaseURL,substring-after(@href,'/'))" />
                       </xsl:call-template>
                     </xsl:attribute>
                     <xsl:choose>
@@ -279,7 +302,10 @@
     <script src="{$WebApplicationBaseURL}js/mir/sherpa.js"></script>
     <script src="{$WebApplicationBaseURL}modules/webtools/upload/js/upload-api.js"></script>
     <script src="{$WebApplicationBaseURL}modules/webtools/upload/js/upload-gui.js"></script>
+    <script src="{$WebApplicationBaseURL}js/mir/ror-search.min.js"/>
+    <!-- START kartdok adjustments -->
     <script src='https://www.google.com/recaptcha/api.js?hl={$CurrentLang}'></script>
+    <!-- END kartdok adjustments -->
     <link rel="stylesheet" type="text/css" href="{$WebApplicationBaseURL}modules/webtools/upload/css/upload-gui.css" />
   </xsl:template>
 
@@ -308,7 +334,7 @@
               alert alert-dismissible fade show
             </xsl:attribute>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">×</span></button>
+              <span aria-hidden="true">×</span></button>
             <span aria-hidden="true"><xsl:value-of select="i18n:translate($XSL.Status.Message)" /></span>
           </div>
         </div>
