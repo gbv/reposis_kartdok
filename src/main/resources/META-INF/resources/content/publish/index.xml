@@ -81,7 +81,6 @@
           <div class="col-sm-12 col-md-8">
             <p>
               Nachdem Sie den Publikationstyp Ihres Beitrags ausgewählt haben, steht Ihnen zusätzlich die Möglichkeit zur Verfügung, die bibliographischen Daten Ihres Beitrags aus den Datenbanken
-              <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>,
               <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> und
               <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> sowie
               <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> und
@@ -97,7 +96,6 @@
               <option value="doi">DOI</option>
               <option value="isbn">ISBN</option>
               <option value="ppn">K10plus-PPN</option>
-              <option value="scopus">Scopus-ID</option>
               <option value="ieee">IEEE-ID</option>
               <option value="issn">ISSN</option>
               <option value="zdbid">ZDB-ID</option>
@@ -121,9 +119,6 @@
                 </li>
                 <li>
                   <a href="https://www.fami-portal.de/lexicon/index.php?entry-pdf-export/269-ppn/">K10plus-PPN</a> (z.B. <i>1695581822</i>)
-                </li>
-                <li>
-                  <a href="https://service.elsevier.com/app/answers/detail/a_id/11236/supporthub/scopus/kw/ID/">Scopus-ID</a> (Document Identifier - EID, z.B. <i>2-s2.0-85084045695</i>)
                 </li>
                 <li>
                   <a href="https://ieeexplore.ieee.org/Xplorehelp/searching-ieee-xplore/command-search#summary-of-data-fields">IEEE-ID</a> (IEEE Article Number, z.B. <i>9149400</i>)
@@ -213,7 +208,6 @@
           <div class="col-sm-12 col-md-8">
             <p>
               After you have selected the publication type of your contribution, you also have the option of importing the bibliographic data  of your contribution from the databases
-              <a href="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636" title="https://rzblx10.uni-regensburg.de/dbinfo/detail.php?titel_id=3636">Scopus</a>,
               <a href="https://crossref.org/" title="https://crossref.org/">Crossref</a> and
               <a href="https://ieeexplore.ieee.org/" title="https://ieeexplore.ieee.org/">IEEE Xplore</a> as well as
               <a href="https://opac.k10plus.de/" title="https://opac.k10plus.de/">K10plus</a> and
@@ -229,7 +223,6 @@
               <option value="doi">DOI</option>
               <option value="isbn">ISBN</option>
               <option value="ppn">K10plus-PPN</option>
-              <option value="scopus">Scopus-ID</option>
               <option value="ieee">IEEE-ID</option>
               <option value="issn">ISSN</option>
               <option value="zdbid">ZDB-ID</option>
@@ -253,9 +246,6 @@
                 </li>
                 <li>
                   <a href="https://www.fami-portal.de/lexicon/index.php?entry-pdf-export/269-ppn/">K10plus-PPN</a> (e.g. <i>1695581822</i>)
-                </li>
-                <li>
-                  <a href="https://service.elsevier.com/app/answers/detail/a_id/11236/supporthub/scopus/kw/ID/">Scopus-ID</a> (Document Identifier - EID, e.g. <i>2-s2.0-85084045695</i>)
                 </li>
                 <li>
                   <a href="https://ieeexplore.ieee.org/Xplorehelp/searching-ieee-xplore/command-search#summary-of-data-fields">IEEE-ID</a> (IEEE Article Number, e.g. <i>9149400</i>)
